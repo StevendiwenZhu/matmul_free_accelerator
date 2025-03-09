@@ -1,0 +1,29 @@
+`ifndef SYNTHESIS
+
+//
+// This is an automatically generated file from 
+// dc_shell Version V-2023.12-SP5 -- Jul 16, 2024
+//
+
+// For simulation only. Do not modify.
+
+module vec_div_svsim (
+    input logic clk,    
+    input logic rst,    
+    input logic start,  
+    output logic busy,  
+    output logic done,  
+    input logic signed [ARR_WIDTH-1:0][FXP_N-1:0] in_1,
+    input logic signed [ARR_WIDTH-1:0][FXP_N-1:0] in_2,
+    output logic signed [ARR_WIDTH-1:0][FXP_N-1:0] out,
+    output logic dbz,   
+    output logic ovf    
+);
+
+        
+
+  vec_div vec_div( {>>{ clk }}, {>>{ rst }}, {>>{ start }}, {>>{ busy }}, 
+        {>>{ done }}, {>>{ in_1 }}, {>>{ in_2 }}, {>>{ out }}, {>>{ dbz }}, 
+        {>>{ ovf }} );
+endmodule
+`endif

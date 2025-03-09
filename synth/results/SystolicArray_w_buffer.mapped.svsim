@@ -1,0 +1,24 @@
+`ifndef SYNTHESIS
+
+//
+// This is an automatically generated file from 
+// dc_shell Version V-2023.12-SP5 -- Jul 16, 2024
+//
+
+// For simulation only. Do not modify.
+
+module SystolicArray_w_buffer_svsim #(
+    parameter WIDTH = 16,      parameter HIDDEN_SIZE    = 2,
+    parameter CONTEXT_LENGTH = 4
+) (
+    input  logic                               clock,
+    input  logic                               rst,
+    input  logic signed [CONTEXT_LENGTH-1:0][WIDTH-1:0] X_in,        input  logic signed [HIDDEN_SIZE-1:0][1:0] W_in,                 output logic signed [HIDDEN_SIZE-1:0][CONTEXT_LENGTH-1:0][2*WIDTH-1:0] Y_out
+);
+
+    
+
+  SystolicArray_w_buffer SystolicArray_w_buffer( {>>{ clock }}, {>>{ rst }}, 
+        {>>{ X_in }}, {>>{ W_in }}, {>>{ Y_out }} );
+endmodule
+`endif

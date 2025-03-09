@@ -1,0 +1,26 @@
+`ifndef SYNTHESIS
+
+//
+// This is an automatically generated file from 
+// dc_shell Version V-2023.12-SP5 -- Jul 16, 2024
+//
+
+// For simulation only. Do not modify.
+
+module sram_ifmap_buffer_svsim(
+    input logic clk,
+    input logic reset_n,
+    input logic enable,
+    input logic wr_en,
+    input logic [7:0] in_data,
+    input logic [6:0] addr,
+    output logic signed [7:0] out
+);
+
+
+
+  sram_ifmap_buffer sram_ifmap_buffer( {>>{ clk }}, {>>{ reset_n }}, 
+        {>>{ enable }}, {>>{ wr_en }}, {>>{ in_data }}, {>>{ addr }}, 
+        {>>{ out }} );
+endmodule
+`endif

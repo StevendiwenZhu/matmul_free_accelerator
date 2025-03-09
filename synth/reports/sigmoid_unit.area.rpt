@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : sigmoid_unit
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 11:20:59 2024
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v25c (File: /afs/umich.edu/class/eecs598-002/SAED32/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db)
+
+Number of ports:                           32
+Number of nets:                           669
+Number of cells:                          641
+Number of combinational cells:            641
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        130
+Number of references:                      29
+
+Combinational area:               1299.438281
+Buf/Inv area:                      167.735041
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:             370.691748
+
+Total cell area:                  1299.438281
+Total area:                       1670.130029
+1

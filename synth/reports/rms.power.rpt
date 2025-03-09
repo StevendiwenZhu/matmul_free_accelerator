@@ -1,0 +1,63 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : rms
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 21:25:54 2024
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v25c (File: /afs/umich.edu/class/eecs598-002/SAED32/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db)
+
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+rms                    8000              saed32rvt_tt1p05v25c
+
+
+Global Operating Voltage = 1.05 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   1.0103 mW   (49%)
+  Net Switching Power  =   1.0458 mW   (51%)
+                         ---------
+Total Dynamic Power    =   2.0562 mW  (100%)
+
+Cell Leakage Power     = 134.9381 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential        31.2985            4.3321        2.3949e+07           59.5798  (   2.72%)
+combinational    979.0205        1.0415e+03        1.1099e+08        2.1315e+03  (  97.28%)
+--------------------------------------------------------------------------------------------------
+Total          1.0103e+03 uW     1.0458e+03 uW     1.3494e+08 pW     2.1911e+03 uW
+1

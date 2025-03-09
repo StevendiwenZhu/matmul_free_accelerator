@@ -1,0 +1,87 @@
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12-SP5
+Date:        Fri Dec  6 22:55:26 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               2
+    Cells do not drive (LINT-1)                                     2
+
+Nets                                                               68
+    Unloaded nets (LINT-2)                                         68
+--------------------------------------------------------------------------------
+
+Warning: In design 'PE_WIDTH16', cell 'B_6' does not drive any nets. (LINT-1)
+Warning: In design 'PE_WIDTH16', cell 'B_7' does not drive any nets. (LINT-1)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/w_wire[0][3][0]' driven by pin 'sa/genblk1[0].genblk1[3].pe_inst/w_out[0]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/w_wire[0][3][1]' driven by pin 'sa/genblk1[0].genblk1[3].pe_inst/w_out[1]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][0]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[0]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][1]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[1]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][2]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[2]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][3]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[3]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][4]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[4]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][5]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[5]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][6]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[6]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][7]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[7]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][8]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[8]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][9]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[9]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][10]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[10]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][11]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[11]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][12]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[12]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][13]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[13]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][14]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[14]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][0][15]' driven by pin 'sa/genblk1[1].genblk1[0].pe_inst/x_out[15]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][0]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[0]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][1]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[1]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][2]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[2]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][3]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[3]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][4]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[4]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][5]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[5]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][6]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[6]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][7]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[7]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][8]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[8]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][9]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[9]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][10]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[10]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][11]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[11]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][12]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[12]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][13]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[13]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][14]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[14]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][1][15]' driven by pin 'sa/genblk1[1].genblk1[1].pe_inst/x_out[15]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][0]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[0]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][1]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[1]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][2]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[2]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][3]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[3]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][4]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[4]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][5]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[5]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][6]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[6]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][7]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[7]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][8]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[8]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][9]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[9]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][10]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[10]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][11]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[11]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][12]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[12]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][13]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[13]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][14]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[14]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][2][15]' driven by pin 'sa/genblk1[1].genblk1[2].pe_inst/x_out[15]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/w_wire[1][3][0]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/w_out[0]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/w_wire[1][3][1]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/w_out[1]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][0]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[0]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][1]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[1]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][2]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[2]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][3]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[3]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][4]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[4]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][5]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[5]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][6]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[6]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][7]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[7]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][8]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[8]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][9]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[9]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][10]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[10]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][11]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[11]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][12]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[12]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][13]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[13]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][14]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[14]' has no loads. (LINT-2)
+Warning: In design 'SystolicArray_w_buffer', net 'sa/x_wire[1][3][15]' driven by pin 'sa/genblk1[1].genblk1[3].pe_inst/x_out[15]' has no loads. (LINT-2)
+1

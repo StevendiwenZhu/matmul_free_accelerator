@@ -1,0 +1,61 @@
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : SystolicArray_w_buffer_full_size
+Version: V-2023.12-SP5
+Date   : Fri Dec  6 23:19:38 2024
+****************************************
+
+
+Library(s) Used:
+
+    saed32rvt_tt1p05v25c (File: /afs/umich.edu/class/eecs598-002/SAED32/SAED32_EDK/lib/stdcell_rvt/db_ccs/saed32rvt_tt1p05v25c.db)
+
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+
+Global Operating Voltage = 1.05 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =  16.8467 mW   (95%)
+  Net Switching Power  = 925.4867 uW    (5%)
+                         ---------
+Total Dynamic Power    =  17.7722 mW  (100%)
+
+Cell Leakage Power     =  15.4377 mW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  1.6140e+04            0.0000            0.0000        1.6140e+04  (  48.60%)  i
+register         336.4902          241.5220        5.3136e+09        5.8913e+03  (  17.74%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    370.8691          683.9658        1.0124e+10        1.1179e+04  (  33.66%)
+--------------------------------------------------------------------------------------------------
+Total          1.6847e+04 uW       925.4878 uW     1.5438e+10 pW     3.3210e+04 uW
+1

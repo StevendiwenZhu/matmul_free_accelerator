@@ -1,0 +1,42 @@
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12-SP5
+Date:        Thu Dec  5 18:18:22 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Nets                                                               28
+    Unloaded nets (LINT-2)                                         28
+--------------------------------------------------------------------------------
+
+Warning: In design 'vec_div', net 'div_units[1].fxp_div_inst/net695' driven by pin 'div_units[1].fxp_div_inst/C1191/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[1].fxp_div_inst/net694' driven by pin 'div_units[1].fxp_div_inst/C1183/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[1].fxp_div_inst/net693' driven by pin 'div_units[1].fxp_div_inst/C1164/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[1].fxp_div_inst/net692' driven by pin 'div_units[1].fxp_div_inst/C1158/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[1].fxp_div_inst/net691' driven by pin 'div_units[1].fxp_div_inst/C1154/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[1].fxp_div_inst/net690' driven by pin 'div_units[1].fxp_div_inst/C1091/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_busy[1]' driven by pin 'div_units[1].fxp_div_inst/busy' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[2].fxp_div_inst/net1084' driven by pin 'div_units[2].fxp_div_inst/C1191/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[2].fxp_div_inst/net1083' driven by pin 'div_units[2].fxp_div_inst/C1183/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[2].fxp_div_inst/net1082' driven by pin 'div_units[2].fxp_div_inst/C1164/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[2].fxp_div_inst/net1081' driven by pin 'div_units[2].fxp_div_inst/C1158/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[2].fxp_div_inst/net1080' driven by pin 'div_units[2].fxp_div_inst/C1154/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[2].fxp_div_inst/net1079' driven by pin 'div_units[2].fxp_div_inst/C1091/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_busy[2]' driven by pin 'div_units[2].fxp_div_inst/busy' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[3].fxp_div_inst/net1473' driven by pin 'div_units[3].fxp_div_inst/C1191/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[3].fxp_div_inst/net1472' driven by pin 'div_units[3].fxp_div_inst/C1183/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[3].fxp_div_inst/net1471' driven by pin 'div_units[3].fxp_div_inst/C1164/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[3].fxp_div_inst/net1470' driven by pin 'div_units[3].fxp_div_inst/C1158/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[3].fxp_div_inst/net1469' driven by pin 'div_units[3].fxp_div_inst/C1154/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[3].fxp_div_inst/net1468' driven by pin 'div_units[3].fxp_div_inst/C1091/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_busy[3]' driven by pin 'div_units[3].fxp_div_inst/busy' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_busy[0]' driven by pin 'div_units[0].fxp_div_inst/busy' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[0].fxp_div_inst/net306' driven by pin 'div_units[0].fxp_div_inst/C1191/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[0].fxp_div_inst/net305' driven by pin 'div_units[0].fxp_div_inst/C1183/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[0].fxp_div_inst/net304' driven by pin 'div_units[0].fxp_div_inst/C1164/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[0].fxp_div_inst/net303' driven by pin 'div_units[0].fxp_div_inst/C1158/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[0].fxp_div_inst/net302' driven by pin 'div_units[0].fxp_div_inst/C1154/Z' has no loads. (LINT-2)
+Warning: In design 'vec_div', net 'div_units[0].fxp_div_inst/net301' driven by pin 'div_units[0].fxp_div_inst/C1091/Z' has no loads. (LINT-2)
+1

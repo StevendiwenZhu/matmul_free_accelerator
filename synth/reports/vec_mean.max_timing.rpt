@@ -1,0 +1,929 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay max
+        -nets
+        -max_paths 30
+        -transition_time
+Design : vec_mean
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 11:22:42 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/CO (FADDX1_RVT)                      0.03      0.25       2.43 f
+  n98 (net)                      1                   0.00       2.43 f
+  U85/CO (FADDX1_RVT)                      0.03      0.25       2.68 f
+  n83 (net)                      1                   0.00       2.68 f
+  U79/CO (FADDX1_RVT)                      0.03      0.25       2.93 f
+  n79 (net)                      1                   0.00       2.93 f
+  U77/CO (FADDX1_RVT)                      0.03      0.25       3.19 f
+  n75 (net)                      1                   0.00       3.19 f
+  U75/CO (FADDX1_RVT)                      0.03      0.25       3.44 f
+  n71 (net)                      1                   0.00       3.44 f
+  U73/CO (FADDX1_RVT)                      0.03      0.25       3.69 f
+  n67 (net)                      1                   0.00       3.69 f
+  U71/CO (FADDX1_RVT)                      0.03      0.25       3.94 f
+  n90 (net)                      1                   0.00       3.94 f
+  U82/CO (FADDX1_RVT)                      0.02      0.23       4.17 f
+  n92 (net)                      1                   0.00       4.17 f
+  U32/Y (INVX1_RVT)                        0.01      0.10       4.27 r
+  n126 (net)                     1                   0.00       4.27 r
+  U99/S (FADDX1_RVT)                       0.01      0.12       4.39 f
+  mean_out[14] (net)             1                   0.00       4.39 f
+  mean_out[14] (out)                       0.01      0.01       4.39 f
+  data arrival time                                             4.39
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[15]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/CO (FADDX1_RVT)                      0.03      0.25       2.43 f
+  n98 (net)                      1                   0.00       2.43 f
+  U85/CO (FADDX1_RVT)                      0.03      0.25       2.68 f
+  n83 (net)                      1                   0.00       2.68 f
+  U79/CO (FADDX1_RVT)                      0.03      0.25       2.93 f
+  n79 (net)                      1                   0.00       2.93 f
+  U77/CO (FADDX1_RVT)                      0.03      0.25       3.19 f
+  n75 (net)                      1                   0.00       3.19 f
+  U75/CO (FADDX1_RVT)                      0.03      0.25       3.44 f
+  n71 (net)                      1                   0.00       3.44 f
+  U73/CO (FADDX1_RVT)                      0.03      0.25       3.69 f
+  n67 (net)                      1                   0.00       3.69 f
+  U71/CO (FADDX1_RVT)                      0.03      0.25       3.94 f
+  n90 (net)                      1                   0.00       3.94 f
+  U82/CO (FADDX1_RVT)                      0.02      0.23       4.17 f
+  n92 (net)                      1                   0.00       4.17 f
+  U32/Y (INVX1_RVT)                        0.01      0.10       4.27 r
+  n126 (net)                     1                   0.00       4.27 r
+  U99/CO (FADDX1_RVT)                      0.01      0.09       4.36 r
+  n96 (net)                      1                   0.00       4.36 r
+  U84/Y (INVX1_RVT)                        0.01      0.02       4.38 f
+  mean_out[15] (net)             1                   0.00       4.38 f
+  mean_out[15] (out)                       0.01      0.01       4.39 f
+  data arrival time                                             4.39
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[13]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/CO (FADDX1_RVT)                      0.03      0.25       2.43 f
+  n98 (net)                      1                   0.00       2.43 f
+  U85/CO (FADDX1_RVT)                      0.03      0.25       2.68 f
+  n83 (net)                      1                   0.00       2.68 f
+  U79/CO (FADDX1_RVT)                      0.03      0.25       2.93 f
+  n79 (net)                      1                   0.00       2.93 f
+  U77/CO (FADDX1_RVT)                      0.03      0.25       3.19 f
+  n75 (net)                      1                   0.00       3.19 f
+  U75/CO (FADDX1_RVT)                      0.03      0.25       3.44 f
+  n71 (net)                      1                   0.00       3.44 f
+  U73/CO (FADDX1_RVT)                      0.03      0.25       3.69 f
+  n67 (net)                      1                   0.00       3.69 f
+  U71/CO (FADDX1_RVT)                      0.03      0.25       3.94 f
+  n90 (net)                      1                   0.00       3.94 f
+  U82/S (FADDX1_RVT)                       0.02      0.25       4.18 f
+  n65 (net)                      1                   0.00       4.18 f
+  U70/Y (INVX1_RVT)                        0.01      0.09       4.28 r
+  mean_out[13] (net)             1                   0.00       4.28 r
+  mean_out[13] (out)                       0.01      0.01       4.28 r
+  data arrival time                                             4.28
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[12]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/CO (FADDX1_RVT)                      0.03      0.25       2.43 f
+  n98 (net)                      1                   0.00       2.43 f
+  U85/CO (FADDX1_RVT)                      0.03      0.25       2.68 f
+  n83 (net)                      1                   0.00       2.68 f
+  U79/CO (FADDX1_RVT)                      0.03      0.25       2.93 f
+  n79 (net)                      1                   0.00       2.93 f
+  U77/CO (FADDX1_RVT)                      0.03      0.25       3.19 f
+  n75 (net)                      1                   0.00       3.19 f
+  U75/CO (FADDX1_RVT)                      0.03      0.25       3.44 f
+  n71 (net)                      1                   0.00       3.44 f
+  U73/CO (FADDX1_RVT)                      0.03      0.25       3.69 f
+  n67 (net)                      1                   0.00       3.69 f
+  U71/S (FADDX1_RVT)                       0.02      0.25       3.93 f
+  n69 (net)                      1                   0.00       3.93 f
+  U72/Y (INVX1_RVT)                        0.01      0.09       4.02 r
+  mean_out[12] (net)             1                   0.00       4.02 r
+  mean_out[12] (out)                       0.01      0.01       4.03 r
+  data arrival time                                             4.03
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[11]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/CO (FADDX1_RVT)                      0.03      0.25       2.43 f
+  n98 (net)                      1                   0.00       2.43 f
+  U85/CO (FADDX1_RVT)                      0.03      0.25       2.68 f
+  n83 (net)                      1                   0.00       2.68 f
+  U79/CO (FADDX1_RVT)                      0.03      0.25       2.93 f
+  n79 (net)                      1                   0.00       2.93 f
+  U77/CO (FADDX1_RVT)                      0.03      0.25       3.19 f
+  n75 (net)                      1                   0.00       3.19 f
+  U75/CO (FADDX1_RVT)                      0.03      0.25       3.44 f
+  n71 (net)                      1                   0.00       3.44 f
+  U73/S (FADDX1_RVT)                       0.02      0.25       3.68 f
+  n73 (net)                      1                   0.00       3.68 f
+  U74/Y (INVX1_RVT)                        0.01      0.09       3.77 r
+  mean_out[11] (net)             1                   0.00       3.77 r
+  mean_out[11] (out)                       0.01      0.01       3.78 r
+  data arrival time                                             3.78
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[10]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/CO (FADDX1_RVT)                      0.03      0.25       2.43 f
+  n98 (net)                      1                   0.00       2.43 f
+  U85/CO (FADDX1_RVT)                      0.03      0.25       2.68 f
+  n83 (net)                      1                   0.00       2.68 f
+  U79/CO (FADDX1_RVT)                      0.03      0.25       2.93 f
+  n79 (net)                      1                   0.00       2.93 f
+  U77/CO (FADDX1_RVT)                      0.03      0.25       3.19 f
+  n75 (net)                      1                   0.00       3.19 f
+  U75/S (FADDX1_RVT)                       0.02      0.25       3.43 f
+  n77 (net)                      1                   0.00       3.43 f
+  U76/Y (INVX1_RVT)                        0.01      0.09       3.52 r
+  mean_out[10] (net)             1                   0.00       3.52 r
+  mean_out[10] (out)                       0.01      0.01       3.53 r
+  data arrival time                                             3.53
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[9]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/CO (FADDX1_RVT)                      0.03      0.25       2.43 f
+  n98 (net)                      1                   0.00       2.43 f
+  U85/CO (FADDX1_RVT)                      0.03      0.25       2.68 f
+  n83 (net)                      1                   0.00       2.68 f
+  U79/CO (FADDX1_RVT)                      0.03      0.25       2.93 f
+  n79 (net)                      1                   0.00       2.93 f
+  U77/S (FADDX1_RVT)                       0.02      0.25       3.18 f
+  n81 (net)                      1                   0.00       3.18 f
+  U78/Y (INVX1_RVT)                        0.01      0.09       3.27 r
+  mean_out[9] (net)              1                   0.00       3.27 r
+  mean_out[9] (out)                        0.01      0.01       3.28 r
+  data arrival time                                             3.28
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[8]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/CO (FADDX1_RVT)                      0.03      0.25       2.43 f
+  n98 (net)                      1                   0.00       2.43 f
+  U85/CO (FADDX1_RVT)                      0.03      0.25       2.68 f
+  n83 (net)                      1                   0.00       2.68 f
+  U79/S (FADDX1_RVT)                       0.02      0.25       2.93 f
+  n85 (net)                      1                   0.00       2.93 f
+  U80/Y (INVX1_RVT)                        0.01      0.09       3.02 r
+  mean_out[8] (net)              1                   0.00       3.02 r
+  mean_out[8] (out)                        0.01      0.01       3.03 r
+  data arrival time                                             3.03
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[7]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/CO (FADDX1_RVT)                      0.03      0.25       2.43 f
+  n98 (net)                      1                   0.00       2.43 f
+  U85/S (FADDX1_RVT)                       0.02      0.25       2.68 f
+  n100 (net)                     1                   0.00       2.68 f
+  U86/Y (INVX1_RVT)                        0.01      0.09       2.77 r
+  mean_out[7] (net)              1                   0.00       2.77 r
+  mean_out[7] (out)                        0.01      0.01       2.78 r
+  data arrival time                                             2.78
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[6]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/S (FADDX1_RVT)                       0.02      0.25       2.43 f
+  n104 (net)                     1                   0.00       2.43 f
+  U88/Y (INVX1_RVT)                        0.01      0.09       2.52 r
+  mean_out[6] (net)              1                   0.00       2.52 r
+  mean_out[6] (out)                        0.01      0.01       2.52 r
+  data arrival time                                             2.52
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[5]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/S (FADDX1_RVT)                       0.02      0.25       2.17 f
+  n108 (net)                     1                   0.00       2.17 f
+  U90/Y (INVX1_RVT)                        0.01      0.09       2.27 r
+  mean_out[5] (net)              1                   0.00       2.27 r
+  mean_out[5] (out)                        0.01      0.01       2.27 r
+  data arrival time                                             2.27
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[4]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/S (FADDX1_RVT)                       0.02      0.25       1.92 f
+  n112 (net)                     1                   0.00       1.92 f
+  U92/Y (INVX1_RVT)                        0.01      0.09       2.02 r
+  mean_out[4] (net)              1                   0.00       2.02 r
+  mean_out[4] (out)                        0.01      0.01       2.02 r
+  data arrival time                                             2.02
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[3]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/S (FADDX1_RVT)                       0.02      0.25       1.67 f
+  n116 (net)                     1                   0.00       1.67 f
+  U94/Y (INVX1_RVT)                        0.01      0.09       1.76 r
+  mean_out[3] (net)              1                   0.00       1.76 r
+  mean_out[3] (out)                        0.01      0.01       1.77 r
+  data arrival time                                             1.77
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[2]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/S (FADDX1_RVT)                       0.02      0.25       1.42 f
+  n120 (net)                     1                   0.00       1.42 f
+  U96/Y (INVX1_RVT)                        0.01      0.09       1.51 r
+  mean_out[2] (net)              1                   0.00       1.51 r
+  mean_out[2] (out)                        0.01      0.01       1.52 r
+  data arrival time                                             1.52
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[1]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/S (FADDX1_RVT)                       0.02      0.25       1.17 f
+  n124 (net)                     1                   0.00       1.17 f
+  U98/Y (INVX1_RVT)                        0.01      0.09       1.26 r
+  mean_out[1] (net)              1                   0.00       1.26 r
+  mean_out[1] (out)                        0.01      0.01       1.27 r
+  data arrival time                                             1.27
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[0]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/S (FADDX1_RVT)                       0.02      0.25       0.92 f
+  n9 (net)                       1                   0.00       0.92 f
+  U38/Y (INVX1_RVT)                        0.01      0.09       1.01 r
+  mean_out[0] (net)              1                   0.00       1.01 r
+  mean_out[0] (out)                        0.01      0.01       1.02 r
+  data arrival time                                             1.02
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

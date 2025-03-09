@@ -1,0 +1,234 @@
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12-SP5
+Date:        Thu Dec  5 22:35:07 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                              80
+    Nets connected to multiple pins on same cell (LINT-33)         80
+
+Nets                                                               57
+    Unloaded nets (LINT-2)                                         57
+--------------------------------------------------------------------------------
+
+Warning: In design 'rms_norm', net 'vec_div0/div_units[1].fxp_div_inst/net2050' driven by pin 'vec_div0/div_units[1].fxp_div_inst/C1191/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[1].fxp_div_inst/net2049' driven by pin 'vec_div0/div_units[1].fxp_div_inst/C1183/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[1].fxp_div_inst/net2048' driven by pin 'vec_div0/div_units[1].fxp_div_inst/C1164/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[1].fxp_div_inst/net2047' driven by pin 'vec_div0/div_units[1].fxp_div_inst/C1158/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[1].fxp_div_inst/net2046' driven by pin 'vec_div0/div_units[1].fxp_div_inst/C1154/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[1].fxp_div_inst/net2045' driven by pin 'vec_div0/div_units[1].fxp_div_inst/C1091/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_busy[1]' driven by pin 'vec_div0/div_units[1].fxp_div_inst/busy' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[2].fxp_div_inst/net2439' driven by pin 'vec_div0/div_units[2].fxp_div_inst/C1191/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[2].fxp_div_inst/net2438' driven by pin 'vec_div0/div_units[2].fxp_div_inst/C1183/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[2].fxp_div_inst/net2437' driven by pin 'vec_div0/div_units[2].fxp_div_inst/C1164/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[2].fxp_div_inst/net2436' driven by pin 'vec_div0/div_units[2].fxp_div_inst/C1158/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[2].fxp_div_inst/net2435' driven by pin 'vec_div0/div_units[2].fxp_div_inst/C1154/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[2].fxp_div_inst/net2434' driven by pin 'vec_div0/div_units[2].fxp_div_inst/C1091/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_busy[2]' driven by pin 'vec_div0/div_units[2].fxp_div_inst/busy' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[3].fxp_div_inst/net2828' driven by pin 'vec_div0/div_units[3].fxp_div_inst/C1191/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[3].fxp_div_inst/net2827' driven by pin 'vec_div0/div_units[3].fxp_div_inst/C1183/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[3].fxp_div_inst/net2826' driven by pin 'vec_div0/div_units[3].fxp_div_inst/C1164/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[3].fxp_div_inst/net2825' driven by pin 'vec_div0/div_units[3].fxp_div_inst/C1158/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[3].fxp_div_inst/net2824' driven by pin 'vec_div0/div_units[3].fxp_div_inst/C1154/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[3].fxp_div_inst/net2823' driven by pin 'vec_div0/div_units[3].fxp_div_inst/C1091/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_busy[3]' driven by pin 'vec_div0/div_units[3].fxp_div_inst/busy' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_busy[0]' driven by pin 'vec_div0/div_units[0].fxp_div_inst/busy' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net347' driven by pin 'rms0/vec_mult0/mult_14/Z_0' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net346' driven by pin 'rms0/vec_mult0/mult_14/Z_1' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net345' driven by pin 'rms0/vec_mult0/mult_14/Z_2' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net344' driven by pin 'rms0/vec_mult0/mult_14/Z_3' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net343' driven by pin 'rms0/vec_mult0/mult_14/Z_4' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net342' driven by pin 'rms0/vec_mult0/mult_14/Z_5' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net341' driven by pin 'rms0/vec_mult0/mult_14_I2/Z_0' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net340' driven by pin 'rms0/vec_mult0/mult_14_I2/Z_1' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net339' driven by pin 'rms0/vec_mult0/mult_14_I2/Z_2' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net338' driven by pin 'rms0/vec_mult0/mult_14_I2/Z_3' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net337' driven by pin 'rms0/vec_mult0/mult_14_I2/Z_4' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net336' driven by pin 'rms0/vec_mult0/mult_14_I2/Z_5' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net335' driven by pin 'rms0/vec_mult0/mult_14_I3/Z_0' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net334' driven by pin 'rms0/vec_mult0/mult_14_I3/Z_1' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net333' driven by pin 'rms0/vec_mult0/mult_14_I3/Z_2' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net332' driven by pin 'rms0/vec_mult0/mult_14_I3/Z_3' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net331' driven by pin 'rms0/vec_mult0/mult_14_I3/Z_4' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net330' driven by pin 'rms0/vec_mult0/mult_14_I3/Z_5' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net329' driven by pin 'rms0/vec_mult0/mult_14_I4/Z_0' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net328' driven by pin 'rms0/vec_mult0/mult_14_I4/Z_1' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net327' driven by pin 'rms0/vec_mult0/mult_14_I4/Z_2' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net326' driven by pin 'rms0/vec_mult0/mult_14_I4/Z_3' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net325' driven by pin 'rms0/vec_mult0/mult_14_I4/Z_4' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mult0/net324' driven by pin 'rms0/vec_mult0/mult_14_I4/Z_5' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mean0/net1391' driven by pin 'rms0/vec_mean0/add_35_G2/Z_0' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mean0/net1390' driven by pin 'rms0/vec_mean0/add_35/Z_0' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/vec_mean0/net1389' driven by pin 'rms0/vec_mean0/add_35_G2_G1/Z_0' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/fxp_sqrt0/net1547' driven by pin 'rms0/fxp_sqrt0/sub_35/Z_16' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'rms0/fxp_sqrt0/net1546' driven by pin 'rms0/fxp_sqrt0/C444/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[0].fxp_div_inst/net1661' driven by pin 'vec_div0/div_units[0].fxp_div_inst/C1191/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[0].fxp_div_inst/net1660' driven by pin 'vec_div0/div_units[0].fxp_div_inst/C1183/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[0].fxp_div_inst/net1659' driven by pin 'vec_div0/div_units[0].fxp_div_inst/C1164/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[0].fxp_div_inst/net1658' driven by pin 'vec_div0/div_units[0].fxp_div_inst/C1158/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[0].fxp_div_inst/net1657' driven by pin 'vec_div0/div_units[0].fxp_div_inst/C1154/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', net 'vec_div0/div_units[0].fxp_div_inst/net1656' driven by pin 'vec_div0/div_units[0].fxp_div_inst/C1091/Z' has no loads. (LINT-2)
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[15]' is connected to pins 'in_2[3][15]', 'in_2[2][15]'', 'in_2[1][15]', 'in_2[0][15]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[14]' is connected to pins 'in_2[3][14]', 'in_2[2][14]'', 'in_2[1][14]', 'in_2[0][14]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[13]' is connected to pins 'in_2[3][13]', 'in_2[2][13]'', 'in_2[1][13]', 'in_2[0][13]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[12]' is connected to pins 'in_2[3][12]', 'in_2[2][12]'', 'in_2[1][12]', 'in_2[0][12]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[11]' is connected to pins 'in_2[3][11]', 'in_2[2][11]'', 'in_2[1][11]', 'in_2[0][11]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[10]' is connected to pins 'in_2[3][10]', 'in_2[2][10]'', 'in_2[1][10]', 'in_2[0][10]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[9]' is connected to pins 'in_2[3][9]', 'in_2[2][9]'', 'in_2[1][9]', 'in_2[0][9]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[8]' is connected to pins 'in_2[3][8]', 'in_2[2][8]'', 'in_2[1][8]', 'in_2[0][8]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[7]' is connected to pins 'in_2[3][7]', 'in_2[2][7]'', 'in_2[1][7]', 'in_2[0][7]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[6]' is connected to pins 'in_2[3][6]', 'in_2[2][6]'', 'in_2[1][6]', 'in_2[0][6]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[5]' is connected to pins 'in_2[3][5]', 'in_2[2][5]'', 'in_2[1][5]', 'in_2[0][5]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[4]' is connected to pins 'in_2[3][4]', 'in_2[2][4]'', 'in_2[1][4]', 'in_2[0][4]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[3]' is connected to pins 'in_2[3][3]', 'in_2[2][3]'', 'in_2[1][3]', 'in_2[0][3]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[2]' is connected to pins 'in_2[3][2]', 'in_2[2][2]'', 'in_2[1][2]', 'in_2[0][2]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[1]' is connected to pins 'in_2[3][1]', 'in_2[2][1]'', 'in_2[1][1]', 'in_2[0][1]'.
+Warning: In design 'rms_norm', the same net is connected to more than one pin on submodule 'vec_div0'. (LINT-33)
+   Net 'rms[0]' is connected to pins 'in_2[3][0]', 'in_2[2][0]'', 'in_2[1][0]', 'in_2[0][0]'.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][15]' is connected to pins 'in_1[3][15]', 'in_2[3][15]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][14]' is connected to pins 'in_1[3][14]', 'in_2[3][14]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][13]' is connected to pins 'in_1[3][13]', 'in_2[3][13]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][12]' is connected to pins 'in_1[3][12]', 'in_2[3][12]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][11]' is connected to pins 'in_1[3][11]', 'in_2[3][11]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][10]' is connected to pins 'in_1[3][10]', 'in_2[3][10]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][9]' is connected to pins 'in_1[3][9]', 'in_2[3][9]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][8]' is connected to pins 'in_1[3][8]', 'in_2[3][8]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][7]' is connected to pins 'in_1[3][7]', 'in_2[3][7]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][6]' is connected to pins 'in_1[3][6]', 'in_2[3][6]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][5]' is connected to pins 'in_1[3][5]', 'in_2[3][5]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][4]' is connected to pins 'in_1[3][4]', 'in_2[3][4]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][3]' is connected to pins 'in_1[3][3]', 'in_2[3][3]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][2]' is connected to pins 'in_1[3][2]', 'in_2[3][2]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][1]' is connected to pins 'in_1[3][1]', 'in_2[3][1]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[3][0]' is connected to pins 'in_1[3][0]', 'in_2[3][0]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][15]' is connected to pins 'in_1[2][15]', 'in_2[2][15]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][14]' is connected to pins 'in_1[2][14]', 'in_2[2][14]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][13]' is connected to pins 'in_1[2][13]', 'in_2[2][13]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][12]' is connected to pins 'in_1[2][12]', 'in_2[2][12]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][11]' is connected to pins 'in_1[2][11]', 'in_2[2][11]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][10]' is connected to pins 'in_1[2][10]', 'in_2[2][10]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][9]' is connected to pins 'in_1[2][9]', 'in_2[2][9]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][8]' is connected to pins 'in_1[2][8]', 'in_2[2][8]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][7]' is connected to pins 'in_1[2][7]', 'in_2[2][7]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][6]' is connected to pins 'in_1[2][6]', 'in_2[2][6]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][5]' is connected to pins 'in_1[2][5]', 'in_2[2][5]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][4]' is connected to pins 'in_1[2][4]', 'in_2[2][4]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][3]' is connected to pins 'in_1[2][3]', 'in_2[2][3]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][2]' is connected to pins 'in_1[2][2]', 'in_2[2][2]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][1]' is connected to pins 'in_1[2][1]', 'in_2[2][1]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[2][0]' is connected to pins 'in_1[2][0]', 'in_2[2][0]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][15]' is connected to pins 'in_1[1][15]', 'in_2[1][15]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][14]' is connected to pins 'in_1[1][14]', 'in_2[1][14]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][13]' is connected to pins 'in_1[1][13]', 'in_2[1][13]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][12]' is connected to pins 'in_1[1][12]', 'in_2[1][12]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][11]' is connected to pins 'in_1[1][11]', 'in_2[1][11]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][10]' is connected to pins 'in_1[1][10]', 'in_2[1][10]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][9]' is connected to pins 'in_1[1][9]', 'in_2[1][9]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][8]' is connected to pins 'in_1[1][8]', 'in_2[1][8]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][7]' is connected to pins 'in_1[1][7]', 'in_2[1][7]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][6]' is connected to pins 'in_1[1][6]', 'in_2[1][6]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][5]' is connected to pins 'in_1[1][5]', 'in_2[1][5]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][4]' is connected to pins 'in_1[1][4]', 'in_2[1][4]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][3]' is connected to pins 'in_1[1][3]', 'in_2[1][3]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][2]' is connected to pins 'in_1[1][2]', 'in_2[1][2]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][1]' is connected to pins 'in_1[1][1]', 'in_2[1][1]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[1][0]' is connected to pins 'in_1[1][0]', 'in_2[1][0]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][15]' is connected to pins 'in_1[0][15]', 'in_2[0][15]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][14]' is connected to pins 'in_1[0][14]', 'in_2[0][14]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][13]' is connected to pins 'in_1[0][13]', 'in_2[0][13]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][12]' is connected to pins 'in_1[0][12]', 'in_2[0][12]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][11]' is connected to pins 'in_1[0][11]', 'in_2[0][11]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][10]' is connected to pins 'in_1[0][10]', 'in_2[0][10]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][9]' is connected to pins 'in_1[0][9]', 'in_2[0][9]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][8]' is connected to pins 'in_1[0][8]', 'in_2[0][8]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][7]' is connected to pins 'in_1[0][7]', 'in_2[0][7]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][6]' is connected to pins 'in_1[0][6]', 'in_2[0][6]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][5]' is connected to pins 'in_1[0][5]', 'in_2[0][5]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][4]' is connected to pins 'in_1[0][4]', 'in_2[0][4]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][3]' is connected to pins 'in_1[0][3]', 'in_2[0][3]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][2]' is connected to pins 'in_1[0][2]', 'in_2[0][2]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][1]' is connected to pins 'in_1[0][1]', 'in_2[0][1]''.
+Warning: In design 'rms', the same net is connected to more than one pin on submodule 'vec_mult0'. (LINT-33)
+   Net 'input_arr[0][0]' is connected to pins 'in_1[0][0]', 'in_2[0][0]''.
+1

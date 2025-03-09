@@ -1,0 +1,555 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay min
+        -nets
+        -max_paths 30
+        -transition_time
+Design : qdiv
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 16:56:16 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: reg_done_reg
+              (rising edge-triggered flip-flop)
+  Endpoint: o_complete (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  reg_done_reg/CLK (DFFASX1_RVT)           0.03      0.00       0.00 r
+  reg_done_reg/Q (DFFASX1_RVT)             0.01      0.10       0.10 r
+  o_complete (net)               3                   0.00       0.10 r
+  o_complete (out)                         0.01      0.01       0.10 r
+  data arrival time                                             0.10
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_9_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[9]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  reg_quotient_reg_9_/CLK (DFFARX1_RVT)      0.01      0.00       0.00 r
+  reg_quotient_reg_9_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[9] (net)          2                   0.00       0.10 r
+  o_quotient_out[9] (out)                    0.01      0.01       0.10 r
+  data arrival time                                               0.10
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_5_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[5]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  reg_quotient_reg_5_/CLK (DFFARX1_RVT)      0.01      0.00       0.00 r
+  reg_quotient_reg_5_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[5] (net)          2                   0.00       0.10 r
+  o_quotient_out[5] (out)                    0.01      0.01       0.10 r
+  data arrival time                                               0.10
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_overflow_reg
+              (rising edge-triggered flip-flop)
+  Endpoint: o_overflow (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  reg_overflow_reg/CLK (DFFARX1_RVT)       0.03      0.00       0.00 r
+  reg_overflow_reg/Q (DFFARX1_RVT)         0.01      0.10       0.10 r
+  o_overflow (net)               2                   0.00       0.10 r
+  o_overflow (out)                         0.01      0.01       0.11 r
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[7]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  reg_quotient_reg_7_/CLK (DFFARX1_RVT)      0.03      0.00       0.00 r
+  reg_quotient_reg_7_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[7] (net)          2                   0.00       0.10 r
+  o_quotient_out[7] (out)                    0.01      0.01       0.11 r
+  data arrival time                                               0.11
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_11_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[11]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                           Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------
+  reg_quotient_reg_11_/CLK (DFFARX1_RVT)      0.03      0.00       0.00 r
+  reg_quotient_reg_11_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[11] (net)          2                   0.00       0.10 r
+  o_quotient_out[11] (out)                    0.01      0.01       0.11 r
+  data arrival time                                                0.11
+  ---------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_0_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[0]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  reg_quotient_reg_0_/CLK (DFFARX1_RVT)      0.03      0.00       0.00 r
+  reg_quotient_reg_0_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[0] (net)          2                   0.00       0.10 r
+  o_quotient_out[0] (out)                    0.01      0.01       0.11 r
+  data arrival time                                               0.11
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_sign_reg
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[15]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  reg_sign_reg/CLK (DFFARX1_RVT)           0.04      0.00       0.00 r
+  reg_sign_reg/Q (DFFARX1_RVT)             0.01      0.10       0.10 r
+  o_quotient_out[15] (net)       2                   0.00       0.10 r
+  o_quotient_out[15] (out)                 0.01      0.01       0.11 r
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_14_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[14]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                           Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------
+  reg_quotient_reg_14_/CLK (DFFARX1_RVT)      0.04      0.00       0.00 r
+  reg_quotient_reg_14_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[14] (net)          2                   0.00       0.10 r
+  o_quotient_out[14] (out)                    0.01      0.01       0.11 r
+  data arrival time                                                0.11
+  ---------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_10_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[10]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                           Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------
+  reg_quotient_reg_10_/CLK (DFFARX1_RVT)      0.04      0.00       0.00 r
+  reg_quotient_reg_10_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[10] (net)          2                   0.00       0.10 r
+  o_quotient_out[10] (out)                    0.01      0.01       0.11 r
+  data arrival time                                                0.11
+  ---------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_6_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[6]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  reg_quotient_reg_6_/CLK (DFFARX1_RVT)      0.04      0.00       0.00 r
+  reg_quotient_reg_6_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[6] (net)          2                   0.00       0.10 r
+  o_quotient_out[6] (out)                    0.01      0.01       0.11 r
+  data arrival time                                               0.11
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_3_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[3]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  reg_quotient_reg_3_/CLK (DFFARX1_RVT)      0.04      0.00       0.00 r
+  reg_quotient_reg_3_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[3] (net)          2                   0.00       0.10 r
+  o_quotient_out[3] (out)                    0.01      0.01       0.11 r
+  data arrival time                                               0.11
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_13_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[13]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                           Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------
+  reg_quotient_reg_13_/CLK (DFFARX1_RVT)      0.04      0.00       0.00 r
+  reg_quotient_reg_13_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[13] (net)          2                   0.00       0.10 r
+  o_quotient_out[13] (out)                    0.01      0.01       0.11 r
+  data arrival time                                                0.11
+  ---------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_2_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[2]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  reg_quotient_reg_2_/CLK (DFFARX1_RVT)      0.04      0.00       0.00 r
+  reg_quotient_reg_2_/Q (DFFARX1_RVT)        0.01      0.10       0.10 r
+  o_quotient_out[2] (net)          2                   0.00       0.10 r
+  o_quotient_out[2] (out)                    0.01      0.01       0.11 r
+  data arrival time                                               0.11
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_12_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[12]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                           Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------
+  reg_quotient_reg_12_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  reg_quotient_reg_12_/Q (DFFARX1_RVT)        0.01      0.11       0.11 r
+  o_quotient_out[12] (net)          2                   0.00       0.11 r
+  o_quotient_out[12] (out)                    0.01      0.01       0.11 r
+  data arrival time                                                0.11
+  ---------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_8_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[8]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  reg_quotient_reg_8_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  reg_quotient_reg_8_/Q (DFFARX1_RVT)        0.01      0.11       0.11 r
+  o_quotient_out[8] (net)          2                   0.00       0.11 r
+  o_quotient_out[8] (out)                    0.01      0.01       0.11 r
+  data arrival time                                               0.11
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_4_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[4]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  reg_quotient_reg_4_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  reg_quotient_reg_4_/Q (DFFARX1_RVT)        0.01      0.11       0.11 r
+  o_quotient_out[4] (net)          2                   0.00       0.11 r
+  o_quotient_out[4] (out)                    0.01      0.01       0.11 r
+  data arrival time                                               0.11
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: reg_quotient_reg_1_
+              (rising edge-triggered flip-flop)
+  Endpoint: o_quotient_out[1]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  qdiv               8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  reg_quotient_reg_1_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  reg_quotient_reg_1_/Q (DFFARX1_RVT)        0.01      0.11       0.11 r
+  o_quotient_out[1] (net)          2                   0.00       0.11 r
+  o_quotient_out[1] (out)                    0.01      0.01       0.11 r
+  data arrival time                                               0.11
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

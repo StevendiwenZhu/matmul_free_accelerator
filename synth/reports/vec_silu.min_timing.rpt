@@ -1,0 +1,1150 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay min
+        -nets
+        -max_paths 30
+        -transition_time
+Design : vec_silu
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 23:58:30 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: vec_in[41] (input port)
+  Endpoint: vec_out[47]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[41] (in)                          0.01      0.01       0.01 r
+  vec_in[41] (net)              11                   0.00       0.01 r
+  U9189/Y (AO222X1_RVT)                    0.03      0.12       0.12 r
+  n9499 (net)                    6                   0.00       0.12 r
+  U6260/SO (HADDX1_RVT)                    0.01      0.06       0.19 r
+  n9535 (net)                    1                   0.00       0.19 r
+  U9499/S (FADDX1_RVT)                     0.01      0.08       0.27 r
+  vec_out[47] (net)              1                   0.00       0.27 r
+  vec_out[47] (out)                        0.01      0.01       0.27 r
+  data arrival time                                             0.27
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[7] (input port)
+  Endpoint: vec_out[15]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[7] (in)                           0.01      0.01       0.01 r
+  vec_in[7] (net)               15                   0.00       0.01 r
+  U7110/Y (AO222X1_RVT)                    0.03      0.13       0.14 r
+  n8959 (net)                   11                   0.00       0.14 r
+  U9083/Y (AO22X1_RVT)                     0.01      0.07       0.20 r
+  n8995 (net)                    1                   0.00       0.20 r
+  U9098/S (FADDX1_RVT)                     0.01      0.08       0.29 r
+  vec_out[15] (net)              1                   0.00       0.29 r
+  vec_out[15] (out)                        0.01      0.01       0.29 r
+  data arrival time                                             0.29
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[55] (input port)
+  Endpoint: vec_out[49]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[55] (in)                          0.01      0.01       0.01 r
+  vec_in[55] (net)              24                   0.00       0.01 r
+  U9798/Y (AND3X1_RVT)                     0.01      0.06       0.07 r
+  n9846 (net)                    1                   0.00       0.07 r
+  U9799/Y (OA21X1_RVT)                     0.01      0.05       0.13 r
+  n9852 (net)                    2                   0.00       0.13 r
+  U9803/S (FADDX1_RVT)                     0.02      0.08       0.21 r
+  n9909 (net)                    2                   0.00       0.21 r
+  U9823/S (FADDX1_RVT)                     0.01      0.08       0.29 r
+  vec_out[49] (net)              1                   0.00       0.29 r
+  vec_out[49] (out)                        0.01      0.01       0.29 r
+  data arrival time                                             0.29
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[55] (input port)
+  Endpoint: vec_out[63]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[55] (in)                          0.01      0.01       0.01 r
+  vec_in[55] (net)              24                   0.00       0.01 r
+  U9589/Y (AO222X1_RVT)                    0.03      0.14       0.15 r
+  n9975 (net)                   11                   0.00       0.15 r
+  U9864/Y (OA221X1_RVT)                    0.01      0.08       0.23 r
+  n10008 (net)                   1                   0.00       0.23 r
+  U9876/S (FADDX1_RVT)                     0.01      0.08       0.31 r
+  vec_out[63] (net)              1                   0.00       0.31 r
+  vec_out[63] (out)                        0.01      0.01       0.32 r
+  data arrival time                                             0.32
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[55] (input port)
+  Endpoint: vec_out[50]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[55] (in)                          0.01      0.01       0.01 r
+  vec_in[55] (net)              24                   0.00       0.01 r
+  U9798/Y (AND3X1_RVT)                     0.01      0.06       0.07 r
+  n9846 (net)                    1                   0.00       0.07 r
+  U9799/Y (OA21X1_RVT)                     0.01      0.05       0.13 r
+  n9852 (net)                    2                   0.00       0.13 r
+  U9800/Y (INVX1_RVT)                      0.01      0.03       0.16 f
+  n9847 (net)                    1                   0.00       0.16 f
+  U9801/Y (AOI22X1_RVT)                    0.01      0.08       0.23 r
+  n9907 (net)                    1                   0.00       0.23 r
+  U9822/S (FADDX1_RVT)                     0.01      0.08       0.32 r
+  vec_out[50] (net)              1                   0.00       0.32 r
+  vec_out[50] (out)                        0.01      0.01       0.32 r
+  data arrival time                                             0.32
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[49] (input port)
+  Endpoint: vec_out[58]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[49] (in)                          0.01      0.00       0.00 r
+  vec_in[49] (net)               9                   0.00       0.00 r
+  U6239/Y (OA22X1_RVT)                     0.02      0.06       0.06 r
+  n9729 (net)                    8                   0.00       0.06 r
+  U9507/Y (AND3X1_RVT)                     0.01      0.04       0.11 r
+  n9546 (net)                    1                   0.00       0.11 r
+  U9515/Y (OR2X1_RVT)                      0.02      0.05       0.16 r
+  n9673 (net)                    2                   0.00       0.16 r
+  U9686/S (FADDX1_RVT)                     0.01      0.09       0.25 r
+  n9882 (net)                    1                   0.00       0.25 r
+  U9814/S (FADDX1_RVT)                     0.01      0.08       0.33 r
+  vec_out[58] (net)              1                   0.00       0.33 r
+  vec_out[58] (out)                        0.01      0.01       0.34 r
+  data arrival time                                             0.34
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[63] (input port)
+  Endpoint: vec_out[57]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[63] (in)                          0.00      0.02       0.02 f
+  vec_in[63] (net)               6                   0.00       0.02 f
+  U9506/Y (NAND3X0_RVT)                    0.01      0.06       0.08 r
+  n9628 (net)                    3                   0.00       0.08 r
+  U9646/Y (AO22X1_RVT)                     0.01      0.05       0.12 r
+  n9630 (net)                    1                   0.00       0.12 r
+  U9647/SO (HADDX1_RVT)                    0.01      0.05       0.18 r
+  n9697 (net)                    2                   0.00       0.18 r
+  U9705/S (FADDX1_RVT)                     0.01      0.08       0.25 r
+  n9885 (net)                    1                   0.00       0.25 r
+  U9815/S (FADDX1_RVT)                     0.01      0.08       0.33 r
+  vec_out[57] (net)              1                   0.00       0.33 r
+  vec_out[57] (out)                        0.01      0.01       0.34 r
+  data arrival time                                             0.34
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[31] (input port)
+  Endpoint: vec_out[31]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[31] (in)                          0.00      0.01       0.01 f
+  vec_in[31] (net)               6                   0.00       0.01 f
+  U6635/Y (NAND3X0_RVT)                    0.02      0.07       0.09 r
+  n6407 (net)                    6                   0.00       0.09 r
+  U6743/Y (OA221X1_RVT)                    0.01      0.07       0.15 r
+  n9054 (net)                    2                   0.00       0.15 r
+  U9120/SO (HADDX1_RVT)                    0.01      0.06       0.22 f
+  n9055 (net)                    1                   0.00       0.22 f
+  U9121/Y (NAND2X0_RVT)                    0.02      0.05       0.27 r
+  n9057 (net)                    1                   0.00       0.27 r
+  U9122/S (FADDX1_RVT)                     0.01      0.06       0.33 r
+  vec_out[31] (net)              1                   0.00       0.33 r
+  vec_out[31] (out)                        0.01      0.01       0.34 r
+  data arrival time                                             0.34
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[37] (input port)
+  Endpoint: vec_out[33]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[37] (in)                          0.01      0.03       0.03 f
+  vec_in[37] (net)              15                   0.00       0.03 f
+  U6572/Y (NAND4X0_RVT)                    0.02      0.11       0.14 r
+  n9397 (net)                    1                   0.00       0.14 r
+  U9424/CO (FADDX1_RVT)                    0.02      0.10       0.24 r
+  n9434 (net)                    3                   0.00       0.24 r
+  U9437/S (FADDX1_RVT)                     0.01      0.09       0.33 r
+  vec_out[33] (net)              1                   0.00       0.33 r
+  vec_out[33] (out)                        0.01      0.01       0.34 r
+  data arrival time                                             0.34
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sigmoid_reg_reg_1__2_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[17]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  sigmoid_reg_reg_1__2_/CLK (DFFX1_RVT)      0.03      0.00       0.00 r
+  sigmoid_reg_reg_1__2_/QN (DFFX1_RVT)       0.03      0.10       0.10 r
+  n10032 (net)                    16                   0.00       0.10 r
+  U6987/Y (AO221X1_RVT)                      0.01      0.07       0.18 r
+  n6702 (net)                      1                   0.00       0.18 r
+  U7010/CO (FADDX1_RVT)                      0.02      0.08       0.26 r
+  n9018 (net)                      1                   0.00       0.26 r
+  U9106/S (FADDX1_RVT)                       0.01      0.08       0.33 r
+  vec_out[17] (net)                1                   0.00       0.33 r
+  vec_out[17] (out)                          0.01      0.01       0.34 r
+  data arrival time                                               0.34
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[37] (input port)
+  Endpoint: vec_out[32]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[37] (in)                          0.01      0.03       0.03 f
+  vec_in[37] (net)              15                   0.00       0.03 f
+  U6572/Y (NAND4X0_RVT)                    0.02      0.11       0.14 r
+  n9397 (net)                    1                   0.00       0.14 r
+  U9424/S (FADDX1_RVT)                     0.01      0.09       0.23 r
+  n9399 (net)                    1                   0.00       0.23 r
+  U9425/S (FADDX1_RVT)                     0.01      0.08       0.31 r
+  n6333 (net)                    1                   0.00       0.31 r
+  U6608/Y (INVX1_RVT)                      0.00      0.02       0.34 f
+  vec_out[32] (net)              1                   0.00       0.34 f
+  vec_out[32] (out)                        0.00      0.01       0.34 f
+  data arrival time                                             0.34
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[19] (input port)
+  Endpoint: vec_out[16]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[19] (in)                          0.03      0.04       0.04 f
+  vec_in[19] (net)              17                   0.00       0.04 f
+  U7000/Y (NAND3X0_RVT)                    0.01      0.12       0.15 r
+  n6691 (net)                    2                   0.00       0.15 r
+  U7007/Y (OA22X1_RVT)                     0.01      0.04       0.19 r
+  n6699 (net)                    2                   0.00       0.19 r
+  U7009/Y (AO222X1_RVT)                    0.01      0.06       0.25 r
+  n6749 (net)                    1                   0.00       0.25 r
+  U7031/S (FADDX1_RVT)                     0.01      0.07       0.32 r
+  n6752 (net)                    1                   0.00       0.32 r
+  U7032/Y (INVX1_RVT)                      0.00      0.02       0.34 f
+  vec_out[16] (net)              1                   0.00       0.34 f
+  vec_out[16] (out)                        0.00      0.01       0.35 f
+  data arrival time                                             0.35
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sigmoid_reg_reg_3__5_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[53]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  sigmoid_reg_reg_3__5_/CLK (DFFX1_RVT)      0.03      0.00       0.00 r
+  sigmoid_reg_reg_3__5_/QN (DFFX1_RVT)       0.03      0.10       0.10 r
+  n10024 (net)                    16                   0.00       0.10 r
+  U9699/Y (OA221X1_RVT)                      0.02      0.09       0.19 r
+  n9876 (net)                      2                   0.00       0.19 r
+  U9812/S (FADDX1_RVT)                       0.01      0.09       0.28 r
+  n9896 (net)                      1                   0.00       0.28 r
+  U9819/S (FADDX1_RVT)                       0.01      0.06       0.34 r
+  vec_out[53] (net)                1                   0.00       0.34 r
+  vec_out[53] (out)                          0.01      0.01       0.35 r
+  data arrival time                                               0.35
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[27] (input port)
+  Endpoint: vec_out[21]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[27] (in)                          0.01      0.00       0.00 r
+  vec_in[27] (net)               7                   0.00       0.00 r
+  U6736/Y (AND2X1_RVT)                     0.01      0.04       0.04 r
+  n6545 (net)                    3                   0.00       0.04 r
+  U6877/Y (OA221X1_RVT)                    0.01      0.06       0.11 r
+  n6597 (net)                    1                   0.00       0.11 r
+  U6927/S (FADDX1_RVT)                     0.01      0.08       0.19 r
+  n6603 (net)                    1                   0.00       0.19 r
+  U6929/S (FADDX1_RVT)                     0.01      0.07       0.26 r
+  n9010 (net)                    1                   0.00       0.26 r
+  U9103/S (FADDX1_RVT)                     0.01      0.08       0.35 r
+  vec_out[21] (net)              1                   0.00       0.35 r
+  vec_out[21] (out)                        0.01      0.01       0.35 r
+  data arrival time                                             0.35
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[27] (input port)
+  Endpoint: vec_out[22]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[27] (in)                          0.01      0.00       0.00 r
+  vec_in[27] (net)               7                   0.00       0.00 r
+  U6736/Y (AND2X1_RVT)                     0.01      0.04       0.04 r
+  n6545 (net)                    3                   0.00       0.04 r
+  U6877/Y (OA221X1_RVT)                    0.01      0.06       0.11 r
+  n6597 (net)                    1                   0.00       0.11 r
+  U6927/S (FADDX1_RVT)                     0.01      0.08       0.19 r
+  n6603 (net)                    1                   0.00       0.19 r
+  U6929/CO (FADDX1_RVT)                    0.02      0.08       0.27 r
+  n9007 (net)                    1                   0.00       0.27 r
+  U9102/S (FADDX1_RVT)                     0.01      0.08       0.35 r
+  vec_out[22] (net)              1                   0.00       0.35 r
+  vec_out[22] (out)                        0.01      0.01       0.36 r
+  data arrival time                                             0.36
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sigmoid_reg_reg_2__2_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[34]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  sigmoid_reg_reg_2__2_/CLK (DFFX1_RVT)      0.03      0.00       0.00 r
+  sigmoid_reg_reg_2__2_/QN (DFFX1_RVT)       0.03      0.10       0.10 r
+  n10033 (net)                    15                   0.00       0.10 r
+  U9391/Y (AO221X1_RVT)                      0.02      0.08       0.19 r
+  n9389 (net)                      2                   0.00       0.19 r
+  U9420/S (FADDX1_RVT)                       0.01      0.09       0.28 r
+  n9430 (net)                      1                   0.00       0.28 r
+  U9436/S (FADDX1_RVT)                       0.01      0.08       0.36 r
+  vec_out[34] (net)                1                   0.00       0.36 r
+  vec_out[34] (out)                          0.01      0.01       0.36 r
+  data arrival time                                               0.36
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sigmoid_reg_reg_3__3_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[48]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  sigmoid_reg_reg_3__3_/CLK (DFFX1_RVT)      0.01      0.00       0.00 r
+  sigmoid_reg_reg_3__3_/QN (DFFX1_RVT)       0.03      0.10       0.10 r
+  n10027 (net)                    16                   0.00       0.10 r
+  U6522/Y (OA221X1_RVT)                      0.01      0.08       0.18 r
+  n6274 (net)                      1                   0.00       0.18 r
+  U6527/CO (FADDX1_RVT)                      0.02      0.08       0.25 r
+  n9859 (net)                      1                   0.00       0.25 r
+  U9806/S (FADDX1_RVT)                       0.01      0.08       0.33 r
+  n6298 (net)                      1                   0.00       0.33 r
+  U6544/Y (INVX1_RVT)                        0.00      0.02       0.36 f
+  vec_out[48] (net)                1                   0.00       0.36 f
+  vec_out[48] (out)                          0.00      0.01       0.36 f
+  data arrival time                                               0.36
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[59] (input port)
+  Endpoint: vec_out[54]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[59] (in)                          0.01      0.01       0.01 r
+  vec_in[59] (net)              11                   0.00       0.01 r
+  U9691/Y (AND2X1_RVT)                     0.01      0.04       0.05 r
+  n9958 (net)                    3                   0.00       0.05 r
+  U9720/Y (OA221X1_RVT)                    0.02      0.07       0.12 r
+  n9874 (net)                    2                   0.00       0.12 r
+  U9747/S (FADDX1_RVT)                     0.01      0.09       0.21 r
+  n9772 (net)                    2                   0.00       0.21 r
+  U9761/Y (AO222X1_RVT)                    0.01      0.07       0.28 r
+  n9894 (net)                    1                   0.00       0.28 r
+  U9818/S (FADDX1_RVT)                     0.01      0.08       0.36 r
+  vec_out[54] (net)              1                   0.00       0.36 r
+  vec_out[54] (out)                        0.01      0.01       0.36 r
+  data arrival time                                             0.36
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[23] (input port)
+  Endpoint: vec_out[20]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[23] (in)                          0.01      0.01       0.01 r
+  vec_in[23] (net)              18                   0.00       0.01 r
+  U6946/Y (AND4X1_RVT)                     0.02      0.07       0.08 r
+  n6641 (net)                    2                   0.00       0.08 r
+  U6963/CO (FADDX1_RVT)                    0.02      0.09       0.17 r
+  n6714 (net)                    1                   0.00       0.17 r
+  U6232/CO (FADDX1_RVT)                    0.02      0.10       0.27 r
+  n9013 (net)                    3                   0.00       0.27 r
+  U9104/S (FADDX1_RVT)                     0.01      0.09       0.36 r
+  vec_out[20] (net)              1                   0.00       0.36 r
+  vec_out[20] (out)                        0.01      0.01       0.37 r
+  data arrival time                                             0.37
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sigmoid_reg_reg_0__3_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  sigmoid_reg_reg_0__3_/CLK (DFFX1_RVT)      0.03      0.00       0.00 r
+  sigmoid_reg_reg_0__3_/QN (DFFX1_RVT)       0.03      0.10       0.10 r
+  n10031 (net)                    16                   0.00       0.10 r
+  U6458/Y (OA221X1_RVT)                      0.01      0.08       0.18 r
+  n6239 (net)                      1                   0.00       0.18 r
+  U6463/CO (FADDX1_RVT)                      0.02      0.08       0.26 r
+  n6951 (net)                      1                   0.00       0.26 r
+  U7247/S (FADDX1_RVT)                       0.01      0.08       0.34 r
+  n6263 (net)                      1                   0.00       0.34 r
+  U6480/Y (INVX1_RVT)                        0.00      0.02       0.36 f
+  vec_out[0] (net)                 1                   0.00       0.36 f
+  vec_out[0] (out)                           0.00      0.01       0.37 f
+  data arrival time                                               0.37
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[17] (input port)
+  Endpoint: vec_out[25]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[17] (in)                          0.01      0.01       0.01 r
+  vec_in[17] (net)              11                   0.00       0.01 r
+  U6694/Y (OA22X1_RVT)                     0.02      0.07       0.07 r
+  n6546 (net)                   10                   0.00       0.07 r
+  U6800/Y (OA222X1_RVT)                    0.01      0.06       0.13 r
+  n6455 (net)                    1                   0.00       0.13 r
+  U6801/Y (OA222X1_RVT)                    0.01      0.05       0.18 r
+  n6458 (net)                    1                   0.00       0.18 r
+  U6802/SO (HADDX1_RVT)                    0.01      0.05       0.24 r
+  n6531 (net)                    2                   0.00       0.24 r
+  U6870/SO (HADDX1_RVT)                    0.01      0.05       0.29 r
+  n8997 (net)                    1                   0.00       0.29 r
+  U9099/S (FADDX1_RVT)                     0.01      0.08       0.36 r
+  vec_out[25] (net)              1                   0.00       0.36 r
+  vec_out[25] (out)                        0.01      0.01       0.37 r
+  data arrival time                                             0.37
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[43] (input port)
+  Endpoint: vec_out[38]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[43] (in)                          0.01      0.00       0.00 r
+  vec_in[43] (net)               6                   0.00       0.00 r
+  U9311/Y (AND2X1_RVT)                     0.01      0.04       0.04 r
+  n9478 (net)                    3                   0.00       0.04 r
+  U9332/Y (OA221X1_RVT)                    0.01      0.06       0.11 r
+  n9288 (net)                    1                   0.00       0.11 r
+  U9360/S (FADDX1_RVT)                     0.01      0.09       0.19 r
+  n9308 (net)                    1                   0.00       0.19 r
+  U9375/CO (FADDX1_RVT)                    0.02      0.10       0.29 r
+  n9418 (net)                    1                   0.00       0.29 r
+  U9432/S (FADDX1_RVT)                     0.01      0.08       0.37 r
+  vec_out[38] (net)              1                   0.00       0.37 r
+  vec_out[38] (out)                        0.01      0.01       0.37 r
+  data arrival time                                             0.37
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[43] (input port)
+  Endpoint: vec_out[37]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[43] (in)                          0.01      0.00       0.00 r
+  vec_in[43] (net)               6                   0.00       0.00 r
+  U9311/Y (AND2X1_RVT)                     0.01      0.04       0.04 r
+  n9478 (net)                    3                   0.00       0.04 r
+  U9332/Y (OA221X1_RVT)                    0.01      0.06       0.11 r
+  n9288 (net)                    1                   0.00       0.11 r
+  U9360/S (FADDX1_RVT)                     0.01      0.09       0.19 r
+  n9308 (net)                    1                   0.00       0.19 r
+  U9375/S (FADDX1_RVT)                     0.01      0.09       0.28 r
+  n9422 (net)                    1                   0.00       0.28 r
+  U9433/S (FADDX1_RVT)                     0.01      0.08       0.37 r
+  vec_out[37] (net)              1                   0.00       0.37 r
+  vec_out[37] (out)                        0.01      0.01       0.37 r
+  data arrival time                                             0.37
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sigmoid_reg_reg_0__2_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  sigmoid_reg_reg_0__2_/CLK (DFFX1_RVT)      0.03      0.00       0.00 r
+  sigmoid_reg_reg_0__2_/QN (DFFX1_RVT)       0.03      0.10       0.10 r
+  n10022 (net)                    16                   0.00       0.10 r
+  U6438/Y (OA221X1_RVT)                      0.01      0.08       0.18 r
+  n6948 (net)                      1                   0.00       0.18 r
+  U7246/CO (FADDX1_RVT)                      0.02      0.09       0.28 r
+  n8898 (net)                      3                   0.00       0.28 r
+  U9047/S (FADDX1_RVT)                       0.01      0.09       0.37 r
+  vec_out[1] (net)                 1                   0.00       0.37 r
+  vec_out[1] (out)                           0.01      0.01       0.38 r
+  data arrival time                                               0.38
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[45] (input port)
+  Endpoint: vec_out[40]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[45] (in)                          0.01      0.01       0.01 r
+  vec_in[45] (net)               9                   0.00       0.01 r
+  U9260/Y (AND4X1_RVT)                     0.02      0.07       0.07 r
+  n9231 (net)                    3                   0.00       0.07 r
+  U9324/S (FADDX1_RVT)                     0.01      0.10       0.17 r
+  n9233 (net)                    1                   0.00       0.17 r
+  U9325/SO (HADDX1_RVT)                    0.01      0.05       0.22 r
+  n9258 (net)                    3                   0.00       0.22 r
+  U9342/S (FADDX1_RVT)                     0.01      0.08       0.30 r
+  n9412 (net)                    1                   0.00       0.30 r
+  U9430/S (FADDX1_RVT)                     0.01      0.08       0.38 r
+  vec_out[40] (net)              1                   0.00       0.38 r
+  vec_out[40] (out)                        0.01      0.01       0.39 r
+  data arrival time                                             0.39
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: sigmoid_reg_reg_3__4_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[51]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                          Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------
+  sigmoid_reg_reg_3__4_/CLK (DFFX1_RVT)      0.03      0.00       0.00 r
+  sigmoid_reg_reg_3__4_/QN (DFFX1_RVT)       0.03      0.10       0.10 r
+  n10013 (net)                    16                   0.00       0.10 r
+  U9778/Y (AO221X1_RVT)                      0.02      0.08       0.19 r
+  n9815 (net)                      2                   0.00       0.19 r
+  U9782/S (FADDX1_RVT)                       0.01      0.07       0.25 r
+  n9836 (net)                      1                   0.00       0.25 r
+  U9794/Y (AO21X1_RVT)                       0.01      0.05       0.31 r
+  n9903 (net)                      1                   0.00       0.31 r
+  U9821/S (FADDX1_RVT)                       0.01      0.08       0.38 r
+  vec_out[51] (net)                1                   0.00       0.38 r
+  vec_out[51] (out)                          0.01      0.01       0.39 r
+  data arrival time                                               0.39
+  --------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[45] (input port)
+  Endpoint: vec_out[41]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[45] (in)                          0.01      0.01       0.01 r
+  vec_in[45] (net)               9                   0.00       0.01 r
+  U9260/Y (AND4X1_RVT)                     0.02      0.07       0.07 r
+  n9231 (net)                    3                   0.00       0.07 r
+  U9299/CO (FADDX1_RVT)                    0.02      0.10       0.17 r
+  n9206 (net)                    3                   0.00       0.17 r
+  U9305/Y (AO22X1_RVT)                     0.01      0.06       0.23 r
+  n9208 (net)                    1                   0.00       0.23 r
+  U9306/S (FADDX1_RVT)                     0.01      0.07       0.30 r
+  n9410 (net)                    1                   0.00       0.30 r
+  U9429/S (FADDX1_RVT)                     0.01      0.08       0.39 r
+  vec_out[41] (net)              1                   0.00       0.39 r
+  vec_out[41] (out)                        0.01      0.01       0.39 r
+  data arrival time                                             0.39
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[49] (input port)
+  Endpoint: vec_out[59]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[49] (in)                          0.01      0.00       0.00 r
+  vec_in[49] (net)               9                   0.00       0.00 r
+  U6239/Y (OA22X1_RVT)                     0.02      0.06       0.06 r
+  n9729 (net)                    8                   0.00       0.06 r
+  U9507/Y (AND3X1_RVT)                     0.01      0.04       0.11 r
+  n9546 (net)                    1                   0.00       0.11 r
+  U9515/Y (OR2X1_RVT)                      0.02      0.05       0.16 r
+  n9673 (net)                    2                   0.00       0.16 r
+  U9645/CO (FADDX1_RVT)                    0.01      0.09       0.26 r
+  n9652 (net)                    2                   0.00       0.26 r
+  U9669/Y (OA21X1_RVT)                     0.01      0.06       0.31 r
+  n9879 (net)                    1                   0.00       0.31 r
+  U9813/S (FADDX1_RVT)                     0.01      0.08       0.39 r
+  vec_out[59] (net)              1                   0.00       0.39 r
+  vec_out[59] (out)                        0.01      0.01       0.39 r
+  data arrival time                                             0.39
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[9] (input port)
+  Endpoint: vec_out[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[9] (in)                           0.00      0.02       0.02 f
+  vec_in[9] (net)               12                   0.00       0.02 f
+  U7204/Y (NAND4X0_RVT)                    0.02      0.09       0.11 r
+  n6897 (net)                    1                   0.00       0.11 r
+  U7213/S (FADDX1_RVT)                     0.01      0.09       0.20 r
+  n6958 (net)                    1                   0.00       0.20 r
+  U7251/S (FADDX1_RVT)                     0.01      0.09       0.29 r
+  n7020 (net)                    1                   0.00       0.29 r
+  U7295/S (FADDX1_RVT)                     0.01      0.08       0.37 r
+  n7022 (net)                    1                   0.00       0.37 r
+  U7296/Y (INVX1_RVT)                      0.00      0.02       0.39 f
+  vec_out[4] (net)               1                   0.00       0.39 f
+  vec_out[4] (out)                         0.00      0.01       0.40 f
+  data arrival time                                             0.40
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[9] (input port)
+  Endpoint: vec_out[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[9] (in)                           0.00      0.02       0.02 f
+  vec_in[9] (net)               12                   0.00       0.02 f
+  U7204/Y (NAND4X0_RVT)                    0.02      0.09       0.11 r
+  n6897 (net)                    1                   0.00       0.11 r
+  U7213/CO (FADDX1_RVT)                    0.02      0.09       0.20 r
+  n6906 (net)                    1                   0.00       0.20 r
+  U7222/S (FADDX1_RVT)                     0.01      0.09       0.29 r
+  n7016 (net)                    1                   0.00       0.29 r
+  U7293/S (FADDX1_RVT)                     0.01      0.08       0.37 r
+  n7018 (net)                    1                   0.00       0.37 r
+  U7294/Y (INVX1_RVT)                      0.00      0.02       0.39 f
+  vec_out[5] (net)               1                   0.00       0.39 f
+  vec_out[5] (out)                         0.00      0.01       0.40 f
+  data arrival time                                             0.40
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

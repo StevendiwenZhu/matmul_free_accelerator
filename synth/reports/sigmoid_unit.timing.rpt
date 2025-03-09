@@ -1,0 +1,111 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : sigmoid_unit
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 11:20:59 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: x[5] (input port)
+  Endpoint: y[6] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[5] (in)                                0.03      0.04       0.04 f
+  x[5] (net)                    11                   0.00       0.04 f
+  U1705/Y (NBUFFX2_RVT)                    0.03      0.17       0.21 f
+  n2064 (net)                    3                   0.00       0.21 f
+  U1595/Y (INVX1_RVT)                      0.02      0.13       0.34 r
+  n1562 (net)                   10                   0.00       0.34 r
+  U1591/Y (INVX1_RVT)                      0.13      0.17       0.51 f
+  n2082 (net)                   15                   0.00       0.51 f
+  U1759/Y (NAND2X0_RVT)                    0.04      0.22       0.73 r
+  n1850 (net)                    5                   0.00       0.73 r
+  U1760/Y (NAND2X0_RVT)                    0.13      0.17       0.90 f
+  n1786 (net)                    5                   0.00       0.90 f
+  U1631/Y (INVX1_RVT)                      0.03      0.15       1.05 r
+  n1766 (net)                    3                   0.00       1.05 r
+  U1761/Y (NAND3X0_RVT)                    0.11      0.14       1.19 f
+  n1583 (net)                    3                   0.00       1.19 f
+  U1661/Y (INVX1_RVT)                      0.02      0.12       1.31 r
+  n1578 (net)                    1                   0.00       1.31 r
+  U1768/Y (NAND4X0_RVT)                    0.10      0.13       1.44 f
+  n2042 (net)                    3                   0.00       1.44 f
+  U1769/Y (AND3X1_RVT)                     0.02      0.15       1.59 f
+  n1763 (net)                    2                   0.00       1.59 f
+  U1775/Y (AND3X1_RVT)                     0.02      0.11       1.70 f
+  n1845 (net)                    2                   0.00       1.70 f
+  U2041/Y (AND4X1_RVT)                     0.03      0.12       1.82 f
+  n2113 (net)                    2                   0.00       1.82 f
+  U2042/Y (NAND3X0_RVT)                    0.01      0.09       1.90 r
+  n1846 (net)                    2                   0.00       1.90 r
+  U1633/Y (INVX1_RVT)                      0.04      0.07       1.97 f
+  n1853 (net)                    4                   0.00       1.97 f
+  U2045/Y (NAND3X0_RVT)                    0.03      0.12       2.09 r
+  n2117 (net)                    4                   0.00       2.09 r
+  U1660/Y (INVX1_RVT)                      0.03      0.07       2.15 f
+  n2183 (net)                    3                   0.00       2.15 f
+  U2067/Y (AO22X1_RVT)                     0.01      0.12       2.27 f
+  n1869 (net)                    1                   0.00       2.27 f
+  U2068/Y (AO221X1_RVT)                    0.03      0.12       2.39 f
+  n1879 (net)                    3                   0.00       2.39 f
+  U2071/Y (OA22X1_RVT)                     0.02      0.13       2.52 f
+  n1874 (net)                    1                   0.00       2.52 f
+  U2073/Y (AO22X1_RVT)                     0.02      0.10       2.62 f
+  n1881 (net)                    2                   0.00       2.62 f
+  U2075/Y (AO222X1_RVT)                    0.02      0.13       2.75 f
+  n1889 (net)                    2                   0.00       2.75 f
+  U2077/Y (OA22X1_RVT)                     0.01      0.10       2.85 f
+  n1888 (net)                    1                   0.00       2.85 f
+  U2079/Y (AO22X1_RVT)                     0.03      0.11       2.96 f
+  n2032 (net)                    1                   0.00       2.96 f
+  U2140/CO (FADDX1_RVT)                    0.03      0.25       3.22 f
+  n2070 (net)                    1                   0.00       3.22 f
+  U2159/CO (FADDX1_RVT)                    0.03      0.24       3.46 f
+  n2090 (net)                    1                   0.00       3.46 f
+  U2170/CO (FADDX1_RVT)                    0.03      0.20       3.66 f
+  n2105 (net)                    1                   0.00       3.66 f
+  U2181/CO (FADDX1_RVT)                    0.03      0.20       3.86 f
+  n2125 (net)                    1                   0.00       3.86 f
+  U2192/CO (FADDX1_RVT)                    0.03      0.20       4.06 f
+  n2188 (net)                    1                   0.00       4.06 f
+  U2217/CO (FADDX1_RVT)                    0.02      0.19       4.25 f
+  n2192 (net)                    1                   0.00       4.25 f
+  U2219/SO (HADDX1_RVT)                    0.03      0.16       4.41 f
+  n2193 (net)                    1                   0.00       4.41 f
+  U2220/S (FADDX1_RVT)                     0.04      0.21       4.63 f
+  n2203 (net)                    1                   0.00       4.63 f
+  U2222/S (FADDX1_RVT)                     0.02      0.25       4.88 f
+  n2205 (net)                    1                   0.00       4.88 f
+  U2223/Y (NAND2X0_RVT)                    0.01      0.07       4.95 r
+  y[6] (net)                     1                   0.00       4.95 r
+  y[6] (out)                               0.01      0.01       4.95 r
+  data arrival time                                             4.95
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

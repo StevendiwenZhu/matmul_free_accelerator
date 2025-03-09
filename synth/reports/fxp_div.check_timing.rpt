@@ -1,0 +1,238 @@
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Changed wire load model for 'DW01_sub_width15' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for '*SUB_UNS_OP_1_15_15' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'DW01_inc_width6' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for '*ADD_UNS_OP_6_1_6' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'DW01_inc_width15' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for '*ADD_UNS_OP_15_1_15' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'DW01_sub_width15' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for '*SUB_UNS_OP_15_15_15' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'DW01_sub_width15' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for '*SUB_UNS_OP_1_15_15' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'DW01_sub_width15' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for '*SUB_UNS_OP_1_15_15' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'DW01_cmp6_width3' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for '*NE_UNS_OP_3_3_1' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for 'DW01_cmp2_width16' from '(none)' to 'ForQA'. (OPT-170)
+Information: Changed wire load model for '*GEQ_UNS_OP_16_15_1' from '(none)' to 'ForQA'. (OPT-170)
+Information: Updating design information... (UID-85)
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Warning: The following end-points are not constrained for maximum delay.
+
+End point
+---------------
+acc_r_reg[0]/next_state
+acc_r_reg[0]/synch_enable
+acc_r_reg[1]/next_state
+acc_r_reg[1]/synch_enable
+acc_r_reg[2]/next_state
+acc_r_reg[2]/synch_enable
+acc_r_reg[3]/next_state
+acc_r_reg[3]/synch_enable
+acc_r_reg[4]/next_state
+acc_r_reg[4]/synch_enable
+acc_r_reg[5]/next_state
+acc_r_reg[5]/synch_enable
+acc_r_reg[6]/next_state
+acc_r_reg[6]/synch_enable
+acc_r_reg[7]/next_state
+acc_r_reg[7]/synch_enable
+acc_r_reg[8]/next_state
+acc_r_reg[8]/synch_enable
+acc_r_reg[9]/next_state
+acc_r_reg[9]/synch_enable
+acc_r_reg[10]/next_state
+acc_r_reg[10]/synch_enable
+acc_r_reg[11]/next_state
+acc_r_reg[11]/synch_enable
+acc_r_reg[12]/next_state
+acc_r_reg[12]/synch_enable
+acc_r_reg[13]/next_state
+acc_r_reg[13]/synch_enable
+acc_r_reg[14]/next_state
+acc_r_reg[14]/synch_enable
+acc_r_reg[15]/next_state
+acc_r_reg[15]/synch_enable
+au_r_reg[0]/next_state
+au_r_reg[0]/synch_enable
+au_r_reg[1]/next_state
+au_r_reg[1]/synch_enable
+au_r_reg[2]/next_state
+au_r_reg[2]/synch_enable
+au_r_reg[3]/next_state
+au_r_reg[3]/synch_enable
+au_r_reg[4]/next_state
+au_r_reg[4]/synch_enable
+au_r_reg[5]/next_state
+au_r_reg[5]/synch_enable
+au_r_reg[6]/next_state
+au_r_reg[6]/synch_enable
+au_r_reg[7]/next_state
+au_r_reg[7]/synch_enable
+au_r_reg[8]/next_state
+au_r_reg[8]/synch_enable
+au_r_reg[9]/next_state
+au_r_reg[9]/synch_enable
+au_r_reg[10]/next_state
+au_r_reg[10]/synch_enable
+au_r_reg[11]/next_state
+au_r_reg[11]/synch_enable
+au_r_reg[12]/next_state
+au_r_reg[12]/synch_enable
+au_r_reg[13]/next_state
+au_r_reg[13]/synch_enable
+au_r_reg[14]/next_state
+au_r_reg[14]/synch_enable
+bu_r_reg[0]/next_state
+bu_r_reg[0]/synch_enable
+bu_r_reg[1]/next_state
+bu_r_reg[1]/synch_enable
+bu_r_reg[2]/next_state
+bu_r_reg[2]/synch_enable
+bu_r_reg[3]/next_state
+bu_r_reg[3]/synch_enable
+bu_r_reg[4]/next_state
+bu_r_reg[4]/synch_enable
+bu_r_reg[5]/next_state
+bu_r_reg[5]/synch_enable
+bu_r_reg[6]/next_state
+bu_r_reg[6]/synch_enable
+bu_r_reg[7]/next_state
+bu_r_reg[7]/synch_enable
+bu_r_reg[8]/next_state
+bu_r_reg[8]/synch_enable
+bu_r_reg[9]/next_state
+bu_r_reg[9]/synch_enable
+bu_r_reg[10]/next_state
+bu_r_reg[10]/synch_enable
+bu_r_reg[11]/next_state
+bu_r_reg[11]/synch_enable
+bu_r_reg[12]/next_state
+bu_r_reg[12]/synch_enable
+bu_r_reg[13]/next_state
+bu_r_reg[13]/synch_enable
+bu_r_reg[14]/next_state
+bu_r_reg[14]/synch_enable
+busy
+busy_r_reg/next_state
+busy_r_reg/synch_enable
+count_r_reg[0]/next_state
+count_r_reg[0]/synch_enable
+count_r_reg[1]/next_state
+count_r_reg[1]/synch_enable
+count_r_reg[2]/next_state
+count_r_reg[2]/synch_enable
+count_r_reg[3]/next_state
+count_r_reg[3]/synch_enable
+count_r_reg[4]/next_state
+count_r_reg[4]/synch_enable
+count_r_reg[5]/next_state
+count_r_reg[5]/synch_enable
+dbz
+dbz_r_reg/next_state
+dbz_r_reg/synch_enable
+done
+ovf
+ovf_r_reg/next_state
+ovf_r_reg/synch_enable
+quo_r_reg[0]/next_state
+quo_r_reg[0]/synch_enable
+quo_r_reg[1]/next_state
+quo_r_reg[1]/synch_enable
+quo_r_reg[2]/next_state
+quo_r_reg[2]/synch_enable
+quo_r_reg[3]/next_state
+quo_r_reg[3]/synch_enable
+quo_r_reg[4]/next_state
+quo_r_reg[4]/synch_enable
+quo_r_reg[5]/next_state
+quo_r_reg[5]/synch_enable
+quo_r_reg[6]/next_state
+quo_r_reg[6]/synch_enable
+quo_r_reg[7]/next_state
+quo_r_reg[7]/synch_enable
+quo_r_reg[8]/next_state
+quo_r_reg[8]/synch_enable
+quo_r_reg[9]/next_state
+quo_r_reg[9]/synch_enable
+quo_r_reg[10]/next_state
+quo_r_reg[10]/synch_enable
+quo_r_reg[11]/next_state
+quo_r_reg[11]/synch_enable
+quo_r_reg[12]/next_state
+quo_r_reg[12]/synch_enable
+quo_r_reg[13]/next_state
+quo_r_reg[13]/synch_enable
+quo_r_reg[14]/next_state
+quo_r_reg[14]/synch_enable
+sig_diff_r_reg/next_state
+sig_diff_r_reg/synch_enable
+state_r_reg[0]/next_state
+state_r_reg[1]/next_state
+state_r_reg[2]/next_state
+val[0]
+val[1]
+val[2]
+val[3]
+val[4]
+val[5]
+val[6]
+val[7]
+val[8]
+val[9]
+val[10]
+val[11]
+val[12]
+val[13]
+val[14]
+val[15]
+val_r_reg[0]/next_state
+val_r_reg[0]/synch_enable
+val_r_reg[1]/next_state
+val_r_reg[1]/synch_enable
+val_r_reg[2]/next_state
+val_r_reg[2]/synch_enable
+val_r_reg[3]/next_state
+val_r_reg[3]/synch_enable
+val_r_reg[4]/next_state
+val_r_reg[4]/synch_enable
+val_r_reg[5]/next_state
+val_r_reg[5]/synch_enable
+val_r_reg[6]/next_state
+val_r_reg[6]/synch_enable
+val_r_reg[7]/next_state
+val_r_reg[7]/synch_enable
+val_r_reg[8]/next_state
+val_r_reg[8]/synch_enable
+val_r_reg[9]/next_state
+val_r_reg[9]/synch_enable
+val_r_reg[10]/next_state
+val_r_reg[10]/synch_enable
+val_r_reg[11]/next_state
+val_r_reg[11]/synch_enable
+val_r_reg[12]/next_state
+val_r_reg[12]/synch_enable
+val_r_reg[13]/next_state
+val_r_reg[13]/synch_enable
+val_r_reg[14]/next_state
+val_r_reg[14]/synch_enable
+val_r_reg[15]/next_state
+val_r_reg[15]/synch_enable
+valid
+valid_r_reg/next_state
+valid_r_reg/synch_enable
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+1

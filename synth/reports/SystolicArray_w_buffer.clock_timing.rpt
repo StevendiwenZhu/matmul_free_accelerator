@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : clock timing
+        -type summary
+Design : SystolicArray_w_buffer
+Version: V-2023.12-SP5
+Date   : Fri Dec  6 22:56:03 2024
+****************************************
+
+  Clock: core_clk
+----------------------------------------------------------------------------
+  Maximum setup launch latency:
+      X_in_buffer_reg_0__3__15_/CLK                          0.20      wr-+
+
+  Minimum setup capture latency:
+      X_in_buffer_reg_0__3__15_/CLK                          0.20      wr-+
+
+  Minimum hold launch latency:
+      X_in_buffer_reg_0__3__15_/CLK                          0.20      br-+
+
+  Maximum hold capture latency:
+      X_in_buffer_reg_0__3__15_/CLK                          0.20      br-+
+
+  Maximum active transition:
+      X_in_buffer_reg_0__3__15_/CLK                          0.08      wr-+
+
+  Minimum active transition:
+      X_in_buffer_reg_0__3__15_/CLK                          0.08      wr-+
+
+  Maximum setup skew:
+      W_in_buffer_reg_0__0__0_/CLK                                     wr-+
+      sa_genblk1_0__genblk1_0__pe_inst_psum_reg_reg_0_/CLK   0.00      wr-+
+
+  Maximum hold skew:
+      W_in_buffer_reg_0__0__0_/CLK                                     br-+
+      sa_genblk1_0__genblk1_0__pe_inst_psum_reg_reg_0_/CLK   0.00      br-+
+----------------------------------------------------------------------------
+
+1

@@ -1,0 +1,10 @@
+Warning: Design 'sram_ifmap_buffer' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+
+Design          Type    Object                  New Name
+--------------------------------------------------------------------------------
+Warning: The specified replacement character (_) is conflicting with the specified allowed or restricted character.   (UCN-4)
+sram_ifmap_buffer
+                net     *Logic0*                n_Logic0_
+sram_ifmap_buffer
+                net     _1_net_                 n_1_net_
+1

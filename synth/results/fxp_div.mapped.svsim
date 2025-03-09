@@ -1,0 +1,31 @@
+`ifndef SYNTHESIS
+
+//
+// This is an automatically generated file from 
+// dc_shell Version V-2023.12-SP5 -- Jul 16, 2024
+//
+
+// For simulation only. Do not modify.
+
+module fxp_div_svsim #(
+    parameter WIDTH=FXP_N,        parameter FBITS=FXP_R         ) (
+    input  wire logic clk,    
+    input  wire logic rst,    
+    input  wire logic start,  
+    output logic busy,   
+    output logic done,   
+    output logic valid,  
+    output logic dbz,    
+    output logic ovf,    
+    input  wire logic signed [WIDTH-1:0] a,   
+    input  wire logic signed [WIDTH-1:0] b,   
+    output logic signed [WIDTH-1:0] val  
+    );
+
+        
+
+  fxp_div fxp_div( {>>{ clk }}, {>>{ rst }}, {>>{ start }}, {>>{ busy }}, 
+        {>>{ done }}, {>>{ valid }}, {>>{ dbz }}, {>>{ ovf }}, {>>{ a }}, 
+        {>>{ b }}, {>>{ val }} );
+endmodule
+`endif

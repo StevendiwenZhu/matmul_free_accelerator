@@ -1,0 +1,16 @@
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12-SP5
+Date:        Thu Dec  5 13:11:09 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Nets                                                                2
+    Unloaded nets (LINT-2)                                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'fxp_sqrt', net 'net23' driven by pin 'sub_35/Z_16' has no loads. (LINT-2)
+Warning: In design 'fxp_sqrt', net 'net22' driven by pin 'C444/Z' has no loads. (LINT-2)
+1

@@ -1,0 +1,24 @@
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12-SP5
+Date:        Thu Dec  5 11:20:46 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               1
+    Cells do not drive (LINT-1)                                     1
+
+Nets                                                                6
+    Unloaded nets (LINT-2)                                          6
+--------------------------------------------------------------------------------
+
+Warning: In design 'sigmoid_unit', cell 'B_256' does not drive any nets. (LINT-1)
+Warning: In design 'sigmoid_unit', net 'net523' driven by pin 'mult_809/Z_0' has no loads. (LINT-2)
+Warning: In design 'sigmoid_unit', net 'net522' driven by pin 'mult_809/Z_1' has no loads. (LINT-2)
+Warning: In design 'sigmoid_unit', net 'net521' driven by pin 'mult_809/Z_2' has no loads. (LINT-2)
+Warning: In design 'sigmoid_unit', net 'net520' driven by pin 'mult_809/Z_3' has no loads. (LINT-2)
+Warning: In design 'sigmoid_unit', net 'net519' driven by pin 'mult_809/Z_4' has no loads. (LINT-2)
+Warning: In design 'sigmoid_unit', net 'net518' driven by pin 'mult_809/Z_5' has no loads. (LINT-2)
+1

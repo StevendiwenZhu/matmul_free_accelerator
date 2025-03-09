@@ -1,0 +1,87 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : vec_mean
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 11:22:42 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: input_arr[48]
+              (input port)
+  Endpoint: mean_out[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_mean           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  input_arr[48] (in)                       0.24      0.03       0.03 f
+  input_arr[48] (net)            1                   0.00       0.03 f
+  U34/Y (AND2X1_RVT)                       0.03      0.17       0.19 f
+  n6 (net)                       1                   0.00       0.19 f
+  U37/CO (FADDX1_RVT)                      0.03      0.20       0.39 f
+  n39 (net)                      1                   0.00       0.39 f
+  U55/S (FADDX1_RVT)                       0.01      0.21       0.60 r
+  n7 (net)                       1                   0.00       0.60 r
+  U26/Y (INVX0_RVT)                        0.05      0.07       0.67 f
+  n37 (net)                      1                   0.00       0.67 f
+  U54/CO (FADDX1_RVT)                      0.03      0.25       0.93 f
+  n122 (net)                     1                   0.00       0.93 f
+  U97/CO (FADDX1_RVT)                      0.03      0.25       1.18 f
+  n118 (net)                     1                   0.00       1.18 f
+  U95/CO (FADDX1_RVT)                      0.03      0.25       1.43 f
+  n114 (net)                     1                   0.00       1.43 f
+  U93/CO (FADDX1_RVT)                      0.03      0.25       1.68 f
+  n110 (net)                     1                   0.00       1.68 f
+  U91/CO (FADDX1_RVT)                      0.03      0.25       1.93 f
+  n106 (net)                     1                   0.00       1.93 f
+  U89/CO (FADDX1_RVT)                      0.03      0.25       2.18 f
+  n102 (net)                     1                   0.00       2.18 f
+  U87/CO (FADDX1_RVT)                      0.03      0.25       2.43 f
+  n98 (net)                      1                   0.00       2.43 f
+  U85/CO (FADDX1_RVT)                      0.03      0.25       2.68 f
+  n83 (net)                      1                   0.00       2.68 f
+  U79/CO (FADDX1_RVT)                      0.03      0.25       2.93 f
+  n79 (net)                      1                   0.00       2.93 f
+  U77/CO (FADDX1_RVT)                      0.03      0.25       3.19 f
+  n75 (net)                      1                   0.00       3.19 f
+  U75/CO (FADDX1_RVT)                      0.03      0.25       3.44 f
+  n71 (net)                      1                   0.00       3.44 f
+  U73/CO (FADDX1_RVT)                      0.03      0.25       3.69 f
+  n67 (net)                      1                   0.00       3.69 f
+  U71/CO (FADDX1_RVT)                      0.03      0.25       3.94 f
+  n90 (net)                      1                   0.00       3.94 f
+  U82/CO (FADDX1_RVT)                      0.02      0.23       4.17 f
+  n92 (net)                      1                   0.00       4.17 f
+  U32/Y (INVX1_RVT)                        0.01      0.10       4.27 r
+  n126 (net)                     1                   0.00       4.27 r
+  U99/S (FADDX1_RVT)                       0.01      0.12       4.39 f
+  mean_out[14] (net)             1                   0.00       4.39 f
+  mean_out[14] (out)                       0.01      0.01       4.39 f
+  data arrival time                                             4.39
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

@@ -1,0 +1,2145 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay min
+        -nets
+        -max_paths 30
+        -transition_time
+Design : SystolicArray_w_buffer_full_size
+Version: V-2023.12-SP5
+Date   : Fri Dec  6 23:19:25 2024
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_10_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                            Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)              0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)                0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                                  2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                       0.02      0.58       0.89 f
+  n106681 (net)                                                      3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                      0.22      0.28       1.17 f
+  n128954 (net)                                                      2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                                     472.69   -447.34    -446.17 f
+  n62988 (net)                                                      11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                       96.26     44.23    -401.94 r
+  n57833 (net)                                                       1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                       0.01     -9.08    -411.02 r
+  n57832 (net)                                                       1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                        0.01      0.18    -410.84 r
+  n106652 (net)                                                      2                   0.00    -410.84 r
+  U179466/SO (HADDX1_RVT)                                                      0.01      0.30    -410.54 r
+  n114824 (net)                                                      2                   0.00    -410.54 r
+  U160950/Y (NOR2X0_RVT)                                                       0.01      0.26    -410.28 f
+  n87498 (net)                                                       1                   0.00    -410.28 f
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_10_/SETB (DFFSSRX1_RVT)      0.01      0.68    -409.60 f
+  data arrival time                                                                              -409.60
+
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  clock uncertainty                                                                      2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_10_/CLK (DFFSSRX1_RVT)                 0.00       2.20 r
+  library hold time                                                                     -0.04       2.16
+  data required time                                                                                2.16
+  ------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                2.16
+  data arrival time                                                                               409.60
+  ------------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                               -411.76
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_10_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                            Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)              0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)                0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                                  2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                       0.02      0.58       0.89 f
+  n106681 (net)                                                      3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                      0.22      0.28       1.17 f
+  n128954 (net)                                                      2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                                     472.69   -447.34    -446.17 f
+  n62988 (net)                                                      11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                       96.26     44.23    -401.94 r
+  n57833 (net)                                                       1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                       0.01     -9.08    -411.02 r
+  n57832 (net)                                                       1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                        0.01      0.18    -410.84 r
+  n106652 (net)                                                      2                   0.00    -410.84 r
+  U179466/SO (HADDX1_RVT)                                                      0.03      0.33    -410.51 f
+  n114824 (net)                                                      2                   0.00    -410.51 f
+  U150545/Y (INVX1_RVT)                                                        0.01      1.19    -409.32 r
+  n68686 (net)                                                       2                   0.00    -409.32 r
+  U71431/Y (OA21X1_RVT)                                                        0.01      0.17    -409.15 r
+  n201548 (net)                                                      1                   0.00    -409.15 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_10_/RSTB (DFFSSRX1_RVT)      0.01      0.20    -408.95 r
+  data arrival time                                                                              -408.95
+
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  clock uncertainty                                                                      2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_10_/CLK (DFFSSRX1_RVT)                 0.00       2.20 r
+  library hold time                                                                     -0.04       2.16
+  data required time                                                                                2.16
+  ------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                2.16
+  data arrival time                                                                               408.95
+  ------------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                               -411.11
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_11_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                            Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)              0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)                0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                                  2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                       0.02      0.58       0.89 f
+  n106681 (net)                                                      3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                      0.22      0.28       1.17 f
+  n128954 (net)                                                      2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                                     472.69   -447.34    -446.17 f
+  n62988 (net)                                                      11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                       96.26     44.23    -401.94 r
+  n57833 (net)                                                       1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                       0.01     -9.08    -411.02 r
+  n57832 (net)                                                       1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                        0.01      0.18    -410.84 r
+  n106652 (net)                                                      2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                      0.04      0.15    -410.69 f
+  n106689 (net)                                                      2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                       0.01      0.59    -410.11 f
+  n68685 (net)                                                       2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                       0.01      0.54    -409.57 r
+  n174098 (net)                                                      2                   0.00    -409.57 r
+  U240267/S (FADDX1_RVT)                                                       0.01      0.44    -409.13 r
+  n204890 (net)                                                      1                   0.00    -409.13 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_11_/RSTB (DFFSSRX1_RVT)      0.01      0.20    -408.93 r
+  data arrival time                                                                              -408.93
+
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  clock uncertainty                                                                      2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_11_/CLK (DFFSSRX1_RVT)                 0.00       2.20 r
+  library hold time                                                                     -0.04       2.16
+  data required time                                                                                2.16
+  ------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                2.16
+  data arrival time                                                                               408.93
+  ------------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                               -411.10
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_12_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                            Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)              0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)                0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                                  2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                       0.02      0.58       0.89 f
+  n106681 (net)                                                      3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                      0.22      0.28       1.17 f
+  n128954 (net)                                                      2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                                     472.69   -447.34    -446.17 f
+  n62988 (net)                                                      11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                       96.26     44.23    -401.94 r
+  n57833 (net)                                                       1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                       0.01     -9.08    -411.02 r
+  n57832 (net)                                                       1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                        0.01      0.18    -410.84 r
+  n106652 (net)                                                      2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                      0.04      0.15    -410.69 f
+  n106689 (net)                                                      2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                       0.01      0.59    -410.11 f
+  n68685 (net)                                                       2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                       0.01      0.54    -409.57 r
+  n174098 (net)                                                      2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                        0.01      0.15    -409.42 r
+  n110771 (net)                                                      2                   0.00    -409.42 r
+  U160572/Y (NOR2X0_RVT)                                                       0.01      0.23    -409.20 f
+  n86953 (net)                                                       1                   0.00    -409.20 f
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_12_/SETB (DFFSSRX1_RVT)      0.01      0.68    -408.51 f
+  data arrival time                                                                              -408.51
+
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  clock uncertainty                                                                      2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_12_/CLK (DFFSSRX1_RVT)                 0.00       2.20 r
+  library hold time                                                                     -0.04       2.16
+  data required time                                                                                2.16
+  ------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                2.16
+  data arrival time                                                                               408.51
+  ------------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                               -410.68
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_12_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                            Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)              0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)                0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                                  2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                       0.02      0.58       0.89 f
+  n106681 (net)                                                      3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                      0.22      0.28       1.17 f
+  n128954 (net)                                                      2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                                     472.69   -447.34    -446.17 f
+  n62988 (net)                                                      11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                       96.26     44.23    -401.94 r
+  n57833 (net)                                                       1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                       0.01     -9.08    -411.02 r
+  n57832 (net)                                                       1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                        0.01      0.18    -410.84 r
+  n106652 (net)                                                      2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                      0.04      0.15    -410.69 f
+  n106689 (net)                                                      2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                       0.01      0.59    -410.11 f
+  n68685 (net)                                                       2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                       0.01      0.54    -409.57 r
+  n174098 (net)                                                      2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                        0.01      0.15    -409.42 r
+  n110771 (net)                                                      2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                      0.05      0.17    -409.26 f
+  n124069 (net)                                                      3                   0.00    -409.26 f
+  U206392/Y (AND2X1_RVT)                                                       0.02      0.59    -408.66 f
+  n201547 (net)                                                      1                   0.00    -408.66 f
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_12_/RSTB (DFFSSRX1_RVT)      0.02      0.85    -407.81 f
+  data arrival time                                                                              -407.81
+
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  clock uncertainty                                                                      2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_12_/CLK (DFFSSRX1_RVT)                 0.00       2.20 r
+  library hold time                                                                     -0.02       2.18
+  data required time                                                                                2.18
+  ------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                2.18
+  data arrival time                                                                               407.81
+  ------------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                               -409.99
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_13_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                            Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)              0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)                0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                                  2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                       0.02      0.58       0.89 f
+  n106681 (net)                                                      3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                      0.22      0.28       1.17 f
+  n128954 (net)                                                      2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                                     472.69   -447.34    -446.17 f
+  n62988 (net)                                                      11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                       96.26     44.23    -401.94 r
+  n57833 (net)                                                       1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                       0.01     -9.08    -411.02 r
+  n57832 (net)                                                       1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                        0.01      0.18    -410.84 r
+  n106652 (net)                                                      2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                      0.04      0.15    -410.69 f
+  n106689 (net)                                                      2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                       0.01      0.59    -410.11 f
+  n68685 (net)                                                       2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                       0.01      0.54    -409.57 r
+  n174098 (net)                                                      2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                        0.01      0.15    -409.42 r
+  n110771 (net)                                                      2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                      0.05      0.17    -409.26 f
+  n124069 (net)                                                      3                   0.00    -409.26 f
+  U125017/Y (NAND2X0_RVT)                                                      0.02      0.55    -408.71 r
+  n80791 (net)                                                       2                   0.00    -408.71 r
+  U162173/Y (NOR2X0_RVT)                                                       0.01      0.23    -408.48 f
+  n89184 (net)                                                       1                   0.00    -408.48 f
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_13_/SETB (DFFSSRX1_RVT)      0.01      0.68    -407.80 f
+  data arrival time                                                                              -407.80
+
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  clock uncertainty                                                                      2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_13_/CLK (DFFSSRX1_RVT)                 0.00       2.20 r
+  library hold time                                                                     -0.04       2.16
+  data required time                                                                                2.16
+  ------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                2.16
+  data arrival time                                                                               407.80
+  ------------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                               -409.96
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_14_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U125017/Y (NAND2X0_RVT)                                                0.02      0.55    -408.71 r
+  n80791 (net)                                                 2                   0.00    -408.71 r
+  U155984/Y (NAND2X0_RVT)                                                0.04      0.15    -408.56 f
+  n128958 (net)                                                2                   0.00    -408.56 f
+  U124041/Y (NAND2X0_RVT)                                                0.01      0.48    -408.08 r
+  n78077 (net)                                                 1                   0.00    -408.08 r
+  U78581/Y (OR2X1_RVT)                                                   0.01      0.20    -407.88 r
+  n206297 (net)                                                1                   0.00    -407.88 r
+  U78580/Y (AND3X1_RVT)                                                  0.01      0.14    -407.75 r
+  sa_genblk1_13__genblk1_28__pe_inst_N95 (net)                 1                   0.00    -407.75 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_14_/D (DFFX1_RVT)      0.01      0.14    -407.60 r
+  data arrival time                                                                        -407.60
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_14_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         407.60
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -409.80
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_15_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U71897/Y (NAND2X0_RVT)                                                 0.01      0.60    -408.07 r
+  n82257 (net)                                                 2                   0.00    -408.07 r
+  U86784/Y (NBUFFX2_RVT)                                                 0.01      0.20    -407.87 r
+  n40873 (net)                                                 5                   0.00    -407.87 r
+  U123619/Y (OA221X1_RVT)                                                0.01      0.22    -407.65 r
+  sa_genblk1_13__genblk1_28__pe_inst_N96 (net)                 1                   0.00    -407.65 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_15_/D (DFFX1_RVT)      0.01      0.14    -407.51 r
+  data arrival time                                                                        -407.51
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_15_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         407.51
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -409.70
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_16_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U71897/Y (NAND2X0_RVT)                                                 0.01      0.60    -408.07 r
+  n82257 (net)                                                 2                   0.00    -408.07 r
+  U86784/Y (NBUFFX2_RVT)                                                 0.01      0.20    -407.87 r
+  n40873 (net)                                                 5                   0.00    -407.87 r
+  U123620/Y (AO22X1_RVT)                                                 0.01      0.20    -407.67 r
+  n133266 (net)                                                2                   0.00    -407.67 r
+  U213187/Y (OA221X1_RVT)                                                0.01      0.17    -407.50 r
+  sa_genblk1_13__genblk1_28__pe_inst_N97 (net)                 1                   0.00    -407.50 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_16_/D (DFFX1_RVT)      0.01      0.14    -407.36 r
+  data arrival time                                                                        -407.36
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_16_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         407.36
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -409.55
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_19_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U71897/Y (NAND2X0_RVT)                                                 0.01      0.60    -408.07 r
+  n82257 (net)                                                 2                   0.00    -408.07 r
+  U86784/Y (NBUFFX2_RVT)                                                 0.01      0.20    -407.87 r
+  n40873 (net)                                                 5                   0.00    -407.87 r
+  U123621/Y (AO21X1_RVT)                                                 0.01      0.22    -407.65 r
+  n137097 (net)                                                2                   0.00    -407.65 r
+  U215936/Y (OA221X1_RVT)                                                0.01      0.17    -407.48 r
+  sa_genblk1_13__genblk1_28__pe_inst_N100 (net)                1                   0.00    -407.48 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_19_/D (DFFX1_RVT)      0.01      0.14    -407.33 r
+  data arrival time                                                                        -407.33
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_19_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         407.33
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -409.53
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_18_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U71897/Y (NAND2X0_RVT)                                                 0.01      0.60    -408.07 r
+  n82257 (net)                                                 2                   0.00    -408.07 r
+  U86784/Y (NBUFFX2_RVT)                                                 0.01      0.20    -407.87 r
+  n40873 (net)                                                 5                   0.00    -407.87 r
+  U160123/Y (AND3X1_RVT)                                                 0.01      0.21    -407.66 r
+  n135819 (net)                                                2                   0.00    -407.66 r
+  U214233/Y (AO22X1_RVT)                                                 0.01      0.17    -407.49 r
+  n134845 (net)                                                2                   0.00    -407.49 r
+  U214234/Y (OA221X1_RVT)                                                0.01      0.17    -407.31 r
+  sa_genblk1_13__genblk1_28__pe_inst_N99 (net)                 1                   0.00    -407.31 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_18_/D (DFFX1_RVT)      0.01      0.14    -407.17 r
+  data arrival time                                                                        -407.17
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_18_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         407.17
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -409.36
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_13_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                            Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)              0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)                0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                                  2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                       0.02      0.58       0.89 f
+  n106681 (net)                                                      3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                      0.22      0.28       1.17 f
+  n128954 (net)                                                      2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                                     472.69   -447.34    -446.17 f
+  n62988 (net)                                                      11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                       96.26     44.23    -401.94 r
+  n57833 (net)                                                       1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                       0.01     -9.08    -411.02 r
+  n57832 (net)                                                       1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                        0.01      0.18    -410.84 r
+  n106652 (net)                                                      2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                      0.04      0.15    -410.69 f
+  n106689 (net)                                                      2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                       0.01      0.59    -410.11 f
+  n68685 (net)                                                       2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                       0.01      0.54    -409.57 r
+  n174098 (net)                                                      2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                        0.01      0.15    -409.42 r
+  n110771 (net)                                                      2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                      0.05      0.17    -409.26 f
+  n124069 (net)                                                      3                   0.00    -409.26 f
+  U125017/Y (NAND2X0_RVT)                                                      0.02      0.55    -408.71 r
+  n80791 (net)                                                       2                   0.00    -408.71 r
+  U155984/Y (NAND2X0_RVT)                                                      0.04      0.15    -408.56 f
+  n128958 (net)                                                      2                   0.00    -408.56 f
+  U206730/Y (AND2X1_RVT)                                                       0.02      0.58    -407.98 f
+  n201546 (net)                                                      1                   0.00    -407.98 f
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_13_/RSTB (DFFSSRX1_RVT)      0.02      0.85    -407.13 f
+  data arrival time                                                                              -407.13
+
+  clock core_clk (rise edge)                                                             0.00       0.00
+  clock network delay (ideal)                                                            0.20       0.20
+  clock uncertainty                                                                      2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_13_/CLK (DFFSSRX1_RVT)                 0.00       2.20 r
+  library hold time                                                                     -0.02       2.18
+  data required time                                                                                2.18
+  ------------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                                2.18
+  data arrival time                                                                               407.13
+  ------------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                               -409.31
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_17_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U71897/Y (NAND2X0_RVT)                                                 0.01      0.60    -408.07 r
+  n82257 (net)                                                 2                   0.00    -408.07 r
+  U86784/Y (NBUFFX2_RVT)                                                 0.01      0.20    -407.87 r
+  n40873 (net)                                                 5                   0.00    -407.87 r
+  U160123/Y (AND3X1_RVT)                                                 0.01      0.21    -407.66 r
+  n135819 (net)                                                2                   0.00    -407.66 r
+  U214760/Y (OR2X1_RVT)                                                  0.01      0.24    -407.42 r
+  n135821 (net)                                                2                   0.00    -407.42 r
+  U214761/Y (OA221X1_RVT)                                                0.01      0.17    -407.25 r
+  sa_genblk1_13__genblk1_28__pe_inst_N98 (net)                 1                   0.00    -407.25 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_17_/D (DFFX1_RVT)      0.01      0.14    -407.11 r
+  data arrival time                                                                        -407.11
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_17_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         407.11
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -409.30
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_28_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U179466/SO (HADDX1_RVT)                                                0.03      0.33    -410.51 f
+  n114824 (net)                                                2                   0.00    -410.51 f
+  U150545/Y (INVX1_RVT)                                                  0.01      1.19    -409.32 r
+  n68686 (net)                                                 2                   0.00    -409.32 r
+  U150544/Y (AND2X1_RVT)                                                 0.01      0.14    -409.18 r
+  n68684 (net)                                                 1                   0.00    -409.18 r
+  U143225/Y (AO21X1_RVT)                                                 0.01      0.16    -409.02 r
+  n68682 (net)                                                 1                   0.00    -409.02 r
+  U87720/Y (AOI21X1_RVT)                                                 0.03      0.20    -408.82 f
+  n174098 (net)                                                2                   0.00    -408.82 f
+  U86781/Y (AO22X1_RVT)                                                  0.02      0.52    -408.30 f
+  n110771 (net)                                                2                   0.00    -408.30 f
+  U179509/Y (NAND2X0_RVT)                                                0.01      0.46    -407.85 r
+  n124069 (net)                                                3                   0.00    -407.85 r
+  U126465/Y (AO22X1_RVT)                                                 0.01      0.17    -407.67 r
+  n130618 (net)                                                4                   0.00    -407.67 r
+  U121257/Y (AND2X1_RVT)                                                 0.01      0.20    -407.47 r
+  n143696 (net)                                                2                   0.00    -407.47 r
+  U219692/Y (OR2X1_RVT)                                                  0.01      0.21    -407.26 r
+  n141315 (net)                                                2                   0.00    -407.26 r
+  U219693/Y (OA221X1_RVT)                                                0.01      0.17    -407.09 r
+  sa_genblk1_13__genblk1_28__pe_inst_N109 (net)                1                   0.00    -407.09 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_28_/D (DFFX1_RVT)      0.01      0.14    -406.95 r
+  data arrival time                                                                        -406.95
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_28_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         406.95
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -409.14
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_30_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U179466/SO (HADDX1_RVT)                                                0.03      0.33    -410.51 f
+  n114824 (net)                                                2                   0.00    -410.51 f
+  U150545/Y (INVX1_RVT)                                                  0.01      1.19    -409.32 r
+  n68686 (net)                                                 2                   0.00    -409.32 r
+  U150544/Y (AND2X1_RVT)                                                 0.01      0.14    -409.18 r
+  n68684 (net)                                                 1                   0.00    -409.18 r
+  U143225/Y (AO21X1_RVT)                                                 0.01      0.16    -409.02 r
+  n68682 (net)                                                 1                   0.00    -409.02 r
+  U87720/Y (AOI21X1_RVT)                                                 0.03      0.20    -408.82 f
+  n174098 (net)                                                2                   0.00    -408.82 f
+  U86781/Y (AO22X1_RVT)                                                  0.02      0.52    -408.30 f
+  n110771 (net)                                                2                   0.00    -408.30 f
+  U179509/Y (NAND2X0_RVT)                                                0.01      0.46    -407.85 r
+  n124069 (net)                                                3                   0.00    -407.85 r
+  U126465/Y (AO22X1_RVT)                                                 0.01      0.17    -407.67 r
+  n130618 (net)                                                4                   0.00    -407.67 r
+  U121257/Y (AND2X1_RVT)                                                 0.01      0.20    -407.47 r
+  n143696 (net)                                                2                   0.00    -407.47 r
+  U157141/Y (AND2X1_RVT)                                                 0.01      0.14    -407.33 r
+  n144393 (net)                                                2                   0.00    -407.33 r
+  U109354/Y (AO22X1_RVT)                                                 0.01      0.16    -407.18 r
+  n154817 (net)                                                3                   0.00    -407.18 r
+  U221553/Y (OA221X1_RVT)                                                0.01      0.18    -407.00 r
+  sa_genblk1_13__genblk1_28__pe_inst_N111 (net)                1                   0.00    -407.00 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_30_/D (DFFX1_RVT)      0.01      0.14    -406.86 r
+  data arrival time                                                                        -406.86
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_30_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         406.86
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -409.05
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_29_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U179466/SO (HADDX1_RVT)                                                0.03      0.33    -410.51 f
+  n114824 (net)                                                2                   0.00    -410.51 f
+  U150545/Y (INVX1_RVT)                                                  0.01      1.19    -409.32 r
+  n68686 (net)                                                 2                   0.00    -409.32 r
+  U150544/Y (AND2X1_RVT)                                                 0.01      0.14    -409.18 r
+  n68684 (net)                                                 1                   0.00    -409.18 r
+  U143225/Y (AO21X1_RVT)                                                 0.01      0.16    -409.02 r
+  n68682 (net)                                                 1                   0.00    -409.02 r
+  U87720/Y (AOI21X1_RVT)                                                 0.03      0.20    -408.82 f
+  n174098 (net)                                                2                   0.00    -408.82 f
+  U86781/Y (AO22X1_RVT)                                                  0.02      0.52    -408.30 f
+  n110771 (net)                                                2                   0.00    -408.30 f
+  U179509/Y (NAND2X0_RVT)                                                0.01      0.46    -407.85 r
+  n124069 (net)                                                3                   0.00    -407.85 r
+  U126465/Y (AO22X1_RVT)                                                 0.01      0.17    -407.67 r
+  n130618 (net)                                                4                   0.00    -407.67 r
+  U121257/Y (AND2X1_RVT)                                                 0.01      0.20    -407.47 r
+  n143696 (net)                                                2                   0.00    -407.47 r
+  U157141/Y (AND2X1_RVT)                                                 0.01      0.14    -407.33 r
+  n144393 (net)                                                2                   0.00    -407.33 r
+  U221237/Y (OR2X1_RVT)                                                  0.01      0.24    -407.10 r
+  n143698 (net)                                                2                   0.00    -407.10 r
+  U221238/Y (OA221X1_RVT)                                                0.01      0.17    -406.92 r
+  sa_genblk1_13__genblk1_28__pe_inst_N110 (net)                1                   0.00    -406.92 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_29_/D (DFFX1_RVT)      0.01      0.14    -406.78 r
+  data arrival time                                                                        -406.78
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_29_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         406.78
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -408.97
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_31_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U179466/SO (HADDX1_RVT)                                                0.03      0.33    -410.51 f
+  n114824 (net)                                                2                   0.00    -410.51 f
+  U150545/Y (INVX1_RVT)                                                  0.01      1.19    -409.32 r
+  n68686 (net)                                                 2                   0.00    -409.32 r
+  U150544/Y (AND2X1_RVT)                                                 0.01      0.14    -409.18 r
+  n68684 (net)                                                 1                   0.00    -409.18 r
+  U143225/Y (AO21X1_RVT)                                                 0.01      0.16    -409.02 r
+  n68682 (net)                                                 1                   0.00    -409.02 r
+  U87720/Y (AOI21X1_RVT)                                                 0.03      0.20    -408.82 f
+  n174098 (net)                                                2                   0.00    -408.82 f
+  U86781/Y (AO22X1_RVT)                                                  0.02      0.52    -408.30 f
+  n110771 (net)                                                2                   0.00    -408.30 f
+  U179509/Y (NAND2X0_RVT)                                                0.01      0.46    -407.85 r
+  n124069 (net)                                                3                   0.00    -407.85 r
+  U126465/Y (AO22X1_RVT)                                                 0.01      0.17    -407.67 r
+  n130618 (net)                                                4                   0.00    -407.67 r
+  U124836/Y (AND2X1_RVT)                                                 0.01      0.20    -407.47 r
+  n154818 (net)                                                5                   0.00    -407.47 r
+  U84552/Y (OA221X2_RVT)                                                 0.01      0.24    -407.23 r
+  n154819 (net)                                                1                   0.00    -407.23 r
+  U105932/SO (HADDX1_RVT)                                                0.01      0.23    -406.99 r
+  n154820 (net)                                                1                   0.00    -406.99 r
+  U83533/Y (AND2X1_RVT)                                                  0.01      0.12    -406.87 r
+  sa_genblk1_13__genblk1_28__pe_inst_N112 (net)                1                   0.00    -406.87 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_31_/D (DFFX1_RVT)      0.01      0.14    -406.73 r
+  data arrival time                                                                        -406.73
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_31_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         406.73
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -408.93
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_24_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U124836/Y (AND2X1_RVT)                                                 0.04      0.76    -407.92 f
+  n154818 (net)                                                5                   0.00    -407.92 f
+  U124425/Y (NAND3X0_RVT)                                                0.02      0.74    -407.18 r
+  n140325 (net)                                                5                   0.00    -407.18 r
+  U216746/Y (OA22X1_RVT)                                                 0.01      0.22    -406.96 r
+  n138189 (net)                                                2                   0.00    -406.96 r
+  U216748/Y (OA221X1_RVT)                                                0.01      0.17    -406.79 r
+  sa_genblk1_13__genblk1_28__pe_inst_N105 (net)                1                   0.00    -406.79 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_24_/D (DFFX1_RVT)      0.01      0.14    -406.64 r
+  data arrival time                                                                        -406.64
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_24_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         406.64
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -408.84
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_22_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U124836/Y (AND2X1_RVT)                                                 0.04      0.76    -407.92 f
+  n154818 (net)                                                5                   0.00    -407.92 f
+  U124425/Y (NAND3X0_RVT)                                                0.02      0.74    -407.18 r
+  n140325 (net)                                                5                   0.00    -407.18 r
+  U218316/Y (OA22X1_RVT)                                                 0.01      0.22    -406.96 r
+  n152187 (net)                                                3                   0.00    -406.96 r
+  U218317/Y (OA221X1_RVT)                                                0.01      0.18    -406.78 r
+  sa_genblk1_13__genblk1_28__pe_inst_N103 (net)                1                   0.00    -406.78 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_22_/D (DFFX1_RVT)      0.01      0.14    -406.64 r
+  data arrival time                                                                        -406.64
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_22_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         406.64
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -408.83
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_20_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U124836/Y (AND2X1_RVT)                                                 0.04      0.76    -407.92 f
+  n154818 (net)                                                5                   0.00    -407.92 f
+  U124425/Y (NAND3X0_RVT)                                                0.02      0.74    -407.18 r
+  n140325 (net)                                                5                   0.00    -407.18 r
+  U117287/Y (MUX21X1_RVT)                                                0.01      0.27    -406.91 r
+  n154305 (net)                                                3                   0.00    -406.91 r
+  U218909/Y (OA221X1_RVT)                                                0.01      0.19    -406.72 r
+  sa_genblk1_13__genblk1_28__pe_inst_N101 (net)                1                   0.00    -406.72 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_20_/D (DFFX1_RVT)      0.01      0.14    -406.58 r
+  data arrival time                                                                        -406.58
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_20_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         406.58
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -408.77
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_26_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U179466/SO (HADDX1_RVT)                                                0.03      0.33    -410.51 f
+  n114824 (net)                                                2                   0.00    -410.51 f
+  U150545/Y (INVX1_RVT)                                                  0.01      1.19    -409.32 r
+  n68686 (net)                                                 2                   0.00    -409.32 r
+  U150544/Y (AND2X1_RVT)                                                 0.01      0.14    -409.18 r
+  n68684 (net)                                                 1                   0.00    -409.18 r
+  U143225/Y (AO21X1_RVT)                                                 0.01      0.16    -409.02 r
+  n68682 (net)                                                 1                   0.00    -409.02 r
+  U87720/Y (AOI21X1_RVT)                                                 0.03      0.20    -408.82 f
+  n174098 (net)                                                2                   0.00    -408.82 f
+  U86781/Y (AO22X1_RVT)                                                  0.02      0.52    -408.30 f
+  n110771 (net)                                                2                   0.00    -408.30 f
+  U179509/Y (NAND2X0_RVT)                                                0.01      0.46    -407.85 r
+  n124069 (net)                                                3                   0.00    -407.85 r
+  U126465/Y (AO22X1_RVT)                                                 0.01      0.17    -407.67 r
+  n130618 (net)                                                4                   0.00    -407.67 r
+  U71897/Y (NAND2X0_RVT)                                                 0.04      0.18    -407.49 f
+  n82257 (net)                                                 2                   0.00    -407.49 f
+  U216744/Y (NAND2X0_RVT)                                                0.02      0.48    -407.01 r
+  n142218 (net)                                                5                   0.00    -407.01 r
+  U220356/Y (MUX21X1_RVT)                                                0.01      0.27    -406.74 r
+  n150299 (net)                                                3                   0.00    -406.74 r
+  U220357/Y (OA221X1_RVT)                                                0.01      0.19    -406.55 r
+  sa_genblk1_13__genblk1_28__pe_inst_N107 (net)                1                   0.00    -406.55 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_26_/D (DFFX1_RVT)      0.01      0.14    -406.41 r
+  data arrival time                                                                        -406.41
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_26_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         406.41
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -408.60
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_23_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U124836/Y (AND2X1_RVT)                                                 0.04      0.76    -407.92 f
+  n154818 (net)                                                5                   0.00    -407.92 f
+  U124425/Y (NAND3X0_RVT)                                                0.02      0.74    -407.18 r
+  n140325 (net)                                                5                   0.00    -407.18 r
+  U218316/Y (OA22X1_RVT)                                                 0.01      0.22    -406.96 r
+  n152187 (net)                                                3                   0.00    -406.96 r
+  U112136/Y (AO21X1_RVT)                                                 0.01      0.21    -406.75 r
+  n152190 (net)                                                1                   0.00    -406.75 r
+  U225879/SO (HADDX1_RVT)                                                0.01      0.23    -406.51 r
+  n152191 (net)                                                1                   0.00    -406.51 r
+  U225880/Y (AND2X1_RVT)                                                 0.01      0.14    -406.37 r
+  sa_genblk1_13__genblk1_28__pe_inst_N104 (net)                1                   0.00    -406.37 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_23_/D (DFFX1_RVT)      0.01      0.14    -406.23 r
+  data arrival time                                                                        -406.23
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_23_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         406.23
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -408.43
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_21_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U124836/Y (AND2X1_RVT)                                                 0.04      0.76    -407.92 f
+  n154818 (net)                                                5                   0.00    -407.92 f
+  U124425/Y (NAND3X0_RVT)                                                0.02      0.74    -407.18 r
+  n140325 (net)                                                5                   0.00    -407.18 r
+  U117287/Y (MUX21X1_RVT)                                                0.01      0.27    -406.91 r
+  n154305 (net)                                                3                   0.00    -406.91 r
+  U123624/Y (AO221X1_RVT)                                                0.01      0.24    -406.67 r
+  n154307 (net)                                                1                   0.00    -406.67 r
+  U123156/SO (HADDX1_RVT)                                                0.01      0.23    -406.44 r
+  n154308 (net)                                                1                   0.00    -406.44 r
+  U226619/Y (AND2X1_RVT)                                                 0.01      0.14    -406.30 r
+  sa_genblk1_13__genblk1_28__pe_inst_N102 (net)                1                   0.00    -406.30 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_21_/D (DFFX1_RVT)      0.01      0.14    -406.16 r
+  data arrival time                                                                        -406.16
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_21_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         406.16
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -408.35
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_27_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U179466/SO (HADDX1_RVT)                                                0.03      0.33    -410.51 f
+  n114824 (net)                                                2                   0.00    -410.51 f
+  U150545/Y (INVX1_RVT)                                                  0.01      1.19    -409.32 r
+  n68686 (net)                                                 2                   0.00    -409.32 r
+  U150544/Y (AND2X1_RVT)                                                 0.01      0.14    -409.18 r
+  n68684 (net)                                                 1                   0.00    -409.18 r
+  U143225/Y (AO21X1_RVT)                                                 0.01      0.16    -409.02 r
+  n68682 (net)                                                 1                   0.00    -409.02 r
+  U87720/Y (AOI21X1_RVT)                                                 0.03      0.20    -408.82 f
+  n174098 (net)                                                2                   0.00    -408.82 f
+  U86781/Y (AO22X1_RVT)                                                  0.02      0.52    -408.30 f
+  n110771 (net)                                                2                   0.00    -408.30 f
+  U179509/Y (NAND2X0_RVT)                                                0.01      0.46    -407.85 r
+  n124069 (net)                                                3                   0.00    -407.85 r
+  U126465/Y (AO22X1_RVT)                                                 0.01      0.17    -407.67 r
+  n130618 (net)                                                4                   0.00    -407.67 r
+  U71897/Y (NAND2X0_RVT)                                                 0.04      0.18    -407.49 f
+  n82257 (net)                                                 2                   0.00    -407.49 f
+  U216744/Y (NAND2X0_RVT)                                                0.02      0.48    -407.01 r
+  n142218 (net)                                                5                   0.00    -407.01 r
+  U220356/Y (MUX21X1_RVT)                                                0.01      0.27    -406.74 r
+  n150299 (net)                                                3                   0.00    -406.74 r
+  U122656/Y (AOI21X1_RVT)                                                0.01      0.23    -406.51 f
+  n150302 (net)                                                1                   0.00    -406.51 f
+  U106117/SO (HADDX1_RVT)                                                0.01      0.80    -405.70 r
+  n150303 (net)                                                1                   0.00    -405.70 r
+  U225059/Y (AND2X1_RVT)                                                 0.01      0.14    -405.57 r
+  sa_genblk1_13__genblk1_28__pe_inst_N108 (net)                1                   0.00    -405.57 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_27_/D (DFFX1_RVT)      0.01      0.14    -405.42 r
+  data arrival time                                                                        -405.42
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_27_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         405.42
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -407.62
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_25_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                      Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)          0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                            2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                 0.02      0.58       0.89 f
+  n106681 (net)                                                3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                0.22      0.28       1.17 f
+  n128954 (net)                                                2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                               472.69   -447.34    -446.17 f
+  n62988 (net)                                                11                   0.00    -446.17 f
+  U110892/Y (INVX1_RVT)                                                 96.26     44.23    -401.94 r
+  n57833 (net)                                                 1                   0.00    -401.94 r
+  U143217/Y (AND2X1_RVT)                                                 0.01     -9.08    -411.02 r
+  n57832 (net)                                                 1                   0.00    -411.02 r
+  U132617/Y (OR3X2_RVT)                                                  0.01      0.18    -410.84 r
+  n106652 (net)                                                2                   0.00    -410.84 r
+  U119220/Y (NAND2X0_RVT)                                                0.04      0.15    -410.69 f
+  n106689 (net)                                                2                   0.00    -410.69 f
+  U143226/Y (AND2X1_RVT)                                                 0.01      0.59    -410.11 f
+  n68685 (net)                                                 2                   0.00    -410.11 f
+  U87720/Y (AOI21X1_RVT)                                                 0.01      0.54    -409.57 r
+  n174098 (net)                                                2                   0.00    -409.57 r
+  U86781/Y (AO22X1_RVT)                                                  0.01      0.15    -409.42 r
+  n110771 (net)                                                2                   0.00    -409.42 r
+  U179509/Y (NAND2X0_RVT)                                                0.05      0.17    -409.26 f
+  n124069 (net)                                                3                   0.00    -409.26 f
+  U126465/Y (AO22X1_RVT)                                                 0.03      0.58    -408.67 f
+  n130618 (net)                                                4                   0.00    -408.67 f
+  U71897/Y (NAND2X0_RVT)                                                 0.01      0.60    -408.07 r
+  n82257 (net)                                                 2                   0.00    -408.07 r
+  U216744/Y (NAND2X0_RVT)                                                0.10      0.23    -407.85 f
+  n142218 (net)                                                5                   0.00    -407.85 f
+  U216746/Y (OA22X1_RVT)                                                 0.02      0.78    -407.07 f
+  n138189 (net)                                                2                   0.00    -407.07 f
+  U216747/Y (INVX1_RVT)                                                  0.01      1.19    -405.88 r
+  n146766 (net)                                                2                   0.00    -405.88 r
+  U223200/Y (OA221X1_RVT)                                                0.01      0.14    -405.75 r
+  n146768 (net)                                                1                   0.00    -405.75 r
+  U223201/SO (HADDX1_RVT)                                                0.01      0.23    -405.51 r
+  n146769 (net)                                                1                   0.00    -405.51 r
+  U223202/Y (AND2X1_RVT)                                                 0.01      0.14    -405.37 r
+  sa_genblk1_13__genblk1_28__pe_inst_N106 (net)                1                   0.00    -405.37 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_25_/D (DFFX1_RVT)      0.01      0.14    -405.23 r
+  data arrival time                                                                        -405.23
+
+  clock core_clk (rise edge)                                                       0.00       0.00
+  clock network delay (ideal)                                                      0.20       0.20
+  clock uncertainty                                                                2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_25_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                               -0.01       2.19
+  data required time                                                                          2.19
+  ------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                          2.19
+  data arrival time                                                                         405.23
+  ------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                         -407.43
+
+
+  Startpoint: sa_genblk1_14__genblk1_8__pe_inst_w_reg_reg_0_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_14__genblk1_9__pe_inst_psum_reg_reg_20_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                     Fanout     Trans      Incr       Path      Attributes
+  -----------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                      0.00       0.00
+  clock network delay (ideal)                                                     0.20       0.20
+  sa_genblk1_14__genblk1_8__pe_inst_w_reg_reg_0_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_14__genblk1_8__pe_inst_w_reg_reg_0_/Q (DFFX1_RVT)          0.01      0.11       0.31 f
+  sa_w_wire_buffer_14__9__0_ (net)                            2                   0.00       0.31 f
+  U143741/Y (NAND2X0_RVT)                                               0.02      0.46       0.76 r
+  n96044 (net)                                                3                   0.00       0.76 r
+  U86155/Y (IBUFFX4_RVT)                                                0.21      0.22       0.99 f
+  n96047 (net)                                                2                   0.00       0.99 f
+  U87811/Y (NBUFFX8_RVT)                                              453.67   -429.32    -428.34 f
+  n41460 (net)                                               11                   0.00    -428.34 f
+  U213350/Y (OAI21X1_RVT)                                               0.01     54.65    -373.68 r
+  n133505 (net)                                               2                   0.00    -373.68 r
+  U132050/Y (AND3X1_RVT)                                                0.01      0.16    -373.53 r
+  n76466 (net)                                                1                   0.00    -373.53 r
+  U133019/Y (OR2X1_RVT)                                                 0.02      0.21    -373.31 r
+  n48293 (net)                                                6                   0.00    -373.31 r
+  U130092/Y (OA21X1_RVT)                                                0.01      0.26    -373.05 r
+  n145402 (net)                                               3                   0.00    -373.05 r
+  U110142/Y (AO22X1_RVT)                                                0.01      0.19    -372.86 r
+  n158559 (net)                                               3                   0.00    -372.86 r
+  U222278/Y (OA221X1_RVT)                                               0.01      0.19    -372.68 r
+  sa_genblk1_14__genblk1_9__pe_inst_N101 (net)                1                   0.00    -372.68 r
+  sa_genblk1_14__genblk1_9__pe_inst_psum_reg_reg_20_/D (DFFX1_RVT)      0.01      0.14    -372.53 r
+  data arrival time                                                                       -372.53
+
+  clock core_clk (rise edge)                                                      0.00       0.00
+  clock network delay (ideal)                                                     0.20       0.20
+  clock uncertainty                                                               2.00       2.20
+  sa_genblk1_14__genblk1_9__pe_inst_psum_reg_reg_20_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                              -0.01       2.19
+  data required time                                                                         2.19
+  -----------------------------------------------------------------------------------------------------------------------
+  data required time                                                                         2.19
+  data arrival time                                                                        372.53
+  -----------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -374.73
+
+
+  Startpoint: sa_genblk1_14__genblk1_8__pe_inst_w_reg_reg_0_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_14__genblk1_9__pe_inst_psum_reg_reg_21_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                     Fanout     Trans      Incr       Path      Attributes
+  -----------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                      0.00       0.00
+  clock network delay (ideal)                                                     0.20       0.20
+  sa_genblk1_14__genblk1_8__pe_inst_w_reg_reg_0_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_14__genblk1_8__pe_inst_w_reg_reg_0_/Q (DFFX1_RVT)          0.01      0.11       0.31 f
+  sa_w_wire_buffer_14__9__0_ (net)                            2                   0.00       0.31 f
+  U143741/Y (NAND2X0_RVT)                                               0.02      0.46       0.76 r
+  n96044 (net)                                                3                   0.00       0.76 r
+  U86155/Y (IBUFFX4_RVT)                                                0.21      0.22       0.99 f
+  n96047 (net)                                                2                   0.00       0.99 f
+  U87811/Y (NBUFFX8_RVT)                                              453.67   -429.32    -428.34 f
+  n41460 (net)                                               11                   0.00    -428.34 f
+  U213350/Y (OAI21X1_RVT)                                               0.01     54.65    -373.68 r
+  n133505 (net)                                               2                   0.00    -373.68 r
+  U132050/Y (AND3X1_RVT)                                                0.01      0.16    -373.53 r
+  n76466 (net)                                                1                   0.00    -373.53 r
+  U133019/Y (OR2X1_RVT)                                                 0.02      0.21    -373.31 r
+  n48293 (net)                                                6                   0.00    -373.31 r
+  U130092/Y (OA21X1_RVT)                                                0.01      0.26    -373.05 r
+  n145402 (net)                                               3                   0.00    -373.05 r
+  U110142/Y (AO22X1_RVT)                                                0.01      0.19    -372.86 r
+  n158559 (net)                                               3                   0.00    -372.86 r
+  U157827/Y (OA221X1_RVT)                                               0.01      0.15    -372.71 r
+  n158561 (net)                                               1                   0.00    -372.71 r
+  U228022/SO (HADDX1_RVT)                                               0.01      0.23    -372.48 r
+  n158562 (net)                                               1                   0.00    -372.48 r
+  U228023/Y (AND2X1_RVT)                                                0.01      0.14    -372.34 r
+  sa_genblk1_14__genblk1_9__pe_inst_N102 (net)                1                   0.00    -372.34 r
+  sa_genblk1_14__genblk1_9__pe_inst_psum_reg_reg_21_/D (DFFX1_RVT)      0.01      0.14    -372.20 r
+  data arrival time                                                                       -372.20
+
+  clock core_clk (rise edge)                                                      0.00       0.00
+  clock network delay (ideal)                                                     0.20       0.20
+  clock uncertainty                                                               2.00       2.20
+  sa_genblk1_14__genblk1_9__pe_inst_psum_reg_reg_21_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                              -0.01       2.19
+  data required time                                                                         2.19
+  -----------------------------------------------------------------------------------------------------------------------
+  data required time                                                                         2.19
+  data arrival time                                                                        372.20
+  -----------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -374.39
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_9_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                           Fanout     Trans      Incr       Path      Attributes
+  -----------------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                            0.00       0.00
+  clock network delay (ideal)                                                           0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)             0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)               0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                                 2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                      0.02      0.58       0.89 f
+  n106681 (net)                                                     3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                                     0.22      0.28       1.17 f
+  n128954 (net)                                                     2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                                    472.69   -447.34    -446.17 f
+  n62988 (net)                                                     11                   0.00    -446.17 f
+  U179472/Y (NAND2X0_RVT)                                                     0.01     72.71    -373.47 r
+  n106658 (net)                                                     2                   0.00    -373.47 r
+  U179474/Y (OAI22X1_RVT)                                                     0.02      0.19    -373.28 f
+  n106660 (net)                                                     2                   0.00    -373.28 f
+  U179475/Y (NAND2X0_RVT)                                                     0.01      0.47    -372.81 r
+  n106687 (net)                                                     1                   0.00    -372.81 r
+  U72529/Y (AND2X1_RVT)                                                       0.01      0.14    -372.66 r
+  n68683 (net)                                                      3                   0.00    -372.66 r
+  U146326/Y (OR2X1_RVT)                                                       0.01      0.27    -372.39 r
+  n123280 (net)                                                     2                   0.00    -372.39 r
+  U205494/Y (AND2X1_RVT)                                                      0.01      0.16    -372.23 r
+  n201549 (net)                                                     1                   0.00    -372.23 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_9_/RSTB (DFFSSRX1_RVT)      0.01      0.20    -372.04 r
+  data arrival time                                                                             -372.04
+
+  clock core_clk (rise edge)                                                            0.00       0.00
+  clock network delay (ideal)                                                           0.20       0.20
+  clock uncertainty                                                                     2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_9_/CLK (DFFSSRX1_RVT)                 0.00       2.20 r
+  library hold time                                                                    -0.04       2.16
+  data required time                                                                               2.16
+  -----------------------------------------------------------------------------------------------------------------------------
+  data required time                                                                               2.16
+  data arrival time                                                                              372.04
+  -----------------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                              -374.20
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_3_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                     Fanout     Trans      Incr       Path      Attributes
+  -----------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                      0.00       0.00
+  clock network delay (ideal)                                                     0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)       0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)         0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                           2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                0.02      0.58       0.89 f
+  n106681 (net)                                               3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                               0.22      0.28       1.17 f
+  n128954 (net)                                               2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                              472.69   -447.34    -446.17 f
+  n62988 (net)                                               11                   0.00    -446.17 f
+  U179493/Y (NAND2X0_RVT)                                               0.01     72.71    -373.47 r
+  n106675 (net)                                               2                   0.00    -373.47 r
+  U179494/Y (NAND2X0_RVT)                                               0.02      0.13    -373.33 f
+  n106676 (net)                                               1                   0.00    -373.33 f
+  U179495/Y (OAI22X1_RVT)                                               0.01      0.52    -372.82 r
+  n106677 (net)                                               2                   0.00    -372.82 r
+  U137055/SO (HADDX1_RVT)                                               0.01      0.30    -372.52 r
+  n163421 (net)                                               2                   0.00    -372.52 r
+  U76925/Y (OR2X1_RVT)                                                  0.01      0.24    -372.28 r
+  n205859 (net)                                               1                   0.00    -372.28 r
+  U76924/Y (AND3X1_RVT)                                                 0.01      0.14    -372.15 r
+  sa_genblk1_13__genblk1_28__pe_inst_N84 (net)                1                   0.00    -372.15 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_3_/D (DFFX1_RVT)      0.01      0.14    -372.01 r
+  data arrival time                                                                       -372.01
+
+  clock core_clk (rise edge)                                                      0.00       0.00
+  clock network delay (ideal)                                                     0.20       0.20
+  clock uncertainty                                                               2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_3_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                              -0.01       2.19
+  data required time                                                                         2.19
+  -----------------------------------------------------------------------------------------------------------------------
+  data required time                                                                         2.19
+  data arrival time                                                                        372.01
+  -----------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -374.20
+
+
+  Startpoint: sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_4_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                     Fanout     Trans      Incr       Path      Attributes
+  -----------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                      0.00       0.00
+  clock network delay (ideal)                                                     0.20       0.20
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/CLK (DFFX1_RVT)       0.08      0.00 #     0.20 r
+  sa_genblk1_13__genblk1_27__pe_inst_w_reg_reg_1_/Q (DFFX1_RVT)         0.02      0.11       0.31 f
+  sa_w_wire_buffer_13__28__1_ (net)                           2                   0.00       0.31 f
+  U139180/Y (AND2X1_RVT)                                                0.02      0.58       0.89 f
+  n106681 (net)                                               3                   0.00       0.89 f
+  U160006/Y (NBUFFX4_RVT)                                               0.22      0.28       1.17 f
+  n128954 (net)                                               2                   0.00       1.17 f
+  U82526/Y (NBUFFX8_RVT)                                              472.69   -447.34    -446.17 f
+  n62988 (net)                                               11                   0.00    -446.17 f
+  U179493/Y (NAND2X0_RVT)                                               0.01     72.71    -373.47 r
+  n106675 (net)                                               2                   0.00    -373.47 r
+  U179495/Y (OAI22X1_RVT)                                               0.02      0.19    -373.28 f
+  n106677 (net)                                               2                   0.00    -373.28 f
+  U179496/Y (NAND2X0_RVT)                                               0.01      0.47    -372.81 r
+  n106684 (net)                                               1                   0.00    -372.81 r
+  U179504/Y (NAND2X0_RVT)                                               0.05      0.14    -372.66 f
+  n163416 (net)                                               2                   0.00    -372.66 f
+  U179505/Y (NAND2X0_RVT)                                               0.01      0.46    -372.20 r
+  n163414 (net)                                               2                   0.00    -372.20 r
+  U80519/Y (AND3X1_RVT)                                                 0.01      0.14    -372.06 r
+  sa_genblk1_13__genblk1_28__pe_inst_N85 (net)                1                   0.00    -372.06 r
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_4_/D (DFFX1_RVT)      0.01      0.14    -371.92 r
+  data arrival time                                                                       -371.92
+
+  clock core_clk (rise edge)                                                      0.00       0.00
+  clock network delay (ideal)                                                     0.20       0.20
+  clock uncertainty                                                               2.00       2.20
+  sa_genblk1_13__genblk1_28__pe_inst_psum_reg_reg_4_/CLK (DFFX1_RVT)              0.00       2.20 r
+  library hold time                                                              -0.01       2.19
+  data required time                                                                         2.19
+  -----------------------------------------------------------------------------------------------------------------------
+  data required time                                                                         2.19
+  data arrival time                                                                        371.92
+  -----------------------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                        -374.11
+
+
+1

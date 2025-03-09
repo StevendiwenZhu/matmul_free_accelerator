@@ -1,0 +1,27 @@
+`ifndef SYNTHESIS
+
+//
+// This is an automatically generated file from 
+// dc_shell Version V-2023.12-SP5 -- Jul 16, 2024
+//
+
+// For simulation only. Do not modify.
+
+module rms_norm_sf_svsim(
+    input logic clk,
+    input logic rst_n,
+    input logic enable,
+    input logic start,
+    input logic signed [ARR_WIDTH-1:0][FXP_N-1:0] input_arr,
+    input logic signed [ARR_WIDTH-1:0][FXP_N-1:0] scaling_arr,
+    output logic signed [ARR_WIDTH-1:0][FXP_N-1:0] output_arr,
+    output logic done
+);
+            
+        
+
+  rms_norm_sf rms_norm_sf( {>>{ clk }}, {>>{ rst_n }}, {>>{ enable }}, 
+        {>>{ start }}, {>>{ input_arr }}, {>>{ scaling_arr }}, 
+        {>>{ output_arr }}, {>>{ done }} );
+endmodule
+`endif

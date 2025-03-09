@@ -1,0 +1,47 @@
+###################################################################
+
+# Created by write_sdc on Fri Dec 6 17:45:51 2024
+
+###################################################################
+set sdc_version 2.1
+
+set_units -time ns -resistance MOhm -capacitance fF -voltage V -current uA
+set_max_transition 0.15 [current_design]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports clk]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports reset_n]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports enable]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports wr_en]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {in_data[7]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {in_data[6]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {in_data[5]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {in_data[4]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {in_data[3]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {in_data[2]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {in_data[1]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {in_data[0]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {addr[6]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {addr[5]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {addr[4]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {addr[3]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {addr[2]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {addr[1]}]
+set_driving_cell -lib_cell NBUFFX4_RVT -no_design_rule [get_ports {addr[0]}]
+set_load -pin_load 0.3 [get_ports {out[7]}]
+set_load -pin_load 0.3 [get_ports {out[6]}]
+set_load -pin_load 0.3 [get_ports {out[5]}]
+set_load -pin_load 0.3 [get_ports {out[4]}]
+set_load -pin_load 0.3 [get_ports {out[3]}]
+set_load -pin_load 0.3 [get_ports {out[2]}]
+set_load -pin_load 0.3 [get_ports {out[1]}]
+set_load -pin_load 0.3 [get_ports {out[0]}]
+set_max_transition 0.08 [get_ports {out[7]}]
+set_max_transition 0.08 [get_ports {out[6]}]
+set_max_transition 0.08 [get_ports {out[5]}]
+set_max_transition 0.08 [get_ports {out[4]}]
+set_max_transition 0.08 [get_ports {out[3]}]
+set_max_transition 0.08 [get_ports {out[2]}]
+set_max_transition 0.08 [get_ports {out[1]}]
+set_max_transition 0.08 [get_ports {out[0]}]
+group_path -name FEEDTHROUGH  -from [list [get_ports clk] [get_ports reset_n] [get_ports enable] [get_ports wr_en] [get_ports {in_data[7]}] [get_ports {in_data[6]}] [get_ports {in_data[5]}] [get_ports {in_data[4]}] [get_ports {in_data[3]}] [get_ports {in_data[2]}] [get_ports {in_data[1]}] [get_ports {in_data[0]}] [get_ports {addr[6]}] [get_ports {addr[5]}] [get_ports {addr[4]}] [get_ports {addr[3]}] [get_ports {addr[2]}] [get_ports {addr[1]}] [get_ports {addr[0]}]]  -to [list [get_ports {out[7]}] [get_ports {out[6]}] [get_ports {out[5]}] [get_ports {out[4]}] [get_ports {out[3]}] [get_ports {out[2]}] [get_ports {out[1]}] [get_ports {out[0]}]]
+group_path -name REGIN  -from [list [get_ports clk] [get_ports reset_n] [get_ports enable] [get_ports wr_en] [get_ports {in_data[7]}] [get_ports {in_data[6]}] [get_ports {in_data[5]}] [get_ports {in_data[4]}] [get_ports {in_data[3]}] [get_ports {in_data[2]}] [get_ports {in_data[1]}] [get_ports {in_data[0]}] [get_ports {addr[6]}] [get_ports {addr[5]}] [get_ports {addr[4]}] [get_ports {addr[3]}] [get_ports {addr[2]}] [get_ports {addr[1]}] [get_ports {addr[0]}]]
+group_path -name REGOUT  -to [list [get_ports {out[7]}] [get_ports {out[6]}] [get_ports {out[5]}] [get_ports {out[4]}] [get_ports {out[3]}] [get_ports {out[2]}] [get_ports {out[1]}] [get_ports {out[0]}]]

@@ -1,0 +1,113 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : SystolicArray_w_buffer_full_size
+Version: V-2023.12-SP5
+Date   : Fri Dec  6 23:19:24 2024
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: sa_genblk1_10__genblk1_7__pe_inst_w_reg_reg_0_
+              (rising edge-triggered flip-flop clocked by core_clk)
+  Endpoint: sa_genblk1_10__genblk1_8__pe_inst_psum_reg_reg_21_
+            (rising edge-triggered flip-flop clocked by core_clk)
+  Path Group: core_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SystolicArray_w_buffer_full_size 1000000 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                     Fanout     Trans      Incr       Path      Attributes
+  -----------------------------------------------------------------------------------------------------------------------
+  clock core_clk (rise edge)                                                      0.00       0.00
+  clock network delay (ideal)                                                     0.20       0.20
+  sa_genblk1_10__genblk1_7__pe_inst_w_reg_reg_0_/CLK (DFFX1_RVT)        0.08      0.00 #     0.20 r
+  sa_genblk1_10__genblk1_7__pe_inst_w_reg_reg_0_/Q (DFFX1_RVT)          0.02      0.12       0.32 f
+  sa_w_wire_buffer_10__8__0_ (net)                            2                   0.00       0.32 f
+  U92556/Y (IBUFFX2_RVT)                                                0.01      0.81       1.12 r
+  n43193 (net)                                                3                   0.00       1.12 r
+  U143626/Y (NOR2X0_RVT)                                                0.03      0.27       1.39 f
+  n94856 (net)                                                4                   0.00       1.39 f
+  U159060/Y (NAND2X0_RVT)                                               0.02      0.85       2.24 r
+  n94857 (net)                                                2                   0.00       2.24 r
+  U135582/Y (AOI221X1_RVT)                                              0.02      0.24       2.49 f
+  n172918 (net)                                               1                   0.00       2.49 f
+  U141666/CO (FADDX1_RVT)                                               0.03      1.65       4.14 f
+  n172921 (net)                                               1                   0.00       4.14 f
+  U238562/CO (FADDX1_RVT)                                               0.03      1.65       5.79 f
+  n164987 (net)                                               3                   0.00       5.79 f
+  U152847/Y (IBUFFX4_RVT)                                               0.01      0.22       6.01 r
+  n79129 (net)                                                1                   0.00       6.01 r
+  U96215/Y (AO21X1_RVT)                                                 0.01      0.17       6.19 r
+  n164982 (net)                                               2                   0.00       6.19 r
+  U96213/Y (NAND2X0_RVT)                                                0.07      0.22       6.40 f
+  n118100 (net)                                               2                   0.00       6.40 f
+  U133975/Y (AO22X1_RVT)                                                0.03      0.80       7.21 f
+  n126400 (net)                                               1                   0.00       7.21 f
+  U77237/CO (FADDX1_RVT)                                                0.03      1.66       8.86 f
+  n116819 (net)                                               3                   0.00       8.86 f
+  U86522/Y (AOI21X1_RVT)                                                0.01      0.85       9.71 r
+  n123157 (net)                                               2                   0.00       9.71 r
+  U82333/Y (AND2X1_RVT)                                                 0.01      0.20       9.91 r
+  n69360 (net)                                                3                   0.00       9.91 r
+  U77232/Y (OA22X2_RVT)                                                 0.01      0.22      10.13 r
+  n123878 (net)                                               2                   0.00      10.13 r
+  U147509/Y (NAND2X0_RVT)                                               0.06      0.21      10.34 f
+  n172924 (net)                                               2                   0.00      10.34 f
+  U128950/Y (AO22X1_RVT)                                                0.02      0.80      11.14 f
+  n79143 (net)                                                2                   0.00      11.14 f
+  U156531/Y (NAND2X0_RVT)                                               0.02      0.67      11.81 r
+  n124254 (net)                                               2                   0.00      11.81 r
+  U168133/Y (NAND2X0_RVT)                                               0.05      0.20      12.01 f
+  n124824 (net)                                               2                   0.00      12.01 f
+  U128538/Y (OAI21X1_RVT)                                               0.01      0.81      12.82 r
+  n138729 (net)                                               2                   0.00      12.82 r
+  U83719/Y (NBUFFX2_RVT)                                                0.01      0.20      13.02 r
+  n39266 (net)                                                3                   0.00      13.02 r
+  U127185/Y (OR2X1_RVT)                                                 0.01      0.27      13.29 r
+  n61363 (net)                                                2                   0.00      13.29 r
+  U127184/Y (INVX0_RVT)                                                 0.06      0.24      13.53 f
+  n148042 (net)                                               4                   0.00      13.53 f
+  U117960/Y (AO22X1_RVT)                                                0.03      1.08      14.61 f
+  n158097 (net)                                               3                   0.00      14.61 f
+  U86526/Y (OA221X1_RVT)                                                0.02      0.91      15.52 f
+  n158099 (net)                                               1                   0.00      15.52 f
+  U121546/SO (HADDX1_RVT)                                               0.02      1.20      16.72 f
+  n158100 (net)                                               1                   0.00      16.72 f
+  U83686/Y (AND2X1_RVT)                                                 0.02      0.78      17.50 f
+  sa_genblk1_10__genblk1_8__pe_inst_N102 (net)                1                   0.00      17.50 f
+  sa_genblk1_10__genblk1_8__pe_inst_psum_reg_reg_21_/D (DFFX1_RVT)      0.02      0.69      18.19 f
+  data arrival time                                                                         18.19
+
+  clock core_clk (rise edge)                                                     20.00      20.00
+  clock network delay (ideal)                                                     0.20      20.20
+  clock uncertainty                                                              -2.00      18.20
+  sa_genblk1_10__genblk1_8__pe_inst_psum_reg_reg_21_/CLK (DFFX1_RVT)              0.00      18.20 r
+  library setup time                                                             -0.01      18.19
+  data required time                                                                        18.19
+  -----------------------------------------------------------------------------------------------------------------------
+  data required time                                                                        18.19
+  data arrival time                                                                        -18.19
+  -----------------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                0.00
+
+
+1

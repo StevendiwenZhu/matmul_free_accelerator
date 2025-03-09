@@ -1,0 +1,11 @@
+ 
+****************************************
+Report : clock timing
+        -type summary
+Design : rms_norm_sf
+Version: V-2023.12-SP5
+Date   : Fri Dec  6 23:19:23 2024
+****************************************
+
+Error: No clock pins of 'launching' sequential devices found. (UITE-406)
+0

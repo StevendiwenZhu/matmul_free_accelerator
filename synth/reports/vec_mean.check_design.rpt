@@ -1,0 +1,17 @@
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12-SP5
+Date:        Thu Dec  5 11:22:40 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Nets                                                                3
+    Unloaded nets (LINT-2)                                          3
+--------------------------------------------------------------------------------
+
+Warning: In design 'vec_mean', net 'net4' driven by pin 'add_35_G2/Z_0' has no loads. (LINT-2)
+Warning: In design 'vec_mean', net 'net3' driven by pin 'add_35/Z_0' has no loads. (LINT-2)
+Warning: In design 'vec_mean', net 'net2' driven by pin 'add_35_G2_G1/Z_0' has no loads. (LINT-2)
+1

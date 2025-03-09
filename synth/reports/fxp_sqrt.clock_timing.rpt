@@ -1,0 +1,11 @@
+ 
+****************************************
+Report : clock timing
+        -type summary
+Design : fxp_sqrt
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 13:11:12 2024
+****************************************
+
+Error: No clock pins of 'launching' sequential devices found. (UITE-406)
+0

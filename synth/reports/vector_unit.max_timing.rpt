@@ -1,0 +1,2385 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay max
+        -nets
+        -max_paths 30
+        -transition_time
+Design : vector_unit
+Version: V-2023.12-SP5
+Date   : Fri Dec  6 23:42:31 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: silu_reg_reg_3__3_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[63]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_3__3_/CLK (DFFARX1_RVT)      0.00      0.00       0.00 r
+  silu_reg_reg_3__3_/Q (DFFARX1_RVT)        0.18      0.29       0.29 f
+  silu_reg[49] (net)             21                   0.00       0.29 f
+  U31209/Y (NAND2X0_RVT)                    0.05      2.16       2.44 r
+  n45773 (net)                    4                   0.00       2.44 r
+  U47432/Y (OAI21X1_RVT)                    0.03      0.22       2.67 f
+  n45634 (net)                    2                   0.00       2.67 f
+  U47433/Y (OA21X1_RVT)                     0.03      0.60       3.26 f
+  n45631 (net)                    1                   0.00       3.26 f
+  U47452/CO (FADDX1_RVT)                    0.06      1.21       4.47 f
+  n45643 (net)                    4                   0.00       4.47 f
+  U47459/S (FADDX1_RVT)                     0.03      2.11       6.58 f
+  n45645 (net)                    1                   0.00       6.58 f
+  U47460/S (FADDX1_RVT)                     0.03      1.18       7.76 f
+  n45649 (net)                    1                   0.00       7.76 f
+  U47461/S (FADDX1_RVT)                     0.03      1.54       9.30 f
+  n45652 (net)                    1                   0.00       9.30 f
+  U47462/S (FADDX1_RVT)                     0.03      1.54      10.84 f
+  n45739 (net)                    1                   0.00      10.84 f
+  U47495/CO (FADDX1_RVT)                    0.03      1.53      12.37 f
+  n45736 (net)                    1                   0.00      12.37 f
+  U47494/CO (FADDX1_RVT)                    0.03      1.52      13.89 f
+  n45729 (net)                    1                   0.00      13.89 f
+  U47492/CO (FADDX1_RVT)                    0.03      1.17      15.06 f
+  n45796 (net)                    1                   0.00      15.06 f
+  U47515/CO (FADDX1_RVT)                    0.03      1.17      16.23 f
+  n45807 (net)                    1                   0.00      16.23 f
+  U47519/CO (FADDX1_RVT)                    0.03      1.17      17.39 f
+  n45726 (net)                    1                   0.00      17.39 f
+  U47491/CO (FADDX1_RVT)                    0.03      1.17      18.56 f
+  n45813 (net)                    1                   0.00      18.56 f
+  U47521/CO (FADDX1_RVT)                    0.03      1.17      19.73 f
+  n45720 (net)                    1                   0.00      19.73 f
+  U47489/CO (FADDX1_RVT)                    0.03      1.17      20.90 f
+  n45819 (net)                    1                   0.00      20.90 f
+  U47523/CO (FADDX1_RVT)                    0.04      1.19      22.09 f
+  n45823 (net)                    2                   0.00      22.09 f
+  U47478/Y (OAI22X1_RVT)                    0.01      0.58      22.67 r
+  n45712 (net)                    1                   0.00      22.67 r
+  U47486/CO (FADDX1_RVT)                    0.02      0.32      22.99 r
+  n45702 (net)                    3                   0.00      22.99 r
+  U47482/S (FADDX1_RVT)                     0.03      0.55      23.54 f
+  n45703 (net)                    1                   0.00      23.54 f
+  U47483/S (FADDX1_RVT)                     0.04      1.18      24.72 f
+  n45708 (net)                    1                   0.00      24.72 f
+  U47484/S (FADDX1_RVT)                     0.03      1.60      26.32 f
+  n45710 (net)                    1                   0.00      26.32 f
+  U47485/S (FADDX1_RVT)                     0.04      1.55      27.87 f
+  n45854 (net)                    4                   0.00      27.87 f
+  U26211/Y (AO222X1_RVT)                    0.02      0.70      28.57 f
+  n45849 (net)                    2                   0.00      28.57 f
+  U26200/Y (INVX0_RVT)                      0.01      0.61      29.17 r
+  n49411 (net)                    3                   0.00      29.17 r
+  U49530/Y (OAI222X1_RVT)                   0.03      0.21      29.38 f
+  n49466 (net)                    1                   0.00      29.38 f
+  U49551/S (FADDX1_RVT)                     0.03      1.60      30.98 f
+  n49475 (net)                    1                   0.00      30.98 f
+  U49555/S (FADDX1_RVT)                     0.01      1.53      32.51 r
+  n49477 (net)                    1                   0.00      32.51 r
+  U49556/Y (NAND2X0_RVT)                    0.06      0.15      32.66 f
+  n49479 (net)                    1                   0.00      32.66 f
+  U49557/S (FADDX1_RVT)                     0.03      1.18      33.84 f
+  n49482 (net)                    1                   0.00      33.84 f
+  U49558/S (FADDX1_RVT)                     0.03      1.17      35.02 f
+  n49485 (net)                    1                   0.00      35.02 f
+  U49559/S (FADDX1_RVT)                     0.01      1.18      36.19 r
+  vec_out[63] (net)               1                   0.00      36.19 r
+  vec_out[63] (out)                         0.01      0.06      36.25 r
+  data arrival time                                             36.25
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_5__0_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[95]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_5__0_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_5__0_/Q (DFFARX1_RVT)        0.18      0.29       0.29 f
+  silu_reg[77] (net)             22                   0.00       0.29 f
+  U31553/Y (AND2X1_RVT)                     0.04      2.24       2.53 f
+  n41288 (net)                    2                   0.00       2.53 f
+  U44607/CO (FADDX1_RVT)                    0.04      1.84       4.37 f
+  n41133 (net)                    2                   0.00       4.37 f
+  U44608/S (FADDX1_RVT)                     0.04      1.84       6.21 f
+  n41058 (net)                    1                   0.00       6.21 f
+  U44610/S (FADDX1_RVT)                     0.07      1.64       7.86 f
+  n41151 (net)                    3                   0.00       7.86 f
+  U28030/Y (MUX21X1_RVT)                    0.03      1.32       9.18 f
+  n41244 (net)                    2                   0.00       9.18 f
+  U44666/SO (HADDX1_RVT)                    0.07      1.04      10.22 f
+  n41242 (net)                    3                   0.00      10.22 f
+  U26055/S (FADDX1_RVT)                     0.04      1.96      12.18 f
+  n41305 (net)                    2                   0.00      12.18 f
+  U26119/S (FADDX1_RVT)                     0.04      1.36      13.54 f
+  n41310 (net)                    1                   0.00      13.54 f
+  U44769/S (FADDX1_RVT)                     0.05      1.61      15.15 f
+  n41313 (net)                    2                   0.00      15.15 f
+  U26146/S (FADDX1_RVT)                     0.02      1.75      16.90 f
+  n41317 (net)                    1                   0.00      16.90 f
+  U44771/Y (AO22X1_RVT)                     0.03      0.48      17.38 f
+  n41451 (net)                    1                   0.00      17.38 f
+  U44850/CO (FADDX1_RVT)                    0.03      1.17      18.55 f
+  n41550 (net)                    1                   0.00      18.55 f
+  U44911/CO (FADDX1_RVT)                    0.03      1.17      19.72 f
+  n41718 (net)                    1                   0.00      19.72 f
+  U45006/CO (FADDX1_RVT)                    0.03      1.17      20.89 f
+  n41786 (net)                    1                   0.00      20.89 f
+  U45042/CO (FADDX1_RVT)                    0.03      1.17      22.06 f
+  n41866 (net)                    1                   0.00      22.06 f
+  U45080/CO (FADDX1_RVT)                    0.03      1.18      23.23 f
+  n49539 (net)                    1                   0.00      23.23 f
+  U49576/CO (FADDX1_RVT)                    0.03      1.53      24.76 f
+  n49553 (net)                    1                   0.00      24.76 f
+  U49583/S (FADDX1_RVT)                     0.03      1.53      26.29 f
+  n49555 (net)                    1                   0.00      26.29 f
+  U49584/S (FADDX1_RVT)                     0.04      1.18      27.48 f
+  n49571 (net)                    1                   0.00      27.48 f
+  U49593/S (FADDX1_RVT)                     0.03      1.59      29.06 f
+  n49572 (net)                    1                   0.00      29.06 f
+  U49594/S (FADDX1_RVT)                     0.03      1.17      30.24 f
+  n49575 (net)                    1                   0.00      30.24 f
+  U49595/S (FADDX1_RVT)                     0.04      1.18      31.42 f
+  n49589 (net)                    1                   0.00      31.42 f
+  U49597/S (FADDX1_RVT)                     0.02      1.57      32.99 f
+  n49590 (net)                    1                   0.00      32.99 f
+  U26224/Y (AND2X1_RVT)                     0.03      0.57      33.57 f
+  n49655 (net)                    1                   0.00      33.57 f
+  U49620/S (FADDX1_RVT)                     0.01      1.58      35.15 r
+  vec_out[95] (net)               1                   0.00      35.15 r
+  vec_out[95] (out)                         0.01      0.06      35.21 r
+  data arrival time                                             35.21
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_0__5_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[15]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_0__5_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_0__5_/Q (DFFARX1_RVT)        0.16      0.28       0.28 f
+  silu_reg[5] (net)              20                   0.00       0.28 f
+  U31558/Y (AND2X1_RVT)                     0.05      2.39       2.67 f
+  n48466 (net)                    4                   0.00       2.67 f
+  U49150/CO (FADDX1_RVT)                    0.04      2.19       4.86 f
+  n48500 (net)                    2                   0.00       4.86 f
+  U49164/S (FADDX1_RVT)                     0.04      1.84       6.70 f
+  n48502 (net)                    1                   0.00       6.70 f
+  U49165/S (FADDX1_RVT)                     0.03      1.53       8.24 f
+  n48504 (net)                    1                   0.00       8.24 f
+  U49166/S (FADDX1_RVT)                     0.03      1.17       9.41 f
+  n48507 (net)                    1                   0.00       9.41 f
+  U49167/S (FADDX1_RVT)                     0.02      1.16      10.57 f
+  n48509 (net)                    1                   0.00      10.57 f
+  U49168/Y (INVX1_RVT)                      0.01      0.70      11.27 r
+  n48572 (net)                    2                   0.00      11.27 r
+  U49169/Y (OR2X1_RVT)                      0.01      0.17      11.44 r
+  n48510 (net)                    1                   0.00      11.44 r
+  U49170/Y (OA21X1_RVT)                     0.01      0.12      11.55 r
+  n48569 (net)                    2                   0.00      11.55 r
+  U32996/Y (MUX21X1_RVT)                    0.01      0.15      11.70 r
+  n48562 (net)                    3                   0.00      11.70 r
+  U49172/Y (OR2X1_RVT)                      0.01      0.17      11.87 r
+  n48565 (net)                    2                   0.00      11.87 r
+  U49176/Y (AOI22X1_RVT)                    0.02      0.18      12.05 f
+  n48553 (net)                    1                   0.00      12.05 f
+  U49188/CO (FADDX1_RVT)                    0.02      1.16      13.21 f
+  n48524 (net)                    1                   0.00      13.21 f
+  U49177/Y (INVX1_RVT)                      0.01      0.70      13.91 r
+  n48624 (net)                    1                   0.00      13.91 r
+  U49213/CO (FADDX1_RVT)                    0.01      0.30      14.21 r
+  n48525 (net)                    1                   0.00      14.21 r
+  U49178/Y (INVX1_RVT)                      0.02      0.17      14.38 f
+  n48550 (net)                    1                   0.00      14.38 f
+  U49187/CO (FADDX1_RVT)                    0.03      1.17      15.54 f
+  n48547 (net)                    1                   0.00      15.54 f
+  U49186/CO (FADDX1_RVT)                    0.03      1.18      16.72 f
+  n48545 (net)                    1                   0.00      16.72 f
+  U49185/CO (FADDX1_RVT)                    0.03      1.52      18.24 f
+  n48535 (net)                    1                   0.00      18.24 f
+  U49182/CO (FADDX1_RVT)                    0.03      1.17      19.41 f
+  n48532 (net)                    1                   0.00      19.41 f
+  U49181/CO (FADDX1_RVT)                    0.03      1.17      20.58 f
+  n48529 (net)                    1                   0.00      20.58 f
+  U49180/CO (FADDX1_RVT)                    0.03      1.17      21.75 f
+  n48648 (net)                    1                   0.00      21.75 f
+  U49229/CO (FADDX1_RVT)                    0.03      1.18      22.92 f
+  n48922 (net)                    1                   0.00      22.92 f
+  U49335/CO (FADDX1_RVT)                    0.03      1.59      24.51 f
+  n48935 (net)                    1                   0.00      24.51 f
+  U49341/S (FADDX1_RVT)                     0.03      1.59      26.10 f
+  n48936 (net)                    1                   0.00      26.10 f
+  U49342/S (FADDX1_RVT)                     0.03      1.17      27.27 f
+  n48939 (net)                    1                   0.00      27.27 f
+  U49343/S (FADDX1_RVT)                     0.03      1.17      28.45 f
+  n48942 (net)                    1                   0.00      28.45 f
+  U49344/S (FADDX1_RVT)                     0.03      1.17      29.62 f
+  n48945 (net)                    1                   0.00      29.62 f
+  U49345/S (FADDX1_RVT)                     0.03      1.17      30.79 f
+  n48948 (net)                    1                   0.00      30.79 f
+  U49346/S (FADDX1_RVT)                     0.01      1.18      31.97 r
+  n48951 (net)                    1                   0.00      31.97 r
+  U49347/Y (NAND2X0_RVT)                    0.06      0.15      32.12 f
+  n48952 (net)                    1                   0.00      32.12 f
+  U49348/S (FADDX1_RVT)                     0.03      1.18      33.31 f
+  n48955 (net)                    1                   0.00      33.31 f
+  U49349/S (FADDX1_RVT)                     0.01      1.18      34.48 r
+  vec_out[15] (net)               1                   0.00      34.48 r
+  vec_out[15] (out)                         0.01      0.06      34.54 r
+  data arrival time                                             34.54
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rec_row_pp2_reg_reg_6__1_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[111]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  rec_row_pp2_reg_reg_6__1_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  rec_row_pp2_reg_reg_6__1_/Q (DFFARX1_RVT)        0.07      0.18       0.18 f
+  rec_row_pp2_reg[97] (net)              8                   0.00       0.18 f
+  U45096/Y (OR3X2_RVT)                             0.07      1.06       1.24 f
+  n42902 (net)                          15                   0.00       1.24 f
+  U45187/Y (AO22X1_RVT)                            0.02      1.57       2.80 f
+  n42021 (net)                           1                   0.00       2.80 f
+  U45188/Y (OA221X1_RVT)                           0.03      0.50       3.30 f
+  n42088 (net)                           1                   0.00       3.30 f
+  U45232/S (FADDX1_RVT)                            0.05      1.20       4.50 f
+  n42095 (net)                           3                   0.00       4.50 f
+  U45190/S (FADDX1_RVT)                            0.03      1.95       6.45 f
+  n42028 (net)                           1                   0.00       6.45 f
+  U45192/S (FADDX1_RVT)                            0.04      1.54       7.99 f
+  n42098 (net)                           1                   0.00       7.99 f
+  U45234/CO (FADDX1_RVT)                           0.03      1.58       9.57 f
+  n42154 (net)                           1                   0.00       9.57 f
+  U45269/CO (FADDX1_RVT)                           0.03      1.17      10.74 f
+  n42224 (net)                           1                   0.00      10.74 f
+  U45317/CO (FADDX1_RVT)                           0.03      1.17      11.91 f
+  n42274 (net)                           1                   0.00      11.91 f
+  U45342/CO (FADDX1_RVT)                           0.03      1.18      13.08 f
+  n42352 (net)                           1                   0.00      13.08 f
+  U45383/CO (FADDX1_RVT)                           0.03      1.58      14.67 f
+  n42445 (net)                           2                   0.00      14.67 f
+  U26610/Y (INVX0_RVT)                             0.01      0.60      15.27 r
+  n42446 (net)                           1                   0.00      15.27 r
+  U26579/Y (NAND2X0_RVT)                           0.03      0.11      15.38 f
+  n42448 (net)                           1                   0.00      15.38 f
+  U45451/Y (OA21X1_RVT)                            0.04      0.46      15.84 f
+  n42591 (net)                           2                   0.00      15.84 f
+  U26484/Y (INVX0_RVT)                             0.01      0.61      16.44 r
+  n42599 (net)                           2                   0.00      16.44 r
+  U45546/Y (OA22X1_RVT)                            0.01      0.14      16.59 r
+  n42598 (net)                           1                   0.00      16.59 r
+  U45547/Y (AOI22X1_RVT)                           0.02      0.16      16.75 f
+  n42695 (net)                           1                   0.00      16.75 f
+  U45613/CO (FADDX1_RVT)                           0.04      1.19      17.94 f
+  n42877 (net)                           3                   0.00      17.94 f
+  U45724/S (FADDX1_RVT)                            0.05      1.51      19.45 f
+  n49661 (net)                           2                   0.00      19.45 f
+  U26029/S (FADDX1_RVT)                            0.03      1.36      20.81 f
+  n42880 (net)                           1                   0.00      20.81 f
+  U45725/S (FADDX1_RVT)                            0.03      1.17      21.98 f
+  n42882 (net)                           1                   0.00      21.98 f
+  U45726/S (FADDX1_RVT)                            0.03      1.18      23.16 f
+  n42884 (net)                           1                   0.00      23.16 f
+  U45727/S (FADDX1_RVT)                            0.03      1.53      24.69 f
+  n42886 (net)                           2                   0.00      24.69 f
+  U26198/Y (AO222X1_RVT)                           0.04      0.66      25.35 f
+  n42936 (net)                           4                   0.00      25.35 f
+  U26189/Y (AO222X1_RVT)                           0.04      0.76      26.11 f
+  n43054 (net)                           4                   0.00      26.11 f
+  U26181/Y (AO222X1_RVT)                           0.04      0.78      26.89 f
+  n43153 (net)                           4                   0.00      26.89 f
+  U26177/Y (AO222X1_RVT)                           0.04      0.78      27.68 f
+  n49780 (net)                           4                   0.00      27.68 f
+  U26170/Y (AO222X1_RVT)                           0.03      0.77      28.45 f
+  n49792 (net)                           1                   0.00      28.45 f
+  U49669/S (FADDX1_RVT)                            0.04      1.54      29.99 f
+  n49804 (net)                           1                   0.00      29.99 f
+  U49671/S (FADDX1_RVT)                            0.01      1.59      31.58 r
+  n49805 (net)                           1                   0.00      31.58 r
+  U49672/Y (NAND2X0_RVT)                           0.05      0.14      31.71 f
+  n49806 (net)                           1                   0.00      31.71 f
+  U49673/SO (HADDX1_RVT)                           0.03      0.87      32.58 f
+  n49808 (net)                           1                   0.00      32.58 f
+  U49674/S (FADDX1_RVT)                            0.01      1.18      33.76 r
+  vec_out[111] (net)                     1                   0.00      33.76 r
+  vec_out[111] (out)                               0.01      0.06      33.82 r
+  data arrival time                                                    33.82
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_4__4_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[79]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_4__4_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_4__4_/Q (DFFARX1_RVT)        0.20      0.32       0.32 f
+  silu_reg[65] (net)             23                   0.00       0.32 f
+  U30984/Y (AND2X1_RVT)                     0.05      2.72       3.04 f
+  n39400 (net)                    3                   0.00       3.04 f
+  U43623/CO (FADDX1_RVT)                    0.02      2.00       5.04 f
+  n39373 (net)                    2                   0.00       5.04 f
+  U43624/Y (AO22X1_RVT)                     0.03      0.55       5.59 f
+  n39374 (net)                    1                   0.00       5.59 f
+  U43625/S (FADDX1_RVT)                     0.05      1.21       6.79 f
+  n39418 (net)                    4                   0.00       6.79 f
+  U43648/S (FADDX1_RVT)                     0.02      1.60       8.40 f
+  n39415 (net)                    1                   0.00       8.40 f
+  U43649/SO (HADDX1_RVT)                    0.08      0.92       9.32 f
+  n39424 (net)                    2                   0.00       9.32 f
+  U28046/Y (MUX41X1_RVT)                    0.04      3.05      12.37 f
+  n39481 (net)                    1                   0.00      12.37 f
+  U43684/CO (FADDX1_RVT)                    0.05      1.55      13.92 f
+  n39555 (net)                    3                   0.00      13.92 f
+  U43735/Y (OA22X1_RVT)                     0.01      0.69      14.61 f
+  n39553 (net)                    1                   0.00      14.61 f
+  U43736/Y (AO22X1_RVT)                     0.03      0.52      15.13 f
+  n39779 (net)                    1                   0.00      15.13 f
+  U43884/CO (FADDX1_RVT)                    0.03      1.59      16.71 f
+  n39793 (net)                    1                   0.00      16.71 f
+  U43889/CO (FADDX1_RVT)                    0.03      1.58      18.29 f
+  n40025 (net)                    1                   0.00      18.29 f
+  U44028/CO (FADDX1_RVT)                    0.03      1.17      19.46 f
+  n40031 (net)                    1                   0.00      19.46 f
+  U44030/CO (FADDX1_RVT)                    0.03      1.17      20.63 f
+  n40108 (net)                    1                   0.00      20.63 f
+  U44073/CO (FADDX1_RVT)                    0.05      1.20      21.83 f
+  n40227 (net)                    3                   0.00      21.83 f
+  U44082/S (FADDX1_RVT)                     0.03      2.01      23.84 f
+  n40131 (net)                    1                   0.00      23.84 f
+  U44083/S (FADDX1_RVT)                     0.04      1.19      25.03 f
+  n40228 (net)                    4                   0.00      25.03 f
+  U26317/Y (AO222X1_RVT)                    0.04      0.78      25.81 f
+  n40450 (net)                    4                   0.00      25.81 f
+  U26273/Y (AO222X1_RVT)                    0.03      0.75      26.56 f
+  n49495 (net)                    3                   0.00      26.56 f
+  U26250/Y (AO222X1_RVT)                    0.03      0.71      27.27 f
+  n49500 (net)                    3                   0.00      27.27 f
+  U26229/Y (AO222X1_RVT)                    0.03      0.69      27.97 f
+  n40497 (net)                    1                   0.00      27.97 f
+  U44268/S (FADDX1_RVT)                     0.03      1.60      29.56 f
+  n40501 (net)                    1                   0.00      29.56 f
+  U44270/S (FADDX1_RVT)                     0.02      1.52      31.08 f
+  n40503 (net)                    1                   0.00      31.08 f
+  U44271/Y (AND2X1_RVT)                     0.03      0.57      31.65 f
+  n40504 (net)                    1                   0.00      31.65 f
+  U44272/S (FADDX1_RVT)                     0.02      1.17      32.81 f
+  n40568 (net)                    1                   0.00      32.81 f
+  U44297/SO (HADDX1_RVT)                    0.01      0.86      33.67 r
+  vec_out[79] (net)               1                   0.00      33.67 r
+  vec_out[79] (out)                         0.01      0.06      33.73 r
+  data arrival time                                             33.73
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: one_minus_reg_reg_2__4_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[47]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                              Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------------
+  one_minus_reg_reg_2__4_/CLK (DFFARX1_RVT)      0.06      0.00       0.00 r
+  one_minus_reg_reg_2__4_/Q (DFFARX1_RVT)        0.19      0.31       0.31 f
+  one_minus_reg[33] (net)             22                   0.00       0.31 f
+  U32967/Y (AND2X1_RVT)                          0.04      2.24       2.55 f
+  n46311 (net)                         2                   0.00       2.55 f
+  U47852/Y (NAND3X0_RVT)                         0.04      0.55       3.10 r
+  n46312 (net)                         1                   0.00       3.10 r
+  U30531/Y (NAND2X0_RVT)                         0.09      0.18       3.28 f
+  n46561 (net)                         3                   0.00       3.28 f
+  U47853/SO (HADDX1_RVT)                         0.04      1.12       4.40 f
+  n46552 (net)                         2                   0.00       4.40 f
+  U47856/S (FADDX1_RVT)                          0.04      1.85       6.25 f
+  n46553 (net)                         3                   0.00       6.25 f
+  U28890/Y (INVX0_RVT)                           0.01      0.66       6.91 r
+  n46555 (net)                         1                   0.00       6.91 r
+  U47970/Y (AOI22X1_RVT)                         0.03      0.17       7.08 f
+  n46604 (net)                         1                   0.00       7.08 f
+  U47990/CO (FADDX1_RVT)                         0.07      1.63       8.71 f
+  n46720 (net)                         3                   0.00       8.71 f
+  U47997/S (FADDX1_RVT)                          0.06      2.06      10.77 f
+  n46661 (net)                         2                   0.00      10.77 f
+  U48021/S (FADDX1_RVT)                          0.03      1.77      12.54 f
+  n46662 (net)                         1                   0.00      12.54 f
+  U48022/S (FADDX1_RVT)                          0.01      1.19      13.73 r
+  n46724 (net)                         2                   0.00      13.73 r
+  U27056/Y (INVX0_RVT)                           0.02      0.14      13.87 f
+  n46725 (net)                         1                   0.00      13.87 f
+  U28822/Y (AO22X1_RVT)                          0.03      0.52      14.39 f
+  n46808 (net)                         2                   0.00      14.39 f
+  U48067/SO (HADDX1_RVT)                         0.02      0.98      15.37 f
+  n46730 (net)                         1                   0.00      15.37 f
+  U48068/SO (HADDX1_RVT)                         0.05      0.89      16.26 f
+  n46806 (net)                         2                   0.00      16.26 f
+  U48116/S (FADDX1_RVT)                          0.02      1.75      18.01 f
+  n46821 (net)                         1                   0.00      18.01 f
+  U48120/Y (AO22X1_RVT)                          0.03      0.48      18.49 f
+  n49112 (net)                         1                   0.00      18.49 f
+  U49402/CO (FADDX1_RVT)                         0.03      1.18      19.67 f
+  n49284 (net)                         1                   0.00      19.67 f
+  U49483/CO (FADDX1_RVT)                         0.03      1.59      21.26 f
+  n49305 (net)                         1                   0.00      21.26 f
+  U49490/S (FADDX1_RVT)                          0.03      1.60      22.85 f
+  n49312 (net)                         1                   0.00      22.85 f
+  U49493/S (FADDX1_RVT)                          0.03      1.54      24.39 f
+  n49319 (net)                         1                   0.00      24.39 f
+  U49497/S (FADDX1_RVT)                          0.03      1.53      25.93 f
+  n49321 (net)                         1                   0.00      25.93 f
+  U49498/S (FADDX1_RVT)                          0.03      1.18      27.11 f
+  n49328 (net)                         1                   0.00      27.11 f
+  U49499/S (FADDX1_RVT)                          0.01      1.53      28.64 r
+  n49330 (net)                         1                   0.00      28.64 r
+  U49500/Y (NAND2X0_RVT)                         0.06      0.15      28.79 f
+  n49331 (net)                         1                   0.00      28.79 f
+  U49501/S (FADDX1_RVT)                          0.03      1.19      29.98 f
+  n49343 (net)                         1                   0.00      29.98 f
+  U49504/S (FADDX1_RVT)                          0.01      1.53      31.50 r
+  vec_out[47] (net)                    1                   0.00      31.50 r
+  vec_out[47] (out)                              0.01      0.06      31.56 r
+  data arrival time                                                  31.56
+  ------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_7__1_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[127]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_7__1_/CLK (DFFARX1_RVT)      0.06      0.00       0.00 r
+  silu_reg_reg_7__1_/Q (DFFARX1_RVT)        0.24      0.36       0.36 f
+  n50221 (net)                   27                   0.00       0.36 f
+  U31840/Y (AND2X1_RVT)                     0.05      3.05       3.41 f
+  n43747 (net)                    2                   0.00       3.41 f
+  U46251/CO (FADDX1_RVT)                    0.04      1.84       5.26 f
+  n43892 (net)                    2                   0.00       5.26 f
+  U46258/S (FADDX1_RVT)                     0.04      1.85       7.10 f
+  n43888 (net)                    2                   0.00       7.10 f
+  U30256/Y (MUX21X1_RVT)                    0.03      1.20       8.31 f
+  n43958 (net)                    1                   0.00       8.31 f
+  U46389/CO (FADDX1_RVT)                    0.04      1.60       9.91 f
+  n44120 (net)                    2                   0.00       9.91 f
+  U46393/S (FADDX1_RVT)                     0.03      1.77      11.68 f
+  n43968 (net)                    1                   0.00      11.68 f
+  U46399/S (FADDX1_RVT)                     0.03      1.53      13.21 f
+  n43969 (net)                    1                   0.00      13.21 f
+  U46400/S (FADDX1_RVT)                     0.03      1.18      14.39 f
+  n43978 (net)                    1                   0.00      14.39 f
+  U46404/S (FADDX1_RVT)                     0.03      1.54      15.93 f
+  n44134 (net)                    1                   0.00      15.93 f
+  U46486/CO (FADDX1_RVT)                    0.03      1.52      17.45 f
+  n44237 (net)                    1                   0.00      17.45 f
+  U46545/CO (FADDX1_RVT)                    0.03      1.17      18.62 f
+  n44330 (net)                    1                   0.00      18.62 f
+  U46593/CO (FADDX1_RVT)                    0.05      1.20      19.82 f
+  n44392 (net)                    3                   0.00      19.82 f
+  U46632/Y (OA22X1_RVT)                     0.02      0.57      20.39 f
+  n44390 (net)                    1                   0.00      20.39 f
+  U46633/Y (AO22X1_RVT)                     0.04      0.53      20.92 f
+  n44510 (net)                    2                   0.00      20.92 f
+  U46701/Y (AO22X1_RVT)                     0.03      0.60      21.52 f
+  n49895 (net)                    1                   0.00      21.52 f
+  U49703/CO (FADDX1_RVT)                    0.03      1.59      23.11 f
+  n49904 (net)                    1                   0.00      23.11 f
+  U49706/S (FADDX1_RVT)                     0.03      1.60      24.71 f
+  n49938 (net)                    1                   0.00      24.71 f
+  U49718/S (FADDX1_RVT)                     0.04      1.54      26.25 f
+  n49949 (net)                    1                   0.00      26.25 f
+  U49725/S (FADDX1_RVT)                     0.03      1.60      27.84 f
+  n49959 (net)                    1                   0.00      27.84 f
+  U49727/S (FADDX1_RVT)                     0.02      1.53      29.37 f
+  n49965 (net)                    2                   0.00      29.37 f
+  U49729/Y (NAND4X0_RVT)                    0.03      0.57      29.94 r
+  n49967 (net)                    1                   0.00      29.94 r
+  U49730/Y (NAND2X0_RVT)                    0.06      0.16      30.10 f
+  n49969 (net)                    1                   0.00      30.10 f
+  U49731/S (FADDX1_RVT)                     0.01      1.19      31.29 r
+  vec_out[127] (net)              1                   0.00      31.29 r
+  vec_out[127] (out)                        0.01      0.06      31.35 r
+  data arrival time                                             31.35
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_3__3_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[62]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_3__3_/CLK (DFFARX1_RVT)      0.00      0.00       0.00 r
+  silu_reg_reg_3__3_/Q (DFFARX1_RVT)        0.18      0.29       0.29 f
+  silu_reg[49] (net)             21                   0.00       0.29 f
+  U31209/Y (NAND2X0_RVT)                    0.05      2.16       2.44 r
+  n45773 (net)                    4                   0.00       2.44 r
+  U47432/Y (OAI21X1_RVT)                    0.03      0.22       2.67 f
+  n45634 (net)                    2                   0.00       2.67 f
+  U47433/Y (OA21X1_RVT)                     0.03      0.60       3.26 f
+  n45631 (net)                    1                   0.00       3.26 f
+  U47452/CO (FADDX1_RVT)                    0.06      1.21       4.47 f
+  n45643 (net)                    4                   0.00       4.47 f
+  U47459/S (FADDX1_RVT)                     0.03      2.11       6.58 f
+  n45645 (net)                    1                   0.00       6.58 f
+  U47460/S (FADDX1_RVT)                     0.03      1.18       7.76 f
+  n45649 (net)                    1                   0.00       7.76 f
+  U47461/S (FADDX1_RVT)                     0.03      1.54       9.30 f
+  n45652 (net)                    1                   0.00       9.30 f
+  U47462/S (FADDX1_RVT)                     0.03      1.54      10.84 f
+  n45739 (net)                    1                   0.00      10.84 f
+  U47495/CO (FADDX1_RVT)                    0.03      1.53      12.37 f
+  n45736 (net)                    1                   0.00      12.37 f
+  U47494/CO (FADDX1_RVT)                    0.03      1.52      13.89 f
+  n45729 (net)                    1                   0.00      13.89 f
+  U47492/CO (FADDX1_RVT)                    0.03      1.17      15.06 f
+  n45796 (net)                    1                   0.00      15.06 f
+  U47515/CO (FADDX1_RVT)                    0.03      1.17      16.23 f
+  n45807 (net)                    1                   0.00      16.23 f
+  U47519/CO (FADDX1_RVT)                    0.03      1.17      17.39 f
+  n45726 (net)                    1                   0.00      17.39 f
+  U47491/CO (FADDX1_RVT)                    0.03      1.17      18.56 f
+  n45813 (net)                    1                   0.00      18.56 f
+  U47521/CO (FADDX1_RVT)                    0.03      1.17      19.73 f
+  n45720 (net)                    1                   0.00      19.73 f
+  U47489/CO (FADDX1_RVT)                    0.03      1.17      20.90 f
+  n45819 (net)                    1                   0.00      20.90 f
+  U47523/CO (FADDX1_RVT)                    0.04      1.19      22.09 f
+  n45823 (net)                    2                   0.00      22.09 f
+  U47478/Y (OAI22X1_RVT)                    0.01      0.58      22.67 r
+  n45712 (net)                    1                   0.00      22.67 r
+  U47486/CO (FADDX1_RVT)                    0.02      0.32      22.99 r
+  n45702 (net)                    3                   0.00      22.99 r
+  U47482/S (FADDX1_RVT)                     0.03      0.55      23.54 f
+  n45703 (net)                    1                   0.00      23.54 f
+  U47483/S (FADDX1_RVT)                     0.04      1.18      24.72 f
+  n45708 (net)                    1                   0.00      24.72 f
+  U47484/S (FADDX1_RVT)                     0.03      1.60      26.32 f
+  n45710 (net)                    1                   0.00      26.32 f
+  U47485/S (FADDX1_RVT)                     0.04      1.55      27.87 f
+  n45854 (net)                    4                   0.00      27.87 f
+  U26211/Y (AO222X1_RVT)                    0.02      0.70      28.57 f
+  n45849 (net)                    2                   0.00      28.57 f
+  U47531/Y (OA221X1_RVT)                    0.02      0.52      29.09 f
+  n45851 (net)                    1                   0.00      29.09 f
+  U47532/SO (HADDX1_RVT)                    0.01      0.85      29.94 r
+  vec_out[62] (net)               1                   0.00      29.94 r
+  vec_out[62] (out)                         0.01      0.06      30.00 r
+  data arrival time                                             30.00
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_3__3_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[61]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_3__3_/CLK (DFFARX1_RVT)      0.00      0.00       0.00 r
+  silu_reg_reg_3__3_/Q (DFFARX1_RVT)        0.18      0.29       0.29 f
+  silu_reg[49] (net)             21                   0.00       0.29 f
+  U31209/Y (NAND2X0_RVT)                    0.05      2.16       2.44 r
+  n45773 (net)                    4                   0.00       2.44 r
+  U47432/Y (OAI21X1_RVT)                    0.03      0.22       2.67 f
+  n45634 (net)                    2                   0.00       2.67 f
+  U47433/Y (OA21X1_RVT)                     0.03      0.60       3.26 f
+  n45631 (net)                    1                   0.00       3.26 f
+  U47452/CO (FADDX1_RVT)                    0.06      1.21       4.47 f
+  n45643 (net)                    4                   0.00       4.47 f
+  U47459/S (FADDX1_RVT)                     0.03      2.11       6.58 f
+  n45645 (net)                    1                   0.00       6.58 f
+  U47460/S (FADDX1_RVT)                     0.03      1.18       7.76 f
+  n45649 (net)                    1                   0.00       7.76 f
+  U47461/S (FADDX1_RVT)                     0.03      1.54       9.30 f
+  n45652 (net)                    1                   0.00       9.30 f
+  U47462/S (FADDX1_RVT)                     0.03      1.54      10.84 f
+  n45739 (net)                    1                   0.00      10.84 f
+  U47495/CO (FADDX1_RVT)                    0.03      1.53      12.37 f
+  n45736 (net)                    1                   0.00      12.37 f
+  U47494/CO (FADDX1_RVT)                    0.03      1.52      13.89 f
+  n45729 (net)                    1                   0.00      13.89 f
+  U47492/CO (FADDX1_RVT)                    0.03      1.17      15.06 f
+  n45796 (net)                    1                   0.00      15.06 f
+  U47515/CO (FADDX1_RVT)                    0.03      1.17      16.23 f
+  n45807 (net)                    1                   0.00      16.23 f
+  U47519/CO (FADDX1_RVT)                    0.03      1.17      17.39 f
+  n45726 (net)                    1                   0.00      17.39 f
+  U47491/CO (FADDX1_RVT)                    0.03      1.17      18.56 f
+  n45813 (net)                    1                   0.00      18.56 f
+  U47521/CO (FADDX1_RVT)                    0.03      1.17      19.73 f
+  n45720 (net)                    1                   0.00      19.73 f
+  U47489/CO (FADDX1_RVT)                    0.03      1.17      20.90 f
+  n45819 (net)                    1                   0.00      20.90 f
+  U47523/CO (FADDX1_RVT)                    0.04      1.19      22.09 f
+  n45823 (net)                    2                   0.00      22.09 f
+  U47478/Y (OAI22X1_RVT)                    0.01      0.58      22.67 r
+  n45712 (net)                    1                   0.00      22.67 r
+  U47486/CO (FADDX1_RVT)                    0.02      0.32      22.99 r
+  n45702 (net)                    3                   0.00      22.99 r
+  U47482/S (FADDX1_RVT)                     0.03      0.55      23.54 f
+  n45703 (net)                    1                   0.00      23.54 f
+  U47483/S (FADDX1_RVT)                     0.04      1.18      24.72 f
+  n45708 (net)                    1                   0.00      24.72 f
+  U47484/S (FADDX1_RVT)                     0.03      1.60      26.32 f
+  n45710 (net)                    1                   0.00      26.32 f
+  U47485/S (FADDX1_RVT)                     0.04      1.55      27.87 f
+  n45854 (net)                    4                   0.00      27.87 f
+  U26225/Y (AO221X1_RVT)                    0.02      0.70      28.57 f
+  n45856 (net)                    1                   0.00      28.57 f
+  U47533/SO (HADDX1_RVT)                    0.01      0.85      29.42 r
+  vec_out[61] (net)               1                   0.00      29.42 r
+  vec_out[61] (out)                         0.01      0.06      29.48 r
+  data arrival time                                             29.48
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_1__3_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[31]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_1__3_/CLK (DFFARX1_RVT)      0.06      0.00       0.00 r
+  silu_reg_reg_1__3_/Q (DFFARX1_RVT)        0.18      0.30       0.30 f
+  silu_reg[18] (net)             21                   0.00       0.30 f
+  U31445/Y (NAND2X0_RVT)                    0.05      2.15       2.45 r
+  n26858 (net)                    3                   0.00       2.45 r
+  U35589/SO (HADDX1_RVT)                    0.05      0.35       2.80 f
+  n26841 (net)                    3                   0.00       2.80 f
+  U35590/Y (AO22X1_RVT)                     0.03      0.67       3.47 f
+  n26830 (net)                    1                   0.00       3.47 f
+  U35610/CO (FADDX1_RVT)                    0.05      1.20       4.67 f
+  n26817 (net)                    2                   0.00       4.67 f
+  U35605/S (FADDX1_RVT)                     0.04      1.84       6.51 f
+  n26819 (net)                    1                   0.00       6.51 f
+  U35606/S (FADDX1_RVT)                     0.03      1.53       8.05 f
+  n26821 (net)                    1                   0.00       8.05 f
+  U35607/S (FADDX1_RVT)                     0.03      1.18       9.23 f
+  n26825 (net)                    1                   0.00       9.23 f
+  U35608/S (FADDX1_RVT)                     0.04      1.55      10.77 f
+  n26828 (net)                    2                   0.00      10.77 f
+  U35609/SO (HADDX1_RVT)                    0.01      0.99      11.77 r
+  n26891 (net)                    1                   0.00      11.77 r
+  U35639/CO (FADDX1_RVT)                    0.02      0.41      12.17 r
+  n26883 (net)                    1                   0.00      12.17 r
+  U35637/CO (FADDX1_RVT)                    0.02      0.31      12.48 r
+  n26946 (net)                    1                   0.00      12.48 r
+  U35663/CO (FADDX1_RVT)                    0.01      0.31      12.79 r
+  n26879 (net)                    1                   0.00      12.79 r
+  U35635/Y (INVX1_RVT)                      0.02      0.17      12.95 f
+  n26949 (net)                    1                   0.00      12.95 f
+  U35664/CO (FADDX1_RVT)                    0.03      1.17      14.12 f
+  n26955 (net)                    1                   0.00      14.12 f
+  U35666/CO (FADDX1_RVT)                    0.03      1.17      15.29 f
+  n26880 (net)                    1                   0.00      15.29 f
+  U35636/CO (FADDX1_RVT)                    0.03      1.17      16.46 f
+  n26970 (net)                    1                   0.00      16.46 f
+  U35671/CO (FADDX1_RVT)                    0.03      1.17      17.63 f
+  n47379 (net)                    1                   0.00      17.63 f
+  U48448/CO (FADDX1_RVT)                    0.03      1.17      18.80 f
+  n47432 (net)                    1                   0.00      18.80 f
+  U48466/CO (FADDX1_RVT)                    0.03      1.17      19.96 f
+  n47426 (net)                    1                   0.00      19.96 f
+  U48464/CO (FADDX1_RVT)                    0.03      1.17      21.14 f
+  n47425 (net)                    2                   0.00      21.14 f
+  U48463/SO (HADDX1_RVT)                    0.04      1.02      22.16 f
+  n47454 (net)                    4                   0.00      22.16 f
+  U26315/Y (AO222X1_RVT)                    0.04      0.76      22.92 f
+  n47449 (net)                    4                   0.00      22.92 f
+  U26272/Y (AO222X1_RVT)                    0.04      0.76      23.67 f
+  n48996 (net)                    4                   0.00      23.67 f
+  U26245/Y (AO222X1_RVT)                    0.03      0.77      24.45 f
+  n49008 (net)                    1                   0.00      24.45 f
+  U49364/S (FADDX1_RVT)                     0.04      1.60      26.04 f
+  n49069 (net)                    1                   0.00      26.04 f
+  U49389/S (FADDX1_RVT)                     0.01      1.59      27.63 r
+  n49070 (net)                    1                   0.00      27.63 r
+  U26199/Y (NAND2X0_RVT)                    0.08      0.18      27.81 f
+  n49104 (net)                    1                   0.00      27.81 f
+  U49400/S (FADDX1_RVT)                     0.01      1.54      29.35 r
+  vec_out[31] (net)               1                   0.00      29.35 r
+  vec_out[31] (out)                         0.01      0.06      29.41 r
+  data arrival time                                             29.41
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rec_row_pp2_reg_reg_6__1_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[110]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  rec_row_pp2_reg_reg_6__1_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  rec_row_pp2_reg_reg_6__1_/Q (DFFARX1_RVT)        0.07      0.18       0.18 f
+  rec_row_pp2_reg[97] (net)              8                   0.00       0.18 f
+  U45096/Y (OR3X2_RVT)                             0.07      1.06       1.24 f
+  n42902 (net)                          15                   0.00       1.24 f
+  U45187/Y (AO22X1_RVT)                            0.02      1.57       2.80 f
+  n42021 (net)                           1                   0.00       2.80 f
+  U45188/Y (OA221X1_RVT)                           0.03      0.50       3.30 f
+  n42088 (net)                           1                   0.00       3.30 f
+  U45232/S (FADDX1_RVT)                            0.05      1.20       4.50 f
+  n42095 (net)                           3                   0.00       4.50 f
+  U45190/S (FADDX1_RVT)                            0.03      1.95       6.45 f
+  n42028 (net)                           1                   0.00       6.45 f
+  U45192/S (FADDX1_RVT)                            0.04      1.54       7.99 f
+  n42098 (net)                           1                   0.00       7.99 f
+  U45234/CO (FADDX1_RVT)                           0.03      1.58       9.57 f
+  n42154 (net)                           1                   0.00       9.57 f
+  U45269/CO (FADDX1_RVT)                           0.03      1.17      10.74 f
+  n42224 (net)                           1                   0.00      10.74 f
+  U45317/CO (FADDX1_RVT)                           0.03      1.17      11.91 f
+  n42274 (net)                           1                   0.00      11.91 f
+  U45342/CO (FADDX1_RVT)                           0.03      1.18      13.08 f
+  n42352 (net)                           1                   0.00      13.08 f
+  U45383/CO (FADDX1_RVT)                           0.03      1.58      14.67 f
+  n42445 (net)                           2                   0.00      14.67 f
+  U26610/Y (INVX0_RVT)                             0.01      0.60      15.27 r
+  n42446 (net)                           1                   0.00      15.27 r
+  U26579/Y (NAND2X0_RVT)                           0.03      0.11      15.38 f
+  n42448 (net)                           1                   0.00      15.38 f
+  U45451/Y (OA21X1_RVT)                            0.04      0.46      15.84 f
+  n42591 (net)                           2                   0.00      15.84 f
+  U26484/Y (INVX0_RVT)                             0.01      0.61      16.44 r
+  n42599 (net)                           2                   0.00      16.44 r
+  U45546/Y (OA22X1_RVT)                            0.01      0.14      16.59 r
+  n42598 (net)                           1                   0.00      16.59 r
+  U45547/Y (AOI22X1_RVT)                           0.02      0.16      16.75 f
+  n42695 (net)                           1                   0.00      16.75 f
+  U45613/CO (FADDX1_RVT)                           0.04      1.19      17.94 f
+  n42877 (net)                           3                   0.00      17.94 f
+  U45724/S (FADDX1_RVT)                            0.05      1.51      19.45 f
+  n49661 (net)                           2                   0.00      19.45 f
+  U26029/S (FADDX1_RVT)                            0.03      1.36      20.81 f
+  n42880 (net)                           1                   0.00      20.81 f
+  U45725/S (FADDX1_RVT)                            0.03      1.17      21.98 f
+  n42882 (net)                           1                   0.00      21.98 f
+  U45726/S (FADDX1_RVT)                            0.03      1.18      23.16 f
+  n42884 (net)                           1                   0.00      23.16 f
+  U45727/S (FADDX1_RVT)                            0.03      1.53      24.69 f
+  n42886 (net)                           2                   0.00      24.69 f
+  U26198/Y (AO222X1_RVT)                           0.04      0.66      25.35 f
+  n42936 (net)                           4                   0.00      25.35 f
+  U26189/Y (AO222X1_RVT)                           0.04      0.76      26.11 f
+  n43054 (net)                           4                   0.00      26.11 f
+  U26181/Y (AO222X1_RVT)                           0.04      0.78      26.89 f
+  n43153 (net)                           4                   0.00      26.89 f
+  U26177/Y (AO222X1_RVT)                           0.04      0.78      27.68 f
+  n49780 (net)                           4                   0.00      27.68 f
+  U26169/Y (AO221X1_RVT)                           0.02      0.68      28.35 f
+  n43255 (net)                           1                   0.00      28.35 f
+  U45924/SO (HADDX1_RVT)                           0.01      0.85      29.21 r
+  vec_out[110] (net)                     1                   0.00      29.21 r
+  vec_out[110] (out)                               0.01      0.06      29.26 r
+  data arrival time                                                    29.26
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_4__4_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[78]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_4__4_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_4__4_/Q (DFFARX1_RVT)        0.20      0.32       0.32 f
+  silu_reg[65] (net)             23                   0.00       0.32 f
+  U30984/Y (AND2X1_RVT)                     0.05      2.72       3.04 f
+  n39400 (net)                    3                   0.00       3.04 f
+  U43623/CO (FADDX1_RVT)                    0.02      2.00       5.04 f
+  n39373 (net)                    2                   0.00       5.04 f
+  U43624/Y (AO22X1_RVT)                     0.03      0.55       5.59 f
+  n39374 (net)                    1                   0.00       5.59 f
+  U43625/S (FADDX1_RVT)                     0.05      1.21       6.79 f
+  n39418 (net)                    4                   0.00       6.79 f
+  U43648/S (FADDX1_RVT)                     0.02      1.60       8.40 f
+  n39415 (net)                    1                   0.00       8.40 f
+  U43649/SO (HADDX1_RVT)                    0.08      0.92       9.32 f
+  n39424 (net)                    2                   0.00       9.32 f
+  U28046/Y (MUX41X1_RVT)                    0.04      3.05      12.37 f
+  n39481 (net)                    1                   0.00      12.37 f
+  U43684/CO (FADDX1_RVT)                    0.05      1.55      13.92 f
+  n39555 (net)                    3                   0.00      13.92 f
+  U43735/Y (OA22X1_RVT)                     0.01      0.69      14.61 f
+  n39553 (net)                    1                   0.00      14.61 f
+  U43736/Y (AO22X1_RVT)                     0.03      0.52      15.13 f
+  n39779 (net)                    1                   0.00      15.13 f
+  U43884/CO (FADDX1_RVT)                    0.03      1.59      16.71 f
+  n39793 (net)                    1                   0.00      16.71 f
+  U43889/CO (FADDX1_RVT)                    0.03      1.58      18.29 f
+  n40025 (net)                    1                   0.00      18.29 f
+  U44028/CO (FADDX1_RVT)                    0.03      1.17      19.46 f
+  n40031 (net)                    1                   0.00      19.46 f
+  U44030/CO (FADDX1_RVT)                    0.03      1.17      20.63 f
+  n40108 (net)                    1                   0.00      20.63 f
+  U44073/CO (FADDX1_RVT)                    0.05      1.20      21.83 f
+  n40227 (net)                    3                   0.00      21.83 f
+  U44082/S (FADDX1_RVT)                     0.03      2.01      23.84 f
+  n40131 (net)                    1                   0.00      23.84 f
+  U44083/S (FADDX1_RVT)                     0.04      1.19      25.03 f
+  n40228 (net)                    4                   0.00      25.03 f
+  U26317/Y (AO222X1_RVT)                    0.04      0.78      25.81 f
+  n40450 (net)                    4                   0.00      25.81 f
+  U26273/Y (AO222X1_RVT)                    0.03      0.75      26.56 f
+  n49495 (net)                    3                   0.00      26.56 f
+  U26250/Y (AO222X1_RVT)                    0.03      0.71      27.27 f
+  n49500 (net)                    3                   0.00      27.27 f
+  U26230/Y (AO22X1_RVT)                     0.03      0.66      27.94 f
+  n49502 (net)                    1                   0.00      27.94 f
+  U49563/S (FADDX1_RVT)                     0.01      1.18      29.12 r
+  vec_out[78] (net)               1                   0.00      29.12 r
+  vec_out[78] (out)                         0.01      0.06      29.17 r
+  data arrival time                                             29.17
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rec_row_pp2_reg_reg_6__1_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[109]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  rec_row_pp2_reg_reg_6__1_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  rec_row_pp2_reg_reg_6__1_/Q (DFFARX1_RVT)        0.07      0.18       0.18 f
+  rec_row_pp2_reg[97] (net)              8                   0.00       0.18 f
+  U45096/Y (OR3X2_RVT)                             0.07      1.06       1.24 f
+  n42902 (net)                          15                   0.00       1.24 f
+  U45187/Y (AO22X1_RVT)                            0.02      1.57       2.80 f
+  n42021 (net)                           1                   0.00       2.80 f
+  U45188/Y (OA221X1_RVT)                           0.03      0.50       3.30 f
+  n42088 (net)                           1                   0.00       3.30 f
+  U45232/S (FADDX1_RVT)                            0.05      1.20       4.50 f
+  n42095 (net)                           3                   0.00       4.50 f
+  U45190/S (FADDX1_RVT)                            0.03      1.95       6.45 f
+  n42028 (net)                           1                   0.00       6.45 f
+  U45192/S (FADDX1_RVT)                            0.04      1.54       7.99 f
+  n42098 (net)                           1                   0.00       7.99 f
+  U45234/CO (FADDX1_RVT)                           0.03      1.58       9.57 f
+  n42154 (net)                           1                   0.00       9.57 f
+  U45269/CO (FADDX1_RVT)                           0.03      1.17      10.74 f
+  n42224 (net)                           1                   0.00      10.74 f
+  U45317/CO (FADDX1_RVT)                           0.03      1.17      11.91 f
+  n42274 (net)                           1                   0.00      11.91 f
+  U45342/CO (FADDX1_RVT)                           0.03      1.18      13.08 f
+  n42352 (net)                           1                   0.00      13.08 f
+  U45383/CO (FADDX1_RVT)                           0.03      1.58      14.67 f
+  n42445 (net)                           2                   0.00      14.67 f
+  U26610/Y (INVX0_RVT)                             0.01      0.60      15.27 r
+  n42446 (net)                           1                   0.00      15.27 r
+  U26579/Y (NAND2X0_RVT)                           0.03      0.11      15.38 f
+  n42448 (net)                           1                   0.00      15.38 f
+  U45451/Y (OA21X1_RVT)                            0.04      0.46      15.84 f
+  n42591 (net)                           2                   0.00      15.84 f
+  U26484/Y (INVX0_RVT)                             0.01      0.61      16.44 r
+  n42599 (net)                           2                   0.00      16.44 r
+  U45546/Y (OA22X1_RVT)                            0.01      0.14      16.59 r
+  n42598 (net)                           1                   0.00      16.59 r
+  U45547/Y (AOI22X1_RVT)                           0.02      0.16      16.75 f
+  n42695 (net)                           1                   0.00      16.75 f
+  U45613/CO (FADDX1_RVT)                           0.04      1.19      17.94 f
+  n42877 (net)                           3                   0.00      17.94 f
+  U45724/S (FADDX1_RVT)                            0.05      1.51      19.45 f
+  n49661 (net)                           2                   0.00      19.45 f
+  U26029/S (FADDX1_RVT)                            0.03      1.36      20.81 f
+  n42880 (net)                           1                   0.00      20.81 f
+  U45725/S (FADDX1_RVT)                            0.03      1.17      21.98 f
+  n42882 (net)                           1                   0.00      21.98 f
+  U45726/S (FADDX1_RVT)                            0.03      1.18      23.16 f
+  n42884 (net)                           1                   0.00      23.16 f
+  U45727/S (FADDX1_RVT)                            0.03      1.53      24.69 f
+  n42886 (net)                           2                   0.00      24.69 f
+  U26198/Y (AO222X1_RVT)                           0.04      0.66      25.35 f
+  n42936 (net)                           4                   0.00      25.35 f
+  U26189/Y (AO222X1_RVT)                           0.04      0.76      26.11 f
+  n43054 (net)                           4                   0.00      26.11 f
+  U26181/Y (AO222X1_RVT)                           0.04      0.78      26.89 f
+  n43153 (net)                           4                   0.00      26.89 f
+  U45850/Y (AO221X1_RVT)                           0.02      0.68      27.57 f
+  n43120 (net)                           1                   0.00      27.57 f
+  U45851/SO (HADDX1_RVT)                           0.01      0.85      28.42 r
+  vec_out[109] (net)                     1                   0.00      28.42 r
+  vec_out[109] (out)                               0.01      0.06      28.48 r
+  data arrival time                                                    28.48
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_4__4_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[77]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_4__4_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_4__4_/Q (DFFARX1_RVT)        0.20      0.32       0.32 f
+  silu_reg[65] (net)             23                   0.00       0.32 f
+  U30984/Y (AND2X1_RVT)                     0.05      2.72       3.04 f
+  n39400 (net)                    3                   0.00       3.04 f
+  U43623/CO (FADDX1_RVT)                    0.02      2.00       5.04 f
+  n39373 (net)                    2                   0.00       5.04 f
+  U43624/Y (AO22X1_RVT)                     0.03      0.55       5.59 f
+  n39374 (net)                    1                   0.00       5.59 f
+  U43625/S (FADDX1_RVT)                     0.05      1.21       6.79 f
+  n39418 (net)                    4                   0.00       6.79 f
+  U43648/S (FADDX1_RVT)                     0.02      1.60       8.40 f
+  n39415 (net)                    1                   0.00       8.40 f
+  U43649/SO (HADDX1_RVT)                    0.08      0.92       9.32 f
+  n39424 (net)                    2                   0.00       9.32 f
+  U28046/Y (MUX41X1_RVT)                    0.04      3.05      12.37 f
+  n39481 (net)                    1                   0.00      12.37 f
+  U43684/CO (FADDX1_RVT)                    0.05      1.55      13.92 f
+  n39555 (net)                    3                   0.00      13.92 f
+  U43735/Y (OA22X1_RVT)                     0.01      0.69      14.61 f
+  n39553 (net)                    1                   0.00      14.61 f
+  U43736/Y (AO22X1_RVT)                     0.03      0.52      15.13 f
+  n39779 (net)                    1                   0.00      15.13 f
+  U43884/CO (FADDX1_RVT)                    0.03      1.59      16.71 f
+  n39793 (net)                    1                   0.00      16.71 f
+  U43889/CO (FADDX1_RVT)                    0.03      1.58      18.29 f
+  n40025 (net)                    1                   0.00      18.29 f
+  U44028/CO (FADDX1_RVT)                    0.03      1.17      19.46 f
+  n40031 (net)                    1                   0.00      19.46 f
+  U44030/CO (FADDX1_RVT)                    0.03      1.17      20.63 f
+  n40108 (net)                    1                   0.00      20.63 f
+  U44073/CO (FADDX1_RVT)                    0.05      1.20      21.83 f
+  n40227 (net)                    3                   0.00      21.83 f
+  U44082/S (FADDX1_RVT)                     0.03      2.01      23.84 f
+  n40131 (net)                    1                   0.00      23.84 f
+  U44083/S (FADDX1_RVT)                     0.04      1.19      25.03 f
+  n40228 (net)                    4                   0.00      25.03 f
+  U26317/Y (AO222X1_RVT)                    0.04      0.78      25.81 f
+  n40450 (net)                    4                   0.00      25.81 f
+  U26273/Y (AO222X1_RVT)                    0.03      0.75      26.56 f
+  n49495 (net)                    3                   0.00      26.56 f
+  U26246/Y (AO22X1_RVT)                     0.03      0.66      27.22 f
+  n49497 (net)                    1                   0.00      27.22 f
+  U49562/S (FADDX1_RVT)                     0.01      1.18      28.40 r
+  vec_out[77] (net)               1                   0.00      28.40 r
+  vec_out[77] (out)                         0.01      0.06      28.46 r
+  data arrival time                                             28.46
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_5__2_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[94]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_5__2_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_5__2_/Q (DFFARX1_RVT)        0.19      0.31       0.31 f
+  silu_reg[79] (net)             22                   0.00       0.31 f
+  U44432/Y (NAND4X0_RVT)                    0.04      2.74       3.05 r
+  n40759 (net)                    1                   0.00       3.05 r
+  U30436/Y (NAND2X0_RVT)                    0.09      0.19       3.24 f
+  n40837 (net)                    3                   0.00       3.24 f
+  U44433/SO (HADDX1_RVT)                    0.01      1.10       4.33 r
+  n40832 (net)                    2                   0.00       4.33 r
+  U29088/Y (INVX0_RVT)                      0.05      0.17       4.50 f
+  n40763 (net)                    1                   0.00       4.50 f
+  U44434/S (FADDX1_RVT)                     0.02      1.53       6.03 f
+  n40764 (net)                    1                   0.00       6.03 f
+  U44435/SO (HADDX1_RVT)                    0.01      0.86       6.89 r
+  n40769 (net)                    2                   0.00       6.89 r
+  U28191/Y (INVX0_RVT)                      0.05      0.17       7.06 f
+  n40830 (net)                    2                   0.00       7.06 f
+  U28036/Y (MUX21X1_RVT)                    0.04      1.22       8.28 f
+  n40894 (net)                    2                   0.00       8.28 f
+  U44485/S (FADDX1_RVT)                     0.05      1.80      10.07 f
+  n40934 (net)                    3                   0.00      10.07 f
+  U44534/CO (FADDX1_RVT)                    0.03      2.00      12.07 f
+  n40968 (net)                    1                   0.00      12.07 f
+  U44557/CO (FADDX1_RVT)                    0.03      1.18      13.25 f
+  n41088 (net)                    1                   0.00      13.25 f
+  U44628/CO (FADDX1_RVT)                    0.03      1.52      14.77 f
+  n41165 (net)                    1                   0.00      14.77 f
+  U44678/CO (FADDX1_RVT)                    0.04      1.19      15.96 f
+  n41318 (net)                    2                   0.00      15.96 f
+  U44683/S (FADDX1_RVT)                     0.03      1.84      17.80 f
+  n41176 (net)                    1                   0.00      17.80 f
+  U26145/S (FADDX1_RVT)                     0.03      1.53      19.33 f
+  n41177 (net)                    1                   0.00      19.33 f
+  U44688/S (FADDX1_RVT)                     0.03      1.17      20.50 f
+  n41178 (net)                    1                   0.00      20.50 f
+  U26017/S (FADDX1_RVT)                     0.04      1.19      21.69 f
+  n41220 (net)                    4                   0.00      21.69 f
+  U26580/Y (AO222X1_RVT)                    0.04      0.78      22.48 f
+  n41455 (net)                    4                   0.00      22.48 f
+  U26531/Y (AO222X1_RVT)                    0.04      0.76      23.24 f
+  n41497 (net)                    4                   0.00      23.24 f
+  U26497/Y (AO222X1_RVT)                    0.04      0.78      24.02 f
+  n41629 (net)                    4                   0.00      24.02 f
+  U26459/Y (AO222X1_RVT)                    0.03      0.71      24.73 f
+  n49510 (net)                    3                   0.00      24.73 f
+  U26405/Y (AO222X1_RVT)                    0.04      0.70      25.43 f
+  n41823 (net)                    4                   0.00      25.43 f
+  U26360/Y (AO222X1_RVT)                    0.04      0.72      26.15 f
+  n49586 (net)                    4                   0.00      26.15 f
+  U26268/Y (AO221X1_RVT)                    0.02      0.71      26.86 f
+  n41877 (net)                    1                   0.00      26.86 f
+  U45082/SO (HADDX1_RVT)                    0.01      0.85      27.72 r
+  vec_out[94] (net)               1                   0.00      27.72 r
+  vec_out[94] (out)                         0.01      0.06      27.77 r
+  data arrival time                                             27.77
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rec_row_pp2_reg_reg_6__1_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[108]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  rec_row_pp2_reg_reg_6__1_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  rec_row_pp2_reg_reg_6__1_/Q (DFFARX1_RVT)        0.07      0.18       0.18 f
+  rec_row_pp2_reg[97] (net)              8                   0.00       0.18 f
+  U45096/Y (OR3X2_RVT)                             0.07      1.06       1.24 f
+  n42902 (net)                          15                   0.00       1.24 f
+  U45187/Y (AO22X1_RVT)                            0.02      1.57       2.80 f
+  n42021 (net)                           1                   0.00       2.80 f
+  U45188/Y (OA221X1_RVT)                           0.03      0.50       3.30 f
+  n42088 (net)                           1                   0.00       3.30 f
+  U45232/S (FADDX1_RVT)                            0.05      1.20       4.50 f
+  n42095 (net)                           3                   0.00       4.50 f
+  U45190/S (FADDX1_RVT)                            0.03      1.95       6.45 f
+  n42028 (net)                           1                   0.00       6.45 f
+  U45192/S (FADDX1_RVT)                            0.04      1.54       7.99 f
+  n42098 (net)                           1                   0.00       7.99 f
+  U45234/CO (FADDX1_RVT)                           0.03      1.58       9.57 f
+  n42154 (net)                           1                   0.00       9.57 f
+  U45269/CO (FADDX1_RVT)                           0.03      1.17      10.74 f
+  n42224 (net)                           1                   0.00      10.74 f
+  U45317/CO (FADDX1_RVT)                           0.03      1.17      11.91 f
+  n42274 (net)                           1                   0.00      11.91 f
+  U45342/CO (FADDX1_RVT)                           0.03      1.18      13.08 f
+  n42352 (net)                           1                   0.00      13.08 f
+  U45383/CO (FADDX1_RVT)                           0.03      1.58      14.67 f
+  n42445 (net)                           2                   0.00      14.67 f
+  U26610/Y (INVX0_RVT)                             0.01      0.60      15.27 r
+  n42446 (net)                           1                   0.00      15.27 r
+  U26579/Y (NAND2X0_RVT)                           0.03      0.11      15.38 f
+  n42448 (net)                           1                   0.00      15.38 f
+  U45451/Y (OA21X1_RVT)                            0.04      0.46      15.84 f
+  n42591 (net)                           2                   0.00      15.84 f
+  U26484/Y (INVX0_RVT)                             0.01      0.61      16.44 r
+  n42599 (net)                           2                   0.00      16.44 r
+  U45546/Y (OA22X1_RVT)                            0.01      0.14      16.59 r
+  n42598 (net)                           1                   0.00      16.59 r
+  U45547/Y (AOI22X1_RVT)                           0.02      0.16      16.75 f
+  n42695 (net)                           1                   0.00      16.75 f
+  U45613/CO (FADDX1_RVT)                           0.04      1.19      17.94 f
+  n42877 (net)                           3                   0.00      17.94 f
+  U45724/S (FADDX1_RVT)                            0.05      1.51      19.45 f
+  n49661 (net)                           2                   0.00      19.45 f
+  U26029/S (FADDX1_RVT)                            0.03      1.36      20.81 f
+  n42880 (net)                           1                   0.00      20.81 f
+  U45725/S (FADDX1_RVT)                            0.03      1.17      21.98 f
+  n42882 (net)                           1                   0.00      21.98 f
+  U45726/S (FADDX1_RVT)                            0.03      1.18      23.16 f
+  n42884 (net)                           1                   0.00      23.16 f
+  U45727/S (FADDX1_RVT)                            0.03      1.53      24.69 f
+  n42886 (net)                           2                   0.00      24.69 f
+  U26198/Y (AO222X1_RVT)                           0.04      0.66      25.35 f
+  n42936 (net)                           4                   0.00      25.35 f
+  U26189/Y (AO222X1_RVT)                           0.04      0.76      26.11 f
+  n43054 (net)                           4                   0.00      26.11 f
+  U45790/Y (AO221X1_RVT)                           0.02      0.68      26.79 f
+  n43017 (net)                           1                   0.00      26.79 f
+  U45791/SO (HADDX1_RVT)                           0.01      0.85      27.64 r
+  vec_out[108] (net)                     1                   0.00      27.64 r
+  vec_out[108] (out)                               0.01      0.06      27.69 r
+  data arrival time                                                    27.69
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_4__4_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[76]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_4__4_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_4__4_/Q (DFFARX1_RVT)        0.20      0.32       0.32 f
+  silu_reg[65] (net)             23                   0.00       0.32 f
+  U30984/Y (AND2X1_RVT)                     0.05      2.72       3.04 f
+  n39400 (net)                    3                   0.00       3.04 f
+  U43623/CO (FADDX1_RVT)                    0.02      2.00       5.04 f
+  n39373 (net)                    2                   0.00       5.04 f
+  U43624/Y (AO22X1_RVT)                     0.03      0.55       5.59 f
+  n39374 (net)                    1                   0.00       5.59 f
+  U43625/S (FADDX1_RVT)                     0.05      1.21       6.79 f
+  n39418 (net)                    4                   0.00       6.79 f
+  U43648/S (FADDX1_RVT)                     0.02      1.60       8.40 f
+  n39415 (net)                    1                   0.00       8.40 f
+  U43649/SO (HADDX1_RVT)                    0.08      0.92       9.32 f
+  n39424 (net)                    2                   0.00       9.32 f
+  U28046/Y (MUX41X1_RVT)                    0.04      3.05      12.37 f
+  n39481 (net)                    1                   0.00      12.37 f
+  U43684/CO (FADDX1_RVT)                    0.05      1.55      13.92 f
+  n39555 (net)                    3                   0.00      13.92 f
+  U43735/Y (OA22X1_RVT)                     0.01      0.69      14.61 f
+  n39553 (net)                    1                   0.00      14.61 f
+  U43736/Y (AO22X1_RVT)                     0.03      0.52      15.13 f
+  n39779 (net)                    1                   0.00      15.13 f
+  U43884/CO (FADDX1_RVT)                    0.03      1.59      16.71 f
+  n39793 (net)                    1                   0.00      16.71 f
+  U43889/CO (FADDX1_RVT)                    0.03      1.58      18.29 f
+  n40025 (net)                    1                   0.00      18.29 f
+  U44028/CO (FADDX1_RVT)                    0.03      1.17      19.46 f
+  n40031 (net)                    1                   0.00      19.46 f
+  U44030/CO (FADDX1_RVT)                    0.03      1.17      20.63 f
+  n40108 (net)                    1                   0.00      20.63 f
+  U44073/CO (FADDX1_RVT)                    0.05      1.20      21.83 f
+  n40227 (net)                    3                   0.00      21.83 f
+  U44082/S (FADDX1_RVT)                     0.03      2.01      23.84 f
+  n40131 (net)                    1                   0.00      23.84 f
+  U44083/S (FADDX1_RVT)                     0.04      1.19      25.03 f
+  n40228 (net)                    4                   0.00      25.03 f
+  U26317/Y (AO222X1_RVT)                    0.04      0.78      25.81 f
+  n40450 (net)                    4                   0.00      25.81 f
+  U44135/Y (AO221X1_RVT)                    0.03      0.73      26.54 f
+  n40233 (net)                    1                   0.00      26.54 f
+  U44136/SO (HADDX1_RVT)                    0.01      0.85      27.39 r
+  vec_out[76] (net)               1                   0.00      27.39 r
+  vec_out[76] (out)                         0.01      0.06      27.44 r
+  data arrival time                                             27.44
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_7__1_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[126]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_7__1_/CLK (DFFARX1_RVT)      0.06      0.00       0.00 r
+  silu_reg_reg_7__1_/Q (DFFARX1_RVT)        0.24      0.36       0.36 f
+  n50221 (net)                   27                   0.00       0.36 f
+  U31840/Y (AND2X1_RVT)                     0.05      3.05       3.41 f
+  n43747 (net)                    2                   0.00       3.41 f
+  U46251/CO (FADDX1_RVT)                    0.04      1.84       5.26 f
+  n43892 (net)                    2                   0.00       5.26 f
+  U46258/S (FADDX1_RVT)                     0.04      1.85       7.10 f
+  n43888 (net)                    2                   0.00       7.10 f
+  U30256/Y (MUX21X1_RVT)                    0.03      1.20       8.31 f
+  n43958 (net)                    1                   0.00       8.31 f
+  U46389/CO (FADDX1_RVT)                    0.04      1.60       9.91 f
+  n44120 (net)                    2                   0.00       9.91 f
+  U46393/S (FADDX1_RVT)                     0.03      1.77      11.68 f
+  n43968 (net)                    1                   0.00      11.68 f
+  U46399/S (FADDX1_RVT)                     0.03      1.53      13.21 f
+  n43969 (net)                    1                   0.00      13.21 f
+  U46400/S (FADDX1_RVT)                     0.03      1.18      14.39 f
+  n43978 (net)                    1                   0.00      14.39 f
+  U46404/S (FADDX1_RVT)                     0.03      1.54      15.93 f
+  n44134 (net)                    1                   0.00      15.93 f
+  U46486/CO (FADDX1_RVT)                    0.03      1.52      17.45 f
+  n44237 (net)                    1                   0.00      17.45 f
+  U46545/CO (FADDX1_RVT)                    0.03      1.17      18.62 f
+  n44330 (net)                    1                   0.00      18.62 f
+  U46593/CO (FADDX1_RVT)                    0.05      1.20      19.82 f
+  n44392 (net)                    3                   0.00      19.82 f
+  U46599/S (FADDX1_RVT)                     0.03      1.94      21.76 f
+  n44344 (net)                    1                   0.00      21.76 f
+  U46600/S (FADDX1_RVT)                     0.03      1.17      22.93 f
+  n44346 (net)                    1                   0.00      22.93 f
+  U46601/S (FADDX1_RVT)                     0.04      1.19      24.12 f
+  n44462 (net)                    4                   0.00      24.12 f
+  U26355/Y (AO222X1_RVT)                    0.04      0.72      24.84 f
+  n44497 (net)                    4                   0.00      24.84 f
+  U26301/Y (AO222X1_RVT)                    0.04      0.78      25.62 f
+  n49889 (net)                    4                   0.00      25.62 f
+  U26253/Y (AO221X1_RVT)                    0.02      0.71      26.34 f
+  n44579 (net)                    1                   0.00      26.34 f
+  U46731/SO (HADDX1_RVT)                    0.01      0.85      27.19 r
+  vec_out[126] (net)              1                   0.00      27.19 r
+  vec_out[126] (out)                        0.01      0.06      27.25 r
+  data arrival time                                             27.25
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_2__6_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[46]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_2__6_/CLK (DFFARX1_RVT)      0.00      0.00       0.00 r
+  silu_reg_reg_2__6_/Q (DFFARX1_RVT)        0.19      0.29       0.29 f
+  silu_reg[37] (net)             21                   0.00       0.29 f
+  U32807/Y (AND2X1_RVT)                     0.04      2.49       2.79 f
+  n26176 (net)                    1                   0.00       2.79 f
+  U35123/S (FADDX1_RVT)                     0.04      1.60       4.38 f
+  n26187 (net)                    1                   0.00       4.38 f
+  U35134/CO (FADDX1_RVT)                    0.03      1.59       5.97 f
+  n46431 (net)                    3                   0.00       5.97 f
+  U35130/Y (AO22X1_RVT)                     0.03      0.67       6.64 f
+  n26181 (net)                    1                   0.00       6.64 f
+  U35131/S (FADDX1_RVT)                     0.03      1.53       8.17 f
+  n26182 (net)                    1                   0.00       8.17 f
+  U35132/S (FADDX1_RVT)                     0.03      1.17       9.35 f
+  n26183 (net)                    1                   0.00       9.35 f
+  U35133/S (FADDX1_RVT)                     0.04      1.18      10.53 f
+  n46470 (net)                    1                   0.00      10.53 f
+  U47933/CO (FADDX1_RVT)                    0.03      1.59      12.12 f
+  n46527 (net)                    1                   0.00      12.12 f
+  U47952/CO (FADDX1_RVT)                    0.03      1.52      13.64 f
+  n46517 (net)                    1                   0.00      13.64 f
+  U47949/CO (FADDX1_RVT)                    0.03      1.18      14.81 f
+  n46513 (net)                    1                   0.00      14.81 f
+  U47947/CO (FADDX1_RVT)                    0.03      1.58      16.39 f
+  n46505 (net)                    1                   0.00      16.39 f
+  U47945/CO (FADDX1_RVT)                    0.03      1.17      17.56 f
+  n46499 (net)                    1                   0.00      17.56 f
+  U47943/CO (FADDX1_RVT)                    0.04      1.18      18.74 f
+  n46594 (net)                    2                   0.00      18.74 f
+  U26661/Y (INVX0_RVT)                      0.01      0.60      19.34 r
+  n46595 (net)                    1                   0.00      19.34 r
+  U47988/Y (OA22X1_RVT)                     0.01      0.13      19.47 r
+  n46645 (net)                    1                   0.00      19.47 r
+  U48009/CO (FADDX1_RVT)                    0.02      0.31      19.79 r
+  n46665 (net)                    3                   0.00      19.79 r
+  U26016/S (FADDX1_RVT)                     0.03      0.44      20.23 f
+  n46653 (net)                    1                   0.00      20.23 f
+  U48016/S (FADDX1_RVT)                     0.03      1.53      21.76 f
+  n46654 (net)                    1                   0.00      21.76 f
+  U48017/S (FADDX1_RVT)                     0.04      1.19      22.95 f
+  n46833 (net)                    4                   0.00      22.95 f
+  U26411/Y (AO222X1_RVT)                    0.04      0.78      23.73 f
+  n46826 (net)                    4                   0.00      23.73 f
+  U26353/Y (AO222X1_RVT)                    0.04      0.76      24.49 f
+  n49195 (net)                    4                   0.00      24.49 f
+  U26306/Y (AO222X1_RVT)                    0.03      0.77      25.27 f
+  n49324 (net)                    3                   0.00      25.27 f
+  U49444/Y (AO22X1_RVT)                     0.03      0.66      25.93 f
+  n49198 (net)                    1                   0.00      25.93 f
+  U49445/S (FADDX1_RVT)                     0.01      1.18      27.11 r
+  vec_out[46] (net)               1                   0.00      27.11 r
+  vec_out[46] (out)                         0.01      0.06      27.17 r
+  data arrival time                                             27.17
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_5__2_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[93]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_5__2_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_5__2_/Q (DFFARX1_RVT)        0.19      0.31       0.31 f
+  silu_reg[79] (net)             22                   0.00       0.31 f
+  U44432/Y (NAND4X0_RVT)                    0.04      2.74       3.05 r
+  n40759 (net)                    1                   0.00       3.05 r
+  U30436/Y (NAND2X0_RVT)                    0.09      0.19       3.24 f
+  n40837 (net)                    3                   0.00       3.24 f
+  U44433/SO (HADDX1_RVT)                    0.01      1.10       4.33 r
+  n40832 (net)                    2                   0.00       4.33 r
+  U29088/Y (INVX0_RVT)                      0.05      0.17       4.50 f
+  n40763 (net)                    1                   0.00       4.50 f
+  U44434/S (FADDX1_RVT)                     0.02      1.53       6.03 f
+  n40764 (net)                    1                   0.00       6.03 f
+  U44435/SO (HADDX1_RVT)                    0.01      0.86       6.89 r
+  n40769 (net)                    2                   0.00       6.89 r
+  U28191/Y (INVX0_RVT)                      0.05      0.17       7.06 f
+  n40830 (net)                    2                   0.00       7.06 f
+  U28036/Y (MUX21X1_RVT)                    0.04      1.22       8.28 f
+  n40894 (net)                    2                   0.00       8.28 f
+  U44485/S (FADDX1_RVT)                     0.05      1.80      10.07 f
+  n40934 (net)                    3                   0.00      10.07 f
+  U44534/CO (FADDX1_RVT)                    0.03      2.00      12.07 f
+  n40968 (net)                    1                   0.00      12.07 f
+  U44557/CO (FADDX1_RVT)                    0.03      1.18      13.25 f
+  n41088 (net)                    1                   0.00      13.25 f
+  U44628/CO (FADDX1_RVT)                    0.03      1.52      14.77 f
+  n41165 (net)                    1                   0.00      14.77 f
+  U44678/CO (FADDX1_RVT)                    0.04      1.19      15.96 f
+  n41318 (net)                    2                   0.00      15.96 f
+  U44683/S (FADDX1_RVT)                     0.03      1.84      17.80 f
+  n41176 (net)                    1                   0.00      17.80 f
+  U26145/S (FADDX1_RVT)                     0.03      1.53      19.33 f
+  n41177 (net)                    1                   0.00      19.33 f
+  U44688/S (FADDX1_RVT)                     0.03      1.17      20.50 f
+  n41178 (net)                    1                   0.00      20.50 f
+  U26017/S (FADDX1_RVT)                     0.04      1.19      21.69 f
+  n41220 (net)                    4                   0.00      21.69 f
+  U26580/Y (AO222X1_RVT)                    0.04      0.78      22.48 f
+  n41455 (net)                    4                   0.00      22.48 f
+  U26531/Y (AO222X1_RVT)                    0.04      0.76      23.24 f
+  n41497 (net)                    4                   0.00      23.24 f
+  U26497/Y (AO222X1_RVT)                    0.04      0.78      24.02 f
+  n41629 (net)                    4                   0.00      24.02 f
+  U26459/Y (AO222X1_RVT)                    0.03      0.71      24.73 f
+  n49510 (net)                    3                   0.00      24.73 f
+  U26405/Y (AO222X1_RVT)                    0.04      0.70      25.43 f
+  n41823 (net)                    4                   0.00      25.43 f
+  U26321/Y (AO221X1_RVT)                    0.02      0.71      26.14 f
+  n41791 (net)                    1                   0.00      26.14 f
+  U45043/SO (HADDX1_RVT)                    0.01      0.85      27.00 r
+  vec_out[93] (net)               1                   0.00      27.00 r
+  vec_out[93] (out)                         0.01      0.06      27.05 r
+  data arrival time                                             27.05
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rec_row_pp2_reg_reg_6__1_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[107]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  rec_row_pp2_reg_reg_6__1_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  rec_row_pp2_reg_reg_6__1_/Q (DFFARX1_RVT)        0.07      0.18       0.18 f
+  rec_row_pp2_reg[97] (net)              8                   0.00       0.18 f
+  U45096/Y (OR3X2_RVT)                             0.07      1.06       1.24 f
+  n42902 (net)                          15                   0.00       1.24 f
+  U45187/Y (AO22X1_RVT)                            0.02      1.57       2.80 f
+  n42021 (net)                           1                   0.00       2.80 f
+  U45188/Y (OA221X1_RVT)                           0.03      0.50       3.30 f
+  n42088 (net)                           1                   0.00       3.30 f
+  U45232/S (FADDX1_RVT)                            0.05      1.20       4.50 f
+  n42095 (net)                           3                   0.00       4.50 f
+  U45190/S (FADDX1_RVT)                            0.03      1.95       6.45 f
+  n42028 (net)                           1                   0.00       6.45 f
+  U45192/S (FADDX1_RVT)                            0.04      1.54       7.99 f
+  n42098 (net)                           1                   0.00       7.99 f
+  U45234/CO (FADDX1_RVT)                           0.03      1.58       9.57 f
+  n42154 (net)                           1                   0.00       9.57 f
+  U45269/CO (FADDX1_RVT)                           0.03      1.17      10.74 f
+  n42224 (net)                           1                   0.00      10.74 f
+  U45317/CO (FADDX1_RVT)                           0.03      1.17      11.91 f
+  n42274 (net)                           1                   0.00      11.91 f
+  U45342/CO (FADDX1_RVT)                           0.03      1.18      13.08 f
+  n42352 (net)                           1                   0.00      13.08 f
+  U45383/CO (FADDX1_RVT)                           0.03      1.58      14.67 f
+  n42445 (net)                           2                   0.00      14.67 f
+  U26610/Y (INVX0_RVT)                             0.01      0.60      15.27 r
+  n42446 (net)                           1                   0.00      15.27 r
+  U26579/Y (NAND2X0_RVT)                           0.03      0.11      15.38 f
+  n42448 (net)                           1                   0.00      15.38 f
+  U45451/Y (OA21X1_RVT)                            0.04      0.46      15.84 f
+  n42591 (net)                           2                   0.00      15.84 f
+  U26484/Y (INVX0_RVT)                             0.01      0.61      16.44 r
+  n42599 (net)                           2                   0.00      16.44 r
+  U45546/Y (OA22X1_RVT)                            0.01      0.14      16.59 r
+  n42598 (net)                           1                   0.00      16.59 r
+  U45547/Y (AOI22X1_RVT)                           0.02      0.16      16.75 f
+  n42695 (net)                           1                   0.00      16.75 f
+  U45613/CO (FADDX1_RVT)                           0.04      1.19      17.94 f
+  n42877 (net)                           3                   0.00      17.94 f
+  U45724/S (FADDX1_RVT)                            0.05      1.51      19.45 f
+  n49661 (net)                           2                   0.00      19.45 f
+  U26029/S (FADDX1_RVT)                            0.03      1.36      20.81 f
+  n42880 (net)                           1                   0.00      20.81 f
+  U45725/S (FADDX1_RVT)                            0.03      1.17      21.98 f
+  n42882 (net)                           1                   0.00      21.98 f
+  U45726/S (FADDX1_RVT)                            0.03      1.18      23.16 f
+  n42884 (net)                           1                   0.00      23.16 f
+  U45727/S (FADDX1_RVT)                            0.03      1.53      24.69 f
+  n42886 (net)                           2                   0.00      24.69 f
+  U26198/Y (AO222X1_RVT)                           0.04      0.66      25.35 f
+  n42936 (net)                           4                   0.00      25.35 f
+  U26182/Y (AO221X1_RVT)                           0.02      0.70      26.05 f
+  n42889 (net)                           1                   0.00      26.05 f
+  U45728/SO (HADDX1_RVT)                           0.01      0.85      26.90 r
+  vec_out[107] (net)                     1                   0.00      26.90 r
+  vec_out[107] (out)                               0.01      0.06      26.96 r
+  data arrival time                                                    26.96
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_4__4_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[75]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_4__4_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_4__4_/Q (DFFARX1_RVT)        0.20      0.32       0.32 f
+  silu_reg[65] (net)             23                   0.00       0.32 f
+  U30984/Y (AND2X1_RVT)                     0.05      2.72       3.04 f
+  n39400 (net)                    3                   0.00       3.04 f
+  U43623/CO (FADDX1_RVT)                    0.02      2.00       5.04 f
+  n39373 (net)                    2                   0.00       5.04 f
+  U43624/Y (AO22X1_RVT)                     0.03      0.55       5.59 f
+  n39374 (net)                    1                   0.00       5.59 f
+  U43625/S (FADDX1_RVT)                     0.05      1.21       6.79 f
+  n39418 (net)                    4                   0.00       6.79 f
+  U43648/S (FADDX1_RVT)                     0.02      1.60       8.40 f
+  n39415 (net)                    1                   0.00       8.40 f
+  U43649/SO (HADDX1_RVT)                    0.08      0.92       9.32 f
+  n39424 (net)                    2                   0.00       9.32 f
+  U28046/Y (MUX41X1_RVT)                    0.04      3.05      12.37 f
+  n39481 (net)                    1                   0.00      12.37 f
+  U43684/CO (FADDX1_RVT)                    0.05      1.55      13.92 f
+  n39555 (net)                    3                   0.00      13.92 f
+  U43735/Y (OA22X1_RVT)                     0.01      0.69      14.61 f
+  n39553 (net)                    1                   0.00      14.61 f
+  U43736/Y (AO22X1_RVT)                     0.03      0.52      15.13 f
+  n39779 (net)                    1                   0.00      15.13 f
+  U43884/CO (FADDX1_RVT)                    0.03      1.59      16.71 f
+  n39793 (net)                    1                   0.00      16.71 f
+  U43889/CO (FADDX1_RVT)                    0.03      1.58      18.29 f
+  n40025 (net)                    1                   0.00      18.29 f
+  U44028/CO (FADDX1_RVT)                    0.03      1.17      19.46 f
+  n40031 (net)                    1                   0.00      19.46 f
+  U44030/CO (FADDX1_RVT)                    0.03      1.17      20.63 f
+  n40108 (net)                    1                   0.00      20.63 f
+  U44073/CO (FADDX1_RVT)                    0.05      1.20      21.83 f
+  n40227 (net)                    3                   0.00      21.83 f
+  U44082/S (FADDX1_RVT)                     0.03      2.01      23.84 f
+  n40131 (net)                    1                   0.00      23.84 f
+  U44083/S (FADDX1_RVT)                     0.04      1.19      25.03 f
+  n40228 (net)                    4                   0.00      25.03 f
+  U26283/Y (AO221X1_RVT)                    0.03      0.70      25.73 f
+  n40134 (net)                    1                   0.00      25.73 f
+  U44084/SO (HADDX1_RVT)                    0.01      0.85      26.58 r
+  vec_out[75] (net)               1                   0.00      26.58 r
+  vec_out[75] (out)                         0.01      0.06      26.64 r
+  data arrival time                                             26.64
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_5__2_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[92]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_5__2_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_5__2_/Q (DFFARX1_RVT)        0.19      0.31       0.31 f
+  silu_reg[79] (net)             22                   0.00       0.31 f
+  U44432/Y (NAND4X0_RVT)                    0.04      2.74       3.05 r
+  n40759 (net)                    1                   0.00       3.05 r
+  U30436/Y (NAND2X0_RVT)                    0.09      0.19       3.24 f
+  n40837 (net)                    3                   0.00       3.24 f
+  U44433/SO (HADDX1_RVT)                    0.01      1.10       4.33 r
+  n40832 (net)                    2                   0.00       4.33 r
+  U29088/Y (INVX0_RVT)                      0.05      0.17       4.50 f
+  n40763 (net)                    1                   0.00       4.50 f
+  U44434/S (FADDX1_RVT)                     0.02      1.53       6.03 f
+  n40764 (net)                    1                   0.00       6.03 f
+  U44435/SO (HADDX1_RVT)                    0.01      0.86       6.89 r
+  n40769 (net)                    2                   0.00       6.89 r
+  U28191/Y (INVX0_RVT)                      0.05      0.17       7.06 f
+  n40830 (net)                    2                   0.00       7.06 f
+  U28036/Y (MUX21X1_RVT)                    0.04      1.22       8.28 f
+  n40894 (net)                    2                   0.00       8.28 f
+  U44485/S (FADDX1_RVT)                     0.05      1.80      10.07 f
+  n40934 (net)                    3                   0.00      10.07 f
+  U44534/CO (FADDX1_RVT)                    0.03      2.00      12.07 f
+  n40968 (net)                    1                   0.00      12.07 f
+  U44557/CO (FADDX1_RVT)                    0.03      1.18      13.25 f
+  n41088 (net)                    1                   0.00      13.25 f
+  U44628/CO (FADDX1_RVT)                    0.03      1.52      14.77 f
+  n41165 (net)                    1                   0.00      14.77 f
+  U44678/CO (FADDX1_RVT)                    0.04      1.19      15.96 f
+  n41318 (net)                    2                   0.00      15.96 f
+  U44683/S (FADDX1_RVT)                     0.03      1.84      17.80 f
+  n41176 (net)                    1                   0.00      17.80 f
+  U26145/S (FADDX1_RVT)                     0.03      1.53      19.33 f
+  n41177 (net)                    1                   0.00      19.33 f
+  U44688/S (FADDX1_RVT)                     0.03      1.17      20.50 f
+  n41178 (net)                    1                   0.00      20.50 f
+  U26017/S (FADDX1_RVT)                     0.04      1.19      21.69 f
+  n41220 (net)                    4                   0.00      21.69 f
+  U26580/Y (AO222X1_RVT)                    0.04      0.78      22.48 f
+  n41455 (net)                    4                   0.00      22.48 f
+  U26531/Y (AO222X1_RVT)                    0.04      0.76      23.24 f
+  n41497 (net)                    4                   0.00      23.24 f
+  U26497/Y (AO222X1_RVT)                    0.04      0.78      24.02 f
+  n41629 (net)                    4                   0.00      24.02 f
+  U26459/Y (AO222X1_RVT)                    0.03      0.71      24.73 f
+  n49510 (net)                    3                   0.00      24.73 f
+  U49566/Y (AO22X1_RVT)                     0.03      0.66      25.39 f
+  n49512 (net)                    1                   0.00      25.39 f
+  U49567/S (FADDX1_RVT)                     0.01      1.18      26.57 r
+  vec_out[92] (net)               1                   0.00      26.57 r
+  vec_out[92] (out)                         0.01      0.06      26.63 r
+  data arrival time                                             26.63
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_7__1_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[125]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_7__1_/CLK (DFFARX1_RVT)      0.06      0.00       0.00 r
+  silu_reg_reg_7__1_/Q (DFFARX1_RVT)        0.24      0.36       0.36 f
+  n50221 (net)                   27                   0.00       0.36 f
+  U31840/Y (AND2X1_RVT)                     0.05      3.05       3.41 f
+  n43747 (net)                    2                   0.00       3.41 f
+  U46251/CO (FADDX1_RVT)                    0.04      1.84       5.26 f
+  n43892 (net)                    2                   0.00       5.26 f
+  U46258/S (FADDX1_RVT)                     0.04      1.85       7.10 f
+  n43888 (net)                    2                   0.00       7.10 f
+  U30256/Y (MUX21X1_RVT)                    0.03      1.20       8.31 f
+  n43958 (net)                    1                   0.00       8.31 f
+  U46389/CO (FADDX1_RVT)                    0.04      1.60       9.91 f
+  n44120 (net)                    2                   0.00       9.91 f
+  U46393/S (FADDX1_RVT)                     0.03      1.77      11.68 f
+  n43968 (net)                    1                   0.00      11.68 f
+  U46399/S (FADDX1_RVT)                     0.03      1.53      13.21 f
+  n43969 (net)                    1                   0.00      13.21 f
+  U46400/S (FADDX1_RVT)                     0.03      1.18      14.39 f
+  n43978 (net)                    1                   0.00      14.39 f
+  U46404/S (FADDX1_RVT)                     0.03      1.54      15.93 f
+  n44134 (net)                    1                   0.00      15.93 f
+  U46486/CO (FADDX1_RVT)                    0.03      1.52      17.45 f
+  n44237 (net)                    1                   0.00      17.45 f
+  U46545/CO (FADDX1_RVT)                    0.03      1.17      18.62 f
+  n44330 (net)                    1                   0.00      18.62 f
+  U46593/CO (FADDX1_RVT)                    0.05      1.20      19.82 f
+  n44392 (net)                    3                   0.00      19.82 f
+  U46599/S (FADDX1_RVT)                     0.03      1.94      21.76 f
+  n44344 (net)                    1                   0.00      21.76 f
+  U46600/S (FADDX1_RVT)                     0.03      1.17      22.93 f
+  n44346 (net)                    1                   0.00      22.93 f
+  U46601/S (FADDX1_RVT)                     0.04      1.19      24.12 f
+  n44462 (net)                    4                   0.00      24.12 f
+  U26355/Y (AO222X1_RVT)                    0.04      0.72      24.84 f
+  n44497 (net)                    4                   0.00      24.84 f
+  U46671/Y (AO221X1_RVT)                    0.02      0.73      25.57 f
+  n44465 (net)                    1                   0.00      25.57 f
+  U46672/SO (HADDX1_RVT)                    0.01      0.85      26.42 r
+  vec_out[125] (net)              1                   0.00      26.42 r
+  vec_out[125] (out)                        0.01      0.06      26.48 r
+  data arrival time                                             26.48
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_3__3_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[60]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_3__3_/CLK (DFFARX1_RVT)      0.00      0.00       0.00 r
+  silu_reg_reg_3__3_/Q (DFFARX1_RVT)        0.18      0.29       0.29 f
+  silu_reg[49] (net)             21                   0.00       0.29 f
+  U31209/Y (NAND2X0_RVT)                    0.05      2.16       2.44 r
+  n45773 (net)                    4                   0.00       2.44 r
+  U47432/Y (OAI21X1_RVT)                    0.03      0.22       2.67 f
+  n45634 (net)                    2                   0.00       2.67 f
+  U47433/Y (OA21X1_RVT)                     0.03      0.60       3.26 f
+  n45631 (net)                    1                   0.00       3.26 f
+  U47452/CO (FADDX1_RVT)                    0.06      1.21       4.47 f
+  n45643 (net)                    4                   0.00       4.47 f
+  U47459/S (FADDX1_RVT)                     0.03      2.11       6.58 f
+  n45645 (net)                    1                   0.00       6.58 f
+  U47460/S (FADDX1_RVT)                     0.03      1.18       7.76 f
+  n45649 (net)                    1                   0.00       7.76 f
+  U47461/S (FADDX1_RVT)                     0.03      1.54       9.30 f
+  n45652 (net)                    1                   0.00       9.30 f
+  U47462/S (FADDX1_RVT)                     0.03      1.54      10.84 f
+  n45739 (net)                    1                   0.00      10.84 f
+  U47495/CO (FADDX1_RVT)                    0.03      1.53      12.37 f
+  n45736 (net)                    1                   0.00      12.37 f
+  U47494/CO (FADDX1_RVT)                    0.03      1.52      13.89 f
+  n45729 (net)                    1                   0.00      13.89 f
+  U47492/CO (FADDX1_RVT)                    0.03      1.17      15.06 f
+  n45796 (net)                    1                   0.00      15.06 f
+  U47515/CO (FADDX1_RVT)                    0.03      1.17      16.23 f
+  n45807 (net)                    1                   0.00      16.23 f
+  U47519/CO (FADDX1_RVT)                    0.03      1.17      17.39 f
+  n45726 (net)                    1                   0.00      17.39 f
+  U47491/CO (FADDX1_RVT)                    0.03      1.17      18.56 f
+  n45813 (net)                    1                   0.00      18.56 f
+  U47521/CO (FADDX1_RVT)                    0.03      1.17      19.73 f
+  n45720 (net)                    1                   0.00      19.73 f
+  U47489/CO (FADDX1_RVT)                    0.03      1.17      20.90 f
+  n45819 (net)                    1                   0.00      20.90 f
+  U47523/CO (FADDX1_RVT)                    0.04      1.19      22.09 f
+  n45823 (net)                    2                   0.00      22.09 f
+  U47524/S (FADDX1_RVT)                     0.04      1.78      23.87 f
+  n45865 (net)                    4                   0.00      23.87 f
+  U26404/Y (AO222X1_RVT)                    0.04      0.78      24.65 f
+  n45860 (net)                    4                   0.00      24.65 f
+  U26310/Y (AO221X1_RVT)                    0.02      0.70      25.36 f
+  n45862 (net)                    1                   0.00      25.36 f
+  U47534/SO (HADDX1_RVT)                    0.01      0.85      26.21 r
+  vec_out[60] (net)               1                   0.00      26.21 r
+  vec_out[60] (out)                         0.01      0.06      26.26 r
+  data arrival time                                             26.26
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_0__5_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_0__5_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_0__5_/Q (DFFARX1_RVT)        0.16      0.28       0.28 f
+  silu_reg[5] (net)              20                   0.00       0.28 f
+  U31558/Y (AND2X1_RVT)                     0.05      2.39       2.67 f
+  n48466 (net)                    4                   0.00       2.67 f
+  U49150/CO (FADDX1_RVT)                    0.04      2.19       4.86 f
+  n48500 (net)                    2                   0.00       4.86 f
+  U49164/S (FADDX1_RVT)                     0.04      1.84       6.70 f
+  n48502 (net)                    1                   0.00       6.70 f
+  U49165/S (FADDX1_RVT)                     0.03      1.53       8.24 f
+  n48504 (net)                    1                   0.00       8.24 f
+  U49166/S (FADDX1_RVT)                     0.03      1.17       9.41 f
+  n48507 (net)                    1                   0.00       9.41 f
+  U49167/S (FADDX1_RVT)                     0.02      1.16      10.57 f
+  n48509 (net)                    1                   0.00      10.57 f
+  U49168/Y (INVX1_RVT)                      0.01      0.70      11.27 r
+  n48572 (net)                    2                   0.00      11.27 r
+  U49169/Y (OR2X1_RVT)                      0.01      0.17      11.44 r
+  n48510 (net)                    1                   0.00      11.44 r
+  U49170/Y (OA21X1_RVT)                     0.01      0.12      11.55 r
+  n48569 (net)                    2                   0.00      11.55 r
+  U32996/Y (MUX21X1_RVT)                    0.01      0.15      11.70 r
+  n48562 (net)                    3                   0.00      11.70 r
+  U49172/Y (OR2X1_RVT)                      0.01      0.17      11.87 r
+  n48565 (net)                    2                   0.00      11.87 r
+  U49176/Y (AOI22X1_RVT)                    0.02      0.18      12.05 f
+  n48553 (net)                    1                   0.00      12.05 f
+  U49188/CO (FADDX1_RVT)                    0.02      1.16      13.21 f
+  n48524 (net)                    1                   0.00      13.21 f
+  U49177/Y (INVX1_RVT)                      0.01      0.70      13.91 r
+  n48624 (net)                    1                   0.00      13.91 r
+  U49213/CO (FADDX1_RVT)                    0.01      0.30      14.21 r
+  n48525 (net)                    1                   0.00      14.21 r
+  U49178/Y (INVX1_RVT)                      0.02      0.17      14.38 f
+  n48550 (net)                    1                   0.00      14.38 f
+  U49187/CO (FADDX1_RVT)                    0.03      1.17      15.54 f
+  n48547 (net)                    1                   0.00      15.54 f
+  U49186/CO (FADDX1_RVT)                    0.03      1.18      16.72 f
+  n48545 (net)                    1                   0.00      16.72 f
+  U49185/CO (FADDX1_RVT)                    0.03      1.52      18.24 f
+  n48535 (net)                    1                   0.00      18.24 f
+  U49182/CO (FADDX1_RVT)                    0.03      1.17      19.41 f
+  n48532 (net)                    1                   0.00      19.41 f
+  U49181/CO (FADDX1_RVT)                    0.03      1.17      20.58 f
+  n48529 (net)                    1                   0.00      20.58 f
+  U49180/CO (FADDX1_RVT)                    0.03      1.17      21.75 f
+  n48648 (net)                    1                   0.00      21.75 f
+  U49229/CO (FADDX1_RVT)                    0.03      1.18      22.92 f
+  n48922 (net)                    1                   0.00      22.92 f
+  U49335/S (FADDX1_RVT)                     0.01      1.59      24.51 r
+  n48696 (net)                    2                   0.00      24.51 r
+  U26187/Y (INVX0_RVT)                      0.04      0.17      24.68 f
+  n48867 (net)                    3                   0.00      24.68 f
+  U49254/Y (OA221X1_RVT)                    0.02      0.57      25.25 f
+  n48698 (net)                    1                   0.00      25.25 f
+  U49255/SO (HADDX1_RVT)                    0.01      0.85      26.10 r
+  vec_out[14] (net)               1                   0.00      26.10 r
+  vec_out[14] (out)                         0.01      0.06      26.16 r
+  data arrival time                                             26.16
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_2__6_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[45]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_2__6_/CLK (DFFARX1_RVT)      0.00      0.00       0.00 r
+  silu_reg_reg_2__6_/Q (DFFARX1_RVT)        0.19      0.29       0.29 f
+  silu_reg[37] (net)             21                   0.00       0.29 f
+  U32807/Y (AND2X1_RVT)                     0.04      2.49       2.79 f
+  n26176 (net)                    1                   0.00       2.79 f
+  U35123/S (FADDX1_RVT)                     0.04      1.60       4.38 f
+  n26187 (net)                    1                   0.00       4.38 f
+  U35134/CO (FADDX1_RVT)                    0.03      1.59       5.97 f
+  n46431 (net)                    3                   0.00       5.97 f
+  U35130/Y (AO22X1_RVT)                     0.03      0.67       6.64 f
+  n26181 (net)                    1                   0.00       6.64 f
+  U35131/S (FADDX1_RVT)                     0.03      1.53       8.17 f
+  n26182 (net)                    1                   0.00       8.17 f
+  U35132/S (FADDX1_RVT)                     0.03      1.17       9.35 f
+  n26183 (net)                    1                   0.00       9.35 f
+  U35133/S (FADDX1_RVT)                     0.04      1.18      10.53 f
+  n46470 (net)                    1                   0.00      10.53 f
+  U47933/CO (FADDX1_RVT)                    0.03      1.59      12.12 f
+  n46527 (net)                    1                   0.00      12.12 f
+  U47952/CO (FADDX1_RVT)                    0.03      1.52      13.64 f
+  n46517 (net)                    1                   0.00      13.64 f
+  U47949/CO (FADDX1_RVT)                    0.03      1.18      14.81 f
+  n46513 (net)                    1                   0.00      14.81 f
+  U47947/CO (FADDX1_RVT)                    0.03      1.58      16.39 f
+  n46505 (net)                    1                   0.00      16.39 f
+  U47945/CO (FADDX1_RVT)                    0.03      1.17      17.56 f
+  n46499 (net)                    1                   0.00      17.56 f
+  U47943/CO (FADDX1_RVT)                    0.04      1.18      18.74 f
+  n46594 (net)                    2                   0.00      18.74 f
+  U26661/Y (INVX0_RVT)                      0.01      0.60      19.34 r
+  n46595 (net)                    1                   0.00      19.34 r
+  U47988/Y (OA22X1_RVT)                     0.01      0.13      19.47 r
+  n46645 (net)                    1                   0.00      19.47 r
+  U48009/CO (FADDX1_RVT)                    0.02      0.31      19.79 r
+  n46665 (net)                    3                   0.00      19.79 r
+  U26016/S (FADDX1_RVT)                     0.03      0.44      20.23 f
+  n46653 (net)                    1                   0.00      20.23 f
+  U48016/S (FADDX1_RVT)                     0.03      1.53      21.76 f
+  n46654 (net)                    1                   0.00      21.76 f
+  U48017/S (FADDX1_RVT)                     0.04      1.19      22.95 f
+  n46833 (net)                    4                   0.00      22.95 f
+  U26411/Y (AO222X1_RVT)                    0.04      0.78      23.73 f
+  n46826 (net)                    4                   0.00      23.73 f
+  U26353/Y (AO222X1_RVT)                    0.04      0.76      24.49 f
+  n49195 (net)                    4                   0.00      24.49 f
+  U26280/Y (AO221X1_RVT)                    0.02      0.68      25.17 f
+  n46825 (net)                    1                   0.00      25.17 f
+  U48121/SO (HADDX1_RVT)                    0.01      0.85      26.02 r
+  vec_out[45] (net)               1                   0.00      26.02 r
+  vec_out[45] (out)                         0.01      0.06      26.08 r
+  data arrival time                                             26.08
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_7__1_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[124]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_7__1_/CLK (DFFARX1_RVT)      0.06      0.00       0.00 r
+  silu_reg_reg_7__1_/Q (DFFARX1_RVT)        0.24      0.36       0.36 f
+  n50221 (net)                   27                   0.00       0.36 f
+  U31840/Y (AND2X1_RVT)                     0.05      3.05       3.41 f
+  n43747 (net)                    2                   0.00       3.41 f
+  U46251/CO (FADDX1_RVT)                    0.04      1.84       5.26 f
+  n43892 (net)                    2                   0.00       5.26 f
+  U46258/S (FADDX1_RVT)                     0.04      1.85       7.10 f
+  n43888 (net)                    2                   0.00       7.10 f
+  U30256/Y (MUX21X1_RVT)                    0.03      1.20       8.31 f
+  n43958 (net)                    1                   0.00       8.31 f
+  U46389/CO (FADDX1_RVT)                    0.04      1.60       9.91 f
+  n44120 (net)                    2                   0.00       9.91 f
+  U46393/S (FADDX1_RVT)                     0.03      1.77      11.68 f
+  n43968 (net)                    1                   0.00      11.68 f
+  U46399/S (FADDX1_RVT)                     0.03      1.53      13.21 f
+  n43969 (net)                    1                   0.00      13.21 f
+  U46400/S (FADDX1_RVT)                     0.03      1.18      14.39 f
+  n43978 (net)                    1                   0.00      14.39 f
+  U46404/S (FADDX1_RVT)                     0.03      1.54      15.93 f
+  n44134 (net)                    1                   0.00      15.93 f
+  U46486/CO (FADDX1_RVT)                    0.03      1.52      17.45 f
+  n44237 (net)                    1                   0.00      17.45 f
+  U46545/CO (FADDX1_RVT)                    0.03      1.17      18.62 f
+  n44330 (net)                    1                   0.00      18.62 f
+  U46593/CO (FADDX1_RVT)                    0.05      1.20      19.82 f
+  n44392 (net)                    3                   0.00      19.82 f
+  U46599/S (FADDX1_RVT)                     0.03      1.94      21.76 f
+  n44344 (net)                    1                   0.00      21.76 f
+  U46600/S (FADDX1_RVT)                     0.03      1.17      22.93 f
+  n44346 (net)                    1                   0.00      22.93 f
+  U46601/S (FADDX1_RVT)                     0.04      1.19      24.12 f
+  n44462 (net)                    4                   0.00      24.12 f
+  U26304/Y (AO221X1_RVT)                    0.02      0.71      24.83 f
+  n44352 (net)                    1                   0.00      24.83 f
+  U46602/SO (HADDX1_RVT)                    0.01      0.85      25.69 r
+  vec_out[124] (net)              1                   0.00      25.69 r
+  vec_out[124] (out)                        0.01      0.06      25.74 r
+  data arrival time                                             25.74
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_5__2_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[91]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_5__2_/CLK (DFFARX1_RVT)      0.05      0.00       0.00 r
+  silu_reg_reg_5__2_/Q (DFFARX1_RVT)        0.19      0.31       0.31 f
+  silu_reg[79] (net)             22                   0.00       0.31 f
+  U44432/Y (NAND4X0_RVT)                    0.04      2.74       3.05 r
+  n40759 (net)                    1                   0.00       3.05 r
+  U30436/Y (NAND2X0_RVT)                    0.09      0.19       3.24 f
+  n40837 (net)                    3                   0.00       3.24 f
+  U44433/SO (HADDX1_RVT)                    0.01      1.10       4.33 r
+  n40832 (net)                    2                   0.00       4.33 r
+  U29088/Y (INVX0_RVT)                      0.05      0.17       4.50 f
+  n40763 (net)                    1                   0.00       4.50 f
+  U44434/S (FADDX1_RVT)                     0.02      1.53       6.03 f
+  n40764 (net)                    1                   0.00       6.03 f
+  U44435/SO (HADDX1_RVT)                    0.01      0.86       6.89 r
+  n40769 (net)                    2                   0.00       6.89 r
+  U28191/Y (INVX0_RVT)                      0.05      0.17       7.06 f
+  n40830 (net)                    2                   0.00       7.06 f
+  U28036/Y (MUX21X1_RVT)                    0.04      1.22       8.28 f
+  n40894 (net)                    2                   0.00       8.28 f
+  U44485/S (FADDX1_RVT)                     0.05      1.80      10.07 f
+  n40934 (net)                    3                   0.00      10.07 f
+  U44534/CO (FADDX1_RVT)                    0.03      2.00      12.07 f
+  n40968 (net)                    1                   0.00      12.07 f
+  U44557/CO (FADDX1_RVT)                    0.03      1.18      13.25 f
+  n41088 (net)                    1                   0.00      13.25 f
+  U44628/CO (FADDX1_RVT)                    0.03      1.52      14.77 f
+  n41165 (net)                    1                   0.00      14.77 f
+  U44678/CO (FADDX1_RVT)                    0.04      1.19      15.96 f
+  n41318 (net)                    2                   0.00      15.96 f
+  U44683/S (FADDX1_RVT)                     0.03      1.84      17.80 f
+  n41176 (net)                    1                   0.00      17.80 f
+  U26145/S (FADDX1_RVT)                     0.03      1.53      19.33 f
+  n41177 (net)                    1                   0.00      19.33 f
+  U44688/S (FADDX1_RVT)                     0.03      1.17      20.50 f
+  n41178 (net)                    1                   0.00      20.50 f
+  U26017/S (FADDX1_RVT)                     0.04      1.19      21.69 f
+  n41220 (net)                    4                   0.00      21.69 f
+  U26580/Y (AO222X1_RVT)                    0.04      0.78      22.48 f
+  n41455 (net)                    4                   0.00      22.48 f
+  U26531/Y (AO222X1_RVT)                    0.04      0.76      23.24 f
+  n41497 (net)                    4                   0.00      23.24 f
+  U26497/Y (AO222X1_RVT)                    0.04      0.78      24.02 f
+  n41629 (net)                    4                   0.00      24.02 f
+  U26403/Y (AO221X1_RVT)                    0.02      0.71      24.73 f
+  n41555 (net)                    1                   0.00      24.73 f
+  U44912/SO (HADDX1_RVT)                    0.01      0.85      25.58 r
+  vec_out[91] (net)               1                   0.00      25.58 r
+  vec_out[91] (out)                         0.01      0.06      25.64 r
+  data arrival time                                             25.64
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: silu_reg_reg_3__3_
+              (rising edge-triggered flip-flop)
+  Endpoint: vec_out[59]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vector_unit        70000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                         Fanout     Trans      Incr       Path      Attributes
+  -------------------------------------------------------------------------------------------
+  silu_reg_reg_3__3_/CLK (DFFARX1_RVT)      0.00      0.00       0.00 r
+  silu_reg_reg_3__3_/Q (DFFARX1_RVT)        0.18      0.29       0.29 f
+  silu_reg[49] (net)             21                   0.00       0.29 f
+  U31209/Y (NAND2X0_RVT)                    0.05      2.16       2.44 r
+  n45773 (net)                    4                   0.00       2.44 r
+  U47432/Y (OAI21X1_RVT)                    0.03      0.22       2.67 f
+  n45634 (net)                    2                   0.00       2.67 f
+  U47433/Y (OA21X1_RVT)                     0.03      0.60       3.26 f
+  n45631 (net)                    1                   0.00       3.26 f
+  U47452/CO (FADDX1_RVT)                    0.06      1.21       4.47 f
+  n45643 (net)                    4                   0.00       4.47 f
+  U47459/S (FADDX1_RVT)                     0.03      2.11       6.58 f
+  n45645 (net)                    1                   0.00       6.58 f
+  U47460/S (FADDX1_RVT)                     0.03      1.18       7.76 f
+  n45649 (net)                    1                   0.00       7.76 f
+  U47461/S (FADDX1_RVT)                     0.03      1.54       9.30 f
+  n45652 (net)                    1                   0.00       9.30 f
+  U47462/S (FADDX1_RVT)                     0.03      1.54      10.84 f
+  n45739 (net)                    1                   0.00      10.84 f
+  U47495/CO (FADDX1_RVT)                    0.03      1.53      12.37 f
+  n45736 (net)                    1                   0.00      12.37 f
+  U47494/CO (FADDX1_RVT)                    0.03      1.52      13.89 f
+  n45729 (net)                    1                   0.00      13.89 f
+  U47492/CO (FADDX1_RVT)                    0.03      1.17      15.06 f
+  n45796 (net)                    1                   0.00      15.06 f
+  U47515/CO (FADDX1_RVT)                    0.03      1.17      16.23 f
+  n45807 (net)                    1                   0.00      16.23 f
+  U47519/CO (FADDX1_RVT)                    0.03      1.17      17.39 f
+  n45726 (net)                    1                   0.00      17.39 f
+  U47491/CO (FADDX1_RVT)                    0.03      1.17      18.56 f
+  n45813 (net)                    1                   0.00      18.56 f
+  U47521/CO (FADDX1_RVT)                    0.03      1.17      19.73 f
+  n45720 (net)                    1                   0.00      19.73 f
+  U47489/CO (FADDX1_RVT)                    0.03      1.17      20.90 f
+  n45819 (net)                    1                   0.00      20.90 f
+  U47523/CO (FADDX1_RVT)                    0.04      1.19      22.09 f
+  n45823 (net)                    2                   0.00      22.09 f
+  U47524/S (FADDX1_RVT)                     0.02      1.77      23.86 r
+  n45865 (net)                    4                   0.00      23.86 r
+  U26614/Y (INVX0_RVT)                      0.02      0.17      24.02 f
+  n45867 (net)                    1                   0.00      24.02 f
+  U47535/Y (AO221X1_RVT)                    0.02      0.53      24.55 f
+  n45868 (net)                    1                   0.00      24.55 f
+  U47536/SO (HADDX1_RVT)                    0.01      0.85      25.40 r
+  vec_out[59] (net)               1                   0.00      25.40 r
+  vec_out[59] (out)                         0.01      0.06      25.46 r
+  data arrival time                                             25.46
+  -------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

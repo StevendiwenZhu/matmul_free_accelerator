@@ -1,0 +1,1090 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay min
+        -nets
+        -max_paths 30
+        -transition_time
+Design : rms_norm_sf
+Version: V-2023.12-SP5
+Date   : Fri Dec  6 23:19:23 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: vec_div0_done_reg
+              (rising edge-triggered flip-flop)
+  Endpoint: done (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  vec_div0_done_reg/CLK (DFFARX1_RVT)      0.03      0.00       0.00 r
+  vec_div0_done_reg/Q (DFFARX1_RVT)        0.01      0.10       0.10 f
+  done (net)                     1                   0.00       0.10 f
+  done (out)                               0.01      0.07       0.16 f
+  data arrival time                                             0.16
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[1023]
+              (input port)
+  Endpoint: output_arr[1023]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[1023] (in)                   0.01      0.00       0.00 r
+  scaling_arr[1023] (net)        7                   0.00       0.00 r
+  U52085/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n100501 (net)                  1                   0.00       0.22 r
+  U105254/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n100551 (net)                  1                   0.00       0.34 r
+  U105269/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[1023] (net)         1                   0.00       0.78 r
+  output_arr[1023] (out)                   0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[1007]
+              (input port)
+  Endpoint: output_arr[1007]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[1007] (in)                   0.01      0.00       0.00 r
+  scaling_arr[1007] (net)        7                   0.00       0.00 r
+  U54789/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n100443 (net)                  1                   0.00       0.22 r
+  U105236/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n100493 (net)                  1                   0.00       0.34 r
+  U105251/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[1007] (net)         1                   0.00       0.78 r
+  output_arr[1007] (out)                   0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[991]
+              (input port)
+  Endpoint: output_arr[991]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[991] (in)                    0.01      0.00       0.00 r
+  scaling_arr[991] (net)         7                   0.00       0.00 r
+  U50522/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n100385 (net)                  1                   0.00       0.22 r
+  U105218/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n100435 (net)                  1                   0.00       0.34 r
+  U105233/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[991] (net)          1                   0.00       0.78 r
+  output_arr[991] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[975]
+              (input port)
+  Endpoint: output_arr[975]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[975] (in)                    0.01      0.00       0.00 r
+  scaling_arr[975] (net)         7                   0.00       0.00 r
+  U50887/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n100327 (net)                  1                   0.00       0.22 r
+  U105200/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n100377 (net)                  1                   0.00       0.34 r
+  U105215/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[975] (net)          1                   0.00       0.78 r
+  output_arr[975] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[959]
+              (input port)
+  Endpoint: output_arr[959]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[959] (in)                    0.01      0.00       0.00 r
+  scaling_arr[959] (net)         7                   0.00       0.00 r
+  U49846/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n100269 (net)                  1                   0.00       0.22 r
+  U105182/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n100319 (net)                  1                   0.00       0.34 r
+  U105197/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[959] (net)          1                   0.00       0.78 r
+  output_arr[959] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[943]
+              (input port)
+  Endpoint: output_arr[943]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[943] (in)                    0.01      0.00       0.00 r
+  scaling_arr[943] (net)         7                   0.00       0.00 r
+  U50237/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n100211 (net)                  1                   0.00       0.22 r
+  U105164/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n100261 (net)                  1                   0.00       0.34 r
+  U105179/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[943] (net)          1                   0.00       0.78 r
+  output_arr[943] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[927]
+              (input port)
+  Endpoint: output_arr[927]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[927] (in)                    0.01      0.00       0.00 r
+  scaling_arr[927] (net)         7                   0.00       0.00 r
+  U51867/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n100153 (net)                  1                   0.00       0.22 r
+  U105146/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n100203 (net)                  1                   0.00       0.34 r
+  U105161/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[927] (net)          1                   0.00       0.78 r
+  output_arr[927] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[911]
+              (input port)
+  Endpoint: output_arr[911]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[911] (in)                    0.01      0.00       0.00 r
+  scaling_arr[911] (net)         7                   0.00       0.00 r
+  U52669/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n100095 (net)                  1                   0.00       0.22 r
+  U105128/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n100145 (net)                  1                   0.00       0.34 r
+  U105143/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[911] (net)          1                   0.00       0.78 r
+  output_arr[911] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[895]
+              (input port)
+  Endpoint: output_arr[895]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[895] (in)                    0.01      0.00       0.00 r
+  scaling_arr[895] (net)         7                   0.00       0.00 r
+  U50862/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n100037 (net)                  1                   0.00       0.22 r
+  U105110/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n100087 (net)                  1                   0.00       0.34 r
+  U105125/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[895] (net)          1                   0.00       0.78 r
+  output_arr[895] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[879]
+              (input port)
+  Endpoint: output_arr[879]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[879] (in)                    0.01      0.00       0.00 r
+  scaling_arr[879] (net)         7                   0.00       0.00 r
+  U51072/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99979 (net)                   1                   0.00       0.22 r
+  U105092/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n100029 (net)                  1                   0.00       0.34 r
+  U105107/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[879] (net)          1                   0.00       0.78 r
+  output_arr[879] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[863]
+              (input port)
+  Endpoint: output_arr[863]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[863] (in)                    0.01      0.00       0.00 r
+  scaling_arr[863] (net)         7                   0.00       0.00 r
+  U51330/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99921 (net)                   1                   0.00       0.22 r
+  U105074/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99971 (net)                   1                   0.00       0.34 r
+  U105089/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[863] (net)          1                   0.00       0.78 r
+  output_arr[863] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[847]
+              (input port)
+  Endpoint: output_arr[847]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[847] (in)                    0.01      0.00       0.00 r
+  scaling_arr[847] (net)         7                   0.00       0.00 r
+  U50911/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99863 (net)                   1                   0.00       0.22 r
+  U105056/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99913 (net)                   1                   0.00       0.34 r
+  U105071/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[847] (net)          1                   0.00       0.78 r
+  output_arr[847] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[831]
+              (input port)
+  Endpoint: output_arr[831]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[831] (in)                    0.01      0.00       0.00 r
+  scaling_arr[831] (net)         7                   0.00       0.00 r
+  U52586/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99805 (net)                   1                   0.00       0.22 r
+  U105038/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99855 (net)                   1                   0.00       0.34 r
+  U105053/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[831] (net)          1                   0.00       0.78 r
+  output_arr[831] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[815]
+              (input port)
+  Endpoint: output_arr[815]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[815] (in)                    0.01      0.00       0.00 r
+  scaling_arr[815] (net)         7                   0.00       0.00 r
+  U51575/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99747 (net)                   1                   0.00       0.22 r
+  U105020/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99797 (net)                   1                   0.00       0.34 r
+  U105035/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[815] (net)          1                   0.00       0.78 r
+  output_arr[815] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[799]
+              (input port)
+  Endpoint: output_arr[799]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[799] (in)                    0.01      0.00       0.00 r
+  scaling_arr[799] (net)         7                   0.00       0.00 r
+  U49239/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99689 (net)                   1                   0.00       0.22 r
+  U105002/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99739 (net)                   1                   0.00       0.34 r
+  U105017/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[799] (net)          1                   0.00       0.78 r
+  output_arr[799] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[783]
+              (input port)
+  Endpoint: output_arr[783]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[783] (in)                    0.01      0.00       0.00 r
+  scaling_arr[783] (net)         7                   0.00       0.00 r
+  U50317/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99631 (net)                   1                   0.00       0.22 r
+  U104984/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99681 (net)                   1                   0.00       0.34 r
+  U104999/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[783] (net)          1                   0.00       0.78 r
+  output_arr[783] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[767]
+              (input port)
+  Endpoint: output_arr[767]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[767] (in)                    0.01      0.00       0.00 r
+  scaling_arr[767] (net)         7                   0.00       0.00 r
+  U49624/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99573 (net)                   1                   0.00       0.22 r
+  U104966/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99623 (net)                   1                   0.00       0.34 r
+  U104981/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[767] (net)          1                   0.00       0.78 r
+  output_arr[767] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[751]
+              (input port)
+  Endpoint: output_arr[751]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[751] (in)                    0.01      0.00       0.00 r
+  scaling_arr[751] (net)         7                   0.00       0.00 r
+  U50005/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99515 (net)                   1                   0.00       0.22 r
+  U104948/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99565 (net)                   1                   0.00       0.34 r
+  U104963/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[751] (net)          1                   0.00       0.78 r
+  output_arr[751] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[735]
+              (input port)
+  Endpoint: output_arr[735]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[735] (in)                    0.01      0.00       0.00 r
+  scaling_arr[735] (net)         7                   0.00       0.00 r
+  U52366/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99457 (net)                   1                   0.00       0.22 r
+  U104930/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99507 (net)                   1                   0.00       0.34 r
+  U104945/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[735] (net)          1                   0.00       0.78 r
+  output_arr[735] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[719]
+              (input port)
+  Endpoint: output_arr[719]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[719] (in)                    0.01      0.00       0.00 r
+  scaling_arr[719] (net)         7                   0.00       0.00 r
+  U51247/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99399 (net)                   1                   0.00       0.22 r
+  U104912/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99449 (net)                   1                   0.00       0.34 r
+  U104927/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[719] (net)          1                   0.00       0.78 r
+  output_arr[719] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[703]
+              (input port)
+  Endpoint: output_arr[703]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[703] (in)                    0.01      0.00       0.00 r
+  scaling_arr[703] (net)         7                   0.00       0.00 r
+  U49107/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99341 (net)                   1                   0.00       0.22 r
+  U104894/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99391 (net)                   1                   0.00       0.34 r
+  U104909/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[703] (net)          1                   0.00       0.78 r
+  output_arr[703] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[687]
+              (input port)
+  Endpoint: output_arr[687]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[687] (in)                    0.01      0.00       0.00 r
+  scaling_arr[687] (net)         7                   0.00       0.00 r
+  U52523/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99283 (net)                   1                   0.00       0.22 r
+  U104876/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99333 (net)                   1                   0.00       0.34 r
+  U104891/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[687] (net)          1                   0.00       0.78 r
+  output_arr[687] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[671]
+              (input port)
+  Endpoint: output_arr[671]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[671] (in)                    0.01      0.00       0.00 r
+  scaling_arr[671] (net)         7                   0.00       0.00 r
+  U52639/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99225 (net)                   1                   0.00       0.22 r
+  U104858/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99275 (net)                   1                   0.00       0.34 r
+  U104873/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[671] (net)          1                   0.00       0.78 r
+  output_arr[671] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[655]
+              (input port)
+  Endpoint: output_arr[655]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[655] (in)                    0.01      0.00       0.00 r
+  scaling_arr[655] (net)         7                   0.00       0.00 r
+  U49715/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99167 (net)                   1                   0.00       0.22 r
+  U104840/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99217 (net)                   1                   0.00       0.34 r
+  U104855/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[655] (net)          1                   0.00       0.78 r
+  output_arr[655] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[639]
+              (input port)
+  Endpoint: output_arr[639]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[639] (in)                    0.01      0.00       0.00 r
+  scaling_arr[639] (net)         7                   0.00       0.00 r
+  U52104/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99109 (net)                   1                   0.00       0.22 r
+  U104822/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99159 (net)                   1                   0.00       0.34 r
+  U104837/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[639] (net)          1                   0.00       0.78 r
+  output_arr[639] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[623]
+              (input port)
+  Endpoint: output_arr[623]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[623] (in)                    0.01      0.00       0.00 r
+  scaling_arr[623] (net)         7                   0.00       0.00 r
+  U50814/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n99051 (net)                   1                   0.00       0.22 r
+  U104804/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99101 (net)                   1                   0.00       0.34 r
+  U104819/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[623] (net)          1                   0.00       0.78 r
+  output_arr[623] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[607]
+              (input port)
+  Endpoint: output_arr[607]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[607] (in)                    0.01      0.00       0.00 r
+  scaling_arr[607] (net)         7                   0.00       0.00 r
+  U51260/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n98993 (net)                   1                   0.00       0.22 r
+  U104786/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n99043 (net)                   1                   0.00       0.34 r
+  U104801/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[607] (net)          1                   0.00       0.78 r
+  output_arr[607] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[591]
+              (input port)
+  Endpoint: output_arr[591]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[591] (in)                    0.01      0.00       0.00 r
+  scaling_arr[591] (net)         7                   0.00       0.00 r
+  U49227/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n98935 (net)                   1                   0.00       0.22 r
+  U104768/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n98985 (net)                   1                   0.00       0.34 r
+  U104783/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[591] (net)          1                   0.00       0.78 r
+  output_arr[591] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scaling_arr[575]
+              (input port)
+  Endpoint: output_arr[575]
+            (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  rms_norm_sf        280000                saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  scaling_arr[575] (in)                    0.01      0.00       0.00 r
+  scaling_arr[575] (net)         7                   0.00       0.00 r
+  U50055/Y (AO22X1_RVT)                    0.01      0.22       0.22 r
+  n98877 (net)                   1                   0.00       0.22 r
+  U104750/Y (OA22X1_RVT)                   0.01      0.12       0.34 r
+  n98927 (net)                   1                   0.00       0.34 r
+  U104765/S (FADDX1_RVT)                   0.01      0.44       0.78 r
+  output_arr[575] (net)          1                   0.00       0.78 r
+  output_arr[575] (out)                    0.01      0.07       0.84 r
+  data arrival time                                             0.84
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

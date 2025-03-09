@@ -1,0 +1,11 @@
+ 
+****************************************
+Report : clock timing
+        -type summary
+Design : vec_div
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 18:18:40 2024
+****************************************
+
+Error: No clock pins of 'launching' sequential devices found. (UITE-406)
+0

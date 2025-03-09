@@ -1,0 +1,21 @@
+`ifndef SYNTHESIS
+
+//
+// This is an automatically generated file from 
+// dc_shell Version V-2023.12-SP5 -- Jul 16, 2024
+//
+
+// For simulation only. Do not modify.
+
+module fxp_sqrt_svsim #(
+    parameter WIDTH=FXP_N,      parameter FBITS=FXP_R       ) (
+    input wire logic clk,
+    input wire logic start,                 input wire logic reset_n,
+    output     logic busy,                  output     logic valid,                 input wire logic [WIDTH-1:0] rad,       output     logic [WIDTH-1:0] root,      output     logic [WIDTH-1:0] rem        );
+
+    
+
+  fxp_sqrt fxp_sqrt( {>>{ clk }}, {>>{ start }}, {>>{ reset_n }}, {>>{ busy }}, 
+        {>>{ valid }}, {>>{ rad }}, {>>{ root }}, {>>{ rem }} );
+endmodule
+`endif

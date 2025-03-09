@@ -1,0 +1,234 @@
+Warning: Design 'sram_ifmap_buffer' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay max
+        -nets
+        -max_paths 30
+        -transition_time
+Design : sram_ifmap_buffer
+Version: V-2023.12-SP5
+Date   : Fri Dec  6 17:45:51 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: input_buffer_inst0/O[7] (internal pin)
+  Endpoint: out[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sram_ifmap_buffer  ForQA                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  input_buffer_inst0/O[7] (input_buffer_inst)      0.00      0.00       0.00 r
+  out[7] (net)                           1                   0.00       0.00 r
+  out[7] (out)                                     0.00      0.00       0.00 r
+  data arrival time                                                     0.00
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_buffer_inst0/O[6] (internal pin)
+  Endpoint: out[6] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sram_ifmap_buffer  ForQA                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  input_buffer_inst0/O[6] (input_buffer_inst)      0.00      0.00       0.00 r
+  out[6] (net)                           1                   0.00       0.00 r
+  out[6] (out)                                     0.00      0.00       0.00 r
+  data arrival time                                                     0.00
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_buffer_inst0/O[5] (internal pin)
+  Endpoint: out[5] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sram_ifmap_buffer  ForQA                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  input_buffer_inst0/O[5] (input_buffer_inst)      0.00      0.00       0.00 r
+  out[5] (net)                           1                   0.00       0.00 r
+  out[5] (out)                                     0.00      0.00       0.00 r
+  data arrival time                                                     0.00
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_buffer_inst0/O[4] (internal pin)
+  Endpoint: out[4] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sram_ifmap_buffer  ForQA                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  input_buffer_inst0/O[4] (input_buffer_inst)      0.00      0.00       0.00 r
+  out[4] (net)                           1                   0.00       0.00 r
+  out[4] (out)                                     0.00      0.00       0.00 r
+  data arrival time                                                     0.00
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_buffer_inst0/O[3] (internal pin)
+  Endpoint: out[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sram_ifmap_buffer  ForQA                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  input_buffer_inst0/O[3] (input_buffer_inst)      0.00      0.00       0.00 r
+  out[3] (net)                           1                   0.00       0.00 r
+  out[3] (out)                                     0.00      0.00       0.00 r
+  data arrival time                                                     0.00
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_buffer_inst0/O[2] (internal pin)
+  Endpoint: out[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sram_ifmap_buffer  ForQA                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  input_buffer_inst0/O[2] (input_buffer_inst)      0.00      0.00       0.00 r
+  out[2] (net)                           1                   0.00       0.00 r
+  out[2] (out)                                     0.00      0.00       0.00 r
+  data arrival time                                                     0.00
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_buffer_inst0/O[1] (internal pin)
+  Endpoint: out[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sram_ifmap_buffer  ForQA                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  input_buffer_inst0/O[1] (input_buffer_inst)      0.00      0.00       0.00 r
+  out[1] (net)                           1                   0.00       0.00 r
+  out[1] (out)                                     0.00      0.00       0.00 r
+  data arrival time                                                     0.00
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: input_buffer_inst0/O[0] (internal pin)
+  Endpoint: out[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sram_ifmap_buffer  ForQA                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                Fanout     Trans      Incr       Path      Attributes
+  --------------------------------------------------------------------------------------------------
+  input_buffer_inst0/O[0] (input_buffer_inst)      0.00      0.00       0.00 r
+  out[0] (net)                           1                   0.00       0.00 r
+  out[0] (out)                                     0.00      0.00       0.00 r
+  data arrival time                                                     0.00
+  --------------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

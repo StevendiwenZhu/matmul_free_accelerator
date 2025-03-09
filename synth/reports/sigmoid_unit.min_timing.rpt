@@ -1,0 +1,573 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay min
+        -nets
+        -max_paths 30
+        -transition_time
+Design : sigmoid_unit
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 11:20:59 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: x[13] (input port)
+  Endpoint: y[7] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  x[13] (in)                               0.01      0.00       0.00 r
+  x[13] (net)                    5                   0.00       0.00 r
+  U2200/Y (AO22X1_RVT)                     0.01      0.04       0.04 r
+  n2137 (net)                    1                   0.00       0.04 r
+  U2201/Y (AND3X1_RVT)                     0.01      0.04       0.09 r
+  y[7] (net)                     1                   0.00       0.09 r
+  y[7] (out)                               0.01      0.01       0.09 r
+  data arrival time                                             0.09
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[13] (input port)
+  Endpoint: y[14] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  x[13] (in)                               0.01      0.00       0.00 r
+  x[13] (net)                    5                   0.00       0.00 r
+  U2194/Y (AO22X1_RVT)                     0.01      0.04       0.04 r
+  n2129 (net)                    1                   0.00       0.04 r
+  U2195/Y (AND3X1_RVT)                     0.01      0.05       0.09 r
+  y[14] (net)                    2                   0.00       0.09 r
+  y[14] (out)                              0.01      0.01       0.10 r
+  data arrival time                                             0.10
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[12] (input port)
+  Endpoint: y[8] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  x[12] (in)                               0.01      0.00       0.00 r
+  x[12] (net)                    9                   0.00       0.00 r
+  U2198/Y (AO22X1_RVT)                     0.01      0.05       0.05 r
+  n2135 (net)                    1                   0.00       0.05 r
+  U2199/Y (AND3X1_RVT)                     0.01      0.04       0.09 r
+  y[8] (net)                     1                   0.00       0.09 r
+  y[8] (out)                               0.01      0.01       0.10 r
+  data arrival time                                             0.10
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[11] (input port)
+  Endpoint: y[6] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  x[11] (in)                               0.01      0.00       0.00 r
+  x[11] (net)                    6                   0.00       0.00 r
+  U2186/Y (OA221X1_RVT)                    0.02      0.07       0.08 r
+  n2197 (net)                    2                   0.00       0.08 r
+  U2221/Y (AO221X1_RVT)                    0.01      0.06       0.14 r
+  n2202 (net)                    1                   0.00       0.14 r
+  U2222/S (FADDX1_RVT)                     0.01      0.08       0.22 r
+  n2205 (net)                    1                   0.00       0.22 r
+  U2223/Y (NAND2X0_RVT)                    0.01      0.02       0.24 f
+  y[6] (net)                     1                   0.00       0.24 f
+  y[6] (out)                               0.01      0.01       0.25 f
+  data arrival time                                             0.25
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[15] (input port)
+  Endpoint: y[1] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[15] (in)                               0.00      0.02       0.02 f
+  x[15] (net)                    5                   0.00       0.02 f
+  U1577/Y (INVX1_RVT)                      0.02      0.14       0.15 r
+  n1950 (net)                   14                   0.00       0.15 r
+  U1727/Y (OA221X1_RVT)                    0.02      0.08       0.24 r
+  n2174 (net)                    9                   0.00       0.24 r
+  U2212/Y (AND2X1_RVT)                     0.01      0.04       0.28 r
+  y[1] (net)                     1                   0.00       0.28 r
+  y[1] (out)                               0.01      0.01       0.29 r
+  data arrival time                                             0.29
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[5] (input port)
+  Endpoint: y[3] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  x[5] (in)                                0.01      0.01       0.01 r
+  x[5] (net)                    11                   0.00       0.01 r
+  U1904/Y (NAND4X0_RVT)                    0.06      0.08       0.09 f
+  n2078 (net)                    2                   0.00       0.09 f
+  U2163/Y (NAND4X0_RVT)                    0.01      0.09       0.18 r
+  n2154 (net)                    2                   0.00       0.18 r
+  U2206/Y (AO22X1_RVT)                     0.01      0.05       0.22 r
+  n2160 (net)                    2                   0.00       0.22 r
+  U2207/Y (OA221X1_RVT)                    0.01      0.06       0.28 r
+  y[3] (net)                     1                   0.00       0.28 r
+  y[3] (out)                               0.01      0.01       0.29 r
+  data arrival time                                             0.29
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[10] (input port)
+  Endpoint: y[5] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  x[10] (in)                               0.01      0.00       0.00 r
+  x[10] (net)                    5                   0.00       0.00 r
+  U2177/Y (OA221X1_RVT)                    0.01      0.07       0.07 r
+  n2124 (net)                    2                   0.00       0.07 r
+  U2191/Y (AO21X1_RVT)                     0.01      0.06       0.13 r
+  n2189 (net)                    1                   0.00       0.13 r
+  U2217/S (FADDX1_RVT)                     0.01      0.09       0.22 r
+  n2145 (net)                    4                   0.00       0.22 r
+  U2203/Y (OA221X1_RVT)                    0.01      0.06       0.28 r
+  y[5] (net)                     1                   0.00       0.28 r
+  y[5] (out)                               0.01      0.01       0.29 r
+  data arrival time                                             0.29
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[15] (input port)
+  Endpoint: y[4] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[15] (in)                               0.00      0.02       0.02 f
+  x[15] (net)                    5                   0.00       0.02 f
+  U1577/Y (INVX1_RVT)                      0.02      0.14       0.15 r
+  n1950 (net)                   14                   0.00       0.15 r
+  U1727/Y (OA221X1_RVT)                    0.02      0.08       0.24 r
+  n2174 (net)                    9                   0.00       0.24 r
+  U2205/Y (OA221X1_RVT)                    0.01      0.05       0.28 r
+  y[4] (net)                     1                   0.00       0.28 r
+  y[4] (out)                               0.01      0.01       0.29 r
+  data arrival time                                             0.29
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[15] (input port)
+  Endpoint: y[2] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[15] (in)                               0.00      0.02       0.02 f
+  x[15] (net)                    5                   0.00       0.02 f
+  U1577/Y (INVX1_RVT)                      0.02      0.14       0.15 r
+  n1950 (net)                   14                   0.00       0.15 r
+  U1727/Y (OA221X1_RVT)                    0.02      0.08       0.24 r
+  n2174 (net)                    9                   0.00       0.24 r
+  U2209/Y (OA221X1_RVT)                    0.01      0.05       0.28 r
+  y[2] (net)                     1                   0.00       0.28 r
+  y[2] (out)                               0.01      0.01       0.29 r
+  data arrival time                                             0.29
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[15] (input port)
+  Endpoint: y[0] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[15] (in)                               0.00      0.02       0.02 f
+  x[15] (net)                    5                   0.00       0.02 f
+  U1577/Y (INVX1_RVT)                      0.02      0.14       0.15 r
+  n1950 (net)                   14                   0.00       0.15 r
+  U1727/Y (OA221X1_RVT)                    0.02      0.08       0.24 r
+  n2174 (net)                    9                   0.00       0.24 r
+  U2197/Y (AND3X1_RVT)                     0.01      0.05       0.28 r
+  y[0] (net)                     1                   0.00       0.28 r
+  y[0] (out)                               0.01      0.01       0.29 r
+  data arrival time                                             0.29
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[13] (input port)
+  Endpoint: y[15] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[13] (in)                               0.00      0.01       0.01 f
+  x[13] (net)                    5                   0.00       0.01 f
+  U2194/Y (AO22X1_RVT)                     0.01      0.07       0.09 f
+  n2129 (net)                    1                   0.00       0.09 f
+  U2195/Y (AND3X1_RVT)                     0.02      0.08       0.17 f
+  y[14] (net)                    2                   0.00       0.17 f
+  U1681/Y (INVX0_RVT)                      0.02      0.10       0.26 r
+  n2130 (net)                    6                   0.00       0.26 r
+  U1675/Y (INVX0_RVT)                      0.01      0.03       0.29 f
+  y[15] (net)                    1                   0.00       0.29 f
+  y[15] (out)                              0.01      0.01       0.30 f
+  data arrival time                                             0.30
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[13] (input port)
+  Endpoint: y[13] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[13] (in)                               0.00      0.01       0.01 f
+  x[13] (net)                    5                   0.00       0.01 f
+  U2194/Y (AO22X1_RVT)                     0.01      0.07       0.09 f
+  n2129 (net)                    1                   0.00       0.09 f
+  U2195/Y (AND3X1_RVT)                     0.02      0.08       0.17 f
+  y[14] (net)                    2                   0.00       0.17 f
+  U1681/Y (INVX0_RVT)                      0.02      0.10       0.26 r
+  n2130 (net)                    6                   0.00       0.26 r
+  U1677/Y (INVX0_RVT)                      0.01      0.03       0.29 f
+  y[13] (net)                    1                   0.00       0.29 f
+  y[13] (out)                              0.01      0.01       0.30 f
+  data arrival time                                             0.30
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[13] (input port)
+  Endpoint: y[12] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[13] (in)                               0.00      0.01       0.01 f
+  x[13] (net)                    5                   0.00       0.01 f
+  U2194/Y (AO22X1_RVT)                     0.01      0.07       0.09 f
+  n2129 (net)                    1                   0.00       0.09 f
+  U2195/Y (AND3X1_RVT)                     0.02      0.08       0.17 f
+  y[14] (net)                    2                   0.00       0.17 f
+  U1681/Y (INVX0_RVT)                      0.02      0.10       0.26 r
+  n2130 (net)                    6                   0.00       0.26 r
+  U1678/Y (INVX0_RVT)                      0.01      0.03       0.29 f
+  y[12] (net)                    1                   0.00       0.29 f
+  y[12] (out)                              0.01      0.01       0.30 f
+  data arrival time                                             0.30
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[13] (input port)
+  Endpoint: y[11] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[13] (in)                               0.00      0.01       0.01 f
+  x[13] (net)                    5                   0.00       0.01 f
+  U2194/Y (AO22X1_RVT)                     0.01      0.07       0.09 f
+  n2129 (net)                    1                   0.00       0.09 f
+  U2195/Y (AND3X1_RVT)                     0.02      0.08       0.17 f
+  y[14] (net)                    2                   0.00       0.17 f
+  U1681/Y (INVX0_RVT)                      0.02      0.10       0.26 r
+  n2130 (net)                    6                   0.00       0.26 r
+  U1679/Y (INVX0_RVT)                      0.01      0.03       0.29 f
+  y[11] (net)                    1                   0.00       0.29 f
+  y[11] (out)                              0.01      0.01       0.30 f
+  data arrival time                                             0.30
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[13] (input port)
+  Endpoint: y[10] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[13] (in)                               0.00      0.01       0.01 f
+  x[13] (net)                    5                   0.00       0.01 f
+  U2194/Y (AO22X1_RVT)                     0.01      0.07       0.09 f
+  n2129 (net)                    1                   0.00       0.09 f
+  U2195/Y (AND3X1_RVT)                     0.02      0.08       0.17 f
+  y[14] (net)                    2                   0.00       0.17 f
+  U1681/Y (INVX0_RVT)                      0.02      0.10       0.26 r
+  n2130 (net)                    6                   0.00       0.26 r
+  U1674/Y (INVX0_RVT)                      0.01      0.03       0.29 f
+  y[10] (net)                    1                   0.00       0.29 f
+  y[10] (out)                              0.01      0.01       0.30 f
+  data arrival time                                             0.30
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: x[13] (input port)
+  Endpoint: y[9] (output port)
+  Path Group: (none)
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sigmoid_unit       8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  x[13] (in)                               0.00      0.01       0.01 f
+  x[13] (net)                    5                   0.00       0.01 f
+  U2194/Y (AO22X1_RVT)                     0.01      0.07       0.09 f
+  n2129 (net)                    1                   0.00       0.09 f
+  U2195/Y (AND3X1_RVT)                     0.02      0.08       0.17 f
+  y[14] (net)                    2                   0.00       0.17 f
+  U1681/Y (INVX0_RVT)                      0.02      0.10       0.26 r
+  n2130 (net)                    6                   0.00       0.26 r
+  U1676/Y (INVX0_RVT)                      0.01      0.03       0.29 f
+  y[9] (net)                     1                   0.00       0.29 f
+  y[9] (out)                               0.01      0.01       0.30 f
+  data arrival time                                             0.30
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

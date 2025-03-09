@@ -1,0 +1,2229 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay max
+        -nets
+        -max_paths 30
+        -transition_time
+Design : vec_silu
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 23:58:30 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: vec_in[53] (input port)
+  Endpoint: vec_out[63]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[53] (in)                          0.02      0.03       0.03 f
+  vec_in[53] (net)              13                   0.00       0.03 f
+  U6253/Y (NBUFFX2_RVT)                    0.10      0.25       0.28 f
+  n6190 (net)                   20                   0.00       0.28 f
+  U6495/Y (INVX1_RVT)                      0.04      0.33       0.61 r
+  n9638 (net)                   17                   0.00       0.61 r
+  U8209/Y (NAND2X0_RVT)                    0.13      0.18       0.79 f
+  n8111 (net)                    5                   0.00       0.79 f
+  U6369/Y (INVX1_RVT)                      0.03      0.15       0.94 r
+  n9583 (net)                    6                   0.00       0.94 r
+  U8256/Y (NAND2X0_RVT)                    0.21      0.24       1.18 f
+  n9825 (net)                    8                   0.00       1.18 f
+  U9789/Y (AO22X1_RVT)                     0.02      0.16       1.34 f
+  n9827 (net)                    1                   0.00       1.34 f
+  U9790/Y (OA221X1_RVT)                    0.04      0.12       1.45 f
+  n9838 (net)                    1                   0.00       1.45 f
+  U9795/S (FADDX1_RVT)                     0.05      0.27       1.72 f
+  n9854 (net)                    3                   0.00       1.72 f
+  U9803/S (FADDX1_RVT)                     0.05      0.31       2.03 f
+  n9909 (net)                    2                   0.00       2.03 f
+  U9804/Y (INVX1_RVT)                      0.01      0.10       2.13 r
+  n9861 (net)                    2                   0.00       2.13 r
+  U9807/Y (OAI222X1_RVT)                   0.02      0.10       2.23 f
+  n9905 (net)                    1                   0.00       2.23 f
+  U9822/CO (FADDX1_RVT)                    0.03      0.18       2.42 f
+  n9902 (net)                    1                   0.00       2.42 f
+  U9821/CO (FADDX1_RVT)                    0.03      0.18       2.60 f
+  n9899 (net)                    1                   0.00       2.60 f
+  U9820/CO (FADDX1_RVT)                    0.03      0.19       2.80 f
+  n9898 (net)                    1                   0.00       2.80 f
+  U9819/CO (FADDX1_RVT)                    0.03      0.23       3.03 f
+  n9893 (net)                    1                   0.00       3.03 f
+  U9818/CO (FADDX1_RVT)                    0.03      0.18       3.21 f
+  n9890 (net)                    1                   0.00       3.21 f
+  U9817/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n9887 (net)                    1                   0.00       3.40 f
+  U9816/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n9884 (net)                    1                   0.00       3.58 f
+  U9815/CO (FADDX1_RVT)                    0.03      0.18       3.77 f
+  n9881 (net)                    1                   0.00       3.77 f
+  U9814/CO (FADDX1_RVT)                    0.03      0.18       3.95 f
+  n9878 (net)                    1                   0.00       3.95 f
+  U9813/CO (FADDX1_RVT)                    0.03      0.18       4.14 f
+  n9936 (net)                    1                   0.00       4.14 f
+  U9839/CO (FADDX1_RVT)                    0.03      0.18       4.32 f
+  n9968 (net)                    1                   0.00       4.32 f
+  U9863/CO (FADDX1_RVT)                    0.03      0.18       4.50 f
+  n9991 (net)                    1                   0.00       4.50 f
+  U9870/CO (FADDX1_RVT)                    0.03      0.19       4.70 f
+  n9995 (net)                    1                   0.00       4.70 f
+  U9871/S (FADDX1_RVT)                     0.03      0.23       4.93 f
+  n9997 (net)                    1                   0.00       4.93 f
+  U9872/S (FADDX1_RVT)                     0.02      0.18       5.11 f
+  n10005 (net)                   1                   0.00       5.11 f
+  U9875/SO (HADDX1_RVT)                    0.03      0.15       5.27 f
+  n10006 (net)                   1                   0.00       5.27 f
+  U9876/S (FADDX1_RVT)                     0.01      0.19       5.46 r
+  vec_out[63] (net)              1                   0.00       5.46 r
+  vec_out[63] (out)                        0.01      0.01       5.47 r
+  data arrival time                                             5.47
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[4] (input port)
+  Endpoint: vec_out[15]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[4] (in)                           0.15      0.07       0.07 f
+  vec_in[4] (net)               22                   0.00       0.07 f
+  U6428/Y (INVX1_RVT)                      0.04      0.36       0.42 r
+  n7216 (net)                   14                   0.00       0.42 r
+  U6430/Y (NAND2X0_RVT)                    0.18      0.22       0.65 f
+  n7192 (net)                    7                   0.00       0.65 f
+  U6339/Y (INVX1_RVT)                      0.04      0.18       0.83 r
+  n7065 (net)                    8                   0.00       0.83 r
+  U6436/Y (NAND2X0_RVT)                    0.19      0.23       1.06 f
+  n6922 (net)                    8                   0.00       1.06 f
+  U6455/Y (AO22X1_RVT)                     0.02      0.16       1.22 f
+  n6235 (net)                    1                   0.00       1.22 f
+  U6456/Y (OA221X1_RVT)                    0.04      0.11       1.33 f
+  n6240 (net)                    1                   0.00       1.33 f
+  U6463/S (FADDX1_RVT)                     0.02      0.23       1.57 f
+  n6261 (net)                    2                   0.00       1.57 f
+  U6479/Y (AO222X1_RVT)                    0.03      0.13       1.70 f
+  n6950 (net)                    1                   0.00       1.70 f
+  U7247/CO (FADDX1_RVT)                    0.04      0.21       1.90 f
+  n8896 (net)                    3                   0.00       1.90 f
+  U7250/Y (AO222X1_RVT)                    0.03      0.15       2.05 f
+  n7027 (net)                    1                   0.00       2.05 f
+  U7299/CO (FADDX1_RVT)                    0.03      0.18       2.23 f
+  n7023 (net)                    1                   0.00       2.23 f
+  U7297/CO (FADDX1_RVT)                    0.03      0.19       2.43 f
+  n7021 (net)                    1                   0.00       2.43 f
+  U7295/CO (FADDX1_RVT)                    0.03      0.23       2.66 f
+  n7015 (net)                    1                   0.00       2.66 f
+  U7293/CO (FADDX1_RVT)                    0.03      0.18       2.85 f
+  n7011 (net)                    1                   0.00       2.85 f
+  U7291/CO (FADDX1_RVT)                    0.03      0.18       3.03 f
+  n7007 (net)                    1                   0.00       3.03 f
+  U7289/CO (FADDX1_RVT)                    0.03      0.18       3.22 f
+  n7003 (net)                    1                   0.00       3.22 f
+  U7287/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n6999 (net)                    1                   0.00       3.40 f
+  U7285/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n6995 (net)                    1                   0.00       3.58 f
+  U7283/CO (FADDX1_RVT)                    0.03      0.19       3.78 f
+  n8893 (net)                    1                   0.00       3.78 f
+  U9045/CO (FADDX1_RVT)                    0.02      0.22       4.00 f
+  n8894 (net)                    1                   0.00       4.00 f
+  U9046/Y (INVX1_RVT)                      0.01      0.09       4.09 r
+  n8922 (net)                    1                   0.00       4.09 r
+  U9061/CO (FADDX1_RVT)                    0.02      0.08       4.17 r
+  n8954 (net)                    1                   0.00       4.17 r
+  U9082/CO (FADDX1_RVT)                    0.02      0.08       4.25 r
+  n8969 (net)                    1                   0.00       4.25 r
+  U9087/CO (FADDX1_RVT)                    0.02      0.09       4.34 r
+  n8977 (net)                    1                   0.00       4.34 r
+  U9090/S (FADDX1_RVT)                     0.03      0.14       4.48 f
+  n8978 (net)                    1                   0.00       4.48 f
+  U9091/S (FADDX1_RVT)                     0.02      0.18       4.66 f
+  n8986 (net)                    1                   0.00       4.66 f
+  U9094/SO (HADDX1_RVT)                    0.03      0.16       4.83 f
+  n8994 (net)                    1                   0.00       4.83 f
+  U9098/S (FADDX1_RVT)                     0.01      0.23       5.06 r
+  vec_out[15] (net)              1                   0.00       5.06 r
+  vec_out[15] (out)                        0.01      0.01       5.06 r
+  data arrival time                                             5.06
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[37] (input port)
+  Endpoint: vec_out[47]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[37] (in)                          0.01      0.01       0.01 r
+  vec_in[37] (net)              15                   0.00       0.01 r
+  U6231/Y (INVX1_RVT)                      0.19      0.24       0.25 f
+  n9161 (net)                   21                   0.00       0.25 f
+  U6576/Y (INVX1_RVT)                      0.06      0.37       0.62 r
+  n9162 (net)                   18                   0.00       0.62 r
+  U6578/Y (NAND2X0_RVT)                    0.07      0.12       0.74 f
+  n8349 (net)                    3                   0.00       0.74 f
+  U6579/Y (NAND2X0_RVT)                    0.02      0.10       0.83 r
+  n9110 (net)                    3                   0.00       0.83 r
+  U9211/Y (NAND2X0_RVT)                    0.16      0.18       1.02 f
+  n9371 (net)                    7                   0.00       1.02 f
+  U9411/Y (OA221X1_RVT)                    0.03      0.19       1.20 f
+  n9378 (net)                    1                   0.00       1.20 f
+  U9416/S (FADDX1_RVT)                     0.04      0.20       1.41 f
+  n9391 (net)                    3                   0.00       1.41 f
+  U9421/SO (HADDX1_RVT)                    0.02      0.17       1.57 f
+  n9394 (net)                    1                   0.00       1.57 f
+  U9422/SO (HADDX1_RVT)                    0.05      0.18       1.75 f
+  n9433 (net)                    2                   0.00       1.75 f
+  U9423/Y (INVX1_RVT)                      0.01      0.10       1.85 r
+  n9401 (net)                    2                   0.00       1.85 r
+  U9426/Y (OAI222X1_RVT)                   0.02      0.10       1.95 f
+  n9429 (net)                    1                   0.00       1.95 f
+  U9436/CO (FADDX1_RVT)                    0.03      0.18       2.13 f
+  n9426 (net)                    1                   0.00       2.13 f
+  U9435/CO (FADDX1_RVT)                    0.03      0.18       2.32 f
+  n9423 (net)                    1                   0.00       2.32 f
+  U9434/CO (FADDX1_RVT)                    0.03      0.18       2.50 f
+  n9420 (net)                    1                   0.00       2.50 f
+  U9433/CO (FADDX1_RVT)                    0.03      0.18       2.69 f
+  n9417 (net)                    1                   0.00       2.69 f
+  U9432/CO (FADDX1_RVT)                    0.03      0.18       2.87 f
+  n9414 (net)                    1                   0.00       2.87 f
+  U9431/CO (FADDX1_RVT)                    0.03      0.18       3.06 f
+  n9411 (net)                    1                   0.00       3.06 f
+  U9430/CO (FADDX1_RVT)                    0.03      0.18       3.24 f
+  n9408 (net)                    1                   0.00       3.24 f
+  U9429/CO (FADDX1_RVT)                    0.03      0.18       3.42 f
+  n9405 (net)                    1                   0.00       3.42 f
+  U9428/CO (FADDX1_RVT)                    0.03      0.18       3.61 f
+  n9402 (net)                    1                   0.00       3.61 f
+  U9427/CO (FADDX1_RVT)                    0.03      0.18       3.79 f
+  n9457 (net)                    1                   0.00       3.79 f
+  U9455/CO (FADDX1_RVT)                    0.03      0.18       3.98 f
+  n9496 (net)                    1                   0.00       3.98 f
+  U9484/CO (FADDX1_RVT)                    0.03      0.18       4.16 f
+  n9510 (net)                    1                   0.00       4.16 f
+  U9490/CO (FADDX1_RVT)                    0.03      0.19       4.35 f
+  n9517 (net)                    1                   0.00       4.35 f
+  U9492/S (FADDX1_RVT)                     0.03      0.23       4.59 f
+  n9518 (net)                    1                   0.00       4.59 f
+  U9493/S (FADDX1_RVT)                     0.03      0.20       4.79 f
+  n9534 (net)                    1                   0.00       4.79 f
+  U9499/S (FADDX1_RVT)                     0.01      0.23       5.02 r
+  vec_out[47] (net)              1                   0.00       5.02 r
+  vec_out[47] (out)                        0.01      0.01       5.02 r
+  data arrival time                                             5.02
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[21] (input port)
+  Endpoint: vec_out[31]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[21] (in)                          0.09      0.05       0.05 f
+  vec_in[21] (net)              14                   0.00       0.05 f
+  U8284/Y (INVX4_RVT)                      0.03      0.69       0.75 r
+  n6192 (net)                   27                   0.00       0.75 r
+  U6626/Y (NAND2X0_RVT)                    0.06      0.12       0.86 f
+  n7436 (net)                    2                   0.00       0.86 f
+  U6272/Y (INVX1_RVT)                      0.02      0.12       0.98 r
+  n7664 (net)                    8                   0.00       0.98 r
+  U6765/Y (NAND2X0_RVT)                    0.23      0.26       1.25 f
+  n7430 (net)                    9                   0.00       1.25 f
+  U6960/Y (AO22X1_RVT)                     0.02      0.17       1.42 f
+  n6630 (net)                    1                   0.00       1.42 f
+  U6961/Y (OA221X1_RVT)                    0.03      0.11       1.52 f
+  n6646 (net)                    1                   0.00       1.52 f
+  U6972/S (FADDX1_RVT)                     0.03      0.19       1.71 f
+  n6705 (net)                    1                   0.00       1.71 f
+  U7011/S (FADDX1_RVT)                     0.01      0.20       1.91 r
+  n6708 (net)                    1                   0.00       1.91 r
+  U7012/Y (INVX1_RVT)                      0.02      0.04       1.96 f
+  n9017 (net)                    1                   0.00       1.96 f
+  U9106/CO (FADDX1_RVT)                    0.03      0.18       2.14 f
+  n9014 (net)                    1                   0.00       2.14 f
+  U9105/CO (FADDX1_RVT)                    0.02      0.17       2.31 f
+  n6709 (net)                    1                   0.00       2.31 f
+  U6278/Y (INVX1_RVT)                      0.01      0.09       2.40 r
+  n6747 (net)                    1                   0.00       2.40 r
+  U7029/CO (FADDX1_RVT)                    0.02      0.10       2.50 r
+  n9011 (net)                    2                   0.00       2.50 r
+  U7017/Y (AOI22X1_RVT)                    0.03      0.10       2.60 f
+  n9009 (net)                    1                   0.00       2.60 f
+  U9103/CO (FADDX1_RVT)                    0.03      0.22       2.82 f
+  n9005 (net)                    1                   0.00       2.82 f
+  U9102/CO (FADDX1_RVT)                    0.03      0.18       3.00 f
+  n9002 (net)                    1                   0.00       3.00 f
+  U9101/CO (FADDX1_RVT)                    0.03      0.18       3.19 f
+  n8999 (net)                    1                   0.00       3.19 f
+  U9100/CO (FADDX1_RVT)                    0.03      0.18       3.37 f
+  n8996 (net)                    1                   0.00       3.37 f
+  U9099/CO (FADDX1_RVT)                    0.03      0.18       3.56 f
+  n8217 (net)                    1                   0.00       3.56 f
+  U8467/CO (FADDX1_RVT)                    0.02      0.17       3.73 f
+  n6731 (net)                    1                   0.00       3.73 f
+  U7021/Y (INVX1_RVT)                      0.01      0.09       3.82 r
+  n6741 (net)                    1                   0.00       3.82 r
+  U7027/CO (FADDX1_RVT)                    0.02      0.08       3.90 r
+  n6737 (net)                    1                   0.00       3.90 r
+  U7025/CO (FADDX1_RVT)                    0.02      0.08       3.97 r
+  n6733 (net)                    1                   0.00       3.97 r
+  U7023/CO (FADDX1_RVT)                    0.02      0.08       4.05 r
+  n9034 (net)                    1                   0.00       4.05 r
+  U9113/CO (FADDX1_RVT)                    0.02      0.08       4.13 r
+  n9041 (net)                    1                   0.00       4.13 r
+  U9115/S (FADDX1_RVT)                     0.03      0.14       4.27 f
+  n9043 (net)                    1                   0.00       4.27 f
+  U9116/S (FADDX1_RVT)                     0.03      0.20       4.47 f
+  n9051 (net)                    1                   0.00       4.47 f
+  U9119/S (FADDX1_RVT)                     0.03      0.24       4.71 f
+  n9058 (net)                    1                   0.00       4.71 f
+  U9122/S (FADDX1_RVT)                     0.01      0.23       4.94 r
+  vec_out[31] (net)              1                   0.00       4.94 r
+  vec_out[31] (out)                        0.01      0.01       4.95 r
+  data arrival time                                             4.95
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[53] (input port)
+  Endpoint: vec_out[62]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[53] (in)                          0.02      0.03       0.03 f
+  vec_in[53] (net)              13                   0.00       0.03 f
+  U6253/Y (NBUFFX2_RVT)                    0.10      0.25       0.28 f
+  n6190 (net)                   20                   0.00       0.28 f
+  U6495/Y (INVX1_RVT)                      0.04      0.33       0.61 r
+  n9638 (net)                   17                   0.00       0.61 r
+  U8209/Y (NAND2X0_RVT)                    0.13      0.18       0.79 f
+  n8111 (net)                    5                   0.00       0.79 f
+  U6369/Y (INVX1_RVT)                      0.03      0.15       0.94 r
+  n9583 (net)                    6                   0.00       0.94 r
+  U8256/Y (NAND2X0_RVT)                    0.21      0.24       1.18 f
+  n9825 (net)                    8                   0.00       1.18 f
+  U9789/Y (AO22X1_RVT)                     0.02      0.16       1.34 f
+  n9827 (net)                    1                   0.00       1.34 f
+  U9790/Y (OA221X1_RVT)                    0.04      0.12       1.45 f
+  n9838 (net)                    1                   0.00       1.45 f
+  U9795/S (FADDX1_RVT)                     0.05      0.27       1.72 f
+  n9854 (net)                    3                   0.00       1.72 f
+  U9803/S (FADDX1_RVT)                     0.05      0.31       2.03 f
+  n9909 (net)                    2                   0.00       2.03 f
+  U9804/Y (INVX1_RVT)                      0.01      0.10       2.13 r
+  n9861 (net)                    2                   0.00       2.13 r
+  U9807/Y (OAI222X1_RVT)                   0.02      0.10       2.23 f
+  n9905 (net)                    1                   0.00       2.23 f
+  U9822/CO (FADDX1_RVT)                    0.03      0.18       2.42 f
+  n9902 (net)                    1                   0.00       2.42 f
+  U9821/CO (FADDX1_RVT)                    0.03      0.18       2.60 f
+  n9899 (net)                    1                   0.00       2.60 f
+  U9820/CO (FADDX1_RVT)                    0.03      0.19       2.80 f
+  n9898 (net)                    1                   0.00       2.80 f
+  U9819/CO (FADDX1_RVT)                    0.03      0.23       3.03 f
+  n9893 (net)                    1                   0.00       3.03 f
+  U9818/CO (FADDX1_RVT)                    0.03      0.18       3.21 f
+  n9890 (net)                    1                   0.00       3.21 f
+  U9817/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n9887 (net)                    1                   0.00       3.40 f
+  U9816/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n9884 (net)                    1                   0.00       3.58 f
+  U9815/CO (FADDX1_RVT)                    0.03      0.18       3.77 f
+  n9881 (net)                    1                   0.00       3.77 f
+  U9814/CO (FADDX1_RVT)                    0.03      0.18       3.95 f
+  n9878 (net)                    1                   0.00       3.95 f
+  U9813/CO (FADDX1_RVT)                    0.03      0.18       4.14 f
+  n9936 (net)                    1                   0.00       4.14 f
+  U9839/CO (FADDX1_RVT)                    0.03      0.18       4.32 f
+  n9968 (net)                    1                   0.00       4.32 f
+  U9863/CO (FADDX1_RVT)                    0.03      0.18       4.50 f
+  n9991 (net)                    1                   0.00       4.50 f
+  U9870/S (FADDX1_RVT)                     0.01      0.19       4.70 r
+  vec_out[62] (net)              1                   0.00       4.70 r
+  vec_out[62] (out)                        0.01      0.01       4.70 r
+  data arrival time                                             4.70
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[53] (input port)
+  Endpoint: vec_out[61]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[53] (in)                          0.02      0.03       0.03 f
+  vec_in[53] (net)              13                   0.00       0.03 f
+  U6253/Y (NBUFFX2_RVT)                    0.10      0.25       0.28 f
+  n6190 (net)                   20                   0.00       0.28 f
+  U6495/Y (INVX1_RVT)                      0.04      0.33       0.61 r
+  n9638 (net)                   17                   0.00       0.61 r
+  U8209/Y (NAND2X0_RVT)                    0.13      0.18       0.79 f
+  n8111 (net)                    5                   0.00       0.79 f
+  U6369/Y (INVX1_RVT)                      0.03      0.15       0.94 r
+  n9583 (net)                    6                   0.00       0.94 r
+  U8256/Y (NAND2X0_RVT)                    0.21      0.24       1.18 f
+  n9825 (net)                    8                   0.00       1.18 f
+  U9789/Y (AO22X1_RVT)                     0.02      0.16       1.34 f
+  n9827 (net)                    1                   0.00       1.34 f
+  U9790/Y (OA221X1_RVT)                    0.04      0.12       1.45 f
+  n9838 (net)                    1                   0.00       1.45 f
+  U9795/S (FADDX1_RVT)                     0.05      0.27       1.72 f
+  n9854 (net)                    3                   0.00       1.72 f
+  U9803/S (FADDX1_RVT)                     0.05      0.31       2.03 f
+  n9909 (net)                    2                   0.00       2.03 f
+  U9804/Y (INVX1_RVT)                      0.01      0.10       2.13 r
+  n9861 (net)                    2                   0.00       2.13 r
+  U9807/Y (OAI222X1_RVT)                   0.02      0.10       2.23 f
+  n9905 (net)                    1                   0.00       2.23 f
+  U9822/CO (FADDX1_RVT)                    0.03      0.18       2.42 f
+  n9902 (net)                    1                   0.00       2.42 f
+  U9821/CO (FADDX1_RVT)                    0.03      0.18       2.60 f
+  n9899 (net)                    1                   0.00       2.60 f
+  U9820/CO (FADDX1_RVT)                    0.03      0.19       2.80 f
+  n9898 (net)                    1                   0.00       2.80 f
+  U9819/CO (FADDX1_RVT)                    0.03      0.23       3.03 f
+  n9893 (net)                    1                   0.00       3.03 f
+  U9818/CO (FADDX1_RVT)                    0.03      0.18       3.21 f
+  n9890 (net)                    1                   0.00       3.21 f
+  U9817/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n9887 (net)                    1                   0.00       3.40 f
+  U9816/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n9884 (net)                    1                   0.00       3.58 f
+  U9815/CO (FADDX1_RVT)                    0.03      0.18       3.77 f
+  n9881 (net)                    1                   0.00       3.77 f
+  U9814/CO (FADDX1_RVT)                    0.03      0.18       3.95 f
+  n9878 (net)                    1                   0.00       3.95 f
+  U9813/CO (FADDX1_RVT)                    0.03      0.18       4.14 f
+  n9936 (net)                    1                   0.00       4.14 f
+  U9839/CO (FADDX1_RVT)                    0.03      0.18       4.32 f
+  n9968 (net)                    1                   0.00       4.32 f
+  U9863/S (FADDX1_RVT)                     0.01      0.19       4.51 r
+  vec_out[61] (net)              1                   0.00       4.51 r
+  vec_out[61] (out)                        0.01      0.01       4.52 r
+  data arrival time                                             4.52
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[4] (input port)
+  Endpoint: vec_out[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[4] (in)                           0.15      0.07       0.07 f
+  vec_in[4] (net)               22                   0.00       0.07 f
+  U6428/Y (INVX1_RVT)                      0.04      0.36       0.42 r
+  n7216 (net)                   14                   0.00       0.42 r
+  U6430/Y (NAND2X0_RVT)                    0.18      0.22       0.65 f
+  n7192 (net)                    7                   0.00       0.65 f
+  U6339/Y (INVX1_RVT)                      0.04      0.18       0.83 r
+  n7065 (net)                    8                   0.00       0.83 r
+  U6436/Y (NAND2X0_RVT)                    0.19      0.23       1.06 f
+  n6922 (net)                    8                   0.00       1.06 f
+  U6455/Y (AO22X1_RVT)                     0.02      0.16       1.22 f
+  n6235 (net)                    1                   0.00       1.22 f
+  U6456/Y (OA221X1_RVT)                    0.04      0.11       1.33 f
+  n6240 (net)                    1                   0.00       1.33 f
+  U6463/S (FADDX1_RVT)                     0.02      0.23       1.57 f
+  n6261 (net)                    2                   0.00       1.57 f
+  U6479/Y (AO222X1_RVT)                    0.03      0.13       1.70 f
+  n6950 (net)                    1                   0.00       1.70 f
+  U7247/CO (FADDX1_RVT)                    0.04      0.21       1.90 f
+  n8896 (net)                    3                   0.00       1.90 f
+  U7250/Y (AO222X1_RVT)                    0.03      0.15       2.05 f
+  n7027 (net)                    1                   0.00       2.05 f
+  U7299/CO (FADDX1_RVT)                    0.03      0.18       2.23 f
+  n7023 (net)                    1                   0.00       2.23 f
+  U7297/CO (FADDX1_RVT)                    0.03      0.19       2.43 f
+  n7021 (net)                    1                   0.00       2.43 f
+  U7295/CO (FADDX1_RVT)                    0.03      0.23       2.66 f
+  n7015 (net)                    1                   0.00       2.66 f
+  U7293/CO (FADDX1_RVT)                    0.03      0.18       2.85 f
+  n7011 (net)                    1                   0.00       2.85 f
+  U7291/CO (FADDX1_RVT)                    0.03      0.18       3.03 f
+  n7007 (net)                    1                   0.00       3.03 f
+  U7289/CO (FADDX1_RVT)                    0.03      0.18       3.22 f
+  n7003 (net)                    1                   0.00       3.22 f
+  U7287/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n6999 (net)                    1                   0.00       3.40 f
+  U7285/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n6995 (net)                    1                   0.00       3.58 f
+  U7283/CO (FADDX1_RVT)                    0.03      0.19       3.78 f
+  n8893 (net)                    1                   0.00       3.78 f
+  U9045/CO (FADDX1_RVT)                    0.02      0.22       4.00 f
+  n8894 (net)                    1                   0.00       4.00 f
+  U9046/Y (INVX1_RVT)                      0.01      0.09       4.09 r
+  n8922 (net)                    1                   0.00       4.09 r
+  U9061/CO (FADDX1_RVT)                    0.02      0.08       4.17 r
+  n8954 (net)                    1                   0.00       4.17 r
+  U9082/CO (FADDX1_RVT)                    0.02      0.08       4.25 r
+  n8969 (net)                    1                   0.00       4.25 r
+  U9087/S (FADDX1_RVT)                     0.01      0.11       4.36 f
+  vec_out[14] (net)              1                   0.00       4.36 f
+  vec_out[14] (out)                        0.01      0.01       4.37 f
+  data arrival time                                             4.37
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[37] (input port)
+  Endpoint: vec_out[46]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[37] (in)                          0.01      0.01       0.01 r
+  vec_in[37] (net)              15                   0.00       0.01 r
+  U6231/Y (INVX1_RVT)                      0.19      0.24       0.25 f
+  n9161 (net)                   21                   0.00       0.25 f
+  U6576/Y (INVX1_RVT)                      0.06      0.37       0.62 r
+  n9162 (net)                   18                   0.00       0.62 r
+  U6578/Y (NAND2X0_RVT)                    0.07      0.12       0.74 f
+  n8349 (net)                    3                   0.00       0.74 f
+  U6579/Y (NAND2X0_RVT)                    0.02      0.10       0.83 r
+  n9110 (net)                    3                   0.00       0.83 r
+  U9211/Y (NAND2X0_RVT)                    0.16      0.18       1.02 f
+  n9371 (net)                    7                   0.00       1.02 f
+  U9411/Y (OA221X1_RVT)                    0.03      0.19       1.20 f
+  n9378 (net)                    1                   0.00       1.20 f
+  U9416/S (FADDX1_RVT)                     0.04      0.20       1.41 f
+  n9391 (net)                    3                   0.00       1.41 f
+  U9421/SO (HADDX1_RVT)                    0.02      0.17       1.57 f
+  n9394 (net)                    1                   0.00       1.57 f
+  U9422/SO (HADDX1_RVT)                    0.05      0.18       1.75 f
+  n9433 (net)                    2                   0.00       1.75 f
+  U9423/Y (INVX1_RVT)                      0.01      0.10       1.85 r
+  n9401 (net)                    2                   0.00       1.85 r
+  U9426/Y (OAI222X1_RVT)                   0.02      0.10       1.95 f
+  n9429 (net)                    1                   0.00       1.95 f
+  U9436/CO (FADDX1_RVT)                    0.03      0.18       2.13 f
+  n9426 (net)                    1                   0.00       2.13 f
+  U9435/CO (FADDX1_RVT)                    0.03      0.18       2.32 f
+  n9423 (net)                    1                   0.00       2.32 f
+  U9434/CO (FADDX1_RVT)                    0.03      0.18       2.50 f
+  n9420 (net)                    1                   0.00       2.50 f
+  U9433/CO (FADDX1_RVT)                    0.03      0.18       2.69 f
+  n9417 (net)                    1                   0.00       2.69 f
+  U9432/CO (FADDX1_RVT)                    0.03      0.18       2.87 f
+  n9414 (net)                    1                   0.00       2.87 f
+  U9431/CO (FADDX1_RVT)                    0.03      0.18       3.06 f
+  n9411 (net)                    1                   0.00       3.06 f
+  U9430/CO (FADDX1_RVT)                    0.03      0.18       3.24 f
+  n9408 (net)                    1                   0.00       3.24 f
+  U9429/CO (FADDX1_RVT)                    0.03      0.18       3.42 f
+  n9405 (net)                    1                   0.00       3.42 f
+  U9428/CO (FADDX1_RVT)                    0.03      0.18       3.61 f
+  n9402 (net)                    1                   0.00       3.61 f
+  U9427/CO (FADDX1_RVT)                    0.03      0.18       3.79 f
+  n9457 (net)                    1                   0.00       3.79 f
+  U9455/CO (FADDX1_RVT)                    0.03      0.18       3.98 f
+  n9496 (net)                    1                   0.00       3.98 f
+  U9484/CO (FADDX1_RVT)                    0.03      0.18       4.16 f
+  n9510 (net)                    1                   0.00       4.16 f
+  U9490/S (FADDX1_RVT)                     0.01      0.19       4.36 r
+  vec_out[46] (net)              1                   0.00       4.36 r
+  vec_out[46] (out)                        0.01      0.01       4.36 r
+  data arrival time                                             4.36
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[53] (input port)
+  Endpoint: vec_out[60]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[53] (in)                          0.02      0.03       0.03 f
+  vec_in[53] (net)              13                   0.00       0.03 f
+  U6253/Y (NBUFFX2_RVT)                    0.10      0.25       0.28 f
+  n6190 (net)                   20                   0.00       0.28 f
+  U6495/Y (INVX1_RVT)                      0.04      0.33       0.61 r
+  n9638 (net)                   17                   0.00       0.61 r
+  U8209/Y (NAND2X0_RVT)                    0.13      0.18       0.79 f
+  n8111 (net)                    5                   0.00       0.79 f
+  U6369/Y (INVX1_RVT)                      0.03      0.15       0.94 r
+  n9583 (net)                    6                   0.00       0.94 r
+  U8256/Y (NAND2X0_RVT)                    0.21      0.24       1.18 f
+  n9825 (net)                    8                   0.00       1.18 f
+  U9789/Y (AO22X1_RVT)                     0.02      0.16       1.34 f
+  n9827 (net)                    1                   0.00       1.34 f
+  U9790/Y (OA221X1_RVT)                    0.04      0.12       1.45 f
+  n9838 (net)                    1                   0.00       1.45 f
+  U9795/S (FADDX1_RVT)                     0.05      0.27       1.72 f
+  n9854 (net)                    3                   0.00       1.72 f
+  U9803/S (FADDX1_RVT)                     0.05      0.31       2.03 f
+  n9909 (net)                    2                   0.00       2.03 f
+  U9804/Y (INVX1_RVT)                      0.01      0.10       2.13 r
+  n9861 (net)                    2                   0.00       2.13 r
+  U9807/Y (OAI222X1_RVT)                   0.02      0.10       2.23 f
+  n9905 (net)                    1                   0.00       2.23 f
+  U9822/CO (FADDX1_RVT)                    0.03      0.18       2.42 f
+  n9902 (net)                    1                   0.00       2.42 f
+  U9821/CO (FADDX1_RVT)                    0.03      0.18       2.60 f
+  n9899 (net)                    1                   0.00       2.60 f
+  U9820/CO (FADDX1_RVT)                    0.03      0.19       2.80 f
+  n9898 (net)                    1                   0.00       2.80 f
+  U9819/CO (FADDX1_RVT)                    0.03      0.23       3.03 f
+  n9893 (net)                    1                   0.00       3.03 f
+  U9818/CO (FADDX1_RVT)                    0.03      0.18       3.21 f
+  n9890 (net)                    1                   0.00       3.21 f
+  U9817/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n9887 (net)                    1                   0.00       3.40 f
+  U9816/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n9884 (net)                    1                   0.00       3.58 f
+  U9815/CO (FADDX1_RVT)                    0.03      0.18       3.77 f
+  n9881 (net)                    1                   0.00       3.77 f
+  U9814/CO (FADDX1_RVT)                    0.03      0.18       3.95 f
+  n9878 (net)                    1                   0.00       3.95 f
+  U9813/CO (FADDX1_RVT)                    0.03      0.18       4.14 f
+  n9936 (net)                    1                   0.00       4.14 f
+  U9839/S (FADDX1_RVT)                     0.01      0.19       4.33 r
+  vec_out[60] (net)              1                   0.00       4.33 r
+  vec_out[60] (out)                        0.01      0.01       4.34 r
+  data arrival time                                             4.34
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[4] (input port)
+  Endpoint: vec_out[13]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[4] (in)                           0.15      0.07       0.07 f
+  vec_in[4] (net)               22                   0.00       0.07 f
+  U6428/Y (INVX1_RVT)                      0.04      0.36       0.42 r
+  n7216 (net)                   14                   0.00       0.42 r
+  U6430/Y (NAND2X0_RVT)                    0.18      0.22       0.65 f
+  n7192 (net)                    7                   0.00       0.65 f
+  U6339/Y (INVX1_RVT)                      0.04      0.18       0.83 r
+  n7065 (net)                    8                   0.00       0.83 r
+  U6436/Y (NAND2X0_RVT)                    0.19      0.23       1.06 f
+  n6922 (net)                    8                   0.00       1.06 f
+  U6455/Y (AO22X1_RVT)                     0.02      0.16       1.22 f
+  n6235 (net)                    1                   0.00       1.22 f
+  U6456/Y (OA221X1_RVT)                    0.04      0.11       1.33 f
+  n6240 (net)                    1                   0.00       1.33 f
+  U6463/S (FADDX1_RVT)                     0.02      0.23       1.57 f
+  n6261 (net)                    2                   0.00       1.57 f
+  U6479/Y (AO222X1_RVT)                    0.03      0.13       1.70 f
+  n6950 (net)                    1                   0.00       1.70 f
+  U7247/CO (FADDX1_RVT)                    0.04      0.21       1.90 f
+  n8896 (net)                    3                   0.00       1.90 f
+  U7250/Y (AO222X1_RVT)                    0.03      0.15       2.05 f
+  n7027 (net)                    1                   0.00       2.05 f
+  U7299/CO (FADDX1_RVT)                    0.03      0.18       2.23 f
+  n7023 (net)                    1                   0.00       2.23 f
+  U7297/CO (FADDX1_RVT)                    0.03      0.19       2.43 f
+  n7021 (net)                    1                   0.00       2.43 f
+  U7295/CO (FADDX1_RVT)                    0.03      0.23       2.66 f
+  n7015 (net)                    1                   0.00       2.66 f
+  U7293/CO (FADDX1_RVT)                    0.03      0.18       2.85 f
+  n7011 (net)                    1                   0.00       2.85 f
+  U7291/CO (FADDX1_RVT)                    0.03      0.18       3.03 f
+  n7007 (net)                    1                   0.00       3.03 f
+  U7289/CO (FADDX1_RVT)                    0.03      0.18       3.22 f
+  n7003 (net)                    1                   0.00       3.22 f
+  U7287/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n6999 (net)                    1                   0.00       3.40 f
+  U7285/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n6995 (net)                    1                   0.00       3.58 f
+  U7283/CO (FADDX1_RVT)                    0.03      0.19       3.78 f
+  n8893 (net)                    1                   0.00       3.78 f
+  U9045/CO (FADDX1_RVT)                    0.02      0.22       4.00 f
+  n8894 (net)                    1                   0.00       4.00 f
+  U9046/Y (INVX1_RVT)                      0.01      0.09       4.09 r
+  n8922 (net)                    1                   0.00       4.09 r
+  U9061/CO (FADDX1_RVT)                    0.02      0.08       4.17 r
+  n8954 (net)                    1                   0.00       4.17 r
+  U9082/S (FADDX1_RVT)                     0.01      0.10       4.27 f
+  vec_out[13] (net)              1                   0.00       4.27 f
+  vec_out[13] (out)                        0.01      0.01       4.27 f
+  data arrival time                                             4.27
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[21] (input port)
+  Endpoint: vec_out[30]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[21] (in)                          0.09      0.05       0.05 f
+  vec_in[21] (net)              14                   0.00       0.05 f
+  U8284/Y (INVX4_RVT)                      0.03      0.69       0.75 r
+  n6192 (net)                   27                   0.00       0.75 r
+  U6626/Y (NAND2X0_RVT)                    0.06      0.12       0.86 f
+  n7436 (net)                    2                   0.00       0.86 f
+  U6272/Y (INVX1_RVT)                      0.02      0.12       0.98 r
+  n7664 (net)                    8                   0.00       0.98 r
+  U6765/Y (NAND2X0_RVT)                    0.23      0.26       1.25 f
+  n7430 (net)                    9                   0.00       1.25 f
+  U6960/Y (AO22X1_RVT)                     0.02      0.17       1.42 f
+  n6630 (net)                    1                   0.00       1.42 f
+  U6961/Y (OA221X1_RVT)                    0.03      0.11       1.52 f
+  n6646 (net)                    1                   0.00       1.52 f
+  U6972/S (FADDX1_RVT)                     0.03      0.19       1.71 f
+  n6705 (net)                    1                   0.00       1.71 f
+  U7011/S (FADDX1_RVT)                     0.01      0.20       1.91 r
+  n6708 (net)                    1                   0.00       1.91 r
+  U7012/Y (INVX1_RVT)                      0.02      0.04       1.96 f
+  n9017 (net)                    1                   0.00       1.96 f
+  U9106/CO (FADDX1_RVT)                    0.03      0.18       2.14 f
+  n9014 (net)                    1                   0.00       2.14 f
+  U9105/CO (FADDX1_RVT)                    0.02      0.17       2.31 f
+  n6709 (net)                    1                   0.00       2.31 f
+  U6278/Y (INVX1_RVT)                      0.01      0.09       2.40 r
+  n6747 (net)                    1                   0.00       2.40 r
+  U7029/CO (FADDX1_RVT)                    0.02      0.10       2.50 r
+  n9011 (net)                    2                   0.00       2.50 r
+  U7017/Y (AOI22X1_RVT)                    0.03      0.10       2.60 f
+  n9009 (net)                    1                   0.00       2.60 f
+  U9103/CO (FADDX1_RVT)                    0.03      0.22       2.82 f
+  n9005 (net)                    1                   0.00       2.82 f
+  U9102/CO (FADDX1_RVT)                    0.03      0.18       3.00 f
+  n9002 (net)                    1                   0.00       3.00 f
+  U9101/CO (FADDX1_RVT)                    0.03      0.18       3.19 f
+  n8999 (net)                    1                   0.00       3.19 f
+  U9100/CO (FADDX1_RVT)                    0.03      0.18       3.37 f
+  n8996 (net)                    1                   0.00       3.37 f
+  U9099/CO (FADDX1_RVT)                    0.03      0.18       3.56 f
+  n8217 (net)                    1                   0.00       3.56 f
+  U8467/CO (FADDX1_RVT)                    0.02      0.17       3.73 f
+  n6731 (net)                    1                   0.00       3.73 f
+  U7021/Y (INVX1_RVT)                      0.01      0.09       3.82 r
+  n6741 (net)                    1                   0.00       3.82 r
+  U7027/CO (FADDX1_RVT)                    0.02      0.08       3.90 r
+  n6737 (net)                    1                   0.00       3.90 r
+  U7025/CO (FADDX1_RVT)                    0.02      0.08       3.97 r
+  n6733 (net)                    1                   0.00       3.97 r
+  U7023/CO (FADDX1_RVT)                    0.02      0.08       4.05 r
+  n9034 (net)                    1                   0.00       4.05 r
+  U9113/S (FADDX1_RVT)                     0.02      0.12       4.17 f
+  n6732 (net)                    1                   0.00       4.17 f
+  U7022/Y (INVX1_RVT)                      0.01      0.08       4.25 r
+  vec_out[30] (net)              1                   0.00       4.25 r
+  vec_out[30] (out)                        0.01      0.01       4.26 r
+  data arrival time                                             4.26
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[4] (input port)
+  Endpoint: vec_out[12]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[4] (in)                           0.15      0.07       0.07 f
+  vec_in[4] (net)               22                   0.00       0.07 f
+  U6428/Y (INVX1_RVT)                      0.04      0.36       0.42 r
+  n7216 (net)                   14                   0.00       0.42 r
+  U6430/Y (NAND2X0_RVT)                    0.18      0.22       0.65 f
+  n7192 (net)                    7                   0.00       0.65 f
+  U6339/Y (INVX1_RVT)                      0.04      0.18       0.83 r
+  n7065 (net)                    8                   0.00       0.83 r
+  U6436/Y (NAND2X0_RVT)                    0.19      0.23       1.06 f
+  n6922 (net)                    8                   0.00       1.06 f
+  U6455/Y (AO22X1_RVT)                     0.02      0.16       1.22 f
+  n6235 (net)                    1                   0.00       1.22 f
+  U6456/Y (OA221X1_RVT)                    0.04      0.11       1.33 f
+  n6240 (net)                    1                   0.00       1.33 f
+  U6463/S (FADDX1_RVT)                     0.02      0.23       1.57 f
+  n6261 (net)                    2                   0.00       1.57 f
+  U6479/Y (AO222X1_RVT)                    0.03      0.13       1.70 f
+  n6950 (net)                    1                   0.00       1.70 f
+  U7247/CO (FADDX1_RVT)                    0.04      0.21       1.90 f
+  n8896 (net)                    3                   0.00       1.90 f
+  U7250/Y (AO222X1_RVT)                    0.03      0.15       2.05 f
+  n7027 (net)                    1                   0.00       2.05 f
+  U7299/CO (FADDX1_RVT)                    0.03      0.18       2.23 f
+  n7023 (net)                    1                   0.00       2.23 f
+  U7297/CO (FADDX1_RVT)                    0.03      0.19       2.43 f
+  n7021 (net)                    1                   0.00       2.43 f
+  U7295/CO (FADDX1_RVT)                    0.03      0.23       2.66 f
+  n7015 (net)                    1                   0.00       2.66 f
+  U7293/CO (FADDX1_RVT)                    0.03      0.18       2.85 f
+  n7011 (net)                    1                   0.00       2.85 f
+  U7291/CO (FADDX1_RVT)                    0.03      0.18       3.03 f
+  n7007 (net)                    1                   0.00       3.03 f
+  U7289/CO (FADDX1_RVT)                    0.03      0.18       3.22 f
+  n7003 (net)                    1                   0.00       3.22 f
+  U7287/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n6999 (net)                    1                   0.00       3.40 f
+  U7285/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n6995 (net)                    1                   0.00       3.58 f
+  U7283/CO (FADDX1_RVT)                    0.03      0.19       3.78 f
+  n8893 (net)                    1                   0.00       3.78 f
+  U9045/CO (FADDX1_RVT)                    0.02      0.22       4.00 f
+  n8894 (net)                    1                   0.00       4.00 f
+  U9046/Y (INVX1_RVT)                      0.01      0.09       4.09 r
+  n8922 (net)                    1                   0.00       4.09 r
+  U9061/S (FADDX1_RVT)                     0.01      0.10       4.19 f
+  vec_out[12] (net)              1                   0.00       4.19 f
+  vec_out[12] (out)                        0.01      0.01       4.20 f
+  data arrival time                                             4.20
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[21] (input port)
+  Endpoint: vec_out[29]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[21] (in)                          0.09      0.05       0.05 f
+  vec_in[21] (net)              14                   0.00       0.05 f
+  U8284/Y (INVX4_RVT)                      0.03      0.69       0.75 r
+  n6192 (net)                   27                   0.00       0.75 r
+  U6626/Y (NAND2X0_RVT)                    0.06      0.12       0.86 f
+  n7436 (net)                    2                   0.00       0.86 f
+  U6272/Y (INVX1_RVT)                      0.02      0.12       0.98 r
+  n7664 (net)                    8                   0.00       0.98 r
+  U6765/Y (NAND2X0_RVT)                    0.23      0.26       1.25 f
+  n7430 (net)                    9                   0.00       1.25 f
+  U6960/Y (AO22X1_RVT)                     0.02      0.17       1.42 f
+  n6630 (net)                    1                   0.00       1.42 f
+  U6961/Y (OA221X1_RVT)                    0.03      0.11       1.52 f
+  n6646 (net)                    1                   0.00       1.52 f
+  U6972/S (FADDX1_RVT)                     0.03      0.19       1.71 f
+  n6705 (net)                    1                   0.00       1.71 f
+  U7011/S (FADDX1_RVT)                     0.01      0.20       1.91 r
+  n6708 (net)                    1                   0.00       1.91 r
+  U7012/Y (INVX1_RVT)                      0.02      0.04       1.96 f
+  n9017 (net)                    1                   0.00       1.96 f
+  U9106/CO (FADDX1_RVT)                    0.03      0.18       2.14 f
+  n9014 (net)                    1                   0.00       2.14 f
+  U9105/CO (FADDX1_RVT)                    0.02      0.17       2.31 f
+  n6709 (net)                    1                   0.00       2.31 f
+  U6278/Y (INVX1_RVT)                      0.01      0.09       2.40 r
+  n6747 (net)                    1                   0.00       2.40 r
+  U7029/CO (FADDX1_RVT)                    0.02      0.10       2.50 r
+  n9011 (net)                    2                   0.00       2.50 r
+  U7017/Y (AOI22X1_RVT)                    0.03      0.10       2.60 f
+  n9009 (net)                    1                   0.00       2.60 f
+  U9103/CO (FADDX1_RVT)                    0.03      0.22       2.82 f
+  n9005 (net)                    1                   0.00       2.82 f
+  U9102/CO (FADDX1_RVT)                    0.03      0.18       3.00 f
+  n9002 (net)                    1                   0.00       3.00 f
+  U9101/CO (FADDX1_RVT)                    0.03      0.18       3.19 f
+  n8999 (net)                    1                   0.00       3.19 f
+  U9100/CO (FADDX1_RVT)                    0.03      0.18       3.37 f
+  n8996 (net)                    1                   0.00       3.37 f
+  U9099/CO (FADDX1_RVT)                    0.03      0.18       3.56 f
+  n8217 (net)                    1                   0.00       3.56 f
+  U8467/CO (FADDX1_RVT)                    0.02      0.17       3.73 f
+  n6731 (net)                    1                   0.00       3.73 f
+  U7021/Y (INVX1_RVT)                      0.01      0.09       3.82 r
+  n6741 (net)                    1                   0.00       3.82 r
+  U7027/CO (FADDX1_RVT)                    0.02      0.08       3.90 r
+  n6737 (net)                    1                   0.00       3.90 r
+  U7025/CO (FADDX1_RVT)                    0.02      0.08       3.97 r
+  n6733 (net)                    1                   0.00       3.97 r
+  U7023/S (FADDX1_RVT)                     0.02      0.12       4.09 f
+  n6736 (net)                    1                   0.00       4.09 f
+  U7024/Y (INVX1_RVT)                      0.01      0.08       4.18 r
+  vec_out[29] (net)              1                   0.00       4.18 r
+  vec_out[29] (out)                        0.01      0.01       4.18 r
+  data arrival time                                             4.18
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[37] (input port)
+  Endpoint: vec_out[45]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[37] (in)                          0.01      0.01       0.01 r
+  vec_in[37] (net)              15                   0.00       0.01 r
+  U6231/Y (INVX1_RVT)                      0.19      0.24       0.25 f
+  n9161 (net)                   21                   0.00       0.25 f
+  U6576/Y (INVX1_RVT)                      0.06      0.37       0.62 r
+  n9162 (net)                   18                   0.00       0.62 r
+  U6578/Y (NAND2X0_RVT)                    0.07      0.12       0.74 f
+  n8349 (net)                    3                   0.00       0.74 f
+  U6579/Y (NAND2X0_RVT)                    0.02      0.10       0.83 r
+  n9110 (net)                    3                   0.00       0.83 r
+  U9211/Y (NAND2X0_RVT)                    0.16      0.18       1.02 f
+  n9371 (net)                    7                   0.00       1.02 f
+  U9411/Y (OA221X1_RVT)                    0.03      0.19       1.20 f
+  n9378 (net)                    1                   0.00       1.20 f
+  U9416/S (FADDX1_RVT)                     0.04      0.20       1.41 f
+  n9391 (net)                    3                   0.00       1.41 f
+  U9421/SO (HADDX1_RVT)                    0.02      0.17       1.57 f
+  n9394 (net)                    1                   0.00       1.57 f
+  U9422/SO (HADDX1_RVT)                    0.05      0.18       1.75 f
+  n9433 (net)                    2                   0.00       1.75 f
+  U9423/Y (INVX1_RVT)                      0.01      0.10       1.85 r
+  n9401 (net)                    2                   0.00       1.85 r
+  U9426/Y (OAI222X1_RVT)                   0.02      0.10       1.95 f
+  n9429 (net)                    1                   0.00       1.95 f
+  U9436/CO (FADDX1_RVT)                    0.03      0.18       2.13 f
+  n9426 (net)                    1                   0.00       2.13 f
+  U9435/CO (FADDX1_RVT)                    0.03      0.18       2.32 f
+  n9423 (net)                    1                   0.00       2.32 f
+  U9434/CO (FADDX1_RVT)                    0.03      0.18       2.50 f
+  n9420 (net)                    1                   0.00       2.50 f
+  U9433/CO (FADDX1_RVT)                    0.03      0.18       2.69 f
+  n9417 (net)                    1                   0.00       2.69 f
+  U9432/CO (FADDX1_RVT)                    0.03      0.18       2.87 f
+  n9414 (net)                    1                   0.00       2.87 f
+  U9431/CO (FADDX1_RVT)                    0.03      0.18       3.06 f
+  n9411 (net)                    1                   0.00       3.06 f
+  U9430/CO (FADDX1_RVT)                    0.03      0.18       3.24 f
+  n9408 (net)                    1                   0.00       3.24 f
+  U9429/CO (FADDX1_RVT)                    0.03      0.18       3.42 f
+  n9405 (net)                    1                   0.00       3.42 f
+  U9428/CO (FADDX1_RVT)                    0.03      0.18       3.61 f
+  n9402 (net)                    1                   0.00       3.61 f
+  U9427/CO (FADDX1_RVT)                    0.03      0.18       3.79 f
+  n9457 (net)                    1                   0.00       3.79 f
+  U9455/CO (FADDX1_RVT)                    0.03      0.18       3.98 f
+  n9496 (net)                    1                   0.00       3.98 f
+  U9484/S (FADDX1_RVT)                     0.01      0.19       4.17 r
+  vec_out[45] (net)              1                   0.00       4.17 r
+  vec_out[45] (out)                        0.01      0.01       4.18 r
+  data arrival time                                             4.18
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[53] (input port)
+  Endpoint: vec_out[59]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[53] (in)                          0.02      0.03       0.03 f
+  vec_in[53] (net)              13                   0.00       0.03 f
+  U6253/Y (NBUFFX2_RVT)                    0.10      0.25       0.28 f
+  n6190 (net)                   20                   0.00       0.28 f
+  U6495/Y (INVX1_RVT)                      0.04      0.33       0.61 r
+  n9638 (net)                   17                   0.00       0.61 r
+  U8209/Y (NAND2X0_RVT)                    0.13      0.18       0.79 f
+  n8111 (net)                    5                   0.00       0.79 f
+  U6369/Y (INVX1_RVT)                      0.03      0.15       0.94 r
+  n9583 (net)                    6                   0.00       0.94 r
+  U8256/Y (NAND2X0_RVT)                    0.21      0.24       1.18 f
+  n9825 (net)                    8                   0.00       1.18 f
+  U9789/Y (AO22X1_RVT)                     0.02      0.16       1.34 f
+  n9827 (net)                    1                   0.00       1.34 f
+  U9790/Y (OA221X1_RVT)                    0.04      0.12       1.45 f
+  n9838 (net)                    1                   0.00       1.45 f
+  U9795/S (FADDX1_RVT)                     0.05      0.27       1.72 f
+  n9854 (net)                    3                   0.00       1.72 f
+  U9803/S (FADDX1_RVT)                     0.05      0.31       2.03 f
+  n9909 (net)                    2                   0.00       2.03 f
+  U9804/Y (INVX1_RVT)                      0.01      0.10       2.13 r
+  n9861 (net)                    2                   0.00       2.13 r
+  U9807/Y (OAI222X1_RVT)                   0.02      0.10       2.23 f
+  n9905 (net)                    1                   0.00       2.23 f
+  U9822/CO (FADDX1_RVT)                    0.03      0.18       2.42 f
+  n9902 (net)                    1                   0.00       2.42 f
+  U9821/CO (FADDX1_RVT)                    0.03      0.18       2.60 f
+  n9899 (net)                    1                   0.00       2.60 f
+  U9820/CO (FADDX1_RVT)                    0.03      0.19       2.80 f
+  n9898 (net)                    1                   0.00       2.80 f
+  U9819/CO (FADDX1_RVT)                    0.03      0.23       3.03 f
+  n9893 (net)                    1                   0.00       3.03 f
+  U9818/CO (FADDX1_RVT)                    0.03      0.18       3.21 f
+  n9890 (net)                    1                   0.00       3.21 f
+  U9817/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n9887 (net)                    1                   0.00       3.40 f
+  U9816/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n9884 (net)                    1                   0.00       3.58 f
+  U9815/CO (FADDX1_RVT)                    0.03      0.18       3.77 f
+  n9881 (net)                    1                   0.00       3.77 f
+  U9814/CO (FADDX1_RVT)                    0.03      0.18       3.95 f
+  n9878 (net)                    1                   0.00       3.95 f
+  U9813/S (FADDX1_RVT)                     0.01      0.19       4.15 r
+  vec_out[59] (net)              1                   0.00       4.15 r
+  vec_out[59] (out)                        0.01      0.01       4.15 r
+  data arrival time                                             4.15
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[21] (input port)
+  Endpoint: vec_out[28]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[21] (in)                          0.09      0.05       0.05 f
+  vec_in[21] (net)              14                   0.00       0.05 f
+  U8284/Y (INVX4_RVT)                      0.03      0.69       0.75 r
+  n6192 (net)                   27                   0.00       0.75 r
+  U6626/Y (NAND2X0_RVT)                    0.06      0.12       0.86 f
+  n7436 (net)                    2                   0.00       0.86 f
+  U6272/Y (INVX1_RVT)                      0.02      0.12       0.98 r
+  n7664 (net)                    8                   0.00       0.98 r
+  U6765/Y (NAND2X0_RVT)                    0.23      0.26       1.25 f
+  n7430 (net)                    9                   0.00       1.25 f
+  U6960/Y (AO22X1_RVT)                     0.02      0.17       1.42 f
+  n6630 (net)                    1                   0.00       1.42 f
+  U6961/Y (OA221X1_RVT)                    0.03      0.11       1.52 f
+  n6646 (net)                    1                   0.00       1.52 f
+  U6972/S (FADDX1_RVT)                     0.03      0.19       1.71 f
+  n6705 (net)                    1                   0.00       1.71 f
+  U7011/S (FADDX1_RVT)                     0.01      0.20       1.91 r
+  n6708 (net)                    1                   0.00       1.91 r
+  U7012/Y (INVX1_RVT)                      0.02      0.04       1.96 f
+  n9017 (net)                    1                   0.00       1.96 f
+  U9106/CO (FADDX1_RVT)                    0.03      0.18       2.14 f
+  n9014 (net)                    1                   0.00       2.14 f
+  U9105/CO (FADDX1_RVT)                    0.02      0.17       2.31 f
+  n6709 (net)                    1                   0.00       2.31 f
+  U6278/Y (INVX1_RVT)                      0.01      0.09       2.40 r
+  n6747 (net)                    1                   0.00       2.40 r
+  U7029/CO (FADDX1_RVT)                    0.02      0.10       2.50 r
+  n9011 (net)                    2                   0.00       2.50 r
+  U7017/Y (AOI22X1_RVT)                    0.03      0.10       2.60 f
+  n9009 (net)                    1                   0.00       2.60 f
+  U9103/CO (FADDX1_RVT)                    0.03      0.22       2.82 f
+  n9005 (net)                    1                   0.00       2.82 f
+  U9102/CO (FADDX1_RVT)                    0.03      0.18       3.00 f
+  n9002 (net)                    1                   0.00       3.00 f
+  U9101/CO (FADDX1_RVT)                    0.03      0.18       3.19 f
+  n8999 (net)                    1                   0.00       3.19 f
+  U9100/CO (FADDX1_RVT)                    0.03      0.18       3.37 f
+  n8996 (net)                    1                   0.00       3.37 f
+  U9099/CO (FADDX1_RVT)                    0.03      0.18       3.56 f
+  n8217 (net)                    1                   0.00       3.56 f
+  U8467/CO (FADDX1_RVT)                    0.02      0.17       3.73 f
+  n6731 (net)                    1                   0.00       3.73 f
+  U7021/Y (INVX1_RVT)                      0.01      0.09       3.82 r
+  n6741 (net)                    1                   0.00       3.82 r
+  U7027/CO (FADDX1_RVT)                    0.02      0.08       3.90 r
+  n6737 (net)                    1                   0.00       3.90 r
+  U7025/S (FADDX1_RVT)                     0.02      0.12       4.01 f
+  n6740 (net)                    1                   0.00       4.01 f
+  U7026/Y (INVX1_RVT)                      0.01      0.08       4.10 r
+  vec_out[28] (net)              1                   0.00       4.10 r
+  vec_out[28] (out)                        0.01      0.01       4.10 r
+  data arrival time                                             4.10
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[4] (input port)
+  Endpoint: vec_out[11]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[4] (in)                           0.15      0.07       0.07 f
+  vec_in[4] (net)               22                   0.00       0.07 f
+  U6428/Y (INVX1_RVT)                      0.04      0.36       0.42 r
+  n7216 (net)                   14                   0.00       0.42 r
+  U6430/Y (NAND2X0_RVT)                    0.18      0.22       0.65 f
+  n7192 (net)                    7                   0.00       0.65 f
+  U6339/Y (INVX1_RVT)                      0.04      0.18       0.83 r
+  n7065 (net)                    8                   0.00       0.83 r
+  U6436/Y (NAND2X0_RVT)                    0.19      0.23       1.06 f
+  n6922 (net)                    8                   0.00       1.06 f
+  U6455/Y (AO22X1_RVT)                     0.02      0.16       1.22 f
+  n6235 (net)                    1                   0.00       1.22 f
+  U6456/Y (OA221X1_RVT)                    0.04      0.11       1.33 f
+  n6240 (net)                    1                   0.00       1.33 f
+  U6463/S (FADDX1_RVT)                     0.02      0.23       1.57 f
+  n6261 (net)                    2                   0.00       1.57 f
+  U6479/Y (AO222X1_RVT)                    0.03      0.13       1.70 f
+  n6950 (net)                    1                   0.00       1.70 f
+  U7247/CO (FADDX1_RVT)                    0.04      0.21       1.90 f
+  n8896 (net)                    3                   0.00       1.90 f
+  U7250/Y (AO222X1_RVT)                    0.03      0.15       2.05 f
+  n7027 (net)                    1                   0.00       2.05 f
+  U7299/CO (FADDX1_RVT)                    0.03      0.18       2.23 f
+  n7023 (net)                    1                   0.00       2.23 f
+  U7297/CO (FADDX1_RVT)                    0.03      0.19       2.43 f
+  n7021 (net)                    1                   0.00       2.43 f
+  U7295/CO (FADDX1_RVT)                    0.03      0.23       2.66 f
+  n7015 (net)                    1                   0.00       2.66 f
+  U7293/CO (FADDX1_RVT)                    0.03      0.18       2.85 f
+  n7011 (net)                    1                   0.00       2.85 f
+  U7291/CO (FADDX1_RVT)                    0.03      0.18       3.03 f
+  n7007 (net)                    1                   0.00       3.03 f
+  U7289/CO (FADDX1_RVT)                    0.03      0.18       3.22 f
+  n7003 (net)                    1                   0.00       3.22 f
+  U7287/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n6999 (net)                    1                   0.00       3.40 f
+  U7285/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n6995 (net)                    1                   0.00       3.58 f
+  U7283/CO (FADDX1_RVT)                    0.03      0.19       3.78 f
+  n8893 (net)                    1                   0.00       3.78 f
+  U9045/S (FADDX1_RVT)                     0.02      0.23       4.01 f
+  n6994 (net)                    1                   0.00       4.01 f
+  U7282/Y (INVX1_RVT)                      0.01      0.08       4.10 r
+  vec_out[11] (net)              1                   0.00       4.10 r
+  vec_out[11] (out)                        0.01      0.01       4.10 r
+  data arrival time                                             4.10
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[21] (input port)
+  Endpoint: vec_out[27]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[21] (in)                          0.09      0.05       0.05 f
+  vec_in[21] (net)              14                   0.00       0.05 f
+  U8284/Y (INVX4_RVT)                      0.03      0.69       0.75 r
+  n6192 (net)                   27                   0.00       0.75 r
+  U6626/Y (NAND2X0_RVT)                    0.06      0.12       0.86 f
+  n7436 (net)                    2                   0.00       0.86 f
+  U6272/Y (INVX1_RVT)                      0.02      0.12       0.98 r
+  n7664 (net)                    8                   0.00       0.98 r
+  U6765/Y (NAND2X0_RVT)                    0.23      0.26       1.25 f
+  n7430 (net)                    9                   0.00       1.25 f
+  U6960/Y (AO22X1_RVT)                     0.02      0.17       1.42 f
+  n6630 (net)                    1                   0.00       1.42 f
+  U6961/Y (OA221X1_RVT)                    0.03      0.11       1.52 f
+  n6646 (net)                    1                   0.00       1.52 f
+  U6972/S (FADDX1_RVT)                     0.03      0.19       1.71 f
+  n6705 (net)                    1                   0.00       1.71 f
+  U7011/S (FADDX1_RVT)                     0.01      0.20       1.91 r
+  n6708 (net)                    1                   0.00       1.91 r
+  U7012/Y (INVX1_RVT)                      0.02      0.04       1.96 f
+  n9017 (net)                    1                   0.00       1.96 f
+  U9106/CO (FADDX1_RVT)                    0.03      0.18       2.14 f
+  n9014 (net)                    1                   0.00       2.14 f
+  U9105/CO (FADDX1_RVT)                    0.02      0.17       2.31 f
+  n6709 (net)                    1                   0.00       2.31 f
+  U6278/Y (INVX1_RVT)                      0.01      0.09       2.40 r
+  n6747 (net)                    1                   0.00       2.40 r
+  U7029/CO (FADDX1_RVT)                    0.02      0.10       2.50 r
+  n9011 (net)                    2                   0.00       2.50 r
+  U7017/Y (AOI22X1_RVT)                    0.03      0.10       2.60 f
+  n9009 (net)                    1                   0.00       2.60 f
+  U9103/CO (FADDX1_RVT)                    0.03      0.22       2.82 f
+  n9005 (net)                    1                   0.00       2.82 f
+  U9102/CO (FADDX1_RVT)                    0.03      0.18       3.00 f
+  n9002 (net)                    1                   0.00       3.00 f
+  U9101/CO (FADDX1_RVT)                    0.03      0.18       3.19 f
+  n8999 (net)                    1                   0.00       3.19 f
+  U9100/CO (FADDX1_RVT)                    0.03      0.18       3.37 f
+  n8996 (net)                    1                   0.00       3.37 f
+  U9099/CO (FADDX1_RVT)                    0.03      0.18       3.56 f
+  n8217 (net)                    1                   0.00       3.56 f
+  U8467/CO (FADDX1_RVT)                    0.02      0.17       3.73 f
+  n6731 (net)                    1                   0.00       3.73 f
+  U7021/Y (INVX1_RVT)                      0.01      0.09       3.82 r
+  n6741 (net)                    1                   0.00       3.82 r
+  U7027/S (FADDX1_RVT)                     0.02      0.12       3.94 f
+  n6744 (net)                    1                   0.00       3.94 f
+  U7028/Y (INVX1_RVT)                      0.01      0.08       4.02 r
+  vec_out[27] (net)              1                   0.00       4.02 r
+  vec_out[27] (out)                        0.01      0.01       4.03 r
+  data arrival time                                             4.03
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[37] (input port)
+  Endpoint: vec_out[44]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[37] (in)                          0.01      0.01       0.01 r
+  vec_in[37] (net)              15                   0.00       0.01 r
+  U6231/Y (INVX1_RVT)                      0.19      0.24       0.25 f
+  n9161 (net)                   21                   0.00       0.25 f
+  U6576/Y (INVX1_RVT)                      0.06      0.37       0.62 r
+  n9162 (net)                   18                   0.00       0.62 r
+  U6578/Y (NAND2X0_RVT)                    0.07      0.12       0.74 f
+  n8349 (net)                    3                   0.00       0.74 f
+  U6579/Y (NAND2X0_RVT)                    0.02      0.10       0.83 r
+  n9110 (net)                    3                   0.00       0.83 r
+  U9211/Y (NAND2X0_RVT)                    0.16      0.18       1.02 f
+  n9371 (net)                    7                   0.00       1.02 f
+  U9411/Y (OA221X1_RVT)                    0.03      0.19       1.20 f
+  n9378 (net)                    1                   0.00       1.20 f
+  U9416/S (FADDX1_RVT)                     0.04      0.20       1.41 f
+  n9391 (net)                    3                   0.00       1.41 f
+  U9421/SO (HADDX1_RVT)                    0.02      0.17       1.57 f
+  n9394 (net)                    1                   0.00       1.57 f
+  U9422/SO (HADDX1_RVT)                    0.05      0.18       1.75 f
+  n9433 (net)                    2                   0.00       1.75 f
+  U9423/Y (INVX1_RVT)                      0.01      0.10       1.85 r
+  n9401 (net)                    2                   0.00       1.85 r
+  U9426/Y (OAI222X1_RVT)                   0.02      0.10       1.95 f
+  n9429 (net)                    1                   0.00       1.95 f
+  U9436/CO (FADDX1_RVT)                    0.03      0.18       2.13 f
+  n9426 (net)                    1                   0.00       2.13 f
+  U9435/CO (FADDX1_RVT)                    0.03      0.18       2.32 f
+  n9423 (net)                    1                   0.00       2.32 f
+  U9434/CO (FADDX1_RVT)                    0.03      0.18       2.50 f
+  n9420 (net)                    1                   0.00       2.50 f
+  U9433/CO (FADDX1_RVT)                    0.03      0.18       2.69 f
+  n9417 (net)                    1                   0.00       2.69 f
+  U9432/CO (FADDX1_RVT)                    0.03      0.18       2.87 f
+  n9414 (net)                    1                   0.00       2.87 f
+  U9431/CO (FADDX1_RVT)                    0.03      0.18       3.06 f
+  n9411 (net)                    1                   0.00       3.06 f
+  U9430/CO (FADDX1_RVT)                    0.03      0.18       3.24 f
+  n9408 (net)                    1                   0.00       3.24 f
+  U9429/CO (FADDX1_RVT)                    0.03      0.18       3.42 f
+  n9405 (net)                    1                   0.00       3.42 f
+  U9428/CO (FADDX1_RVT)                    0.03      0.18       3.61 f
+  n9402 (net)                    1                   0.00       3.61 f
+  U9427/CO (FADDX1_RVT)                    0.03      0.18       3.79 f
+  n9457 (net)                    1                   0.00       3.79 f
+  U9455/S (FADDX1_RVT)                     0.01      0.19       3.99 r
+  vec_out[44] (net)              1                   0.00       3.99 r
+  vec_out[44] (out)                        0.01      0.01       3.99 r
+  data arrival time                                             3.99
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[53] (input port)
+  Endpoint: vec_out[58]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[53] (in)                          0.02      0.03       0.03 f
+  vec_in[53] (net)              13                   0.00       0.03 f
+  U6253/Y (NBUFFX2_RVT)                    0.10      0.25       0.28 f
+  n6190 (net)                   20                   0.00       0.28 f
+  U6495/Y (INVX1_RVT)                      0.04      0.33       0.61 r
+  n9638 (net)                   17                   0.00       0.61 r
+  U8209/Y (NAND2X0_RVT)                    0.13      0.18       0.79 f
+  n8111 (net)                    5                   0.00       0.79 f
+  U6369/Y (INVX1_RVT)                      0.03      0.15       0.94 r
+  n9583 (net)                    6                   0.00       0.94 r
+  U8256/Y (NAND2X0_RVT)                    0.21      0.24       1.18 f
+  n9825 (net)                    8                   0.00       1.18 f
+  U9789/Y (AO22X1_RVT)                     0.02      0.16       1.34 f
+  n9827 (net)                    1                   0.00       1.34 f
+  U9790/Y (OA221X1_RVT)                    0.04      0.12       1.45 f
+  n9838 (net)                    1                   0.00       1.45 f
+  U9795/S (FADDX1_RVT)                     0.05      0.27       1.72 f
+  n9854 (net)                    3                   0.00       1.72 f
+  U9803/S (FADDX1_RVT)                     0.05      0.31       2.03 f
+  n9909 (net)                    2                   0.00       2.03 f
+  U9804/Y (INVX1_RVT)                      0.01      0.10       2.13 r
+  n9861 (net)                    2                   0.00       2.13 r
+  U9807/Y (OAI222X1_RVT)                   0.02      0.10       2.23 f
+  n9905 (net)                    1                   0.00       2.23 f
+  U9822/CO (FADDX1_RVT)                    0.03      0.18       2.42 f
+  n9902 (net)                    1                   0.00       2.42 f
+  U9821/CO (FADDX1_RVT)                    0.03      0.18       2.60 f
+  n9899 (net)                    1                   0.00       2.60 f
+  U9820/CO (FADDX1_RVT)                    0.03      0.19       2.80 f
+  n9898 (net)                    1                   0.00       2.80 f
+  U9819/CO (FADDX1_RVT)                    0.03      0.23       3.03 f
+  n9893 (net)                    1                   0.00       3.03 f
+  U9818/CO (FADDX1_RVT)                    0.03      0.18       3.21 f
+  n9890 (net)                    1                   0.00       3.21 f
+  U9817/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n9887 (net)                    1                   0.00       3.40 f
+  U9816/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n9884 (net)                    1                   0.00       3.58 f
+  U9815/CO (FADDX1_RVT)                    0.03      0.18       3.77 f
+  n9881 (net)                    1                   0.00       3.77 f
+  U9814/S (FADDX1_RVT)                     0.01      0.19       3.96 r
+  vec_out[58] (net)              1                   0.00       3.96 r
+  vec_out[58] (out)                        0.01      0.01       3.97 r
+  data arrival time                                             3.97
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[4] (input port)
+  Endpoint: vec_out[10]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[4] (in)                           0.15      0.07       0.07 f
+  vec_in[4] (net)               22                   0.00       0.07 f
+  U6428/Y (INVX1_RVT)                      0.04      0.36       0.42 r
+  n7216 (net)                   14                   0.00       0.42 r
+  U6430/Y (NAND2X0_RVT)                    0.18      0.22       0.65 f
+  n7192 (net)                    7                   0.00       0.65 f
+  U6339/Y (INVX1_RVT)                      0.04      0.18       0.83 r
+  n7065 (net)                    8                   0.00       0.83 r
+  U6436/Y (NAND2X0_RVT)                    0.19      0.23       1.06 f
+  n6922 (net)                    8                   0.00       1.06 f
+  U6455/Y (AO22X1_RVT)                     0.02      0.16       1.22 f
+  n6235 (net)                    1                   0.00       1.22 f
+  U6456/Y (OA221X1_RVT)                    0.04      0.11       1.33 f
+  n6240 (net)                    1                   0.00       1.33 f
+  U6463/S (FADDX1_RVT)                     0.02      0.23       1.57 f
+  n6261 (net)                    2                   0.00       1.57 f
+  U6479/Y (AO222X1_RVT)                    0.03      0.13       1.70 f
+  n6950 (net)                    1                   0.00       1.70 f
+  U7247/CO (FADDX1_RVT)                    0.04      0.21       1.90 f
+  n8896 (net)                    3                   0.00       1.90 f
+  U7250/Y (AO222X1_RVT)                    0.03      0.15       2.05 f
+  n7027 (net)                    1                   0.00       2.05 f
+  U7299/CO (FADDX1_RVT)                    0.03      0.18       2.23 f
+  n7023 (net)                    1                   0.00       2.23 f
+  U7297/CO (FADDX1_RVT)                    0.03      0.19       2.43 f
+  n7021 (net)                    1                   0.00       2.43 f
+  U7295/CO (FADDX1_RVT)                    0.03      0.23       2.66 f
+  n7015 (net)                    1                   0.00       2.66 f
+  U7293/CO (FADDX1_RVT)                    0.03      0.18       2.85 f
+  n7011 (net)                    1                   0.00       2.85 f
+  U7291/CO (FADDX1_RVT)                    0.03      0.18       3.03 f
+  n7007 (net)                    1                   0.00       3.03 f
+  U7289/CO (FADDX1_RVT)                    0.03      0.18       3.22 f
+  n7003 (net)                    1                   0.00       3.22 f
+  U7287/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n6999 (net)                    1                   0.00       3.40 f
+  U7285/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n6995 (net)                    1                   0.00       3.58 f
+  U7283/S (FADDX1_RVT)                     0.02      0.18       3.76 f
+  n6998 (net)                    1                   0.00       3.76 f
+  U7284/Y (INVX1_RVT)                      0.01      0.08       3.85 r
+  vec_out[10] (net)              1                   0.00       3.85 r
+  vec_out[10] (out)                        0.01      0.01       3.85 r
+  data arrival time                                             3.85
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[37] (input port)
+  Endpoint: vec_out[43]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[37] (in)                          0.01      0.01       0.01 r
+  vec_in[37] (net)              15                   0.00       0.01 r
+  U6231/Y (INVX1_RVT)                      0.19      0.24       0.25 f
+  n9161 (net)                   21                   0.00       0.25 f
+  U6576/Y (INVX1_RVT)                      0.06      0.37       0.62 r
+  n9162 (net)                   18                   0.00       0.62 r
+  U6578/Y (NAND2X0_RVT)                    0.07      0.12       0.74 f
+  n8349 (net)                    3                   0.00       0.74 f
+  U6579/Y (NAND2X0_RVT)                    0.02      0.10       0.83 r
+  n9110 (net)                    3                   0.00       0.83 r
+  U9211/Y (NAND2X0_RVT)                    0.16      0.18       1.02 f
+  n9371 (net)                    7                   0.00       1.02 f
+  U9411/Y (OA221X1_RVT)                    0.03      0.19       1.20 f
+  n9378 (net)                    1                   0.00       1.20 f
+  U9416/S (FADDX1_RVT)                     0.04      0.20       1.41 f
+  n9391 (net)                    3                   0.00       1.41 f
+  U9421/SO (HADDX1_RVT)                    0.02      0.17       1.57 f
+  n9394 (net)                    1                   0.00       1.57 f
+  U9422/SO (HADDX1_RVT)                    0.05      0.18       1.75 f
+  n9433 (net)                    2                   0.00       1.75 f
+  U9423/Y (INVX1_RVT)                      0.01      0.10       1.85 r
+  n9401 (net)                    2                   0.00       1.85 r
+  U9426/Y (OAI222X1_RVT)                   0.02      0.10       1.95 f
+  n9429 (net)                    1                   0.00       1.95 f
+  U9436/CO (FADDX1_RVT)                    0.03      0.18       2.13 f
+  n9426 (net)                    1                   0.00       2.13 f
+  U9435/CO (FADDX1_RVT)                    0.03      0.18       2.32 f
+  n9423 (net)                    1                   0.00       2.32 f
+  U9434/CO (FADDX1_RVT)                    0.03      0.18       2.50 f
+  n9420 (net)                    1                   0.00       2.50 f
+  U9433/CO (FADDX1_RVT)                    0.03      0.18       2.69 f
+  n9417 (net)                    1                   0.00       2.69 f
+  U9432/CO (FADDX1_RVT)                    0.03      0.18       2.87 f
+  n9414 (net)                    1                   0.00       2.87 f
+  U9431/CO (FADDX1_RVT)                    0.03      0.18       3.06 f
+  n9411 (net)                    1                   0.00       3.06 f
+  U9430/CO (FADDX1_RVT)                    0.03      0.18       3.24 f
+  n9408 (net)                    1                   0.00       3.24 f
+  U9429/CO (FADDX1_RVT)                    0.03      0.18       3.42 f
+  n9405 (net)                    1                   0.00       3.42 f
+  U9428/CO (FADDX1_RVT)                    0.03      0.18       3.61 f
+  n9402 (net)                    1                   0.00       3.61 f
+  U9427/S (FADDX1_RVT)                     0.01      0.19       3.80 r
+  vec_out[43] (net)              1                   0.00       3.80 r
+  vec_out[43] (out)                        0.01      0.01       3.81 r
+  data arrival time                                             3.81
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[53] (input port)
+  Endpoint: vec_out[57]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[53] (in)                          0.02      0.03       0.03 f
+  vec_in[53] (net)              13                   0.00       0.03 f
+  U6253/Y (NBUFFX2_RVT)                    0.10      0.25       0.28 f
+  n6190 (net)                   20                   0.00       0.28 f
+  U6495/Y (INVX1_RVT)                      0.04      0.33       0.61 r
+  n9638 (net)                   17                   0.00       0.61 r
+  U8209/Y (NAND2X0_RVT)                    0.13      0.18       0.79 f
+  n8111 (net)                    5                   0.00       0.79 f
+  U6369/Y (INVX1_RVT)                      0.03      0.15       0.94 r
+  n9583 (net)                    6                   0.00       0.94 r
+  U8256/Y (NAND2X0_RVT)                    0.21      0.24       1.18 f
+  n9825 (net)                    8                   0.00       1.18 f
+  U9789/Y (AO22X1_RVT)                     0.02      0.16       1.34 f
+  n9827 (net)                    1                   0.00       1.34 f
+  U9790/Y (OA221X1_RVT)                    0.04      0.12       1.45 f
+  n9838 (net)                    1                   0.00       1.45 f
+  U9795/S (FADDX1_RVT)                     0.05      0.27       1.72 f
+  n9854 (net)                    3                   0.00       1.72 f
+  U9803/S (FADDX1_RVT)                     0.05      0.31       2.03 f
+  n9909 (net)                    2                   0.00       2.03 f
+  U9804/Y (INVX1_RVT)                      0.01      0.10       2.13 r
+  n9861 (net)                    2                   0.00       2.13 r
+  U9807/Y (OAI222X1_RVT)                   0.02      0.10       2.23 f
+  n9905 (net)                    1                   0.00       2.23 f
+  U9822/CO (FADDX1_RVT)                    0.03      0.18       2.42 f
+  n9902 (net)                    1                   0.00       2.42 f
+  U9821/CO (FADDX1_RVT)                    0.03      0.18       2.60 f
+  n9899 (net)                    1                   0.00       2.60 f
+  U9820/CO (FADDX1_RVT)                    0.03      0.19       2.80 f
+  n9898 (net)                    1                   0.00       2.80 f
+  U9819/CO (FADDX1_RVT)                    0.03      0.23       3.03 f
+  n9893 (net)                    1                   0.00       3.03 f
+  U9818/CO (FADDX1_RVT)                    0.03      0.18       3.21 f
+  n9890 (net)                    1                   0.00       3.21 f
+  U9817/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n9887 (net)                    1                   0.00       3.40 f
+  U9816/CO (FADDX1_RVT)                    0.03      0.18       3.58 f
+  n9884 (net)                    1                   0.00       3.58 f
+  U9815/S (FADDX1_RVT)                     0.01      0.19       3.78 r
+  vec_out[57] (net)              1                   0.00       3.78 r
+  vec_out[57] (out)                        0.01      0.01       3.78 r
+  data arrival time                                             3.78
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[21] (input port)
+  Endpoint: vec_out[26]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[21] (in)                          0.09      0.05       0.05 f
+  vec_in[21] (net)              14                   0.00       0.05 f
+  U8284/Y (INVX4_RVT)                      0.03      0.69       0.75 r
+  n6192 (net)                   27                   0.00       0.75 r
+  U6626/Y (NAND2X0_RVT)                    0.06      0.12       0.86 f
+  n7436 (net)                    2                   0.00       0.86 f
+  U6272/Y (INVX1_RVT)                      0.02      0.12       0.98 r
+  n7664 (net)                    8                   0.00       0.98 r
+  U6765/Y (NAND2X0_RVT)                    0.23      0.26       1.25 f
+  n7430 (net)                    9                   0.00       1.25 f
+  U6960/Y (AO22X1_RVT)                     0.02      0.17       1.42 f
+  n6630 (net)                    1                   0.00       1.42 f
+  U6961/Y (OA221X1_RVT)                    0.03      0.11       1.52 f
+  n6646 (net)                    1                   0.00       1.52 f
+  U6972/S (FADDX1_RVT)                     0.03      0.19       1.71 f
+  n6705 (net)                    1                   0.00       1.71 f
+  U7011/S (FADDX1_RVT)                     0.01      0.20       1.91 r
+  n6708 (net)                    1                   0.00       1.91 r
+  U7012/Y (INVX1_RVT)                      0.02      0.04       1.96 f
+  n9017 (net)                    1                   0.00       1.96 f
+  U9106/CO (FADDX1_RVT)                    0.03      0.18       2.14 f
+  n9014 (net)                    1                   0.00       2.14 f
+  U9105/CO (FADDX1_RVT)                    0.02      0.17       2.31 f
+  n6709 (net)                    1                   0.00       2.31 f
+  U6278/Y (INVX1_RVT)                      0.01      0.09       2.40 r
+  n6747 (net)                    1                   0.00       2.40 r
+  U7029/CO (FADDX1_RVT)                    0.02      0.10       2.50 r
+  n9011 (net)                    2                   0.00       2.50 r
+  U7017/Y (AOI22X1_RVT)                    0.03      0.10       2.60 f
+  n9009 (net)                    1                   0.00       2.60 f
+  U9103/CO (FADDX1_RVT)                    0.03      0.22       2.82 f
+  n9005 (net)                    1                   0.00       2.82 f
+  U9102/CO (FADDX1_RVT)                    0.03      0.18       3.00 f
+  n9002 (net)                    1                   0.00       3.00 f
+  U9101/CO (FADDX1_RVT)                    0.03      0.18       3.19 f
+  n8999 (net)                    1                   0.00       3.19 f
+  U9100/CO (FADDX1_RVT)                    0.03      0.18       3.37 f
+  n8996 (net)                    1                   0.00       3.37 f
+  U9099/CO (FADDX1_RVT)                    0.03      0.18       3.56 f
+  n8217 (net)                    1                   0.00       3.56 f
+  U8467/S (FADDX1_RVT)                     0.01      0.19       3.75 r
+  vec_out[26] (net)              1                   0.00       3.75 r
+  vec_out[26] (out)                        0.01      0.01       3.76 r
+  data arrival time                                             3.76
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[4] (input port)
+  Endpoint: vec_out[9] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[4] (in)                           0.15      0.07       0.07 f
+  vec_in[4] (net)               22                   0.00       0.07 f
+  U6428/Y (INVX1_RVT)                      0.04      0.36       0.42 r
+  n7216 (net)                   14                   0.00       0.42 r
+  U6430/Y (NAND2X0_RVT)                    0.18      0.22       0.65 f
+  n7192 (net)                    7                   0.00       0.65 f
+  U6339/Y (INVX1_RVT)                      0.04      0.18       0.83 r
+  n7065 (net)                    8                   0.00       0.83 r
+  U6436/Y (NAND2X0_RVT)                    0.19      0.23       1.06 f
+  n6922 (net)                    8                   0.00       1.06 f
+  U6455/Y (AO22X1_RVT)                     0.02      0.16       1.22 f
+  n6235 (net)                    1                   0.00       1.22 f
+  U6456/Y (OA221X1_RVT)                    0.04      0.11       1.33 f
+  n6240 (net)                    1                   0.00       1.33 f
+  U6463/S (FADDX1_RVT)                     0.02      0.23       1.57 f
+  n6261 (net)                    2                   0.00       1.57 f
+  U6479/Y (AO222X1_RVT)                    0.03      0.13       1.70 f
+  n6950 (net)                    1                   0.00       1.70 f
+  U7247/CO (FADDX1_RVT)                    0.04      0.21       1.90 f
+  n8896 (net)                    3                   0.00       1.90 f
+  U7250/Y (AO222X1_RVT)                    0.03      0.15       2.05 f
+  n7027 (net)                    1                   0.00       2.05 f
+  U7299/CO (FADDX1_RVT)                    0.03      0.18       2.23 f
+  n7023 (net)                    1                   0.00       2.23 f
+  U7297/CO (FADDX1_RVT)                    0.03      0.19       2.43 f
+  n7021 (net)                    1                   0.00       2.43 f
+  U7295/CO (FADDX1_RVT)                    0.03      0.23       2.66 f
+  n7015 (net)                    1                   0.00       2.66 f
+  U7293/CO (FADDX1_RVT)                    0.03      0.18       2.85 f
+  n7011 (net)                    1                   0.00       2.85 f
+  U7291/CO (FADDX1_RVT)                    0.03      0.18       3.03 f
+  n7007 (net)                    1                   0.00       3.03 f
+  U7289/CO (FADDX1_RVT)                    0.03      0.18       3.22 f
+  n7003 (net)                    1                   0.00       3.22 f
+  U7287/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n6999 (net)                    1                   0.00       3.40 f
+  U7285/S (FADDX1_RVT)                     0.02      0.18       3.58 f
+  n7002 (net)                    1                   0.00       3.58 f
+  U7286/Y (INVX1_RVT)                      0.01      0.08       3.66 r
+  vec_out[9] (net)               1                   0.00       3.66 r
+  vec_out[9] (out)                         0.01      0.01       3.67 r
+  data arrival time                                             3.67
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[37] (input port)
+  Endpoint: vec_out[42]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[37] (in)                          0.01      0.01       0.01 r
+  vec_in[37] (net)              15                   0.00       0.01 r
+  U6231/Y (INVX1_RVT)                      0.19      0.24       0.25 f
+  n9161 (net)                   21                   0.00       0.25 f
+  U6576/Y (INVX1_RVT)                      0.06      0.37       0.62 r
+  n9162 (net)                   18                   0.00       0.62 r
+  U6578/Y (NAND2X0_RVT)                    0.07      0.12       0.74 f
+  n8349 (net)                    3                   0.00       0.74 f
+  U6579/Y (NAND2X0_RVT)                    0.02      0.10       0.83 r
+  n9110 (net)                    3                   0.00       0.83 r
+  U9211/Y (NAND2X0_RVT)                    0.16      0.18       1.02 f
+  n9371 (net)                    7                   0.00       1.02 f
+  U9411/Y (OA221X1_RVT)                    0.03      0.19       1.20 f
+  n9378 (net)                    1                   0.00       1.20 f
+  U9416/S (FADDX1_RVT)                     0.04      0.20       1.41 f
+  n9391 (net)                    3                   0.00       1.41 f
+  U9421/SO (HADDX1_RVT)                    0.02      0.17       1.57 f
+  n9394 (net)                    1                   0.00       1.57 f
+  U9422/SO (HADDX1_RVT)                    0.05      0.18       1.75 f
+  n9433 (net)                    2                   0.00       1.75 f
+  U9423/Y (INVX1_RVT)                      0.01      0.10       1.85 r
+  n9401 (net)                    2                   0.00       1.85 r
+  U9426/Y (OAI222X1_RVT)                   0.02      0.10       1.95 f
+  n9429 (net)                    1                   0.00       1.95 f
+  U9436/CO (FADDX1_RVT)                    0.03      0.18       2.13 f
+  n9426 (net)                    1                   0.00       2.13 f
+  U9435/CO (FADDX1_RVT)                    0.03      0.18       2.32 f
+  n9423 (net)                    1                   0.00       2.32 f
+  U9434/CO (FADDX1_RVT)                    0.03      0.18       2.50 f
+  n9420 (net)                    1                   0.00       2.50 f
+  U9433/CO (FADDX1_RVT)                    0.03      0.18       2.69 f
+  n9417 (net)                    1                   0.00       2.69 f
+  U9432/CO (FADDX1_RVT)                    0.03      0.18       2.87 f
+  n9414 (net)                    1                   0.00       2.87 f
+  U9431/CO (FADDX1_RVT)                    0.03      0.18       3.06 f
+  n9411 (net)                    1                   0.00       3.06 f
+  U9430/CO (FADDX1_RVT)                    0.03      0.18       3.24 f
+  n9408 (net)                    1                   0.00       3.24 f
+  U9429/CO (FADDX1_RVT)                    0.03      0.18       3.42 f
+  n9405 (net)                    1                   0.00       3.42 f
+  U9428/S (FADDX1_RVT)                     0.01      0.19       3.62 r
+  vec_out[42] (net)              1                   0.00       3.62 r
+  vec_out[42] (out)                        0.01      0.01       3.62 r
+  data arrival time                                             3.62
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[53] (input port)
+  Endpoint: vec_out[56]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[53] (in)                          0.02      0.03       0.03 f
+  vec_in[53] (net)              13                   0.00       0.03 f
+  U6253/Y (NBUFFX2_RVT)                    0.10      0.25       0.28 f
+  n6190 (net)                   20                   0.00       0.28 f
+  U6495/Y (INVX1_RVT)                      0.04      0.33       0.61 r
+  n9638 (net)                   17                   0.00       0.61 r
+  U8209/Y (NAND2X0_RVT)                    0.13      0.18       0.79 f
+  n8111 (net)                    5                   0.00       0.79 f
+  U6369/Y (INVX1_RVT)                      0.03      0.15       0.94 r
+  n9583 (net)                    6                   0.00       0.94 r
+  U8256/Y (NAND2X0_RVT)                    0.21      0.24       1.18 f
+  n9825 (net)                    8                   0.00       1.18 f
+  U9789/Y (AO22X1_RVT)                     0.02      0.16       1.34 f
+  n9827 (net)                    1                   0.00       1.34 f
+  U9790/Y (OA221X1_RVT)                    0.04      0.12       1.45 f
+  n9838 (net)                    1                   0.00       1.45 f
+  U9795/S (FADDX1_RVT)                     0.05      0.27       1.72 f
+  n9854 (net)                    3                   0.00       1.72 f
+  U9803/S (FADDX1_RVT)                     0.05      0.31       2.03 f
+  n9909 (net)                    2                   0.00       2.03 f
+  U9804/Y (INVX1_RVT)                      0.01      0.10       2.13 r
+  n9861 (net)                    2                   0.00       2.13 r
+  U9807/Y (OAI222X1_RVT)                   0.02      0.10       2.23 f
+  n9905 (net)                    1                   0.00       2.23 f
+  U9822/CO (FADDX1_RVT)                    0.03      0.18       2.42 f
+  n9902 (net)                    1                   0.00       2.42 f
+  U9821/CO (FADDX1_RVT)                    0.03      0.18       2.60 f
+  n9899 (net)                    1                   0.00       2.60 f
+  U9820/CO (FADDX1_RVT)                    0.03      0.19       2.80 f
+  n9898 (net)                    1                   0.00       2.80 f
+  U9819/CO (FADDX1_RVT)                    0.03      0.23       3.03 f
+  n9893 (net)                    1                   0.00       3.03 f
+  U9818/CO (FADDX1_RVT)                    0.03      0.18       3.21 f
+  n9890 (net)                    1                   0.00       3.21 f
+  U9817/CO (FADDX1_RVT)                    0.03      0.18       3.40 f
+  n9887 (net)                    1                   0.00       3.40 f
+  U9816/S (FADDX1_RVT)                     0.01      0.19       3.59 r
+  vec_out[56] (net)              1                   0.00       3.59 r
+  vec_out[56] (out)                        0.01      0.01       3.60 r
+  data arrival time                                             3.60
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[21] (input port)
+  Endpoint: vec_out[25]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[21] (in)                          0.09      0.05       0.05 f
+  vec_in[21] (net)              14                   0.00       0.05 f
+  U8284/Y (INVX4_RVT)                      0.03      0.69       0.75 r
+  n6192 (net)                   27                   0.00       0.75 r
+  U6626/Y (NAND2X0_RVT)                    0.06      0.12       0.86 f
+  n7436 (net)                    2                   0.00       0.86 f
+  U6272/Y (INVX1_RVT)                      0.02      0.12       0.98 r
+  n7664 (net)                    8                   0.00       0.98 r
+  U6765/Y (NAND2X0_RVT)                    0.23      0.26       1.25 f
+  n7430 (net)                    9                   0.00       1.25 f
+  U6960/Y (AO22X1_RVT)                     0.02      0.17       1.42 f
+  n6630 (net)                    1                   0.00       1.42 f
+  U6961/Y (OA221X1_RVT)                    0.03      0.11       1.52 f
+  n6646 (net)                    1                   0.00       1.52 f
+  U6972/S (FADDX1_RVT)                     0.03      0.19       1.71 f
+  n6705 (net)                    1                   0.00       1.71 f
+  U7011/S (FADDX1_RVT)                     0.01      0.20       1.91 r
+  n6708 (net)                    1                   0.00       1.91 r
+  U7012/Y (INVX1_RVT)                      0.02      0.04       1.96 f
+  n9017 (net)                    1                   0.00       1.96 f
+  U9106/CO (FADDX1_RVT)                    0.03      0.18       2.14 f
+  n9014 (net)                    1                   0.00       2.14 f
+  U9105/CO (FADDX1_RVT)                    0.02      0.17       2.31 f
+  n6709 (net)                    1                   0.00       2.31 f
+  U6278/Y (INVX1_RVT)                      0.01      0.09       2.40 r
+  n6747 (net)                    1                   0.00       2.40 r
+  U7029/CO (FADDX1_RVT)                    0.02      0.10       2.50 r
+  n9011 (net)                    2                   0.00       2.50 r
+  U7017/Y (AOI22X1_RVT)                    0.03      0.10       2.60 f
+  n9009 (net)                    1                   0.00       2.60 f
+  U9103/CO (FADDX1_RVT)                    0.03      0.22       2.82 f
+  n9005 (net)                    1                   0.00       2.82 f
+  U9102/CO (FADDX1_RVT)                    0.03      0.18       3.00 f
+  n9002 (net)                    1                   0.00       3.00 f
+  U9101/CO (FADDX1_RVT)                    0.03      0.18       3.19 f
+  n8999 (net)                    1                   0.00       3.19 f
+  U9100/CO (FADDX1_RVT)                    0.03      0.18       3.37 f
+  n8996 (net)                    1                   0.00       3.37 f
+  U9099/S (FADDX1_RVT)                     0.01      0.19       3.57 r
+  vec_out[25] (net)              1                   0.00       3.57 r
+  vec_out[25] (out)                        0.01      0.01       3.57 r
+  data arrival time                                             3.57
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[4] (input port)
+  Endpoint: vec_out[8] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  vec_in[4] (in)                           0.15      0.07       0.07 f
+  vec_in[4] (net)               22                   0.00       0.07 f
+  U6428/Y (INVX1_RVT)                      0.04      0.36       0.42 r
+  n7216 (net)                   14                   0.00       0.42 r
+  U6430/Y (NAND2X0_RVT)                    0.18      0.22       0.65 f
+  n7192 (net)                    7                   0.00       0.65 f
+  U6339/Y (INVX1_RVT)                      0.04      0.18       0.83 r
+  n7065 (net)                    8                   0.00       0.83 r
+  U6436/Y (NAND2X0_RVT)                    0.19      0.23       1.06 f
+  n6922 (net)                    8                   0.00       1.06 f
+  U6455/Y (AO22X1_RVT)                     0.02      0.16       1.22 f
+  n6235 (net)                    1                   0.00       1.22 f
+  U6456/Y (OA221X1_RVT)                    0.04      0.11       1.33 f
+  n6240 (net)                    1                   0.00       1.33 f
+  U6463/S (FADDX1_RVT)                     0.02      0.23       1.57 f
+  n6261 (net)                    2                   0.00       1.57 f
+  U6479/Y (AO222X1_RVT)                    0.03      0.13       1.70 f
+  n6950 (net)                    1                   0.00       1.70 f
+  U7247/CO (FADDX1_RVT)                    0.04      0.21       1.90 f
+  n8896 (net)                    3                   0.00       1.90 f
+  U7250/Y (AO222X1_RVT)                    0.03      0.15       2.05 f
+  n7027 (net)                    1                   0.00       2.05 f
+  U7299/CO (FADDX1_RVT)                    0.03      0.18       2.23 f
+  n7023 (net)                    1                   0.00       2.23 f
+  U7297/CO (FADDX1_RVT)                    0.03      0.19       2.43 f
+  n7021 (net)                    1                   0.00       2.43 f
+  U7295/CO (FADDX1_RVT)                    0.03      0.23       2.66 f
+  n7015 (net)                    1                   0.00       2.66 f
+  U7293/CO (FADDX1_RVT)                    0.03      0.18       2.85 f
+  n7011 (net)                    1                   0.00       2.85 f
+  U7291/CO (FADDX1_RVT)                    0.03      0.18       3.03 f
+  n7007 (net)                    1                   0.00       3.03 f
+  U7289/CO (FADDX1_RVT)                    0.03      0.18       3.22 f
+  n7003 (net)                    1                   0.00       3.22 f
+  U7287/S (FADDX1_RVT)                     0.02      0.18       3.39 f
+  n7006 (net)                    1                   0.00       3.39 f
+  U7288/Y (INVX1_RVT)                      0.01      0.08       3.48 r
+  vec_out[8] (net)               1                   0.00       3.48 r
+  vec_out[8] (out)                         0.01      0.01       3.48 r
+  data arrival time                                             3.48
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: vec_in[37] (input port)
+  Endpoint: vec_out[41]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  vec_silu           16000                 saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  vec_in[37] (in)                          0.01      0.01       0.01 r
+  vec_in[37] (net)              15                   0.00       0.01 r
+  U6231/Y (INVX1_RVT)                      0.19      0.24       0.25 f
+  n9161 (net)                   21                   0.00       0.25 f
+  U6576/Y (INVX1_RVT)                      0.06      0.37       0.62 r
+  n9162 (net)                   18                   0.00       0.62 r
+  U6578/Y (NAND2X0_RVT)                    0.07      0.12       0.74 f
+  n8349 (net)                    3                   0.00       0.74 f
+  U6579/Y (NAND2X0_RVT)                    0.02      0.10       0.83 r
+  n9110 (net)                    3                   0.00       0.83 r
+  U9211/Y (NAND2X0_RVT)                    0.16      0.18       1.02 f
+  n9371 (net)                    7                   0.00       1.02 f
+  U9411/Y (OA221X1_RVT)                    0.03      0.19       1.20 f
+  n9378 (net)                    1                   0.00       1.20 f
+  U9416/S (FADDX1_RVT)                     0.04      0.20       1.41 f
+  n9391 (net)                    3                   0.00       1.41 f
+  U9421/SO (HADDX1_RVT)                    0.02      0.17       1.57 f
+  n9394 (net)                    1                   0.00       1.57 f
+  U9422/SO (HADDX1_RVT)                    0.05      0.18       1.75 f
+  n9433 (net)                    2                   0.00       1.75 f
+  U9423/Y (INVX1_RVT)                      0.01      0.10       1.85 r
+  n9401 (net)                    2                   0.00       1.85 r
+  U9426/Y (OAI222X1_RVT)                   0.02      0.10       1.95 f
+  n9429 (net)                    1                   0.00       1.95 f
+  U9436/CO (FADDX1_RVT)                    0.03      0.18       2.13 f
+  n9426 (net)                    1                   0.00       2.13 f
+  U9435/CO (FADDX1_RVT)                    0.03      0.18       2.32 f
+  n9423 (net)                    1                   0.00       2.32 f
+  U9434/CO (FADDX1_RVT)                    0.03      0.18       2.50 f
+  n9420 (net)                    1                   0.00       2.50 f
+  U9433/CO (FADDX1_RVT)                    0.03      0.18       2.69 f
+  n9417 (net)                    1                   0.00       2.69 f
+  U9432/CO (FADDX1_RVT)                    0.03      0.18       2.87 f
+  n9414 (net)                    1                   0.00       2.87 f
+  U9431/CO (FADDX1_RVT)                    0.03      0.18       3.06 f
+  n9411 (net)                    1                   0.00       3.06 f
+  U9430/CO (FADDX1_RVT)                    0.03      0.18       3.24 f
+  n9408 (net)                    1                   0.00       3.24 f
+  U9429/S (FADDX1_RVT)                     0.01      0.19       3.43 r
+  vec_out[41] (net)              1                   0.00       3.43 r
+  vec_out[41] (out)                        0.01      0.01       3.44 r
+  data arrival time                                             3.44
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

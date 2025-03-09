@@ -1,0 +1,32 @@
+`ifndef SYNTHESIS
+
+//
+// This is an automatically generated file from 
+// dc_shell Version V-2023.12-SP5 -- Jul 16, 2024
+//
+
+// For simulation only. Do not modify.
+
+module qdiv_svsim #(
+		parameter Q = FXP_R,
+	parameter N = FXP_N
+	)
+	(
+	input 	[N-1:0] i_dividend,
+	input 	[N-1:0] i_divisor,
+	input 	i_start,
+	input 	i_clk,
+	input   i_reset_n,
+	input 	i_enable,
+	output 	[N-1:0] o_quotient_out,
+	output 	o_complete,
+	output	o_overflow
+	);
+ 
+	
+
+  qdiv qdiv( {>>{ i_dividend }}, {>>{ i_divisor }}, {>>{ i_start }}, 
+        {>>{ i_clk }}, {>>{ i_reset_n }}, {>>{ i_enable }}, 
+        {>>{ o_quotient_out }}, {>>{ o_complete }}, {>>{ o_overflow }} );
+endmodule
+`endif

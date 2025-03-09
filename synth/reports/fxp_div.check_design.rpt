@@ -1,0 +1,20 @@
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12-SP5
+Date:        Thu Dec  5 17:54:33 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Nets                                                                6
+    Unloaded nets (LINT-2)                                          6
+--------------------------------------------------------------------------------
+
+Warning: In design 'fxp_div', net 'net73' driven by pin 'C1191/Z' has no loads. (LINT-2)
+Warning: In design 'fxp_div', net 'net72' driven by pin 'C1183/Z' has no loads. (LINT-2)
+Warning: In design 'fxp_div', net 'net71' driven by pin 'C1164/Z' has no loads. (LINT-2)
+Warning: In design 'fxp_div', net 'net70' driven by pin 'C1158/Z' has no loads. (LINT-2)
+Warning: In design 'fxp_div', net 'net69' driven by pin 'C1154/Z' has no loads. (LINT-2)
+Warning: In design 'fxp_div', net 'net68' driven by pin 'C1091/Z' has no loads. (LINT-2)
+1

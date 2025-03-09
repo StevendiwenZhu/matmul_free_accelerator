@@ -1,0 +1,878 @@
+ 
+****************************************
+Report : timing
+        -path full_clock
+        -delay max
+        -nets
+        -max_paths 30
+        -transition_time
+Design : fxp_sqrt
+Version: V-2023.12-SP5
+Date   : Thu Dec  5 13:11:12 2024
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32rvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: busy_reg (rising edge-triggered flip-flop)
+  Endpoint: busy (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  busy_reg/CLK (DFFX1_RVT)                 0.03      0.00       0.00 r
+  busy_reg/Q (DFFX1_RVT)                   0.03      0.12       0.12 f
+  busy (net)                     4                   0.00       0.12 f
+  busy (out)                               0.03      0.01       0.13 f
+  data arrival time                                             0.13
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_15_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_15_/CLK (DFFX1_RVT)             0.03      0.00       0.00 r
+  root_reg_15_/Q (DFFX1_RVT)               0.02      0.10       0.10 f
+  root[15] (net)                 2                   0.00       0.10 f
+  root[15] (out)                           0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_14_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[14] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_14_/CLK (DFFX1_RVT)             0.03      0.00       0.00 r
+  root_reg_14_/Q (DFFX1_RVT)               0.02      0.10       0.10 f
+  root[14] (net)                 2                   0.00       0.10 f
+  root[14] (out)                           0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_9_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[9] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_9_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  root_reg_9_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  root[9] (net)                  2                   0.00       0.10 f
+  root[9] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_3_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[3] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_3_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  root_reg_3_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  root[3] (net)                  2                   0.00       0.10 f
+  root[3] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_13_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[13] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_13_/CLK (DFFX1_RVT)             0.03      0.00       0.00 r
+  root_reg_13_/Q (DFFX1_RVT)               0.02      0.10       0.10 f
+  root[13] (net)                 2                   0.00       0.10 f
+  root[13] (out)                           0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_11_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[11] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_11_/CLK (DFFX1_RVT)             0.03      0.00       0.00 r
+  root_reg_11_/Q (DFFX1_RVT)               0.02      0.10       0.10 f
+  root[11] (net)                 2                   0.00       0.10 f
+  root[11] (out)                           0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_10_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[10] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_10_/CLK (DFFX1_RVT)             0.03      0.00       0.00 r
+  root_reg_10_/Q (DFFX1_RVT)               0.02      0.10       0.10 f
+  root[10] (net)                 2                   0.00       0.10 f
+  root[10] (out)                           0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_7_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_7_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  root_reg_7_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  root[7] (net)                  2                   0.00       0.10 f
+  root[7] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_5_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[5] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_5_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  root_reg_5_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  root[5] (net)                  2                   0.00       0.10 f
+  root[5] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_4_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[4] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_4_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  root_reg_4_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  root[4] (net)                  2                   0.00       0.10 f
+  root[4] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_1_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_1_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  root_reg_1_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  root[1] (net)                  2                   0.00       0.10 f
+  root[1] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_12_
+              (rising edge-triggered flip-flop)
+  Endpoint: rem[12] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_12_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  rem_reg_12_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  rem[12] (net)                  2                   0.00       0.10 f
+  rem[12] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_9_ (rising edge-triggered flip-flop)
+  Endpoint: rem[9] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_9_/CLK (DFFX1_RVT)               0.03      0.00       0.00 r
+  rem_reg_9_/Q (DFFX1_RVT)                 0.02      0.10       0.10 f
+  rem[9] (net)                   2                   0.00       0.10 f
+  rem[9] (out)                             0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_14_
+              (rising edge-triggered flip-flop)
+  Endpoint: rem[14] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_14_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  rem_reg_14_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  rem[14] (net)                  2                   0.00       0.10 f
+  rem[14] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_11_
+              (rising edge-triggered flip-flop)
+  Endpoint: rem[11] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_11_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  rem_reg_11_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  rem[11] (net)                  2                   0.00       0.10 f
+  rem[11] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_8_ (rising edge-triggered flip-flop)
+  Endpoint: rem[8] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_8_/CLK (DFFX1_RVT)               0.03      0.00       0.00 r
+  rem_reg_8_/Q (DFFX1_RVT)                 0.02      0.10       0.10 f
+  rem[8] (net)                   2                   0.00       0.10 f
+  rem[8] (out)                             0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_5_ (rising edge-triggered flip-flop)
+  Endpoint: rem[5] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_5_/CLK (DFFX1_RVT)               0.03      0.00       0.00 r
+  rem_reg_5_/Q (DFFX1_RVT)                 0.02      0.10       0.10 f
+  rem[5] (net)                   2                   0.00       0.10 f
+  rem[5] (out)                             0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_2_ (rising edge-triggered flip-flop)
+  Endpoint: rem[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_2_/CLK (DFFX1_RVT)               0.03      0.00       0.00 r
+  rem_reg_2_/Q (DFFX1_RVT)                 0.02      0.10       0.10 f
+  rem[2] (net)                   2                   0.00       0.10 f
+  rem[2] (out)                             0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_1_ (rising edge-triggered flip-flop)
+  Endpoint: rem[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_1_/CLK (DFFX1_RVT)               0.03      0.00       0.00 r
+  rem_reg_1_/Q (DFFX1_RVT)                 0.02      0.10       0.10 f
+  rem[1] (net)                   2                   0.00       0.10 f
+  rem[1] (out)                             0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_12_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[12] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_12_/CLK (DFFX1_RVT)             0.03      0.00       0.00 r
+  root_reg_12_/Q (DFFX1_RVT)               0.02      0.10       0.10 f
+  root[12] (net)                 2                   0.00       0.10 f
+  root[12] (out)                           0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_8_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[8] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_8_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  root_reg_8_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  root[8] (net)                  2                   0.00       0.10 f
+  root[8] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_15_
+              (rising edge-triggered flip-flop)
+  Endpoint: rem[15] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_15_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  rem_reg_15_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  rem[15] (net)                  2                   0.00       0.10 f
+  rem[15] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_10_
+              (rising edge-triggered flip-flop)
+  Endpoint: rem[10] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_10_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  rem_reg_10_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  rem[10] (net)                  2                   0.00       0.10 f
+  rem[10] (out)                            0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_6_ (rising edge-triggered flip-flop)
+  Endpoint: rem[6] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_6_/CLK (DFFX1_RVT)               0.03      0.00       0.00 r
+  rem_reg_6_/Q (DFFX1_RVT)                 0.02      0.10       0.10 f
+  rem[6] (net)                   2                   0.00       0.10 f
+  rem[6] (out)                             0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_4_ (rising edge-triggered flip-flop)
+  Endpoint: rem[4] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_4_/CLK (DFFX1_RVT)               0.03      0.00       0.00 r
+  rem_reg_4_/Q (DFFX1_RVT)                 0.02      0.10       0.10 f
+  rem[4] (net)                   2                   0.00       0.10 f
+  rem[4] (out)                             0.02      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: rem_reg_0_ (rising edge-triggered flip-flop)
+  Endpoint: rem[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  rem_reg_0_/CLK (DFFX1_RVT)               0.03      0.00       0.00 r
+  rem_reg_0_/Q (DFFX1_RVT)                 0.01      0.10       0.10 f
+  rem[0] (net)                   2                   0.00       0.10 f
+  rem[0] (out)                             0.01      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_0_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_0_/CLK (DFFX1_RVT)              0.03      0.00       0.00 r
+  root_reg_0_/Q (DFFX1_RVT)                0.01      0.10       0.10 f
+  root[0] (net)                  2                   0.00       0.10 f
+  root[0] (out)                            0.01      0.01       0.11 f
+  data arrival time                                             0.11
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_6_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[6] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_6_/CLK (DFFX1_RVT)              0.01      0.00       0.00 r
+  root_reg_6_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  root[6] (net)                  2                   0.00       0.10 f
+  root[6] (out)                            0.02      0.01       0.10 f
+  data arrival time                                             0.10
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: root_reg_2_
+              (rising edge-triggered flip-flop)
+  Endpoint: root[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fxp_sqrt           8000                  saed32rvt_tt1p05v25c
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  root_reg_2_/CLK (DFFX1_RVT)              0.01      0.00       0.00 r
+  root_reg_2_/Q (DFFX1_RVT)                0.02      0.10       0.10 f
+  root[2] (net)                  2                   0.00       0.10 f
+  root[2] (out)                            0.02      0.01       0.10 f
+  data arrival time                                             0.10
+  ------------------------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

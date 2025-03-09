@@ -1,0 +1,26 @@
+`ifndef SYNTHESIS
+
+//
+// This is an automatically generated file from 
+// dc_shell Version V-2023.12-SP5 -- Jul 16, 2024
+//
+
+// For simulation only. Do not modify.
+
+module rms_svsim(
+    input logic clk,
+    input logic rst_n,
+    input logic enable,
+    input logic start,
+    input logic signed [ARR_WIDTH-1:0][FXP_N-1:0] input_arr,
+    output logic signed [FXP_N-1:0] rms_out,
+    output logic done
+);
+
+            
+        
+
+  rms rms( {>>{ clk }}, {>>{ rst_n }}, {>>{ enable }}, {>>{ start }}, 
+        {>>{ input_arr }}, {>>{ rms_out }}, {>>{ done }} );
+endmodule
+`endif

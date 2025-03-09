@@ -1,0 +1,43 @@
+Warning: Design 'sram_ifmap_buffer' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12-SP5
+Date:        Fri Dec  6 17:45:49 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     18
+    Multiply driven inputs (LINT-6)                                17
+    Unconnected ports (LINT-28)                                     1
+
+Nets                                                                1
+    Multiply driven net with constant driver (LINT-54)              1
+
+Tristate                                                            2
+    A tristate bus has a non tri-state driver (LINT-34)             2
+--------------------------------------------------------------------------------
+
+Warning: In design 'sram_ifmap_buffer', input port 'clk' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'wr_en' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'in_data[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'in_data[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'in_data[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'in_data[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'in_data[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'in_data[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'in_data[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'in_data[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'addr[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'addr[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'addr[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'addr[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'addr[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'addr[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', input port 'addr[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'sram_ifmap_buffer', port 'reset_n' is not connected to any nets. (LINT-28)
+Warning: In design 'sram_ifmap_buffer', three-state bus '_1_net_' has non three-state driver 'I_0/Z'. (LINT-34)
+Warning: In design 'sram_ifmap_buffer', three-state bus '*Logic0*' has non three-state driver 'U1/**logic_0**'. (LINT-34)
+Warning: In design 'sram_ifmap_buffer', multiply-driven net '*Logic0*' is driven by constant 0. (LINT-54)
+1

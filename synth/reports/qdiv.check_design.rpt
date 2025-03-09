@@ -1,0 +1,17 @@
+ 
+****************************************
+check_design summary:
+Version:     V-2023.12-SP5
+Date:        Thu Dec  5 16:56:10 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Nets                                                                3
+    Unloaded nets (LINT-2)                                          3
+--------------------------------------------------------------------------------
+
+Warning: In design 'qdiv', net 'net40' driven by pin 'C1441/Z' has no loads. (LINT-2)
+Warning: In design 'qdiv', net 'net39' driven by pin 'C1439/Z' has no loads. (LINT-2)
+Warning: In design 'qdiv', net 'net38' driven by pin 'C1436/Z' has no loads. (LINT-2)
+1
